@@ -1,0 +1,220 @@
+>Feature gb|ARM59240.1|
+1	3423	Protein
+			product	polyprotein
+1	122	mat_peptide
+			product	capsid protein C
+			prot_note	core protein
+			note	core protein
+6	122	Region
+			region	Flavi_capsid
+			note	Flavivirus capsid protein C
+			db_xref	CDD:366413
+123	215	mat_peptide
+			product	protein pr
+127	203	Region
+			region	Flavi_propep
+			note	Flavivirus polyprotein propeptide
+			db_xref	CDD:366710
+216	290	mat_peptide
+			product	small envelope protein M
+			prot_note	membrane glycoprotein M
+			note	membrane glycoprotein M
+216	216	Site
+218	227
+229	231
+233	234
+243	243
+273	273
+284	284
+			site_type	other
+			note	glycoprotein E binding interface [polypeptide binding]
+			db_xref	CDD:341208
+217	290	Region
+			region	Flavi_M
+			note	Flavivirus envelope glycoprotein M
+			db_xref	CDD:460022
+291	794	mat_peptide
+			product	envelope protein E
+292	592	Region
+			region	Flavi_glycoprot
+			note	Flavivirus glycoprotein, central and dimerization domains
+			db_xref	CDD:395698
+601	693	Region
+			region	Flavi_E_C
+			note	Immunoglobulin-like domain III (C-terminal domain) of Flavivirus envelope glycoprotein E
+			db_xref	CDD:213392
+606	607	Site
+609	610
+617	618
+665	665
+			site_type	other
+			note	homodimer interface [polypeptide binding]
+			db_xref	CDD:213392
+613	613	Site
+630	630
+649	652
+654	654
+			site_type	other
+			note	low pH domain interface [polypeptide binding]
+			db_xref	CDD:213392
+614	614	Site
+630	630
+647	649
+669	669
+			site_type	other
+			note	low pH trimer interface [polypeptide binding]
+			db_xref	CDD:213392
+698	794	Region
+			region	flavi_E_stem
+			note	flavivirus envelope glycoprotein E, stem/anchor domain
+			db_xref	CDD:213897
+795	1146	mat_peptide
+			product	nonstructural protein NS1
+797	1148	Region
+			region	Flavi_NS1
+			note	Flavivirus non-structural Protein NS1
+			db_xref	CDD:279316
+1147	1372	mat_peptide
+			product	nonstructural protein NS2A
+1158	1307	Region
+			region	Flavi_NS2A
+			note	Flavivirus non-structural protein NS2A
+			db_xref	CDD:279359
+1373	1502	mat_peptide
+			product	nonstructural protein NS2B
+1503	2119	mat_peptide
+			product	nonstructural protein NS3
+1520	1669	Region
+			region	Peptidase_S7
+			note	Peptidase S7, Flavivirus NS3 serine protease
+			db_xref	CDD:395758
+1688	1833	Region
+			region	Flavi_DEAD
+			note	Flavivirus DEAD domain
+			db_xref	CDD:400138
+1835	1977	Region
+			region	SF2_C_viral
+			note	C-terminal helicase domain of viral helicase
+			db_xref	CDD:350193
+1842	1842	Site
+1847	1847
+1850	1851
+1938	1940
+			site_type	other
+			note	homodimer interface [polypeptide binding]
+			db_xref	CDD:350193
+1961	1961	Site
+1964	1964
+			site_type	other
+			note	putative ATP binding site [chemical binding]
+			db_xref	CDD:350193
+2120	2246	mat_peptide
+			product	nonstructural protein NS4A
+2125	2269	Region
+			region	Flavi_NS4A
+			note	Flavivirus non-structural protein NS4A
+			db_xref	CDD:279666
+2247	2269	mat_peptide
+			product	protein 2K
+2270	2520	mat_peptide
+			product	nonstructural protein NS4B
+2270	2512	Region
+			region	Flavi_NS4B
+			note	Flavivirus non-structural protein NS4B
+			db_xref	CDD:279665
+2521	3423	mat_peptide
+			product	nonstructural protein NS5
+2531	2763	Region
+			region	capping_2-OMTase_Flaviviridae
+			note	Cap-0 specific (nucleoside-2'-O-)-methyltransferase of flaviviridae
+			db_xref	CDD:467736
+2533	2533	Site
+2536	2537
+2539	2539
+2670	2671
+2735	2735
+			site_type	other
+			note	nucleic acid substrate binding site [nucleotide binding]
+			db_xref	CDD:467736
+2601	2603	Site
+2606	2607
+2624	2625
+2650	2651
+2666	2667
+			site_type	other
+			note	SAM binding site [chemical binding]
+			db_xref	CDD:467736
+2841	3406	Region
+			region	Flavivirus_RdRp
+			note	catalytic core domain of RNA-dependent RNA polymerase (RdRp) in the genus Flavivirus, within the family Flaviviridae of positive-sense single-stranded RNA (+ssRNA) viruses
+			db_xref	CDD:438054
+2923	2923	Site
+2927	2927
+2934	2935
+2999	2999
+3003	3003
+3007	3007
+3014	3014
+3123	3129
+3314	3314
+3317	3317
+3319	3319
+			site_type	inhibition
+			note	inhibitor binding site [chemical binding]
+			db_xref	CDD:438054
+2975	2996	Site
+			site_type	other
+			note	conserved polymerase motif F
+			db_xref	CDD:438054
+2978	2978	Site
+2995	2995
+2997	2997
+3003	3003
+3007	3007
+3011	3011
+3015	3015
+3028	3028
+3030	3032
+3123	3126
+3128	3129
+3183	3186
+3231	3232
+3251	3251
+3259	3259
+3275	3276
+3279	3280
+3282	3283
+			site_type	other
+			note	RNA binding site [nucleotide binding]
+			db_xref	CDD:438054
+2979	2979	Site
+2982	2982
+2990	2990
+2993	2993
+3060	3060
+3122	3123
+3132	3132
+3185	3186
+3232	3232
+3251	3251
+3259	3259
+3316	3318
+			site_type	other
+			note	NTP binding site [chemical binding]
+			db_xref	CDD:438054
+3050	3064	Site
+			site_type	other
+			note	conserved polymerase motif A
+			db_xref	CDD:438054
+3121	3144	Site
+			site_type	other
+			note	conserved polymerase motif B
+			db_xref	CDD:438054
+3176	3192	Site
+			site_type	other
+			note	conserved polymerase motif C
+			db_xref	CDD:438054
+1	3423	CDS
+			product	polyprotein
+			protein_id	gb|ARM59240.1|
+

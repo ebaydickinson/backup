@@ -1,0 +1,76 @@
+# v-build.pl :: build homology model of a single sequence for feature annotation
+# VADR 1.6.4 (Jun 2024)
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# date:              Mon Nov 25 15:18:22 2024
+# $VADRBLASTDIR:     /home/dickinsoneb/vadr_files/ncbi-blast/bin
+# $VADREASELDIR:     /home/dickinsoneb/vadr_files/infernal/binaries
+# $VADRINFERNALDIR:  /home/dickinsoneb/vadr_files/infernal/binaries
+# $VADRSCRIPTSDIR:   /home/dickinsoneb/vadr_files/vadr
+#
+# accession/model name:                                 KY989511
+# output directory:                                     KY989511
+# forcing directory overwrite:                          yes [-f]
+# read single sequence stockholm 'alignment' from <s>:  KY989511.sscons.stk [--stk]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Fetching FASTA file                                          ... done. [    3.4 seconds]
+# Parsing FASTA file                                           ... done. [    0.0 seconds]
+# Fetching feature table file                                  ... done. [    3.2 seconds]
+# Parsing feature table file                                   ... done. [    0.0 seconds]
+# Fetching and parsing protein feature table file(s)           ... done. [    3.2 seconds]
+# Pruning data read from GenBank                               ... done. [    0.0 seconds]
+# Validating input Stockholm file                              ... done. [    0.0 seconds]
+# Building BLAST nucleotide database                           ... done. [    0.3 seconds]
+# Finalizing feature information                               ... done. [    0.0 seconds]
+# Translating CDS                                              ... done. [    0.0 seconds]
+# Building BLAST protein database                              ... done. [    0.1 seconds]
+# Building HMMER protein database                              ... done. [    2.0 seconds]
+# Checking intron splice sites, if any                         ... done. [    0.0 seconds]
+# Building CM (should take roughly 20-40 minutes)              ... done. [ 1105.8 seconds]
+# Pressing CM file                                             ... done. [    0.2 seconds]
+# Creating model info file                                     ... done. [    0.0 seconds]
+#
+# Output printed to screen saved in:                                KY989511.vadr.log
+# List of executed commands saved in:                               KY989511.vadr.cmd
+# List and description of all output files saved in:                KY989511.vadr.filelist
+# fasta file for KY989511 saved in:                                 KY989511.vadr.fa
+# feature table format file for KY989511 saved in:                  KY989511.vadr.tbl
+# feature table format file for ARM59240.1 saved in:                KY989511.vadr.ARM59240.1.tbl
+# nucleotide blastn db fasta sequence file for KY989511 saved in:   KY989511.vadr.fa
+# BLAST db .nhr file for KY989511 saved in:                         KY989511.vadr.fa.nhr
+# BLAST db .nin file for KY989511 saved in:                         KY989511.vadr.fa.nin
+# BLAST db .nsq file for KY989511 saved in:                         KY989511.vadr.fa.nsq
+# BLAST db .ndb file for KY989511 saved in:                         KY989511.vadr.fa.ndb
+# BLAST db .not file for KY989511 saved in:                         KY989511.vadr.fa.not
+# BLAST db .ntf file for KY989511 saved in:                         KY989511.vadr.fa.ntf
+# BLAST db .nto file for KY989511 saved in:                         KY989511.vadr.fa.nto
+# fasta sequence file for CDS from KY989511 saved in:               KY989511.vadr.cds.fa
+# fasta sequence file for translated CDS from KY989511 saved in:    KY989511.vadr.protein.fa
+# BLAST db .phr file for KY989511 saved in:                         KY989511.vadr.protein.fa.phr
+# BLAST db .pin file for KY989511 saved in:                         KY989511.vadr.protein.fa.pin
+# BLAST db .psq file for KY989511 saved in:                         KY989511.vadr.protein.fa.psq
+# BLAST db .pdb file for KY989511 saved in:                         KY989511.vadr.protein.fa.pdb
+# BLAST db .pot file for KY989511 saved in:                         KY989511.vadr.protein.fa.pot
+# BLAST db .ptf file for KY989511 saved in:                         KY989511.vadr.protein.fa.ptf
+# BLAST db .pto file for KY989511 saved in:                         KY989511.vadr.protein.fa.pto
+# HMMER model db file for KY989511 saved in:                        KY989511.vadr.protein.hmm
+# hmmbuild build output (concatenated) saved in:                    KY989511.vadr.protein.hmmbuild
+# binary HMM and p7 HMM filter file saved in:                       KY989511.vadr.protein.hmm.h3m
+# SSI index for binary HMM file saved in:                           KY989511.vadr.protein.hmm.h3i
+# optimized p7 HMM filters (MSV part) saved in:                     KY989511.vadr.protein.hmm.h3f
+# optimized p7 HMM filters (remainder) saved in:                    KY989511.vadr.protein.hmm.h3p
+# hmmpress output file saved in:                                    KY989511.vadr.hmmpress
+# CM file saved in:                                                 KY989511.vadr.cm
+# cmbuild output file saved in:                                     KY989511.vadr.cmbuild
+# binary CM and p7 HMM filter file saved in:                        KY989511.vadr.cm.i1m
+# SSI index for binary CM file saved in:                            KY989511.vadr.cm.i1i
+# optimized p7 HMM filters (MSV part) saved in:                     KY989511.vadr.cm.i1f
+# optimized p7 HMM filters (remainder) saved in:                    KY989511.vadr.cm.i1p
+# cmpress output file saved in:                                     KY989511.vadr.cmpress
+# VADR 'model info' format file for KY989511 saved in:              KY989511.vadr.minfo
+#
+# All output files created in directory ./KY989511/
+#
+# Elapsed time:  00:18:38.37
+#                hh:mm:ss
+# 
+[ok]

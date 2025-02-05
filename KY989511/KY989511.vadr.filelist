@@ -1,0 +1,36 @@
+# fasta file for KY989511 saved in:                                                KY989511.vadr.fa
+# feature table format file for KY989511 saved in:                                 KY989511.vadr.tbl
+# feature table format file for ARM59240.1 saved in:                               KY989511.vadr.ARM59240.1.tbl
+# nucleotide blastn db fasta sequence file for KY989511 saved in:                  KY989511.vadr.fa
+# BLAST db .nhr file for KY989511 saved in:                                        KY989511.vadr.fa.nhr
+# BLAST db .nin file for KY989511 saved in:                                        KY989511.vadr.fa.nin
+# BLAST db .nsq file for KY989511 saved in:                                        KY989511.vadr.fa.nsq
+# BLAST db .ndb file for KY989511 saved in:                                        KY989511.vadr.fa.ndb
+# BLAST db .not file for KY989511 saved in:                                        KY989511.vadr.fa.not
+# BLAST db .ntf file for KY989511 saved in:                                        KY989511.vadr.fa.ntf
+# BLAST db .nto file for KY989511 saved in:                                        KY989511.vadr.fa.nto
+# fasta sequence file for CDS from KY989511 saved in:                              KY989511.vadr.cds.fa
+# fasta sequence file for translated CDS from KY989511 saved in:                   KY989511.vadr.protein.fa
+# BLAST db .phr file for KY989511 saved in:                                        KY989511.vadr.protein.fa.phr
+# BLAST db .pin file for KY989511 saved in:                                        KY989511.vadr.protein.fa.pin
+# BLAST db .psq file for KY989511 saved in:                                        KY989511.vadr.protein.fa.psq
+# BLAST db .pdb file for KY989511 saved in:                                        KY989511.vadr.protein.fa.pdb
+# BLAST db .pot file for KY989511 saved in:                                        KY989511.vadr.protein.fa.pot
+# BLAST db .ptf file for KY989511 saved in:                                        KY989511.vadr.protein.fa.ptf
+# BLAST db .pto file for KY989511 saved in:                                        KY989511.vadr.protein.fa.pto
+# esl-sfetch index file for Bio::Easel::SqFile=HASH(0x55ea00c18198) saved in:      KY989511.vadr.protein.fa.ssi
+# HMMER model db file for KY989511 saved in:                                       KY989511.vadr.protein.hmm
+# hmmbuild build output (concatenated) saved in:                                   KY989511.vadr.protein.hmmbuild
+# binary HMM and p7 HMM filter file saved in:                                      KY989511.vadr.protein.hmm.h3m
+# SSI index for binary HMM file saved in:                                          KY989511.vadr.protein.hmm.h3i
+# optimized p7 HMM filters (MSV part) saved in:                                    KY989511.vadr.protein.hmm.h3f
+# optimized p7 HMM filters (remainder) saved in:                                   KY989511.vadr.protein.hmm.h3p
+# hmmpress output file saved in:                                                   KY989511.vadr.hmmpress
+# CM file saved in:                                                                KY989511.vadr.cm
+# cmbuild output file saved in:                                                    KY989511.vadr.cmbuild
+# binary CM and p7 HMM filter file saved in:                                       KY989511.vadr.cm.i1m
+# SSI index for binary CM file saved in:                                           KY989511.vadr.cm.i1i
+# optimized p7 HMM filters (MSV part) saved in:                                    KY989511.vadr.cm.i1f
+# optimized p7 HMM filters (remainder) saved in:                                   KY989511.vadr.cm.i1p
+# cmpress output file saved in:                                                    KY989511.vadr.cmpress
+# VADR 'model info' format file for KY989511 saved in:                             KY989511.vadr.minfo

@@ -1,0 +1,7 @@
+>Feature gb|KY989511.1|
+1	106	5'UTR
+107	10378	CDS
+			product	polyprotein
+			protein_id	gb|ARM59240.1|
+10379	10807	3'UTR
+
