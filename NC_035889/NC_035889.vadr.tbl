@@ -1,0 +1,12 @@
+>Feature ref|NC_035889.1|
+1	10808	misc_feature
+			note	Mature peptides were annotated by RefSeq staff using homoloy to NC_012532.1 and the cleavage sites reported in Kuno and Chang, 2007 (PMID 17195954). Questions about the annotation of this sequence should be directed to info@ncbi.nlm.nih.gov.
+108	10379	gene
+			gene	POLY
+			locus_tag	CPG35_gp1
+			db_xref	GeneID:34443389
+108	10379	CDS
+			product	polyprotein
+			prot_desc	contains structural and non-structural proteins
+			protein_id	ref|YP_009428568.1|
+

@@ -1,0 +1,224 @@
+# STOCKHOLM 1.0
+
+#=GS NC_035889.1 DE Zika virus isolate ZIKV/H. sapiens/Brazil/Natal/2015, complete genome
+
+NC_035889.1  AGTTGTTGATCTGTGTGAATCAGACTGCGACAGTTCGAGTTTGAAGCGAAAGCTAGCAACAGTATCAACAGGTTTTATTTTGGATTTGGAAACGAGAGTTTCTGGTCATGAAAAACCCAAAAAAGAAATCCGGAGGATTCCGGATTGTCAATATGCTAAAACGCGGAGTAGCCCGTGTGAGCCCCTTTGGGGGCTTGAAG
+#=GC SS_cons ....(((((.((((((...<<.<<<<..<<....>>.>>>>.>><<<<<>>>>>.)).))))..))))).<<<<<<...................................>>>>>>.......<<<<<<<<<......>>>>>>>.>>...................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  AGGCTGCCAGCCGGACTTCTGCTGGGTCATGGGCCCATCAGGATGGTCTTGGCAATTCTAGCCTTTTTGAGATTCACGGCAATCAAGCCATCACTGGGTCTCATCAATAGATGGGGTTCAGTGGGGAAAAAAGAGGCTATGGAAATAATAAAGAAGTTCAAGAAAGATCTGGCTGCCATGCTGAGAATAATCAATGCTAG
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  GAAGGAGAAGAAGAGACGAGGCGCAGATACTAGTGTCGGAATTGTTGGCCTCCTGCTGACCACAGCTATGGCAGCGGAGGTCACTAGACGTGGGAGTGCATACTATATGTACTTGGACAGAAACGATGCTGGGGAGGCCATATCTTTTCCAACCACATTGGGGATGAATAAGTGTTATATACAGATCATGGATCTTGGAC
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  ACATGTGTGATGCCACCATGAGCTATGAATGCCCTATGCTGGATGAGGGGGTGGAACCAGATGACGTCGATTGTTGGTGCAACACGACGTCAACTTGGGTTGTGTACGGAACCTGCCATCACAAAAAAGGTGAAGCACGGAGATCTAGAAGAGCTGTGACGCTCCCCTCCCATTCCACTAGGAAGCTGCAAACGCGGTCG
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  CAAACCTGGTTGGAATCAAGAGAATACACAAAGCACTTGATTAGAGTCGAAAATTGGATATTCAGGAACCCTGGCTTCGCGTTAGCAGCAGCTGCCATCGCTTGGCTTTTGGGAAGCTCAACGAGCCAAAAAGTCATATACTTGGTCATGATACTGCTGATTGCCCCGGCATACAGCATCAGGTGCATAGGAGTCAGCAA
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  TAGGGACTTTGTGGAAGGTATGTCAGGTGGGACTTGGGTTGATGTTGTCTTGGAACATGGAGGTTGTGTCACCGTAATGGCACAGGACAAACCGACTGTCGACATAGAGCTGGTTACAACAACAGTCAGCAACATGGCGGAGGTAAGATCCTACTGCTATGAGGCATCAATATCAGACATGGCTTCGGACAGCCGCTGCC
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  CAACACAAGGTGAAGCCTACCTTGACAAGCAATCAGACACTCAATATGTCTGCAAAAGAACGTTAGTGGACAGAGGCTGGGGAAATGGATGTGGACTTTTTGGCAAAGGGAGCCTGGTGACATGCGCTAAGTTTGCATGCTCCAAGAAAATGACCGGGAAGAGCATCCAGCCAGAGAATCTGGAGTACCGGATAATGCTG
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  TCAGTTCATGGCTCCCAGCACAGTGGGATGATCGTTAATGACACAGGACATGAAACTGATGAGAATAGAGCGAAGGTTGAGATAACGCCCAATTCACCAAGAGCCGAAGCCACCCTGGGGGGTTTTGGAAGCCTAGGACTTGATTGTGAACCGAGGACAGGCCTTGACTTTTCAGATTTGTATTACTTGACTATGAATAA
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  CAAGCACTGGTTGGTCCACAAGGAGTGGTTCCACGACATTCCATTACCTTGGCACGCTGGGGCAGACACCGGAACTCCACACTGGAACAACAAAGAAGCACTGGTAGAGTTCAAGGACGCACATGCCAAAAGGCAAACTGTCGTGGTTCTAGGGAGTCAAGAAGGAGCAGTTCACACGGCCCTTGCTGGAGCTCTGGAGG
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  CTGAGATGGATGGTGCAAAGGGAAGGCTGTCCTCTGGCCACTTGAAATGTCGCCTGAAAATGGATAAACTTAGATTGAAGGGCGTGTCATACTCCTTGTGTACCGCAGCGTTCACATTCACCAAGATCCCGGCTGAAACACTGCACGGGACAGTCACAGTGGAGGTACAGTACGCAGGGACAGATGGACCTTGCAAGGTT
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  CCAGCTCAGATGGCGGTGGACATGCAAACTCTGACCCCAGTTGGGAGGTTGATAACCGCTAACCCCGTAATCACTGAAAGCACTGAGAACTCTAAGATGATGCTGGAACTTGATCCACCATTTGGGGACTCTTACATTGTCATAGGAGTCGGGGAGAAGAAGATCACCCACCACTGGCACAGGAGTGGCAGCACCATTGG
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  AAAAGCATTTGAAGCCACTGTGAGAGGTGCCAAGAGAATGGCAGTCTTGGGAGACACAGCCTGGGACTTTGGATCAGTTGGAGGCGCTCTCAACTCATTGGGCAAGGGCATCCATCAAATTTTTGGAGCAGCTTTCAAATCATTGTTTGGAGGAATGTCCTGGTTCTCACAAATCCTCATTGGAACGTTGCTGATGTGGT
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  TGGGTCTGAACACAAAGAATGGATCTATTTCCCTTATGTGCTTGGCCTTAGGGGGAGTGTTGATCTTCTTATCCACAGCCGTCTCTGCTGATGTGGGGTGCTCGGTGGACTTCTCAAAGAAGGAGACGAGATGCGGTACAGGGGTGTTCGTCTATAACGACGTTGAAGCCTGGAGGGACAGGTACAAGTACCATCCTGAC
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  TCCCCCCGTAGATTGGCAGCAGCAGTCAAGCAAGCCTGGGAAGATGGTATCTGCGGGATCTCCTCTGTTTCAAGAATGGAGAACATCATGTGGAGATCAGTAGAAGGGGAGCTCAACGCAATCTTGGAAGAGAATGGAGTTCAACTGACGGTCGTTGTGGGATCTGTAAAAAACCCCATGTGGAGAGGTCCACAGAGATT
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  GCCCGTGCCTGTGAACGAGCTGCCCCACGGCTGGAAGGCTTGGGGGAAATCGTACTTCGTCAGAGCAGCAAAGACAAATAACAGCTTTGTCGTGGATGGTGACACACTGAAGGAATGCCCACTCGAACATAGAGCATGGAACAGCTTTCTTGTGGAGGATCATGGGTTCGGGGTATTTCACACTAGTGTCTGGCTCAAGG
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  TTAGAGAAGATTATTCATTAGAGTGTGATCCAGCCGTTATTGGAACAGCTGTTAAGGGGAAGGAGGCTGTACACAGTGATCTAGGCTACTGGATTGAGAGTGAGAAGAATGACACATGGAGGCTGAAGAGGGCCCATCTAATCGAGATGAAAACATGTGAATGGCCAAAGTCCCACACATTGTGGGCAGATGGAATAGAA
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  GAGAGTGATCTGATCATTCCCAAGTCTTTAGCTGGGCCACTCAGCCATCACAATACCAGAGAGGGCTACAGGACCCAAATGAAAGGGCCATGGCACAGTGAAGAGCTTGAAATTCGGTTTGAGGAATGCCCGGGCACTAAGGTCCACGTGGAGGAAACATGTGGAACAAGAGGACCATCTCTGAGATCAACCACTGCAAG
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  CGGAAGGGTGATCGAGGAATGGTGCTGCAGGGAGTGCACAATGCCCCCACTGTCGTTCCGGGCTAAAGATGGCTGTTGGTATGGAATGGAGATAAGGCCCAGGAAAGAACCAGAAAGCAACTTAGTAAGGTCAGTGGTGACTGCAGGATCAACTGATCACATGGATCACTTCTCCCTTGGAGTGCTTGTGATTCTGCTCA
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  TGGTGCAGGAAGGGCTGAAGAAGAGAATGACCACAAAGATCATCATAAGCACATCAATGGCAGTGCTGGTAGCTATGATCCTGGGAGGATTTTCAATGAGTGACCTGGCTAAGCTTGCAATTTTGATGGGCGCCACCTTCGCGGAAATGAACACTGGAGGAGATGTAGCTCATCTGGCGCTGATAGCGGCATTCAAAGTC
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  AGACCAGCGTTGCTGGTATCTTTCATCTTCAGAGCTAATTGGACACCCCGTGAAAGCATGCTGCTGGCCTTGGCCTCGTGTCTTTTGCAAACTGCGATCTCCGCCTTGGAAGGCGACCTGATGGTTCTCATCAATGGTTTTGCTTTGGCCTGGTTGGCAATACGAGCGATGGTTGTTCCACGCACTGATAACATCACCTT
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  GGCAATCCTGGCTGCTCTGACACCACTGGCCCGGGGCACACTGCTTGTGGCGTGGAGAGCAGGCCTTGCTACTTGCGGGGGGTTTATGCTCCTCTCTCTGAAGGGAAAAGGCAGTGTGAAGAAGAACTTACCATTTGTCATGGCCCTGGGACTAACCGCTGTGAGGCTGGTCGACCCCATCAACGTGGTGGGACTGCTGT
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  TGCTCACAAGGAGTGGGAAGCGGAGCTGGCCCCCTAGCGAAGTACTCACAGCTGTTGGCCTGATATGCGCATTGGCTGGAGGGTTCGCCAAGGCAGATATAGAGATGGCTGGGCCCATGGCCGCGGTCGGTCTGCTAATTGTCAGTTACGTGGTCTCAGGAAAGAGTGTGGACATGTACATTGAAAGAGCAGGTGACATC
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  ACATGGGAAAAAGATGCGGAAGTCACTGGAAACAGTCCCCGGCTCGATGTGGCGCTAGATGAGAGTGGTGATTTCTCCCTGGTGGAGGATGACGGTCCCCCCATGAGAGAGATCATACTCAAGGTGGTCCTGATGACCATCTGTGGCATGAACCCAATAGCCATACCCTTTGCAGCTGGAGCGTGGTACGTATACGTGAA
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  GACTGGAAAAAGGAGTGGTGCTCTATGGGATGTGCCTGCTCCCAAGGAAGTAAAAAAGGGGGAGACCACAGATGGAGTGTACAGAGTAATGACTCGTAGACTGCTAGGTTCAACACAAGTTGGAGTGGGAGTTATGCAAGAGGGGGTCTTTCACACTATGTGGCACGTCACAAAAGGATCCGCGCTGAGAAGCGGTGAAG
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  GGAGACTTGATCCATACTGGGGAGATGTCAAGCAGGATCTGGTGTCATACTGTGGTCCATGGAAGCTAGATGCCGCCTGGGACGGGCACAGCGAGGTGCAGCTCTTGGCCGTGCCCCCCGGAGAGAGAGCGAGGAACATCCAGACTCTGCCCGGAATATTTAAGACAAAGGATGGGGACATTGGAGCGGTTGCGCTGGAT
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  TACCCAGCAGGAACTTCAGGATCTCCAATCCTAGACAAGTGTGGGAGAGTGATAGGACTTTATGGCAATGGGGTCGTGATCAAAAATGGGAGTTATGTTAGTGCCATCACCCAAGGGAGGAGGGAGGAAGAGACTCCTGTTGAGTGCTTCGAGCCTTCGATGCTGAAGAAGAAGCAGCTAACTGTCTTAGACTTGCATCC
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  TGGAGCTGGGAAAACCAGGAGAGTTCTTCCTGAAATAGTCCGTGAAGCCATAAAAACAAGACTCCGTACTGTGATCTTAGCTCCAACCAGGGTTGTCGCTGCTGAAATGGAGGAAGCCCTTAGAGGGCTTCCAGTGCGTTATATGACAACAGCAGTCAATGTCACCCACTCTGGAACAGAAATCGTCGACTTAATGTGCC
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  ATGCCACCTTCACTTCACGTCTACTACAGCCAATCAGAGTCCCCAACTATAATCTGTATATTATGGATGAGGCCCACTTCACAGATCCCTCAAGTATAGCAGCAAGAGGATACATTTCAACAAGGGTTGAGATGGGCGAGGCGGCTGCCATCTTCATGACCGCCACGCCACCAGGAACCCGTGACGCATTTCCGGACTCC
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  AACTCACCAATTATGGACACCGAAGTGGAAGTCCCAGAGAGAGCCTGGAGCTCAGGCTTTGATTGGGTGACGGATCATTCTGGAAAAACAGTTTGGTTTGTTCCAAGCGTGAGGAACGGCAATGAGATCGCAGCTTGTCTGACAAAGGCTGGAAAACGGGTCATACAGCTCAGCAGAAAGACTTTTGAGACAGAGTTCCA
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  GAAAACAAAACATCAAGAGTGGGACTTTGTCGTGACAACTGACATTTCAGAGATGGGCGCCAACTTTAAAGCTGACCGTGTCATAGATTCCAGGAGATGCCTAAAGCCGGTCATACTTGATGGCGAGAGAGTCATTTTGGCTGGACCCATGCCTGTCACACATGCCAGCGCTGCCCAGAGGAGGGGGCGCATAGGCAGGA
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  ATCCCAACAAACCTGGAGATGAGTATCTGTATGGAGGTGGGTGCGCAGAGACTGACGAAGACCATGCACACTGGCTTGAAGCAAGAATGCTCCTTGACAATATTTACCTCCAAGATGGCCTCATAGCCTCGCTCTATCGACCTGAGGCCGACAAAGTAGCAGCCATTGAGGGAGAGTTCAAGCTTAGGACGGAGCAAAGG
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  AAGACCTTTGTGGAACTCATGAAAAGAGGAGATCTTCCTGTTTGGCTGGCCTATCAGGTTGCATCTGCCGGAATAACCTACACAGATAGAAGATGGTGCTTTGATGGCACGACCAACAACACCATAATGGAAGACAGTGTGCCGGCAGAGGTGTGGACCAGACACGGAGAGAAAAGAGTGCTCAAACCGAGGTGGATGGA
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  CGCCAGAGTTTGTTCAGATCATGCGGCCCTGAAGTCATTCAAGGAGTTTGCCGCTGGGAAAAGAGGAGCGGCTTTTGGAGTGATGGAAGCCCTGGGAACACTGCCAGGACACATGACAGAGAGATTCCAGGAAGCCATTGACAACCTCGCTGTGCTCATGCGGGCAGAGACTGGAAGCAGGCCTTACAAAGCCGCGGCGG
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  CCCAATTGCCGGAGACCCTAGAGACCATTATGCTTTTGGGGTTGCTGGGAACAGTCTCGCTGGGAATCTTTTTCGTCTTGATGAGGAACAAGGGCATAGGGAAGATGGGCTTTGGAATGGTGACTCTTGGGGCCAGCGCATGGCTCATGTGGCTCTCGGAAATTGAGCCAGCCAGAATTGCATGTGTCCTCATTGTTGTG
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  TTCCTATTGCTGGTGGTGCTCATACCTGAGCCAGAAAAGCAAAGATCTCCCCAGGACAACCAAATGGCAATCATCATCATGGTAGCAGTAGGTCTTCTGGGCTTGATTACCGCCAATGAACTCGGATGGTTGGAGAGAACAAAGAGTGACCTAAGCCATCTAATGGGAAGGAGAGAGGAGGGAGCAACCATAGGATTCTC
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  AATGGACATTGACCTGCGGCCAGCCTCAGCTTGGGCCATCTATGCTGCCTTGACAACTTTCATTACCCCAGCCGTCCAACATGCAGTGACCACTTCATACAACAACTACTCCTTAATGGCGATGGCCACGCAAGCTGGAGTGTTGTTTGGTATGGGCAAAGGGATGCCATTCTACGCATGGGACTTTGGAGTCCCGCTGC
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  TAATGATAGGTTGCTACTCACAATTAACACCCCTGACCCTAATAGTGGCCATCATTTTGCTCGTGGCGCACTACATGTACTTGATCCCAGGGCTGCAGGCAGCAGCTGCGCGTGCTGCCCAGAAGAGAACGGCAGCTGGCATCATGAAGAACCCTGTTGTGGATGGAATAGTGGTGACTGACATTGACACAATGACAATT
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  GACCCCCAAGTGGAGAAAAAGATGGGACAGGTGCTACTCATAGCAGTAGCAGTCTCCAGCGCCATACTGTCGCGGACCGCCTGGGGGTGGGGGGAGGCTGGGGCCCTGATCACAGCCGCAACTTCCACTTTGTGGGAAGGCTCTCCGAACAAGTACTGGAACTCCTCTACAGCCACTTCACTGTGTAACATTTTTAGGGG
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  AAGTTACTTGGCTGGAGCTTCTCTAATCTACATAGTAACAAGAAACGCTGGCTTGGTCAAGAGACGTGGGGGTGGAACAGGAGAGACCCTGGGAGAGAAATGGAAGGCCCGCTTGAACCAGATGTCGGCCCTGGAGTTCTACTCCTACAAAAAGTCAGGCATCACCGAGGTGTGCAGAGAAGAGGCCCGCCGCGCCCTCA
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  AGGATGGTGTGGCAACGGGAGGCCATGCTGTGTCCCGAGGAAGTGCAAAGCTGAGATGGTTGGTGGAGCGGGGATACCTGCAGCCCTATGGAAAGGTCATTGATCTTGGATGTGGCAGAGGGGGCTGGAGTTACTACGCCGCCACCATCCGCAAAGTTCAAGAAGTGAAAGGATACACAAAAGGAGGCCCTGGTCATGAA
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  GAACCCGTGTTGGTGCAAAGCTATGGGTGGAACATAGTCCGTCTTAAGAGTGGGGTGGACGTCTTTCATATGGCGGCTGAGCCGTGTGACACGTTGCTGTGTGACATAGGTGAGTCATCATCTAGTCCTGAAGTGGAAGAAGCACGGACGCTCAGAGTCCTCTCCATGGTGGGGGATTGGCTTGAAAAAAGACCAGGAGC
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  CTTTTGTATAAAAGTGTTGTGCCCATACACCAGCACTATGATGGAAACCCTGGAGCGACTGCAGCGTAGGTATGGGGGAGGACTGGTCAGAGTGCCACTCTCCCGCAACTCTACACATGAGATGTACTGGGTCTCTGGAGCGAAAAGCAACACCATAAAAAGTGTGTCCACCACGAGCCAGCTCCTCTTGGGGCGCATGG
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  ACGGGCCTAGGAGGCCAGTGAAATATGAGGAGGATGTGAATCTCGGCTCTGGCACGCGGGCTGTGGTAAGCTGCGCTGAAGCTCCCAACATGAAGATCATTGGTAACCGCATTGAAAGGATCCGCAGTGAGCACGCGGAAACGTGGTTCTTTGACGAGAACCACCCATATAGGACATGGGCTTACCATGGAAGCTATGAG
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  GCCCCCACACAAGGGTCAGCGTCCTCTCTAATAAACGGGGTTGTCAGGCTCCTGTCAAAACCCTGGGATGTGGTGACTGGAGTCACAGGAATAGCCATGACCGACACCACACCGTATGGTCAGCAAAGAGTTTTCAAGGAAAAAGTGGACACTAGGGTGCCAGACCCCCAAGAAGGCACTCGTCAGGTTATGAGCATGGT
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  CTCTTCCTGGTTGTGGAAAGAGCTAGGCAAACACAAACGGCCACGAGTCTGTACCAAAGAAGAGTTCATCAACAAGGTTCGTAGCAATGCAGCATTAGGGGCAATATTTGAAGAGGAAAAAGAGTGGAAGACTGCAGTGGAAGCTGTGAACGATCCAAGGTTCTGGGCTCTAGTGGACAAGGAAAGAGAGCACCACCTGA
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  GAGGAGAGTGCCAGAGTTGTGTGTACAACATGATGGGAAAAAGAGAAAAGAAACAAGGGGAATTTGGAAAGGCCAAGGGCAGCCGCGCCATCTGGTATATGTGGCTAGGGGCTAGATTTCTAGAGTTCGAAGCCCTTGGATTCTTGAACGAGGATCACTGGATGGGGAGAGAGAACTCAGGAGGTGGTGTTGAAGGGCTG
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  GGATTACAAAGACTCGGATATGTCCTAGAAGAGATGAGTCGCATACCAGGAGGAAGGATGTATGCAGATGACACTGCTGGCTGGGACACCCGCATCAGCAGGTTCGATCTGGAGAATGAAGCTCTAATCACCAACCAAATGGAGAAAGGGCATAGGGCCTTGGCATTGGCCATAATCAAGTACACATACCAAAACAAAGT
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  GGTAAAGGTCCTTAGACCAGCTGAAAAAGGGAAAACAGTTATGGACATTATTTCGAGACAAGACCAAAGGGGGAGCGGACAAGTTGTCACTTACGCTCTTAACACATTTACCAACCTAGTGGTGCAACTCATTCGGAATATGGAGGCTGAGGAAGTTCTAGAGATGCAAGACTTGTGGCTGCTGCGGAGGTCAGAGAAAG
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  TGACCAACTGGTTGCAGAGCAACGGATGGGATAGGCTCAAACGAATGGCAGTCAGTGGAGATGATTGCGTTGTGAAGCCAATTGATGATAGGTTTGCACATGCCCTCAGGTTCTTGAATGATATGGGAAAAGTTAGGAAGGACACACAAGAGTGGAAACCCTCAACTGGATGGGACAACTGGGAAGAAGTTCCGTTTTGC
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  TCCCACCACTTCAACAAGCTCCATCTCAAGGACGGGAGGTCCATTGTGGTTCCCTGCCGCCACCAAGATGAACTGATTGGCCGGGCCCGCGTCTCTCCAGGGGCGGGATGGAGCATCCGGGAGACTGCTTGCCTAGCAAAATCATATGCGCAAATGTGGCAGCTCCTTTATTTCCACAGAAGGGACCTCCGACTGATGGC
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  CAATGCCATTTGTTCATCTGTGCCAGTTGACTGGGTTCCAACTGGGAGAACTACCTGGTCAATCCATGGAAAGGGAGAATGGATGACCACTGAAGACATGCTTGTGGTGTGGAACAGAGTGTGGATTGAGGAGAACGACCACATGGAAGACAAGACCCCAGTTACGAAATGGACAGACATTCCCTATTTGGGAAAAAGGG
+#=GC SS_cons ........................................................................................................................................................................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  AAGACTTGTGGTGTGGATCTCTCATAGGGCACAGACCGCGCACCACCTGGGCTGAGAACATTAAAAACACAGTCAACATGGTGCGCAGGATCATAGGTGATGAAGAAAAGTACATGGACTACCTATCCACCCAAGTTCGCTACTTGGGTGAAGAAGGGTCTACACCTGGAGTGCTGTAAGCACCAATCTTAATGTTGTCA
+#=GC SS_cons ...............................................................................................................................................................................................::::(((((
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  GGCCTGCTAGTCAGCCACAGCTTGGGGAAAGCTGTGCAGCCTGTGACCCCCCCAGGAGAAGCTGGGAAACCAAGCCTATAGTCAGGCCGAGAACGCCATGGCACGGAAGAAGCCATGCTGCCTGTGAGCCCCTCAGAGGACACTGAGTCAAAAAACCCCATGCGCTTGGAGGCGCAGGATGGGAAAAGAAGGTGGCGACC
+#=GC SS_cons (((<<<<___>>>>,<<<<_____________>>>>,,)))))--)))::<<<<<______>>>>>:..............((((((<<....>>.<<<<.............>>>>..)))))..)....<<<<<......>>>>>.....................................................
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  TTCCCCACCCTTCAATCTGGGGCCTGAACTGGAGATCAGCTGTGGATCTCCAGAAGAGGGACTAGTGGTTAGAGGAGACCCCCCGGAAAACGCAAAACAGCATATTGACGCTGGGAAAGACCAGAGACTCCATGAGTTTCCACCACGCTGGCCGCCAGGCACAGATCGCCGAATAGCGGCGGCCGGTGTGGGGAAATCCA
+#=GC SS_cons .................(((((<<.....<<<<<<<<.......>>>>>>>>......>>......<<<<......>>>>))))).........................<<<<......>>>><<<<<<.............<<<<<<<<.<<<..<<<.......>>>........>>>.>>>>>>>>..........
+#=GC RF      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+NC_035889.1  TGGGTCTT
+#=GC SS_cons .>>>>>>.
+#=GC RF      xxxxxxxx
+//
