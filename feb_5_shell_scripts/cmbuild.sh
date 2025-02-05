@@ -1,0 +1,1 @@
+cmbuild -F -n NC_035889 --verbose --occfile NC_035889/NC_035889.vadr.cmbuild.occ --cp9occfile NC_035889/NC_035889.vadr.cmbuild.cp9occ --fp7occfile NC_035889/NC_035889.vadr.cmbuild.fp7occ NC_035889/NC_035889.vadr.cm NC_035889/NC_035889.vadr.stk > NC_035889/NC_035889.vadr.cmbuild
