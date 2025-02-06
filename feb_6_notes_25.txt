@@ -1,0 +1,730 @@
+
+
+Wed, Jan 8th
+
+     Goals this year:
+
+     Contact the Bring Your Kid to Work Day coordinator 
+     () Work on booth designs
+     () What materials do we need? 
+
+     ASV 2025 - Montreal. Abstract due Monday, Feb 3
+     () Contact Eneida about abstract to sponsor 
+     () Do I need my passport?
+
+     Continue to work on python code
+     () Next step? 
+
+     Find the new genotype models with VADR
+     () Read back on last years notes 
+     () 
+
+     Summer Student - 
+     () Due January 15th, abstract 
+
+     # Notes
+
+     To bulk comment out (cmd + /)
+
+     VS Code 
+     Ctr + N (create a new file)
+     Ctr + S( save a file)
+     cmd + shift + k (delete a line)
+
+     F1 Command Palette 
+
+     In mac screens, move right a space to vs code
+
+     To dos for today
+      (d) Learned about command line arguments
+      https://www.youtube.com/watch?v=ZQ9JO0e9468
+      https://www.geeksforgeeks.org/command-line-arguments-in-python/
+      (d) Created a keyboard shortcut between to toggle  between the editor and 
+         the terminal 
+      (d) Asked Betsy about advice 
+
+   To dos for tomorrow
+      () Figure out how to mix a command line argument with a functional
+
+Friday, Jan 10th 
+   (d) Reset terminal to ctrl t + ctrl r
+   () Email back biocuration folks 
+   () Email the Take Your Kid to workday folks 
+   () Email Betsy again
+   (-) Coding 
+
+   Make coding faster:
+   https://www.youtube.com/watch?v=dLzMz2Jk_qU
+
+Monday Jan 13th
+
+Master list
+   (d) Email back biocuration folks 
+   (d) Email the Take Your Kid to workday folks 
+   (d) Email Betsy again
+   (d) continue to work on the python coding script
+   (d) solidify the notes from last week's meeting 
+   (d) learn how to use git/github in vscode
+   (d) Email Eneida 
+   (d) FAES course - Join FAES from 10 a.m. – 12 p.m. on Tuesday, January 14 for our Spring Open House event in the FAES flex space in Building 10.
+   () Email Eric and Richard about recommendation to MarMic
+   () Continue to work on the application google sheet
+   (d) Go to Ryan Bells eminar on Tues, Jan 14th 
+   () Get trainshare for the love of god!
+
+   New keystrokes
+   shift + option + up/down (copy and code up and down)
+   cmd + up/down (move to the beginning and end of a file)
+   cmd + w (close tabs)
+   cmd + (+/-) (change text size in meetings)
+   cmd + \ (split current file into another editor )
+
+   shift + ctrl + -> (expand selection)
+   shift + ctrl + -> (expand selection)
+
+
+   Today:
+   (-) learn how to use git/github in vscode
+   https://www.youtube.com/watch?v=Uz_mTOQL9Tw
+   (d) Email back biocuration folks 
+   (d) Email Betsy again
+   (-) Email about conference
+
+
+
+   Git version control
+   git status 
+   git log 
+
+   git add
+   git commit
+   git push
+
+   creating a new repository on the command line! 
+   
+      echo "# test" >> README.md
+      git init
+      git add README.md
+      git commit -m "first commit"
+      git branch -M main
+      git remote add origin https://github.com/dickinson-ncbi/test.git
+      git push -u origin main (or git push)
+
+Tuesday Jan 14th 
+
+   (d) Email the Take Your Kid to workday folks 
+   (d)  Continue to learn Git
+   (d) Email Ulli   
+   ()  Work on the script to pull out full sequences
+   (d) Email Eneida 
+   (-) Email Destiny
+
+  (d)  Continue to learn Git https://youtu.be/vbQ2bYHxxEA?si=ZHsG1i1im3m7yV8S
+
+   For eb_meetings
+   Select clone repository in vs code
+
+   1.) git add txt.md # what file?
+   2.) git commit -m "note" # commit note 
+   3.) git push origin master # push to the remote repository 
+
+   Other options
+   4.) git pull # push from remote repository to local repository
+
+   Problem that I am seeing is that there is a repository called eb_meetings within a repository called eb_meetings, perhaps figure
+   that out with eric 
+
+   removed main and master with rm -R.git (don't do git init)
+
+Wednesday Jan 15th
+
+   (d) work on code for detecting gaps
+ 
+      if versus elif 
+
+      def random_function(a)
+         if a > 0: 
+             return 'positive'
+         elif a < 0 
+            return 'negative'
+         else:
+            return 'neither'
+
+Thursday, Jan 16th 
+
+   To do: I want to write out the passing sequences to a text file like so:
+
+      MN611472.1 
+      MF996804.1 
+      MG548660.1 
+      MG548661.1 
+      MG807646.1 
+      MG807647.1 
+      MH158236.1 
+      KY553111.1 
+      KY272987.1 
+      KX377336.1
+   
+   Meeting with Eric, to do next week: 
+   
+   Percent identity, rank by average, and then pick off of the full seq list. 
+
+   Percent identity check if it is in the full seq list, and then if yes, propose that model, if in that list, output that line 
+   Store in a list or a hash
+
+   hash , keys and values - a more efficent way of checking 
+
+   add output root ZB1.2
+
+   after setting up and pushing from local to remote, you can just use git push 
+
+   cp ../vadr_files/test_python/prune-gaps.py . - to move 
+
+   git push --set-upstream origin main
+
+Friday, Jan 17th 
+   () Message eric 
+   () Message Richard
+   () Message one of the american marmic students 
+   (d) Message adrien
+   () Message the marmic registrar 
+
+   Hi Adrien, I hope you are having a new year! I was looking at your website a during the hackathon, 
+   and I saw that you went to the MarMic program for your graduate degree. How 
+   did you like it? I am applying to master's degrees, and am super interested in the program. 
+   I would love to talk to you about it if you have time!
+
+   I also would like to learn more about your cartoons, they are super cute. 
+
+   Letters of recommendation:
+
+   I was wondering if you could write me a letter of recommendation for MarMic program:
+   https://marmic.mpg.de/marmic2/mscprogram.php?section=msc#:~:text=MarMic%20offers%20a%20combined%20M,MarMic%20students%20enters%20the%20Ph.
+
+   Here are the criteria for the recommendation:
+
+      Two Letters of Reference. The criteria for assessment are that the letter contains
+   statements referring to the applicant’s theoretical knowledge, practical skills,
+   creativity, flexibility, commitment, a sense of responsibility and ability to work in a
+   team. 
+
+   They also asked to describe working in an international setting. 
+
+   To convert from .stk file to pfam.stk file:
+
+   $VADRINFERNALDIR/esl-reformat pfam va-zikv-ZB.1-asian.vadr.NC_035889.align.stk > va-zikv-ZB.1-asian.pfam.stk
+
+   $VADRINFERNALDIR/esl-reformat pfam va-zikv-south-america-ZB.2.0.vadr.NC_035889.align.stk  > va-zikv-south-america-ZB.2.0.pfam.stk
+
+   I tried my script with va-zikv-south-america-ZB.2.0, and good news, my script is working super well! 
+   Bad news, there are no full seqs with va-zikv-south-america-ZB.2.0, this is the closest one:
+   with a range set at 20 and 20
+
+   accession: KY766069.1
+   Start count: 11
+   End count: 0
+
+Monday, Jan 21st
+
+To do this week:
+() Contact Eneida 
+() Create lists of complete sequences for each clade and genotype
+   () va-zikv-ZB.1.0-southeast-asian - getting an error when trying to convert to a pfam file 
+   (-) va-zikv-ZB.1.1_southern_asia 
+   
+      south-asia_5_5.list
+      
+      MN611472.1
+      MH158236.1
+      KY553111.1
+      KY272987.1
+
+   (-) va-zikv-ZB.2-american
+
+      american_20_20.list
+
+      accession: KY766069.1
+      Start count: 11
+      End count: 0
+
+   (d) va-zikv-south-america-ZB.2.0
+
+      accession: KY766069.1
+      Start count: 11
+      End count: 0
+
+   (-) va-zikv-central-america-ZB.2.1
+
+      Research KX906952.1, why isn' that picking up with my script?
+      Because it has 0 gaps at the beginning, and 64 gaps at the end
+
+      cen-american_1_1.list
+
+      accession: MN577550.1
+      Start count: 1
+      End count: 1
+
+      accession: MH675629.1
+      Start count: 1
+      End count: 1
+
+      accession: MH675630.1
+      Start count: 1
+      End count: 1
+
+      MN577550.1
+      MH675629.1
+      MH675630.1
+
+   (-) va-zikv-caribbean-ZB.2.2 
+      Start count: 0
+      End count: 0
+      
+      MN566104.1
+      MN566106.1
+      MF384325.1
+      KY415986.1
+      KY415988.1
+      KY415989.1
+   
+   (d) va-zikv-south-america-ZB.2.0
+
+   I tried my script with va-zikv-south-america-ZB.2.0, and good news, my script is working super well! 
+   Bad news, there are no full seqs with va-zikv-south-america-ZB.2.0, this is the closest one:
+   with a range set at 20 and 20
+
+   accession: KY766069.1
+   Start count: 11
+   End count: 0
+
+   I am sooo confused about why the american genotype isn't pulling up more full sequences. 
+   The same sequences are coming back as full when run as a clade, for example with the caribbean sequences 
+   
+   might have to do with rf gaps lollll, I might have to write a script that detects rf and removes columns based on rf gaps
+
+   create python script called remove-rf-gaps.py 
+
+   number the lines of the characters 
+   -, A, C, T, G, N
+
+   Tomorrow - 
+   Could try and script the rf or do the hash map for some, I will see what eric thinks . My name is EB Dickinson and I am trying to code better than before . Mbifes what I can type withou
+   t looking at the keyboard wow look at me ahhhhhhh! 
+
+Wednesday, Jan 22
+
+   American sequences
+
+   Because of the gap rfs from a sequence () that is bigger than the reference sequence, I have pulled out sequences based on what a "full sequence" is 
+   in comparison to NC_035889, the reference sequence. So that means, a gap of 1 at the beginning, and an end of 366. 
+
+   accession: MN577544.1
+   Start count: 1
+   End count: 366
+
+   from American american_1_366.list 
+
+   MN566104.1
+   MN566106.1
+   MN577543.1
+   MN577544.1
+   MF384325.1
+   KY415986.1
+   KY415988.1
+   KY415989.1
+   KU527068.1
+   KX247646.1
+   KU509998.3
+
+   (d) va-zikv-south-america-ZB.2.0
+   
+   from s-american_1_366.list
+
+   MN577543.1
+   MN577544.1
+   KU527068.1
+   KX247646.1
+   KU509998.3
+
+   Several of these sequences are from this paper: https://pubmed.ncbi.nlm.nih.gov/27111294/
+
+   "Zika Virus Outbreak in Haiti in 2014: Molecular and Clinical Data"
+
+   To do tomorrow:
+
+   () Read that paper above
+   () Check above on both American and South American after cleaning .stk file with esl-alimask --rf-is-mask <input-alignment> 
+   () Start the percent identity scores 
+   () Maybe generate a hash
+
+   For 
+   esl-alimask --rf-is-mask va-zikv-ZB.2-american.NC_035889.align.stk
+   Alignment input open failed.
+   couldn't open va-zikv-ZB.2-american.NC_035889.align.stk for reading
+
+   is the .stk file 
+
+   () va-zikv-ZB.1.0-southeast-asian - getting an error when trying to convert to a pfam file 
+
+   (any who)
+
+   Percent identity 
+
+   I did top 50 rather than 10, because the average percent identity is relatively close across pairs
+
+   (d) va-zikv-ZB.2-american
+   () va-zikv-ZB.1.0-southeast-asian - getting an error when trying to convert to a pfam file 
+
+   Alignment input open failed.
+   couldn't open va-zikv-ZB.1.0-southeast-asia.vadr.NC_035889.align.stk for reading
+
+   problem with alignment file 
+
+   (d) va-zikv-ZB.1.1_southern_asia 
+   (d) va-zikv-south-america-ZB.2.0
+   (d) va-zikv-central-america-ZB.2.1
+   (d) va-zikv-caribbean-ZB.2.2 
+
+   Next step create hash script to compare the two 
+
+   For meeting with Eric:
+
+   For Eric: 
+
+   () esl-alimask --rf-is-mask va-zikv-ZB.2-american.NC_035889.align.stk
+      Alignment input open failed.
+      couldn't open va-zikv-ZB.2-american.NC_035889.align.stk for reading
+
+   () va-zikv-ZB.1.0-southeast-asian - getting an error when trying to convert to a pfam file 
+
+   () va-zikv-ZB.1.0-southeast-asian - getting an error when trying to convert to a pfam file 
+
+      Alignment input open failed.
+      couldn't open va-zikv-ZB.1.0-southeast-asia.vadr.NC_035889.align.stk for reading
+
+    problem with alignment file
+
+   () Conferences, will wait till Feb 1st. 
+   () Will follow up with Eneida re ASV, I still plan to submit
+   () Recommendation for MarMic 
+
+Wednesday, Jan 29th 
+
+(d) work on the comparison part of the find-model.py script 
+() email back the Take Your Kid to Workday folks 
+()
+
+(d)read the accession list that survives the count-gaps script
+read the % id file, check for each accesion, (if) that accession exists in the array (accession list)'
+print list 
+
+note - the script is not outputting the output text file. 
+
+
+Friday, January 31st
+
+() send recommendation request to richard and eric
+() submit asv abstract today
+() message take your child to work day folks 
+
+------------------------------------------------------
+
+() run find-model on all genotypes and clades 
+() also run alimask on american and south american 
+esl-alimask --rf-is-mask va-zikv-ZB.2-american.NC_035889.align.stk
+
+() then convert to pfam.stk files    $VADRINFERNALDIR/esl-reformat pfam va-zikv-ZB.1-asian.vadr.NC_035889.align.stk > va-zikv-ZB.1-asian.pfam.stk
+
+() run prune-gaps on those new cleaned pfam.stk files ## i don't know, this might be a little too complicated to do especially when I can do it visually 
+
+-------------------------------------------------
+
+   () va-zikv-singapore-ZB.2.2.vadr.NC_035889 
+
+      there is a problem opening the file --> I just had the wrong name in there
+
+      converted to -no rf file --> pfam file --> prune gaps 
+
+      Was able to produce a list of 0 gaps at the beginning and 1 gap at the end
+
+      accessions 
+
+      MF996804.1
+      MG548660.1
+      MG548661.1
+      MG807646.1
+      MG807647.1
+
+         we have found a match! Here is a full sequence that is the most closely related to all other sequences:
+         https://www.ncbi.nlm.nih.gov/nuccore/MG807647.1
+
+        Zika virus isolate SI-BKK06, complete genome.
+
+         accession: MG807647.1
+         average percent id: 98.840
+
+--------------------------------------------------
+   
+   (d) va-zikv-ZB.2-american 
+
+      Was able to produce a list of 0 gaps at beginning and end
+
+      This has been visually verified
+      And also verified by esl-alimask 
+      
+      Zika virus strain Haiti/1225/2014, complete genome.
+      https://www.ncbi.nlm.nih.gov/nuccore/KU509998.3
+
+      accession: KU509998.3
+      average percent id: 96.237
+
+   (d) va-zikv-ZB.1.0-southeast-asian - getting an error when trying to convert to a pfam file 
+
+      I can look at this visually, it looks to me like KX377336.1 is full, except for one nuc at the end. I can check the percent id file.  
+
+      The stk file is not opening, however, there are only two seqs in this group, so...I don't even know if I need to check the percent id file  
+
+   (d) va-zikv-ZB.1.1_southern_asia
+      
+      () needs to be visually verified 
+      List - 0 gaps at beginning and 1 gap at the end 
+      s-asian_0_1.list
+
+       
+       KY272987
+       Zika virus isolate SI-BKK01, complete genome.
+       https://www.ncbi.nlm.nih.gov/nuccore/KY272987.1   
+
+      accession: KY272987.1
+      average percent id: 96.805
+
+   (d) va-zikv-south-america-ZB.2.0
+
+      () visually verified 
+      Was able to produce a list of 0 gaps at the beginning and end
+
+      Zika virus strain Haiti/1225/2014, complete genome.
+      https://www.ncbi.nlm.nih.gov/nuccore/KU509998.3
+
+      accession: KU509998.3
+      average percent id: 95.785
+
+   (d) va-zikv-central-america-ZB.2.1
+
+      () visually verified
+     
+      Was able to produce a list of 0 gaps at the beginning and 1 gap at the end
+
+      Zika virus isolate QTX-04, complete genome
+      https://www.ncbi.nlm.nih.gov/nuccore/MH675630.1
+
+      accession: MH675630.1
+      average percent id: 96.960
+
+   (d) va-zikv-caribbean-ZB.2.2 
+
+      Was able to produce a list of 0 gaps at the beginning and 1 gap at the end
+
+      Zika virus isolate Haiti/0074/2014, complete genome
+      https://www.ncbi.nlm.nih.gov/nuccore/KY415989.1
+
+      accession: KY415989.1
+      average percent id: 96.292   
+
+   MF384325.1 96.306
+   KY415986.1 96.301
+   MN566104.1 96.292
+   KY415989.1 96.292
+   KY415988.1 96.292
+   MN566106.1 96.283
+
+   python ../find-model.py carib_0_0.list va-zikv-caribbean-ZB.2.2.alipid.perseq carib-model.list | sort -rnk2
+
+   We troubleshot my find-models.py script, it was only pulling out the first sequence on the bottom, we fixed it! 
+   I will redo the sequences that I've already calculated! 
+
+
+Monday, Feb 3rd 
+
+To do:
+() send recommendation request to richard and eric
+(d) submit asv abstract today
+() message take your child to work day folks 
+
+() re run everything with the new script, and select highest score usimg sort -rnk2
+
+
+Forgot asian sequences, fully ran those through the cleaning pipeline (should I do a readme for the pipeline?)
+
+   () va-zikv-ZB.1-asian
+
+      MG807646.1 98.705
+      MF996804.1 98.604
+      MG548660.1 98.576
+      MG548661.1 98.566
+      MG807647.1 98.293
+      MN611472.1 98.060
+      KY272987.1 97.752
+      MH158236.1 97.705
+      KY553111.1 97.001
+      KX377336.1 95.059
+
+   () va-zikv-ZB.1.0-southeast-asian 
+      
+      KX377336.1
+
+   () va-zikv-ZB.1.1_southern_asia
+      
+      MN611472.1 96.844
+
+   () va-zikv-singapore-ZB.1.2
+
+      MG807646.1 99.384
+      MF996804.1 99.253
+      MG548660.1 99.224
+      MG548661.1 99.215
+      MG807647.1 98.840
+
+   (d) va-zikv-ZB.2-american 
+      
+      KU509998.3 96.237
+
+   () va-zikv-south-america-ZB.2.0
+      KU509998.3 95.785
+      KX247646.1 95.723
+      KU527068.1 95.694
+      MN577543.1 95.660
+      MN577544.1 95.470
+
+   () va-zikv-central-america-ZB.2.1
+
+      MN577550.1 96.990
+      MH675630.1 96.960
+      MH675629.1 96.915   
+
+   () va-zikv-caribbean-ZB.2.2
+
+      MF384325.1 96.306
+      KY415986.1 96.301
+      MN566104.1 96.292
+      KY415989.1 96.292
+      KY415988.1 96.292
+      MN566106.1 96.283
+
+
+Questions to ponder: 
+            
+So, we have a new asian model MG807646.1
+
+For the genotype model, should we test:
+Asian: MG807646.1
+American: NC_035889 or (KU509998.3)
+African: KY...
+
+For the clades:
+
+va-zikv-ZA-african: KY..
+va-zikv-ZB.1.0-southeast-asian: KX377336.1 
+va-zikv-ZB.1.1_southern_asia: MN611472.1
+va-zikv-singapore-ZB.1.2: MG807646.1
+va-zikv-south-america-ZB.2.0: KU509998.3
+va-zikv-central-america-ZB.2.1: MN577550.1
+va-zikv-caribbean-ZB.2.2: MF384325.1
+
+To do: 
+
+() first run three models against the full list of zikv-759 or zikv-762 sequences 
+() should we use NC_035889 since we don't know the Genotype? we could potentially use the seabra method to detect the genotype/clade since we are only assuming it is from south america
+() figure out how to compare between the original list of sequences and what VADR has detected (percent accuracy)
+
+() then shall we the clades against the full list of asian sequences
+
+Tuesday, Feb 4th 
+
+() talked with Eric today about github push of vadr_files
+   () decided to use new models generated from each genotype, need to build new models using adv-v-build 
+   () add secondary structure to new 
+
+(d) Talk to Eneida about improvements with NCBI Virus in strain 
+   () Adding strain to build custom of select FASTA definition line for flu. 
+      For ex. A/chicken/Nakorn-Patom/Thailand/CU-K2/04(H5N1):
+   () Adding a column to the ncbi virus label
+   () This used to be an option in the old influenza database resource
+
+Wednesday, Feb 5th 
+
+(d) pushed folders to ebaydickinson github
+
+added these:
+
+drwxr-xr-x 2 dickinsoneb oblast 4096 Feb  5 10:59 zikv-models
+drwxr-xr-x 2 dickinsoneb oblast 4096 Feb  5 16:58 fasta_files
+drwxr-xr-x 2 dickinsoneb oblast 4096 Feb  5 17:14 NC_035889
+drwxr-xr-x 2 dickinsoneb oblast 4096 Feb  5 17:14 KY989511
+drwxr-xr-x 2 dickinsoneb oblast 4096 Feb  5 17:15 test_python
+drwxr-xr-x 2 dickinsoneb oblast 4096 Feb  5 17:15 feb_5_shell_scripts
+drwxr-xr-x 2 dickinsoneb oblast 4096 Feb  5 17:15 feb_5_accessions
+
+git config --global user.email
+git config --global user.name
+
+added NIH github token to access my personal github on my work computer, access in my gmail
+
+Tomorrow: 
+() come in early, try to get here at 8 am, go for a run this evening! 
+
+Friday
+() meeting with Alexander at 10 am 
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+   
+
+
+   
+   
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+      
+
+
+
+    
+      
+      
+
+
+
+
+   
+
+
+
+
+
