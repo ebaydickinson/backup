@@ -1,0 +1,1637 @@
+
+Welcomex to GNU Emacs, one component of the GNU/Linux operating system.
+
+Get help	   C-h  (Hold down CTRL and press h)
+Emacs manual	   C-h r	Browse manuals	   C-h i
+Emacs tutorial	   C-h t	Undo changes	   C-x u
+Buy manuals	   C-h RET	Exit Emacs	   C-x C-c
+Activate menubar   M-`
+(‘C-’ means use the CTRL key.  ‘M-’ means use the Meta (or Alt) key.
+If you have no Meta key, you may instead type ESC followed by the character.)
+Useful tasks:
+Visit New File			Open Home Directory
+Customize Startup		Open *scratch* buffer
+
+GNU Emacs
+26.1 (build 1, x86_64-redhat-linux-gnu)
+ of 2023-10-14
+Copyright (C) 2018 Free Software Foundation, Inc
+
+GNU Emacs comes with ABSOLUTELY NO WARRANTY; type C-h C-w for full details.
+Emacs is Free Software--Free as in Freedom--so you can redistribute copies
+of Emacs and modify it; type C-h C-c to see the conditions.
+Type C-h C-o for information on getting the latest version.
+---------------------------------------------------------------------------
+EBD, Tue Jul  9 15:34:22 2024
+
+Get into this notebook: test.txt
+
+Hello 'World' teehee, this is my first journal entry in emacs!
+
+To add the date and time and my name, I used Eric's lisp code to add
+journal entries. Command:escape + C-d
+
+Commands to know:
+
+Getting into a shared computer in terminal: ssh cbbdev12
+
+Save: C - X + S
+Escape: C - d
+Find C - x + f
+Two Screen: C - x + 3
+Undo Two screen: C-x 0
+Search: C - s
+Exit: C - x + C  - c
+Undo: C-f
+
+
+EBD, Mon Jul 15 14:44:21 2024
+
+Today, I did a tutorial	on emacs called	"The Absolute Beginner's Guide
+to emacs"
+https://www.youtube.com/watch?v=48JlgiBpw_I
+
+Also watched three huge mistakes that new emacs users make
+https://www.youtube.com/watch?v=s0ed8Da3mjE
+
+;; read VADR annotation
+# worked on python
+# Thinking about downloading DOOM Emacs..
+
+EBD, Tue Jul 16 11:56:41 2024
+
+     Important codes-split window into bash: escape + x + shell
+     Change cursor into the next window: C-x o
+     
+EBD, Fri Jul 19 11:29:30 2024
+
+     # emacs crashed, make sure to save
+     # work through v-build with dengue sequences
+
+EBD, Tue Jul 23 10:00:02 2024
+
+Emacs org-mode and syncthing
+
+     # yesterday, read infernal guide
+     # want to better understand HMMs vs. CM
+       # perhaps work on problems and solutions in Bio Seq Analysis 
+     # finish v-build.pl tutorial
+       # how to concenate with cat 
+
+       #Talk to eric about vacation
+        # August 2nd - 4th - Boston
+        # September 7th - 9th - Troy NY
+        # September 29 - October 6th - Vermont
+        # October - Atlanta 
+
+       # Bioinformatics course - start August 28th HMMs,alignment
+
+       # Watched video about nc-RNAs,
+       Housekeeping and Regulatory ncRNAs
+       
+       https://www.youtube.com/watch?v=hKU8JQOgYmU
+
+       European Bioinformatics Institute
+       Annotating Genomes with non coding RNAs using Rfam and Infernal
+       https://www.youtube.com/watch?v=NU63fazDZHs
+
+      European Virus Bioinformatics Center
+
+      Rfam excludes
+      - Whole lncRNAa
+      -small RNAs, generally under <50 nt
+      - RNAs identified in a single species
+      - Alignments where a model can't be built
+
+ V-annotate tutorial example skipping the error messages for reference:
+
+ #                                      num   num   num
+ #idx  model      group      subgroup  seqs  pass  fail
+ #---  ---------  ---------  --------  ----  ----  ----
+ 1     NC_008311  Norovirus  GV           2     2     0
+ 2     NC_029645  Norovirus  GIII         2     2     0
+ 3     NC_039477  Norovirus  GII          2     2     0
+ 4     NC_044854  Norovirus  GI           2     2     0
+ 5     NC_001959  Norovirus  GI           1     1     0
+ #---  ---------  ---------  --------  ----  ----  ----
+ -     *all*      -          -            9     9     0
+ -     *none*     -          -            0     0     0
+ #---  ---------  ---------  --------  ----  ----  ----
+ #
+ # Summary of reported alerts:
+ #
+ #     alert     causes   short                            per    num   num  long
+ #idx  code      failure  description                     type  cases  seqs  description
+ #---  --------  -------  ---------------------------  -------  -----  ----  -----------
+ 1     mutendcd  yes*     MUTATION_AT_END              feature      1     1  expected stop codon could not be identified, predicted CDS stop by homology is invalid
+ 2     cdsstopn  yes*     CDS_HAS_STOP_CODON           feature      1     1  in-frame stop codon exists 5' of stop position predicted by homology to reference
+ 3     cdsstopp  yes*     CDS_HAS_STOP_CODON           feature      1     1  stop codon in protein-based alignment
+ 4     indf5pst  yes*     INDEFINITE_ANNOTATION_START  feature      1     1  protein-based alignment does not extend close enough to nucleotide-based alignment 5' endpoint
+ 5     indf3pst  yes*     INDEFINITE_ANNOTATION_END    feature      1     1  protein-based alignment does not extend close enough to nucleotide-based alignment 3' endpoint
+ #---  --------  -------  ---------------------------  -------  -----  ----  -----------
+
+
+EBD, Wed Jul 24 16:42:47 2024
+
+      # Re-ran all 4 serotypes of Dengue
+       ex. Dengue 1 
+       v-build.pl NC_001474 NC_001474
+      # ran other dengue/flavivirus models
+
+#tomorrow cat dengue and flavivirus models and run through
+ v-annotation :) 
+
+EBD, Thu Jul 25 14:30:35 2024
+
+    # want to cat for all of dengue 1,2,3,4
+    # cat for dengue plus flav
+    # cat for just dengue 1
+
+    # what are the differences in the errors? I think there might be more
+      errors for the dengue plus flav set
+
+EBD, Mon Jul 29 11:48:23 2024
+
+   find . -name \*.minfo - print
+   find ./module/*/src - name \*.minfo - print | while read
+   filelocation; do cp\
+
+find . -type f -exec cat {} + >> outputfile.txt 
+   find .
+   -type f (look in current directory)
+   -name '*.txt'
+   -exec cat {} + (whittle down results by name)
+   - >> output file
+
+for loops in unix
+
+for i in 1 2 3 4 5
+do
+echo $i
+done
+
+wondering if you could help me, I am trying to concatenate several
+.minfo files to one folder " my-dengue-models", but each .minfo file is contained within a different folder
+on the same heirarchy level, for example, NC_001474, NC_001475, NC_002264. Can
+I loop through the files to make it easier then cat the files one by one?
+
+
+Going through advanced build...
+
+https://github.com/ncbi/vadr/blob/master/documentation/advbuild.md#top
+
+# create a new directory
+$ mkdir rsv-models1
+
+# concatenate .minfo, .cm .fa and .hmm files:
+$ cat NC_038235/*.vadr.minfo > rsv-models1/rsv.minfo
+$ cat NC_038235/*.vadr.cm > rsv-models1/rsv.cm
+$ cat NC_038235/*.vadr.fa > rsv-models1/rsv.fa
+$ cat NC_038235/*.vadr.protein.hmm > rsv-models1/rsv.hmm
+$ cat NC_001781/*.vadr.minfo >> rsv-models1/rsv.minfo
+$ cat NC_001781/*.vadr.cm >> rsv-models1/rsv.cm
+$ cat NC_001781/*.vadr.fa >> rsv-models1/rsv.fa
+$ cat NC_001781/*.vadr.protein.hmm >> rsv-models1/rsv.hmm
+
+# copy the blastdb files:
+$ cp NC_038235/*.vadr.protein.fa* rsv-models1/
+$ cp NC_001781/*.vadr.protein.fa* rsv-models1/
+
+# prepare the library files:
+$ $VADREASELDIR/esl-sfetch --index rsv-models1/rsv.fa
+$ $VADRINFERNALDIR/cmpress rsv-models1/rsv.cm
+$ $VADRHMMERDIR/hmmpress rsv-models1/rsv.hmm
+$ $VADRBLASTDIR/makeblastdb -dbtype nucl -in rsv-models1/rsv.fa
+
+for d in funsies/*.minfo/; do \
+(\
+    cd "$d' \
+    cat NC_001474.vadr.minfo NC_034444.vadr.minfo > \
+    test-models-cat/cat.vadr.minfo \
+)\
+done\
+
+( cd "$d"
+cat NC_001474.vadr.minfo NC_034444.vadr.minfo >
+test-models-cat/cat.vadr.minfox
+
+)
+
+03:06:25 dickinsoneb@cbbdev12 test-models-cat \u2192 pushd . \
+
+EBD, Tue Jul 30 09:49:19 2024
+
+Used NIAID GenAI
+
+for dir in NC_*; do
+    if [ -d "$dir" ]; then
+        cat "$dir"/*.minfo >> my-dengue-models/combined.minfo
+    fi
+done
+
+
+EBD, Wed Jul 31 16:52:22 2024
+
+ Run this tomorrow...
+ $VADRHMMERDIR/hmmpress rsv-models1/rsv.hmm
+
+EBD, Wed Aug  7 16:55:56 2024
+
+     Meeting with Eric
+     Blast e-values:
+
+     e-values: values from 1-100, random that sequence matches
+               values less than 1, like 1^-10, isn't chance that
+               sequence matches
+     Talk with Dr. Altshul about his blast stuff !
+     
+EBD, Thu Aug  8 15:44:18 2024
+
+To be used for customization for my own emacs
+
+;; Stolen from Sean's .emacs
+(defun epn-get-user-name()
+  "Insert the user's name into the buffer"
+  (interactive)
+  (insert (user-full-name)))
+(defun epn-get-curr-time()
+  "Insert the time/date into the buffer"
+  (interactive)
+  (insert (current-time-string)))
+(defun epn-get-name-and-time()
+  "Insert my initials and then the date into the buffer"
+  (interactive)
+  (progn
+    (insert "EPN, ")
+    (insert (current-time-string))))
+
+EBD, Fri Aug  9 16:44:40 2024
+
+Start: on Monday with the cmscan to mrum-genome.cmscan stuff pg 30 in
+the infernal guide
+
+in ~./.emacs to find search history
+(define-key comint-mode-map (kbd "<up>") 'comint-previous-input)
+(define-key comint-mode-map (kbd "<down>") 'comint-next-input)
+
+Making shell commands
+
+       examples: creating a shell script emacs cat-01.sh
+       running the shell script sh cat-01.sh
+
+EBD, Wed Aug 14 11:35:53 2024
+
+Running infernal-tutorial:
+
+System information:
+Wed Aug 14 10:05:06 EDT 2024
+Linux cbbdev12 4.18.0-553.8.1.el8_10.x86_64 #1 SMP Tue Jul 2 07:26:33 EDT 2024 x86_64 x86_64 x86_64 GNU/Linux
+make[1]: Leaving directory '/home/dickinsoneb/infernal_files/infernal-1.1.5/testsuite'
+/usr/bin/install -c -d /your/install/path/bin
+/usr/bin/install: cannot create directory '/your': Permission denied
+make: *** [Makefile:160: install] Error 1
+     SUBDIR ../easel
+     SUBDIR miniapps
+     SUBDIR libdivsufsort
+     SUBDIR src
+     SUBDIR impl_sse
+     SUBDIR profmark
+if [ ! -d /your/install/path/bin ]; then /usr/bin/install -c -d /your/install/path/bin; fi
+/usr/bin/install: cannot create directory '/your': Permission denied
+make: *** [Makefile:134: install] Error 1
+/usr/bin/install -c -d /your/install/path/bin
+/usr/bin/install: cannot create directory '/your': Permission denied
+make: *** [Makefile:637: install] Error 1
+
+$PATH instructions
+
+https://superuser.com/questions/1597417/is-there-a-way-to-execute-a-perl-script-from-any-location-in-the-machine
+
+EBD, Tue Aug 27 15:09:03 2024
+
+     Started using emacs in vscode today
+
+     Last week, finished the rfam annotation tutorial for ZIKV refseqs
+     NC_035889 and NC_012532
+     https://github.com/ncbi/vadr/wiki/Rfam-based-structural-annotation-of-a-viral-genome-sequence
+
+
+     Now working on the adv-build tutorial in VADR for both refseqs
+     -Ran the models today for both NC_035889 and NC_012532
+
+     
+EBD, Wed Aug 28 10:09:20 2024
+
+     Access to the computing farm, need to get into $HOME/.ncbi_hints,
+     but access is denied 
+    
+    ran annotate.pl under annotate500.sh
+
+                                 num   num   num
+#idx  model      group  subgroup  seqs  pass  fail
+#---  ---------  -----  --------  ----  ----  ----
+1     NC_035889  ZIKV   asian      448   378    70
+2     NC_012532  ZIKV   african     52     3    49
+#---  ---------  -----  --------  ----  ----  ----
+-     *all*      -      -          500   381   119
+-     *none*     -      -            0     0     0
+#---  ---------  -----  --------  ----  ----  ----
+
+18    peptrans  yes      PEPTIDE_TRANSLATION_PROBLEM     feature   1610   115  mat_peptide may not be translated because \
+its parent CDS has a problem
+
+17    fsthicfi  yes      POSSIBLE_FRAMESHIFT_HIGH_CONF   feature     55    55  high confidence possible frameshift in CDS\
+ (frame restored before end)
+
+*
+22    indf3pst  yes      INDEFINITE_ANNOTATION_END       feature     49    49  protein-based alignment does not extend cl\
+ose enough to nucleotide-based alignment 3' endpoint
+
+    49 NC_035889 polyprotein
+=====================================
+
+12    lowcovrg  yes      LOW_COVERAGE                   sequence     33    33  low sequence fraction with significant sim\
+ilarity to homology model
+
+======================================
+20    indf5pst  yes      INDEFINITE_ANNOTATION_START     feature     31    31  protein-based alignment does not extend cl\
+ose enough to nucleotide-based alignment 5' endpoint
+======================================
+21    indf3lcn  yes      INDEFINITE_ANNOTATION_END       feature     47    21  alignment to homology model has low confid\
+ence at 3' boundary for feature that does not match a CDS
+
+This alert occurs because the alignment confidence at the end coordinate/position of a feature is relatively low, indicating that it may be incorrect, based on the parameters of the model.
+
+We can use grep and awk again to group together the indf3lcn alerts and see which features they correspond to, this time outputting the model name, feature type (e.g. CDS or gene) and product name (fields 3, 4 and 5 in the .alt file):
+
+
+ 6 NC_035889 mat_peptide nonstructural_protein_NS4B
+      5 NC_035889 mat_peptide protein_2K
+      5 NC_035889 mat_peptide nonstructural_protein_NS4A
+      5 NC_035889 mat_peptide nonstructural_protein_NS2A
+      4 NC_035889 mat_peptide nonstructural_protein_NS2B
+      4 NC_035889 mat_peptide membrane_glycoprotein_precursor_M
+      4 NC_035889 mat_peptide membrane_glycoprotein_M
+      3 NC_035889 mat_peptide nonstructural_protein_NS1
+      3 NC_035889 mat_peptide RNA-dependent_RNA_polymerase_NS5
+      2 NC_035889 mat_peptide nonstructural_protein_NS3
+      2 NC_035889 mat_peptide envelope_protein_E
+      2 NC_035889 mat_peptide anchored_capsid_protein_C
+      1 NC_035889 mat_peptide protein_pr
+      1 NC_035889 mat_peptide capsid_protein_C
+
+all for mat_peptide features
+
+18    peptrans  yes      PEPTIDE_TRANSLATION_PROBLEM     feature   1610   115  mat_peptide may not be translated because \
+its parent CDS has a problem
+
+17    fsthicfi  yes      POSSIBLE_FRAMESHIFT_HIGH_CONF   feature     55    55  high confidence possible frameshift in CDS\
+ (frame restored before end)
+
+*
+22    indf3pst  yes      INDEFINITE_ANNOTATION_END       feature     49    49  protein-based alignment does not extend cl\
+ose enough to nucleotide-based alignment 3' endpoint
+
+    49 NC_035889 polyprotein
+
+
+12    lowcovrg  yes      LOW_COVERAGE                   sequence     33    33  low sequence fraction with significant sim\
+ilarity to homology model
+
+======================================
+20    indf5pst  yes      INDEFINITE_ANNOTATION_START     feature     31    31  protein-based alignment does not extend cl\
+ose enough to nucleotide-based alignment 5' endpoint
+======================================
+21    indf3lcn  yes      INDEFINITE_ANNOTATION_END       feature     47    21  alignment to homology model has low confid\
+ence at 3' boundary for feature that does not match a CDS
+ 
+To do tommorrow: Go over indf3pst alerts, replace MH181932.1
+        in indf3pst-zika.sh
+        
+EBD, Thu Aug 29 16:36:01 2024
+
+          Thursday, August 29, 2024 - Meeting with Eric
+          Discussed building ZIKV model with adv-build tutorial
+          Discussed result of running v-annotate for NC_012532 and NC_035889, and analyzed the most common alerts
+          so many african genotypes failed, why? Is it possible that we need to build two models? Or potentially use another refseq for the african genotype that is human?
+
+          > 52.list
+ Use command above to get 52.list
+ Follow step 3 on
+ https://github.com/nawrockie/summer2024-notes/blob/master/fetch-random-sequence-subset.md
+ to fetch the 52 sequences from your fasta file with 500 sequences
+ Then add the NC_012532 sequence to the set of 52 to make a new file
+ with 53 sequences
+
+"we added it when you were experimenting with the new model after
+finding the most representative sequence? And we wanted to see if the
+RefSeq would pass with the new model?"
+
+ Then run v-annotate.pl on the 53 sequence fasta using the --keep
+ option
+ Then, run in FastTree to build a tree, how close are the african seqs
+ to the asian refseq?~ $2 }
+
+EBD, Tue Sep 10 11:23:01 2024
+
+From running v-annotate on the 52 sequences against NC_012532
+
+Major alerts, alert desciptions here https://github.com/ncbi/vadr/blob/master/documentation/alerts.md
+
+Summary of reported alerts:
+#
+#     alert     causes   short                              per    num   num  long
+#idx  code      failure  description                       type  cases  seqs  description
+#---  --------  -------  -----------------------------  -------  -----  ----  -----------
+1     fstlocfi  no       POSSIBLE_FRAMESHIFT_LOW_CONF   feature     48    48  low confidence possible frameshift in CDS (frame restored before end)
+#---  --------  -------  -----------------------------  -------  -----  ----  -----------
+2     cdsstopn  yes      CDS_HAS_STOP_CODON             feature      3     3  in-frame stop codon exists 5' of stop position predicted by homology to reference
+3     cdsstopp  yes      CDS_HAS_STOP_CODON             feature      3     3  stop codon in protein-based alignment
+4     fsthicfi  yes      POSSIBLE_FRAMESHIFT_HIGH_CONF  feature     49    49  high confidence possible frameshift in CDS (frame restored before end)
+5     peptrans  yes      PEPTIDE_TRANSLATION_PROBLEM    feature    686    49  mat_peptide may not be translated because its parent CDS has a problem
+#---  --------  -------  -----------------------------  -------  -----  ----  -----------
+
+POSSIBLE_FRAMESHIFT_HIGH_CONF
+
+This frameshift is a high confidence frameshift in that the average posterior probability of the aligned nucleotides in the frameshifted region is 0.825 (shifted_frame:0.825) 
+and of the expected region prior to (5' of) the frameshift is 0.892 (exp_frame:0.892) both of which exceed the threshold for high confidence (0.8 by default). 
+(The PP of both the shifted and expected regions must exceed the high confidence threshold for a frameshift to be defined as high confidence.) 
+Other possible frameshifts with lower posterior probability values will be reported with the POSSIBLE_FRAMESHIFT_LOW_CONF error. 
+
+separate alignment file tha includes possibel frameshifts form v-annotate
+--out_stk
+
+TThe #=GR CS line shows the implied frame of each aligned nucleotide and have i for inserted nucleotides and d for deleted reference positions.
+ The #=GC RF line shows the reference model sequence.
+
+ Using the alt.list file, is it happening in the same region?
+ 
+ The .alt file contains details on the frameshift, as well as the CDS.frameshift.stk
+ The frameshifted region is sequence positions 13 to 25 (seq coords: 13..25:+ in the .alt file) which is aligned to the reference model positions 14 to 23 (mdl coords: 14..23:+).
+             F region       Model region
+ MH061914.1 94..116:+       116..138:+     cause:delete,S:93,M:116(1) restore:insert,S:116(1),M:138; frame:1(3)121; length:9:(23):7020:9:3199; shifted_avgpp:0.884;
+
+ MH061882.1 97..119:+       116..138:+
+ OK569758.1  57..79:+       116..138:+ 
+             79..101:+      116..138:+
+
+ MH061914.1 94..116:+       116..138:+     
+ 
+ cause:delete,S:93,M:116(1) restore:insert,S:116(1),M:138; frame:1(3)121; length:9:(23):7020:9:3199; shifted_avgpp:0.884;
+          93                      116
+ 111111111d 3333333333333333333333i
+ ATGAAAAAC- CCAAAGAAGAAATCCGGAGGATT
+
+ deletion of 1, the frame is a three
+
+ The deletion happened at nt 93, (the frame shift is from 94 to 116, 116 is where there are insertion of just (1) nucleotide). 
+
+ Possible frameshift in CDS called polyprotein. https://pubmed.ncbi.nlm.nih.gov/25996897/#:~:text=Polyproteins%20are%20chains%20of%20covalently,proteome%20of%20viruses%20including%20HIV. 
+ In  MH061914.1, frameshifted region is for example 94...116 which is aligned to reference model position 116 to 138 . 
+ The possible cause is 1 nt deletion before nt 94, and a 1 nt restoration at 116. The frame 1 for 9 nt, and frame 3 for 23 nt, and frame 1 for 7020 nt, frame 3 for 9 nt, frame 1 for 3199 nt
+ The probabilty for this is 0.884, pretty high.
+
+ Questions...the frame shifted region is 94 to 116 and the reference model is from 116 to 138, how are things so far off?
+
+Polyprotein might be the precursor to the full RNA 
+
+*Why is there no probabilities listed for this sequence in the align.stk file?*
+Answer: Perhaps use the va-zikv-african.vadr.NC_012532.CDS.1.1.frameshift.stk file
+
+PEPTIDE_TRANSLATION_PROBLEM
+
+not quite understanding this alert 
+
+Randomized list 
+
+OK569759.1 https://www.ncbi.nlm.nih.gov/nuccore/OK569759
+ Zika virus strain MR 766, complete genome.
+  Zika virus
+  ten alternate passages between
+ monkey and mosquito cells to simulate the wild cycle of
+the virus in nature;
+
+MG758785.1 https://www.ncbi.nlm.nih.gov/nuccore/MG758785
+https://www.sciencedirect.com/science/article/pii/S1931312818302002?via%3Dihub
+ Zika virus isolate 41525, complete genome.
+
+MH130099.1 https://www.ncbi.nlm.nih.gov/nuccore/MH130099
+ Zika virus strain ZIKV/Macaca
+mulatta/UGA/MR-766-VEROE6-AC4-P12_02/1947, complete genome
+
+MH061890.1 https://www.ncbi.nlm.nih.gov/nuccore/MH061890
+Zika virus strain ZIKV/Macaca mulatta/UGA/MR-766-VEROE6-FC3-P8_08/1947, complete genome (Tan,G., et al.)
+VeroE6 cells
+
+MH061884.1 https://www.ncbi.nlm.nih.gov/nuccore/MH061884
+Zika virus strain ZIKV/Macaca
+mulatta/UGA/MR-766-VEROE6-GA3-P10_01/1947, complete genome.
+
+
+Step 5 build new model, look at 58. 
+Fasta of the frameshifted sequences
+
+v-annotate on the 49 using the keep option or --out_stk
+esl-alipid to identify most closely related sequence 
+
+How to group by column 12 and count 
+grep FRAMESHIFT_HIGH *.alt | awk '{ print $12 }' | sort | uniq -c
+
+EBD, Fri Sept 13 15:13:01 2024
+
+     Need to remember how to filter from 500 --> 52
+
+     cat ~dickinsoneb/vadr_files/va-zikv.r500/va-zikv.r500.vadr.sqa | grep -v ^\# | grep african | awk ‘{ print $2 }’ > 52.list
+
+     Now filter the 49 failing sequences from the 52 total sequences -> 49 passing seqs 
+
+     cat ~dickinsoneb/vadr_files/va-zikv-african/va-zikv-african.vadr.sqa | grep -v ^\# | grep PASS | awk '{ print $2 }' > 49_pass.list
+
+     regular expression 
+
+     counting items in list --> #wc -l < 49_pass.list 
+
+     sh ambig_nuc.sh  
+
+EBD, Fri Sep 20 10:34:39 2024
+
+     Filter for patent 
+
+     Stop codon alerts 
+     CDS_HAS_STOP_CODON 
+     in-frame stop codon exists 5' of stop position predicted by homology to reference
+
+     CDS_HAS_STOP_CODON
+     stop codon in protein-based alignment
+
+     Fail list of sequences w new model:
+
+     MW143019.1 Zika virus strain MR766, complete genome
+     MW143018.1 Zika virus strain MR766, complete genome
+     LP836871.1 |Sequence 12 from Patent WO2017109225
+     MW143017.1 |Zika virus strain MR766, complete genome 
+     LP837288.1 Sequence 12 from Patent WO2017109228
+
+     Pass list w refseq:
+
+     PP921916.1
+     LP836871.1
+     LP837288.1
+     NC_012532
+
+Potential models that are sampled from surveillence
+
+Zika virus isolate Zika virus/A.africanus-tc/Senegal/1984/DAK AR 41524 polyprotein gene, complete cds
+MK028860
+Notes: has annotations
+
+Zika virus isolate 15555, complete genome
+OL414716.1
+
+Senegal ZIKV (MF510857)
+
+esl-alimanip --detrunc 1 --num-rf va-zikv-42.vadr.NC_012532.align.stk
+
+What passed in the original 52?
+Combine refseq and new model?
+
+Write up a summary about the african sequences to eventually send to Eneida...
+
+Originally when I ran 500 random sequences, using NC_012532 (african sequence MR-766) and NC_035889 (asian genotypes) zikv refseqs as model in v-build. Btw, this is all contained in va-zikv.r500
+I saw that many sequences matching the asian genotype refseq passed (378/448), and only three of the sequences bessed matched to the african genotype passed (3/52). 
+
+#                                  num   num   num
+#idx  model      group  subgroup  seqs  pass  fail
+#---  ---------  -----  --------  ----  ----  ----
+1     NC_035889  ZIKV   asian      448   378    70
+2     NC_012532  ZIKV   african     52     3    49
+#---  ---------  -----  --------  ----  ----  ----
+-     *all*      -      -          500   381   119
+-     *none*     -      -            0     0     0
+#---  ---------  -----  --------  ----  ----  ----
+
+So, there was a big possibility that the refseq did not match well to the sequences that were more related to the african refseq. So, I looked deeper in the fatal alerts happening in the african refseqs, and the major alerts was 
+POSSIBLE_FRAMESHIFT_HIGH_CONF and PEPTIDE_TRANSLATION_PROBLEM. The frameshift occured in 49 (?, come back to this), of the 52 sequences, particularly in the 116 to 136 region matched to the refseq. 
+
+
+Example analysis of frameshifted region in MH061914:
+
+ "Possible frameshift in CDS called polyprotein. https://pubmed.ncbi.nlm.nih.gov/25996897/#:~:text=Polyproteins%20are%20chains%20of%20covalently,proteome%20of%20viruses%20including%20HIV. 
+ In  MH061914.1, frameshifted region is for example 94...116 which is aligned to reference model position 116 to 138 . 
+ The possible cause is 1 nt deletion before nt 94, and a 1 nt restoration at 116. The frame 1 for 9 nt, and frame 3 for 23 nt, and frame 1 for 7020 nt, frame 3 for 9 nt, frame 1 for 3199 nt
+ The probabilty for this is 0.884, pretty high."
+
+Because this problem was impacted 49 (?) of the 52 sequences, we wanted to find a new model sequence that would be a better match than NC_012532. To choose, we went through this set of steps:
+1.) We removed ambiguous nucleotides that make the model less specific, we removed all sequences with 1 or more ambiguous nucleotides using the count-ambigs.pl minscript included wth vadr. 
+We now have 42 sequences (contained within 42.fa)
+2.) We picked out the sequences with highest percent identity to all other candidates, filtered out the top 20
+3.) Picked the sequence based on length, picked the seq without gaps on the 3' and 5' end
+4.) We had a couple of seqs that fit the full length category, so we choose the one with GENE and other annotations
+
+Sequence of choice: KY989511  
+
+After we built the model, and compared the list of 52 original african sequences, we instead passed 47/52 sequences, a huge improvement! 
+
+EBD, Wed Oct  2 11:10:31 2024
+
+     I need to rerun everything from the asian sequences...
+     From va-zikv.500.vadr.log:
+
+     Out of the 448 sequences, 378 passed and and 70 failed:
+
+     Major failure alerts:
+     LOW_COVERAGE
+
+     POSSIBLE_FRAMESHIFT_HIGH_CONF
+
+     PEPTIDE_TRANSLATION_PROBLEM - at_peptide may not be translated
+     because its parent CDS has a problem (115 ? how is this possible)
+     
+     INDEFINITE_ANNOTATION_START -  alignment to homology model has
+     low confidence at 5' boundary for feature that does not match a
+     CDS(20)
+
+     CDS_HAS_STOP_CODON 
+
+     INDEFINITE_ANNOTATION_START - alignment to homology model has low
+     confidence at 5' boundary for feature that does not match a CDS
+     
+     INDEFINITE_ANNOTATION_END - protein-based alignment does not
+     extend close enough to nucleotide-based alignment 5' endpoint (49)
+
+     INDEFINITE_ANNOTATION_END - alignment to homology model has low
+     confidence at 3' boundary for feature that does not match a CDS
+     (21)
+------------------------------------------------------------------------
+      LOW_COVERAGE  - If less than 90% is not covered by the model,
+     then there are low coverage hits
+
+
+EBD, Tue Oct  8 10:31:23 2024
+
+ I didn't save a couple of my notes -- meeting with Eric
+
+ Talked about alerts, Eric recommended that I use the flag -r as a
+ way to ignore *n* . *ns* "AN "N" means that the Illumins software was
+ not able to make a basecall for this
+ base. The reads at the beginning and end of the sequence data files
+ originate from the edges of the flowcells, where imaging is more
+ difficult, thus these reads show below average quality."
+
+ # replace stretches of Ns with expected nts, where possible: 
+
+ Once we ran va-r-zikv-asian through v-annotate with the -r tag, out of
+ the 70 that originally failed, 53 passed this round, and 17 now
+ failed!
+
+ Let's take a look at some of the most common failures now, ignoring
+ peptrans:
+
+ 12    unexleng  yes      UNEXPECTED_LENGTH               feature     17     8  length of complete coding (CDS or mat_peptide) feature is not a multiple of 3
+
+ 13    cdsstopn  yes      CDS_HAS_STOP_CODON              feature      8     8  in-frame stop codon exists 5' of stop position predicted by homology to reference
+
+ 14    fsthicft  yes      POSSIBLE_FRAMESHIFT_HIGH_CONF   feature      6     6  high confidence possible frameshift in CDS (frame not restored before end)
+ 15    fsthicfi  yes      POSSIBLE_FRAMESHIFT_HIGH_CONF   feature     6     6  high confidence possible frameshift in CDS (frame restored
+ before end)
+
+ 8    indf5pst  yes      INDEFINITE_ANNOTATION_START     feature       5     5  protein-based alignment does not extend close enough to
+ nucleotide-based alignment 5' endpoint
+
+
+UNEXPECTED_LENGTH
+
+Finally, because the predicted CDS feature is length 20 (alert detail:[20]), from sequence positions 10 to 29 (seq coords:10..29:+) aligned to model positions 11 to 30 (mdl coords:11..30:+), and 20 is not a multiple of 3, the unexleng alert with description UNEXPECTED_LENGTH is reported.
+
+
+
+CDS_HAS_STOP_CODON
+
+KY325480.1    264..266:+      3      308..310:+
+MH157200.1  4080..4082:+      3    4099..4101:+
+KY325483.1  4637..4639:+      3    4651..4653:+
+MH157201.1  8676..8678:+      3    8692..8694:+ 
+MH157214.1  4076..4078:+      3    4117..4119:+
+MH157212.1  4577..4579:+      3    4597..4599:+
+MH157203.1  9209..9211:+      3    9226..9228:+
+MH916805.1  8770..8772:+      3    8791..8793:+
+
+KY325480.1    
+MH157200.1  
+KY325483.1  
+MH157201.1  
+MH157214.1  
+MH157212.1  
+MH157203.1  
+MH916805.1  
+
+POSSIBLE_FRAMESHIFT_HIGH_CONF fsthicft
+
+KY325480.1  77..10336:+  10260    122..10379:+
+MH157200.1  3890..10360:+   6471   3908..10379:+
+KY325483.1  4621..10364:+   5744   4634..10379:+
+MH157201.1  539..10363:+   1825   8554..10379:+
+MH157212.1  4194..10359:+   6166   4213..10379:+
+MH916805.1  8491..10358:+   1868   8514..10379:+
+
+KY325480.1 
+MH157200.1  
+KY325483.1  
+MH157201.1  
+MH157212.1  
+MH916805.1  
+
+
+
+POSSIBLE_FRAMESHIFT_HIGH_CONF fsthicfi
+
+EU545988.1 11..32:+      22      118..139:+
+OM666892.1 103..126:+     24      116..139:+
+PQ129494.1 5082..5105:+    24    5116..5139:+
+MT439645.1 86..111:+      26      114..139:+
+MT439641.1 84..109:+     26      114..139:+
+LP940738.1 11..32:+     22      118..139:+
+
+     EU545988.1 
+     OM666892.1 
+     PQ129494.1 
+     MT439645.1 
+     MT439641.1 
+     LP940738.1 
+
+INDEFINITE_ANNOTATION_START - protein-based alignment does not extend close enough to nucleotide-based alignment 5' endpoint [4475>5]
+
+     KY325480.1 63..280:+    218      108..108:+
+     MH157200.1 90..4078:+   3989      108..108:+
+     KY325483.1  95..5087:+   4993      108..108:+
+     MH157214.1 68..4077:+   4010      108..108:+
+     MH157212.1 89..4563:+   4475      108..108:+
+
+     KY325480.1 
+     MH157200.1 
+     KY325483.1 
+     MH157214.1 
+     MH157212.1 
+
+     Counting items - grep -c . r-zikv-fail.list
+
+     Fetching fasta subsect of files from larger fasta group:
+
+     > esl-sfetch --index zikv.r500.fa
+     > esl-sfetch -f zikv.r500.fa r-zikv-fail.list > r-zikv-fail.fa
+
+     Unverified seqs - 
+
+     grep UNVERIFIED *.stk | awk '{ print $2 }' | sort | uniq -c
+
+      1 KY325480.1 *
+      1 KY325483.1 *
+      1 MH157200.1 *
+      1 MH157201.1 *
+      1 MH157203.1 *
+      1 MH157212.1 *
+      1 MH157214.1 
+      1 MH916805.1
+
++ other Ns
+
+      MT439641.1
+      MT439645.1 
+      OM666892.1
+
+
+     Met with Eric, the next step is to run a bigger subset of sequences that are 95% full or greater! 
+
+     1.) Download fasta that are 95% or greater (around 1,391), so download anything from 10267 or greater
+
+     called zikv.comp95.fa
+
+     Format:              FASTA
+     Alphabet type:       DNA
+     Number of sequences: 1391
+     Total # residues:    14787094
+     Smallest:            10269
+     Largest:             11520
+     Average length:      10630.5
+
+     2.) Filter by sequences that don't have unverified or patent in the name (1235 sequences)
+     3.) In NC_035889, accept sequences with a frameshift in the 118..139:+ region (Add an alert exception to the model info file.)
+     3.) Run those seqs in zikv-models95 in v-annotate
+     4.) wait...
+
+Potential things that might help me:
+
+     > esl-sfetch --index zikv.r500.fa
+     > esl-sfetch -f zikv.r500.fa r-zikv-fail.list > r-zikv-fail.fa
+
+     cat ~dickinsoneb/vadr_files/va-zikv-african/va-zikv-african.vadr.sqa | grep -v ^\# | grep PASS | awk '{ print $2 }' > 49_pass.list
+
+     grep ">" zikv.comp95.fa
+
+     Game plan 
+     1.) Search for words UNVERIFIED and Patent
+     2.) Exclude those
+     3.) Generate fafsa clean of those 
+
+    Did this using awk:
+    https://bioinfoaps.github.io/20-text_process/index.html
+
+    --alt_pass dupregin,discontn
+
+EBD, Thu Oct 10 15:41:13 2024   
+
+# gives the first line after < and a line of the sequence 
+awk '/^>/ {name = substr($0, 2); getline; seq = $0; if (name ~ /UNVERIFIED|patent/) print ">" name "\n" seq}' zikv.comp95.fa > clean.fa
+
+#Use this in clean.sh to remove all Unverified/Patent seqs
+     awk -vRS=">" -vORS="" -vFS="\n" -vOFS="\n" '
+     NR>1 && $1!~/UNVERIFIED|Patent/ {print ">"$0}
+     ' zikv.comp95.fa > clean.fa
+
+     Ran v-annotate on the comp95 data set minus the UNVERIFIED and Patent
+     sequences
+
+     Forgot to include the new updated model KY.... instead of the
+     refseq
+
+Got the results from re-running comp95 data with KY and asian refseq
+
+#idx  model      group  subgroup  seqs  pass  fail
+#---  ---------  -----  --------  ----  ----  ----
+1     NC_035889  ZIKV   asian     1100  1085    15
+2     KY989511   ZIKV   african    135   123    12
+#---  ---------  -----  --------  ----  ----  ----
+-     *all*      -      -         1235  1208    27
+-     *none*     -      -            0     0     0
+#---  ---------  -----  --------  ----  ----  ----
+
+Today, I ran a new model from NC_035889 and KY989511, contained within va-zikv-comp95, using zikv-models as the model set. , 15 failed from NC_035889, 12 failed from KY989511.
+I investigated the failures, a huge alert was frameshifting. Interestingly enough, seeing the high confidence frameshift in both the african and asian sequences in the 116..139+/138+ region, 
+so this is something that occurs in both! I pulled the frameshifts (11), and some of them were vaccine seqs booo, that I didn't filter out with the vaccine option in NCBI virus. Booo do better
+NCBI virus! More interesting is those non-vaccine seqs that have this frameshift in the polyprotein. 
+
+Next week - talk with eric about the vaccine viruses, what to do with those? There are almost 30 in the fa file! 
+Continue to investigate alerts 
+
+EBD, Tue Oct 15 17:29:26 2024 
+
+     Extracting sequences from a fasta file:
+     grep '^>' va-zikv-frameshift-comp95.vadr.fail.fa | sed 's/^>//' > fail.list
+
+     Or if you just want to look stuff up
+     grep ">" va-zikv-frameshift-comp95.vadr.fail.fa
+
+     I want to learn more about how to use grep, sed and awk! 
+
+     To create a list to easily put into genbank, do this! 
+     cat va-zikv-frameshift-comp95.vadr.fail.fa | grep '>' |  awk ' {print $1}'| sed 's/^>//'  
+
+     Frameshifted fail list:
+
+     >AY632535.2 |Zika virus strain MR 766, complete genome
+     >EU545988.1 |Zika virus polyprotein gene, complete cds
+     >LY589883.1 |KR 1020180097558-A/12: ZIKA VIRUS VACCINE
+     >MA887907.1 |JP 2019504030-A/11: Zika virus vaccine
+     >MT439641.1 |Zika virus isolate 1524_16 polyprotein gene, complete cds
+     >MT439645.1 |Zika virus isolate 1008_16 polyprotein gene, complete cds
+     >NC_012532.1 |Zika virus, complete genome
+     >OM666891.1 |Zika virus isolate MCl-21-H-11953_RNA-7996, complete genome
+     >OM666892.1 |Zika virus isolate MCL-21-H-8900_RNA-7139, complete genome
+     >OM666893.1 |Zika virus isolate MCL-21-H-8901_RNA-7140 polyprotein (POLY) gene, complete cds
+     >PQ129494.1 |Zika virus isolate BD_044, complete genome
+     >PQ129495.1 |Zika virus isolate BD_147, complete genome
+     >PQ203661.1 |Zika virus isolate BD-104, complete genome
+
+     PQs from Bangladesh, OM from India, MT from Brazil, EU Micronesia, AY Uganda
+
+     According to this article, there are asian lineages: https://www.nature.com/articles/s41559-019-0836-z
+
+     "Phylogenetic analysis demonstrated that ZIKV diverged into two lineages: an African and an Asian lineage33. 
+     It has been suggested that the latter lineage can be further classified into two subclades:
+     the local Asian subclade and the contemporary American subclade34. 
+     The African lineage prototype strain (MR766) was isolated from a sentinel rhesus monkey in 1947 (ref.35); subsequently, more African strains were isolated from mosquitoes35. 
+     The first ZIKV isolate from humans was recovered in 1954 (ref.7). In the 1960s, more ZIKV strains were isolated in Uganda8 and Nigeria9, and serological and virological investigations 
+     suggested that ZIKV was present in both humans and Aedes spp. mosquitoes in West Africa10,36." 
+
+Wednesday
+     Yesterday, I removed the SYN (synthetic) and PAT (patent) sequences from the dataset, leaving around 1199 sequences to rerun. 
+     > awk '$7 !~ /SYN|PAT/ && /^LOCUS/ { print $2 }' zikv.gb > clean.list
+
+     Actually, the code above only pulls accessions without the version number. awk '/^LOCUS/ && $7 !~ /SYN|PAT/ { locus_check = 1 } /^VERSION/ && locus_check { print $2; locus_check = 0 }' zikv.gb > clean.list
+
+     Fail list using: >KY766069.1 |Zika virus isolate Pf13/251013-18, complete genome:
+
+     >KX198134.2 |Zika virus strain ZIKV/Aedes africanus/SEN/DAK-AR-41524_A1C1-V2/1984, complete genome
+     >KX197205.1 |Zika virus isolate 9, complete genome
+     >NC_012532.1 |Zika virus, complete genome
+     >AY632535.2 |Zika virus strain MR 766, complete genome
+     >OM666892.1 |Zika virus isolate MCL-21-H-8900_RNA-7139, complete genome
+     >OM666891.1 |Zika virus isolate MCl-21-H-11953_RNA-7996, complete genome
+     >OM666893.1 |Zika virus isolate MCL-21-H-8901_RNA-7140 polyprotein (POLY) gene, complete cds
+     >MW143017.1 |Zika virus strain MR766, complete genome
+     >MW143018.1 |Zika virus strain MR766, complete genome
+     >MW143019.1 |Zika virus strain MR766, complete genome
+     >MW143020.1 |Zika virus strain MR766, complete genome
+     >MW143021.1 |Zika virus strain MR766, complete genome
+     >MW123924.1 |Zika virus isolate ZIKV_P17_K polyprotein (POLY) gene, partial cds
+     >PQ129495.1 |Zika virus isolate BD_147, complete genome
+     >PQ203661.1 |Zika virus isolate BD-104, complete genome
+     >PQ129494.1 |Zika virus isolate BD_044, complete genome
+     >MF801407.1 |Zika virus isolate ZIKV/Homo sapiens/MEX/2016/mex29 polyprotein gene, complete cds
+     >MT439645.1 |Zika virus isolate 1008_16 polyprotein gene, complete cds
+     >MK028861.1 |Zika virus isolate Zika virus/H.sapiens-tc/Panama/2015/259359 polyprotein gene, complete cds
+     >MT439641.1 |Zika virus isolate 1524_16 polyprotein gene, complete cds
+     >EU545988.1 |Zika virus polyprotein gene, complete cds
+
+Thursday
+
+     Ran the va-zikv-clean without the SYN and PAT sequences, and this is what we found:
+
+     #idx  model      group  subgroup  seqs  pass  fail
+     #---  ---------  -----  --------  ----  ----  ----
+     1     NC_035889  ZIKV   asian     1071  1057    14
+     2     KY989511   ZIKV   african    128   120     8
+     #---  ---------  -----  --------  ----  ----  ----
+     -     *all*      -      -         1199  1177    22
+     -     *none*     -      -            0     0     0
+     #---  ---------  -----  --------  ----  ----  ----
+
+     Biggest alerts 
+
+     18    cdsstopn  yes      CDS_HAS_STOP_CODON              feature      5     5  in-frame stop codon exists 5' of stop position predicted by homology to reference
+     19    cdsstopp  yes      CDS_HAS_STOP_CODON              feature      5     5  stop codon in protein-based alignment
+     20    fsthicfi  yes      POSSIBLE_FRAMESHIFT_HIGH_CONF   feature     11    11  high confidence possible frameshift in CDS (frame restored before end)
+
+     CDS Stop Codon is occuring in the same group 
+9     MW143017.1   10727  KY989511   FAIL       9       0     0.000      0      0      0        0        0        0        0  -                                                             
+10    MW143018.1   10727  KY989511   FAIL       9       0     0.000      0      0      0        0        0        0        0  -                                                             
+11    MW143019.1   10727  KY989511   FAIL      10       0     0.000      0      0      0        0        0        0        0  -                                                             
+12    MW143020.1   10727  KY989511   FAIL      10       0     0.000      0      0      0        0        0        0        0  -                                                             
+13    MW143021.1   10727  KY989511   FAIL      10       0     0.000      0      0      0        0        0        0        0  -
+
+     Information from paper: https://pmc.ncbi.nlm.nih.gov/articles/PMC8284442/
+
+     Sequencing of compound-resistant Zika mutants revealed a single nonsynonymous amino acid mutation (aspartic acid to histidine) at the 
+     beginning of the predicted transmembrane domain 1 of NS4B protein. 
+
+Possible Frameshift:
+
+AY632535.2
+EU545988.1
+MT439641.1
+MT439645.1
+NC_012532.1
+OM666891.1
+OM666892.1
+OM666893.1
+PQ129494.1
+PQ129495.1
+PQ203661.1
+
+Monday
+
+grep HIGH_CONF *.alt | awk '{ printf("%s, %s", $2, $4); }' | sort | uniq > frameshift.list
+
+Downloaded all 1142 short sequences from ncbi virus, called it zikv-short.fa
+
+     Format:              FASTA
+     Alphabet type:       DNA
+     Number of sequences: 1142
+     Total # residues:    2872467
+     Smallest:            20
+     Largest:             10269
+     Average length:      2515.3
+
+Cleaned out UNVERIFIED and Patent seqs using clean.sh 
+
+     Format:              FASTA
+     Alphabet type:       DNA
+     Number of sequences: 1052
+     Total # residues:    2648482
+     Smallest:            20
+     Largest:             10269
+     Average length:      2517.6
+
+Then, removed the sequences that didn;t have PAT or SYN in file called zikv-short-cl.fa
+
+     Format:              FASTA
+     Alphabet type:       DNA
+     Number of sequences: 1034
+     Total # residues:    2618714
+     Smallest:            71
+     Largest:             10269
+     Average length:      2532.6
+
+Frameshifted Regions from va-zikv-clean (the cleaned long read folder)
+5116..5139:+
+
+Look at each failure:
+
+make sequence file with just the 15 failed sequence, 
+Use sq. file to see where the region hits...
+
+Friday 
+      alert     causes   short                               per    num   num  long
+#idx  code      failure  description                        type  cases  seqs  description
+#---  --------  -------  -----------------------------  --------  -----  ----  -----------
+6     lowcovrg  yes      LOW_COVERAGE                   sequence      1     1  low sequence fraction with significant similarity to homology model
+7     noftrann  yes      NO_FEATURES_ANNOTATED          sequence      4     4  sequence similarity to homology model does not overlap with any features
+8     noftrant  yes      NO_FEATURES_ANNOTATED          sequence      2     2  all annotated features are too short to output to feature table
+9     cdsstopn  yes      CDS_HAS_STOP_CODON              feature      1     1  in-frame stop codon exists 5' of stop position predicted by homology to reference
+10    cdsstopp  yes      CDS_HAS_STOP_CODON              feature      2     2  stop codon in protein-based alignment
+11    fsthicft  yes      POSSIBLE_FRAMESHIFT_HIGH_CONF   feature      1     1  high confidence possible frameshift in CDS (frame not restored before end)
+12    fsthicfi  yes      POSSIBLE_FRAMESHIFT_HIGH_CONF   feature      4     2  high confidence possible frameshift in CDS (frame restored before end)
+13    peptrans  yes      PEPTIDE_TRANSLATION_PROBLEM     feature     46     8  mat_peptide may not be translated because its parent CDS has a problem
+14    indf5pst  yes      INDEFINITE_ANNOTATION_START     feature      2     2  protein-based alignment does not extend close enough to nucleotide-based alignment 5' endpoint
+15    indf3pst  yes      INDEFINITE_ANNOTATION_END       feature      5     5  protein-based alignment does not extend close enough to nucleotide-based alignment 3' endpoint
+16    deletinp  yes      DELETION_OF_NT                  feature      2     1  too large of a deletion in protein-based alignment
+
+Low Coverage 
+     Zika virus isolate NIHE/HUE-154/2015 polyprotein, NS5 region, gene, partial cds.     
+
+     MN938894.1  NC_035889  -            -                                    -  lowcovrg  yes   LOW_COVERAGE                      114..126:+    13  low sequence fraction with significant similarity to homology model [0.897<0.900]
+
+     Example: "These 25 nucleotides make up 45.5% the total length of the sequence, meaning that only 54.5% of the sequence is covered by hits to the model (alert detail:[0.545<0.900])"
+     These hits make up around 11.3% of the total sequence length, meaning that only 89.7% of the sequence is covered by hits to the model! 
+
+     Hits are in the 9093+ region, rather than the 114...138 region. 
+
+NO_FEATURES_ANNOTATED noftrann
+
+     3.1.1    MT482106.1  NC_035889  -            -                                    -  noftrann  yes   NO_FEATURES_ANNOTATED                      -     -               -    -  sequence similarity to homology model does not overlap with any features [-]
+     # 
+     4.1.1    MT482107.1  NC_035889  -            -                                    -  noftrann  yes   NO_FEATURES_ANNOTATED                      -     -               -    -  sequence similarity to homology model does not overlap with any features [-]
+     # 
+     5.1.1    MT482108.1  NC_035889  -            -                                    -  noftrann  yes   NO_FEATURES_ANNOTATED                      -     -               -    -  sequence similarity to homology model does not overlap with any features [-]
+     # 
+     6.1.1    MT482109.1  NC_035889  -            -                                    -  noftrann  yes   NO_FEATURES_ANNOTATED                      -     -               -    -  sequence similarity to homology model does not overlap with any features [-]
+     # 
+
+NO_FEATURES_ANNOTATED
+     1.1.1    OQ947196.1  NC_035889  -            -                                    -  noftrant  yes   NO_FEATURES_ANNOTATED                      -     -               -    -  all annotated features are too short to output to feature table [-]
+     15.1.2  AY326412.1  KY989511  -     -       -  noftrant  yes   NO_FEATURES_ANNOTATED           -    -       -    -  all annotated features are too short to output to feature table [-]
+
+CDS_HAS_STOP_CODON cdsstopn
+     14.1.2   KF383120.1  KY989511   CDS          polyprotein                          1  cdsstopn  yes   CDS_HAS_STOP_CODON              3100..3102:+     3    3205..3207:+    3  in-frame stop codon exists 5' of stop position predicted by homology to reference [TGA, shifted M:7171]
+
+     in-frame stop codon exists 5' of stop position predicted by homology to reference [TGA, shifted M:7171]
+
+     Shifted the expected stop codon 7171 positions early?
+
+     Ask Eric -- Interesting because the reference model also has this "early TGA" IDK? 
+ 
+CDS_HAS_STOP_CODON  cdsstopp  
+
+     7.1.1    LR792671.1  NC_035889  CDS          polyprotein                          2  cdsstopp  yes   CDS_HAS_STOP_CODON                596..598:+     3    9657..9659:+    3  stop codon in protein-based alignment [-]
+     TGA 
+
+     14.1.3   KF383120.1  KY989511   CDS          polyprotein                          1  cdsstopp  yes   CDS_HAS_STOP_CODON              3100..3102:+     3    3206..3208:+    3  stop codon in protein-based alignment [-]
+     GAGAGTGA-TTG
+
+POSSIBLE_FRAMESHIFT_HIGH_CONF fsthicft- frame not restored before end
+
+     What happens when the sequence coordinates and the model coordinates are much different?
+
+     #=GS LR792671.1 DE |Zika virus partial ns5 gene for nonstructural protein 5, strain 160621054.5
+
+     7.1.2    LR792671.1  NC_035889  CDS          polyprotein                          2  fsthicft  yes   POSSIBLE_FRAMESHIFT_HIGH_CONF     729..747:+    19    9791..9808:+   18  
+     
+     high confidence possible frameshift in CDS (frame not restored before end) [cause:insert,S:729(1),M:9790; frame:<12121321(2)>; length:<7:570:15:27:12:15:47:35:(19)>; shifted_avgpp:0.859; exp_avgpp:0.919;]
+
+     ACTTTCCTT
+
+     Confused about how this is alerting, it says there is a frameshift in the 729 region, however the region in the stk file aligns closer to 9791..9808, does this mean it is 729 to the beginning of 
+     where the short sequence begins?
+
+POSSIBLE_FRAMESHIFT_HIGH_CONF fsthicfi
+
+#=GS LR792671.1 DE |Zika virus partial ns5 gene for nonstructural protein 5, strain 160621054.5
+     7.1.3    LR792671.1  NC_035889  CDS          polyprotein                          2  fsthicfi  yes   POSSIBLE_FRAMESHIFT_HIGH_CONF       8..577:+   570    9067..9636:+  570  
+     high confidence possible frameshift in CDS (frame restored before end) [cause:insert,S:8(1),M:9066; restore:delete,S:577,M:9636(1); frame:<1(2)1213212>; length:<7:(570):15:27:12:15:47:35:19>; shifted_avgpp:0.973; exp_avgpp:0.939;]
+     7.1.4    LR792671.1  NC_035889  CDS          polyprotein                          2  fsthicfi  yes   POSSIBLE_FRAMESHIFT_HIGH_CONF     593..619:+    27    9652..9681:+   30  
+     high confidence possible frameshift in CDS (frame restored before end) [cause:delete,S:592,M:9652..9653(2); restore:delete,S:619,M:9681(1); frame:<121(2)13212>; length:<7:570:15:(27):12:15:47:35:19>; shifted_avgpp:0.880; exp_avgpp:0.883;]
+     7.1.5    LR792671.1  NC_035889  CDS          polyprotein                          2  fsthicfi  yes   POSSIBLE_FRAMESHIFT_HIGH_CONF     632..693:+    62    9694..9755:+   62  
+     high confidence possible frameshift in CDS (frame restored before end) [cause:delete,S:631,M:9694(1); restore:insert,S:692..693(2),M:9755; frame:<12121(32)12>; length:<7:570:15:27:12:(15:47):35:19>; shifted_avgpp:0.894; exp_avgpp:0.910; intermediate:delete,S:646,M:9710(1);]
+
+#=GS MH306202.1 DE |Zika virus strain ZIKV_BR/MT_CbaH_1631/2015 polyprotein, envelope protein region, gene, partial cds
+10.2.2   MH306202.1  NC_035889  CDS          polyprotein                          2  fsthicfi  yes   POSSIBLE_FRAMESHIFT_HIGH_CONF     176..193:+    18    1980..1997:+   18  
+high confidence possible frameshift in CDS (frame restored before end) [cause:delete,S:175,M:1980(1); restore:insert,S:193(1),M:1997; frame:<2(1)2>; length:<175:(18):13>; shifted_avgpp:0.899; exp_avgpp:0.971;]
+
+Look into Blastx 
+
+With Eric, talked about the meaning of the frameshifted mutations and stop codons (what does the 1 vs. 2 vs. 3 frame look like?) 
+Look at model locations rather than sequence locations. 
+
+EBD, Tue Nov  5 12:06:24 2024
+
+ MK216746.1  NC_035889  CDS          polyprotein                          2  indf3pst  yes   INDEFINITE_ANNOTATION_END         487..494:+     8  10379..10379:+    1  protein-based alignment does not extend close enough to nucleotide-based alignment 3' endpoint [8\
+>5, no valid stop codon in nucleotide-based prediction]
+
+7.1.6    LR792671.1  NC_035889  CDS          polyprotein                          2  indf5pst  yes   INDEFINITE_ANNOTATION_START          1..10:+    10      108..108:+    1  protein-based alignment does not extend close enough t\
+o nucleotide-based alignment 5' endpoint [10>5]
+7.1.7    LR792671.1  NC_035889  CDS          polyprotein                          2  indf3pst  yes   INDEFINITE_ANNOTATION_END         623..747:+   125  10379..10379:+    1  protein-based alignment does not extend close enough t\
+o nucleotide-based alignment 3' endpoint [125>5, no valid stop codon
+in nucleotide-based prediction]
+
+Annotation End
+
+7.1.7    LR792671.1  NC_035889  CDS          polyprotein                          2  indf3pst  yes   INDEFINITE_ANNOTATION_END         623..747:+   125  10379..10379:+    1  protein-based alignment does not extend close enough t\
+o nucleotide-based alignment 3' endpoint [125>5, no valid stop codon
+in nucleotide-based prediction]
+
+9.1.1    MK216746.1  NC_035889  CDS          polyprotein                          2  indf3pst  yes   INDEFINITE_ANNOTATION_END         487..494:+     8  10379..10379:+    1  protein-based alignment does not extend close enough t\
+o nucleotide-based alignment 3' endpoint [8>5, no valid stop codon in nucleotide-based prediction]
+
+1.2.5   MK028862.1  NC_035889  CDS          polyprotein                          2  indf3pst  yes   INDEFINITE_ANNOTATION_END       7401..9901:+  2501  10379..10379:+    1  protein-based alignment does not extend close enough t\
+o nucleotide-based alignment 3' endpoint [2501>5, no valid stop codon in nucleotide-based prediction]
+
+13.1.1   KY561344.1  NC_035889  CDS          polyprotein                          2  indf3pst  yes   INDEFINITE_ANNOTATION_END         403..410:+     8  10379..10379:+    1  protein-based alignment does not extend close enough t\
+o nucleotide-based alignment 3' endpoint [8>5, no valid stop codon in
+nucleotide-based prediction]
+
+344.1  NC_035889  CDS   KY765304.       polyprotein                          2  indf3pst  yes   INDEFINITE_ANNOTATION_END         403..410:+     8  10379..10379:+    1  protein-based alignment does not extend close enough t\
+o nucleotide-based alignment 3' endpoint [8>5, no valid stop codon in nucleotide-based prediction]
+              
+Annotation Start
+
+7.1.6    LR792671.1  NC_035889  CDS          polyprotein                          2  indf5pst  yes   INDEFINITE_ANNOTATION_START          1..10:+    10      108..108:+    1  protein-based alignment does not extend close enough t\
+o nucleotide-based alignment 5' endpoint [10>5]
+
+12.1.1   KY765304.1  NC_035889  CDS          polyprotein                          2  indf5pst  yes   INDEFINITE_ANNOTATION_START           1..8:+     8      108..108:+    1  protein-based alignment does not extend close enough t\
+o nucleotide-based alignment 5' endpoint [8>5]     
+
+All indf3pst alerts, Meaning to short of a blastx alignment
+
+Description from the alert.md file:
+
+If the protein validation stage for a sequence results in too short of blastx alignment of the predicted CDS to the reference protein that does not extend close enough to the 3' boundary of the predicted CDS, the indf3pst alert will be reported. 
+Certain regions aren't covered by the blastx alignment:
+
+
+Don't do split for smaller sequences
+First thing to look at is the nucleotide alignment 
+
+LR79...is jacked
+KY561344.1 - it didn't include one last amino acid, two mismatched
+amino acids at the end
+
+Thursday, November 7th 
+
+Useing infernal, scanned infernal 
+   Query:       KY989511.1  [L=10807]
+Description: Zika virus strain MR 766, complete genome
+Hit scores:
+ rank     E-value  score  bias  modelname        start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------------- ------ ------   --- ----- ----  -----------
+  (1) !   2.1e-12   69.0   0.0  Flavivirus-5UTR      1    161 +  cm    no 0.42  Flavivirus 5' UTR
+  (2) !   8.8e-12   62.2   0.0  Flavivirus_DB    10617  10690 +  cm    no 0.57  Flavivirus DB element
+  (3) !   4.9e-09   57.3   0.0  DENV_SLA             1     71 +  cm    no 0.46  Dengue virus SLA
+  (4) !   5.3e-08   54.1   0.0  Flavi_CRE        10710  10807 +  cm    no 0.60  Flavivirus 3' UTR cis-acting replication element (CRE)
+ ------ inclusion threshold ------
+  (5) ?     0.037   27.1   0.0  cHP                107    154 +  cm    no 0.40  Flavivirus capsid hairpin cHP
+  (6) ?     0.061   31.1   0.0  Flavi_ISFV_CRE   10708  10803 +  cm    no 0.62  Insect-specific Flavivirus 3' UTR cis-acting replication eleme
+  (7) ?      0.24   16.7   0.0  SOX2OT_exon4     10411  10493 + hmm     - 0.58  SOX2 overlapping transcript exon 4
+  (8) ?       3.8   19.4   0.0  ceN30             5734   5652 -  cm    no 0.48  Caenorhabditis snoRNA ceN30
+  (9) ?       4.6   17.6   0.0  U7                5059   4993 -  cm    no 0.54  U7 small nuclear RNA
+ (10) ?       4.6   12.9   0.0  TtnuCD29          2349   2298 - hmm     - 0.46  Tetrahymena snoRNA TtnuCD29
+ (11) ?         5   22.9   0.0  Flavivirus_SLIV  10391  10466 +  cm    no 0.59  Flavivirus 3'UTR stem loop IV
+ (12) ?       7.9   19.1   0.0  sn2429            3666   3710 +  cm    no 0.47  Small nucleolar RNA sn2429  
+
+
+Choosen elements for KY989511
+
+   (1) !   2.1e-12   69.0   0.0  Flavivirus-5UTR      1    161 +  cm    no 0.42  Flavivirus 5' UTR
+   (2) !   8.8e-12   62.2   0.0  Flavivirus_DB    10617  10690 +  cm    no 0.57  Flavivirus DB element
+  *(3) !   4.9e-09   57.3   0.0  DENV_SLA             1     71 +  cm    no 0.46  Dengue virus SLA
+   (4) !   5.3e-08   54.1   0.0  Flavi_CRE        10710  10807 +  cm    no 0.60  Flavivirus 3' UTR cis-acting replication element (CRE)
+
+  * (5) ?     0.037   27.1   0.0  cHP                107    154 +  cm    no 0.40  Flavivirus capsid hairpin cHP
+   (11) ?         5   22.9   0.0  Flavivirus_SLIV  10391  10466 +  cm    no 0.59  Flavivirus 3'UTR stem loop IV
+
+         Flavivirus-5UTR    
+         Flavivirus_DB   
+         Flavi_CRE
+         Flavivirus_SLIV
+
+  The SLA and capsid hairpin are contained within the Flavivirus 5' UTR
+
+From written notes, August 21st, and correspondence with Eric on August 22nd for NC_012532 and NC_035889
+
+ EBD
+
+     "Hey, so I was talking to Alvin, and we realized that the DENV_SLA is actually a highly conserved region in all flaviviruses, including zika, it is just labeled as DENV_SLA. 
+     It should probably be called flavi_SLA. 
+     So there is a possibility in the cmscan that the sla is contained in the 5UTR."
+  
+ EPN
+
+     "Nice catch! I did some searching in Rfam and it confirms what you wrote. The Flavivirus-5UTR model (RF03546) does include the SLA. That model was made after the DENV_SLA
+     (RF02340 - the model accessions are created in order, e.g. RF00001 was the first family made), and incorporates the SLA region plus SLB and the chP region, as explained here:
+     https://rfam.org/family/RF03546#tabview=tab0
+     Not all of the Rfam families have an informative ‘summary’ page, but Flavivirus-5UTR does. The DENV_SLA and Flavivirus-5UTR models are kind of ‘overlapping’, and are expected to match 
+     well to overlapping regions in flavivirus genomes. When this happens, Rfam puts the families together into what it calls a clan. What happened here is that someone probably published 
+     a paper about the SLA region specifically in Dengue and included an alignment. The Rfam curators saw that paper and made the DENV_SLA model, then later someone made a better alignment 
+     of the SLA region plus additional conserved secondary structure in the 5'UTR of a broader range of flaviviruses, and created the Flavivirus-5UTR model"
+
+Eric's correspondence with Eneida:
+
+     EB has already spent some time using Rfam and Infernal to predict
+     structural RNA regions in the two existing Zika RefSeqs NC_012532 and
+     NC_035889. These overlap with the RNA elements annotated in the Dengue
+     RefSeqs NC_001477, NC_001474, NC_001475 and NC_002640, but are not
+     exactly the same. For example, in the Dengue Refseqs there are four
+     sfRNA (sfRNA1, sfRNA2, sfRNA3, sfRNA4) features that do not correspond
+     to Rfam models. Do you remember how the Dengue ncRNA/stem_loop regions
+     were determined specifically? My memory is fuzzy but I think you had
+     an outside expert that helped in this.  Other features in the Dengue
+     RefSeqs, e.g. the DBI and DBII stem_loops in the 3' UTR correspond to
+     stem loops in the Rfam RF00525 model. We've included the Rfam elements
+     we think should be annotated in the Zika RefSeqs at the end of this
+     email.
+
+     We also noticed NC_012532 is from a sentinel monkey host and NC_035889
+     seems to be "Asian genotype"?  Do you think there should be an
+     additional RefSeq for "African genotype" so that the RefSeqs cover
+     both human Zika genotypes? And are "Asian genotype" and "African
+     genotype" the commonly used names for the genotypes?
+
+     Our proposed Zika Rfam annotations:
+
+     Flavivirus-5UTR (RF03546) - this includes SLA, SLB and chP stem_loops
+     NC_012532 1..161
+     NC_035889 1..162
+
+     Flavivirus-DB (RF00525)
+     NC_012532 10605..10678
+     NC_035889 10618..10691
+
+     Flavivirus-SLIV (RF01415) - 3' UTR stem_loop IV
+     NC_012532 10379..10454 and 10463..10535
+     NC_035889 10392..10467 and 10476..10548
+
+     Flavi_CRE (RF00185) - this includes the homolog of the Dengue sHP and 3' SL
+     NC-012532 10697..10794
+     NC_035589 10711..10807
+
+     The positions above are for the Rfam models, the positions of the
+     actual stem_loop regions in the RefSeq annotation would be different,
+     because (at least for Dengue) these correspond to the actual stem loop
+     regions whereas the Rfam models include the stem loops (often multiple
+     stem loops) plus some positions outside of the stem loops. If you are
+     able to work on this and add RNA annotations, let us know and we can
+     determine more specific stem_loop boundaries.
+
+Tuesday, November 12th
+
+     (1) !   2.1e-12   69.0   0.0  Flavivirus-5UTR      1    161 +  cm    no 0.42  Flavivirus 5' UTR
+     (11)?         5   22.9   0.0  Flavivirus_SLIV  10391  10466 +  cm    no 0.59  Flavivirus 3'UTR stem loop IV
+     (2) !   8.8e-12   62.2   0.0  Flavivirus_DB    10617  10690 +  cm    no 0.57  Flavivirus DB element
+     (4) !   5.3e-08   54.1   0.0  Flavi_CRE        10710  10807 +  cm    no 0.60  Flavivirus 3' UTR cis-acting replication element (CRE)
+
+Wednesday, November 13th
+
+     Wanted to check if there was another Flavivirus_SLIV, so I extended the boundaries of the e-value with
+     cmscan -T 10 Rfam.cm KY989511.fa > KY989511.cmscan
+
+     And there was:
+     (14) !        14   20.6   0.0  Flavivirus_SLIV  10475  10547 +  cm    no 0.59  Flavivirus 3'UTR stem loop IV
+
+     10391 - 10466 (341)
+     10475 - 10547 (260)
+
+     (1) !   2.1e-12   69.0   0.0  Flavivirus-5UTR      1    161 +  cm    no 0.42  Flavivirus 5' UTR
+     (11)?         5   22.9   0.0  Flavivirus_SLIV  10391  10466 +  cm    no 0.59  Flavivirus 3'UTR stem loop IV
+     (14)!         4   20.6   0.0  Flavivirus_SLIV  10475  10547 +  cm    no 0.59  Flavivirus 3'UTR stem loop IV
+     (2) !   8.8e-12   62.2   0.0  Flavivirus_DB    10617  10690 +  cm    no 0.57  Flavivirus DB element
+     (4) !   5.3e-08   54.1   0.0  Flavi_CRE        10710  10807 +  cm    no 0.60  Flavivirus 3' UTR cis-acting replication element (CRE)
+
+
+
+     Document about parameter expansion:
+     https://mywiki.wooledge.org/BashGuide/Parameters#Parameter_Expansion
+
+Thursday, November 14th
+     Jaya taught me this one 
+     for sample in `cat names`; do cp test.${sample} KY989511.${sample};done    
+
+     vi names
+
+for f1 in *.fasta; do f2=${f1%%.fasta}".aln"; mafft [input options] f1 > f2; done
+
+automate it however you like, in this example we align everything thats in fasta files and name them accordingly so that your samples don't get mixed up. 
+you might already know this though since you said you're comfortable in bash, but its one of my favorite ways to automate shit
+
+To rename the .1l* files 
+for file in *.i1*; do mv ${file} old.${file}; done 
+
+Monday, November 18th
+     zikv-comp.fa (2526 sequences)
+
+     Cleaning process 
+     
+     1.) Removed UNVERIFIED and Patent sequences using:
+         awk -vRS=">" -vORS="" -vFS="\n" -vOFS="\n" 'NR>1 && $1!~/UNVERIFIED|Patent/ {print ">"$0}' zikv-comp.fa > zikv-comp-cl.fa
+
+     zikv-comp-cl.fa (2316 sequences)
+     
+     2.) Create an accension list (zikv-comp-cl.list)
+     With labels 
+     grep '^>' zikv-comp-cl.fa | sed 's/^>//' > zikv-comp-cl.list
+
+     Without labels
+     cat zikv-comp-cl.fa | grep '>' |  awk ' {print $1}'| sed 's/^>//' > zikv-comp-cl.list
+       
+     3.) Sanity check for correct number of sequences 
+     grep -c . zikv-comp-cl.list
+
+     4.) Use idfetch to create a genbank file:
+          idfetch -t 3 -c 1 -G zikv-comp-cl.list > zikv-comp-cl.gb
+
+     5.) Remove accessions that are categorized as SYN and PAT:
+     awk '/^LOCUS/ && $7 !~ /SYN|PAT/ { locus_check = 1 } /^VERSION/ && locus_check { print $2; locus_check = 0 }' zikv.gb > clean.list
+
+     2262 sequences left
+
+     6.) convert back into a fasta file
+
+     > esl-sfetch --index zikv-comp.fa
+     > esl-sfetch -f zikv-comp.fa all-cl.list > zikv-all-cl.fa
+
+     7.) Sanity check esl-seqstat
+
+     Format:              FASTA
+     Alphabet type:       DNA
+     Number of sequences: 2262
+     Total # residues:    15663567
+     Smallest:            71
+     Largest:             11155
+     Average length:      6924.7
+
+     8.) run v-annotate
+
+     Genome wide diversity of Zika 
+     https://pmc.ncbi.nlm.nih.gov/articles/PMC9035895/
+
+     Zika genomics urgently need standardized and curated reference sequences
+     https://pmc.ncbi.nlm.nih.gov/articles/PMC5589256/
+
+     They are proposing to replace NC_012532 with KX369547
+     Needs to include the 4-aa motif 
+
+Wednesday, Nov 20th
+
+Our model KY989511 works well, but could we potentially use something from a mosquito or human host?
+
+* Full RNA 
+** One nuc missing
+
+#=GS LY589882.1 DE |KR 1020180097558-A/11: ZIKA VIRUS VACCINE
+#=GS MG758785.1 DE |Zika virus isolate 41525, complete genome
+#=GS LC002520.1 DE |Zika virus genomic RNA, complete genome, strain: MR766-NIID
+#=GS KU955591.1 DE |Zika virus isolate Zika virus/A.africanus-tc/SEN/1984/41525-DAK, complete genome
+https://journals.asm.org/doi/10.1128/genomea.00377-16
+
+
+*MG758785.1 
+*LC002520.1  
+**KU955591.1   
+*KY989511.1  
+*LY589882.1 
+
+*KY989511.1
+*MG758785.1 
+*LY589882.1 
+*LC002520.1
+**KU955591.1 https://journals.asm.org/doi/10.1128/genomea.00377-16
+
+All complete seqs with HS hosts 
+https://www.ncbi.nlm.nih.gov/nuccore/OL414716.1
+https://www.ncbi.nlm.nih.gov/nuccore/MK241415.1
+https://www.ncbi.nlm.nih.gov/nuccore/MK241416.1
+https://www.ncbi.nlm.nih.gov/nuccore/MK241417.1
+https://www.ncbi.nlm.nih.gov/nuccore/MN025403.1
+
+
+Thursday, Nov 21
+
+     https://www.nature.com/articles/s41467-020-14647-9
+
+     C - viral capsid protein, since it binds to 
+     viral RNA in the process of nucleocapsid assembly and plays important roles in virus infection processes 
+     by interacting with cellular proteins, modulating cellular metabolism, apoptosis and immune response.
+
+     #idx  model      group  subgroup  seqs  pass  fail
+     #---  ---------  -----  --------  ----  ----  ----
+     1     NC_035889  -      -         1994  1951    43
+     2     KY989511   -      -          268   254    14
+     #---  ---------  -----  --------  ----  ----  ----
+     -     *all*      -      -         2262  2205    57
+     -     *none*     -      -            0     0     0
+     #---  ---------  -----  --------  ----  ----  ----
+
+  
+Aligning the human strains to the MRR 766 strain
+
+What is the origin of MRR 766, what are some features that distinguish
+from other african strains and other asian strains?
+
+For viruses sequenced from mosquitos, do a lot of them circulate in
+people as well?
+
+For Eneida,
+
+     History of "lab strains"
+     African refseq, human or mosquito?
+
+     Is the current asian one still good
+     How do you feel about adding structural RNA that is consistent with
+     ZIKV? You did it Dengue, can you do this for zikv! 
+
+     5' UTR containes cHP and SLA/SLB  in the 
+
+     Web VADR - can you add zika models?
+
+     Why do they fail?
+
+Friday, November 22nd, 2024
+
+     Downloaded Paperpile 
+     Met with Eneida and Eric -
+
+     Presented "pres_eneida_Nov_22"
+
+     Eneida seemed to like our suggestions of the new African model, and said that she would also add our suggested
+     gene annotations
+
+     Suggestions:
+
+    -Next clade tool, combining vadr with NextClade in a docker to make it easier to run (maybe)
+    -Web VADR version (expected to happen by 2025)
+    -adding back unverified seqs (a suggestion from Eneida)
+
+    Next steps:
+    1.) rerun the models with unverified sequences 
+    2.) start investigating trees/emailing the Seaborn et al. group for their clade information and accession numbers
+
+Monday, November 25th 
+
+     Wanted to rerun the whole zikv sequences and leave in the unverified sequences, per Eneida's request
+
+     To pull out only patent sequences
+     awk -vRS=">" -vORS="" -vFS="\n" -vOFS="\n" 'NR>1 && $1!~/Patent/ {print ">"$0}' zikv-comp.fa > zikv-unverified.fa
+
+     grep -c . zikv-unverified.list
+     2389 seqs 
+
+     awk '/^LOCUS/ && $7 !~ /SYN|PAT/ { locus_check = 1 } /^VERSION/ && locus_check { print $2; locus_check = 0 }' zikv-unverified.gb > zikv-unverified-cl.list
+     2335 seqs 
+
+Tuesday, November 26th 
+
+     From the Seabra paper https://app.paperpile.com/view/?id=3e1e0f6d-896a-4f8d-b3d0-b9f4d7b50958
+
+     Revcomplemented 
+
+     
+     OK573004.1 |UNVERIFIED: Zika virus FDA:FDAARGOS_863 genomic sequence
+     OK573007.1 |UNVERIFIED: Zika virus FDA:FDAARGOS_860 genomic sequence
+     OK573008.1 |UNVERIFIED: Zika virus FDA:FDAARGOS_859 genomic sequence
+     OK573247.1 |UNVERIFIED: Zika virus FDA:FDAARGOS_840 genomic sequence
+     OK573251.1 |UNVERIFIED: Zika virus FDA:FDAARGOS_837 genomic sequence
+     OK573255.1 |UNVERIFIED: Zika virus FDA:FDAARGOS_835 genomic sequence
+     OK573256.1 |UNVERIFIED: Zika virus FDA:FDAARGOS_835 genomic sequence
+     OK573283.1 |UNVERIFIED: Zika virus FDA:FDAARGOS_807 genomic sequence
+     OK573284.1 |UNVERIFIED: Zika virus FDA:FDAARGOS_982 genomic sequence
+     OK573286.1 |UNVERIFIED: Zika virus FDA:FDAARGOS_980 genomic sequence
+     OK573287.1 |UNVERIFIED: Zika virus FDA:FDAARGOS_980 genomic sequence
+     OK573291.1 |UNVERIFIED: Zika virus FDA:FDAARGOS_978 genomic sequence
+     OK573293.1 |UNVERIFIED: Zika virus FDA:FDAARGOS_806 genomic sequence
+     OK573294.1 |UNVERIFIED: Zika virus FDA:FDAARGOS_977 genomic sequence
+     OK573297.1 |UNVERIFIED: Zika virus FDA:FDAARGOS_976 genomic sequence
+     OK573298.1 |UNVERIFIED: Zika virus FDA:FDAARGOS_976 genomic sequence
+     OK573301.1 |UNVERIFIED: Zika virus FDA:FDAARGOS_974 genomic sequence
+     OK573304.1 |UNVERIFIED: Zika virus FDA:FDAARGOS_805 genomic sequence
+     OK573306.1 |UNVERIFIED: Zika virus FDA:FDAARGOS_971 genomic sequence
+
+     UNEXPECTED_LENGTH
+
+     KY325480.1 |UNVERIFIED: Zika virus isolate Zika virus/H.sapiens-wt/USA/2016/FLUR001 polyprotein-like gene, complete sequence
+     KY325482.1 |UNVERIFIED: Zika virus isolate Zika virus/H.sapiens-wt/USA/2016/FLUR014 polyprotein-like gene, complete sequence
+     KY325483.1 |UNVERIFIED: Zika virus isolate Zika virus/H.sapiens-wt/USA/2016/FLUR015 polyprotein-like gene, complete sequence
+     MH882549.1 |UNVERIFIED: Zika virus isolate Zika virus/H.sapiens-wt/BRA/2016/ZKV19uri_2016-04-30, partial genome
+     MH916801.1 |UNVERIFIED: Zika virus strain ZIKV/Homo sapiens/PRI/PRVABC59_4/2015 genomic sequence, sequence
+     MH916804.1 |UNVERIFIED: Zika virus strain ZIKV/Homo sapiens/PRI/PRVABC59_15/2015 genomic sequence, sequence
+     MH916805.1 |UNVERIFIED: Zika virus strain ZIKV/Homo sapiens/PRI/PRVABC59_7/2015 genomic sequence, sequence
+     
+     MH157195.1 |UNVERIFIED: Zika virus strain ZIKV/Homo sapiens/MEX/41-022-F_V3_O/2016 genomic sequence, sequence
+     MH157196.1 |UNVERIFIED: Zika virus strain ZIKV/Homo sapiens/MEX/41-023-F_V7_O/2016 genomic sequence, sequence
+     MH157197.1 |UNVERIFIED: Zika virus strain ZIKV/Homo sapiens/MEX/41-006-F_V7_O/2016 genomic sequence, sequence
+     MH157199.1 |UNVERIFIED: Zika virus strain ZIKV/Homo sapiens/MEX/41-017-F_V0_O/2016 genomic sequence, sequence
+     MH157200.1 |UNVERIFIED: Zika virus strain ZIKV/Homo sapiens/MEX/43-023-F_V0_O/2016 genomic sequence, sequence
+     MH157201.1 |UNVERIFIED: Zika virus strain ZIKV/Homo sapiens/MEX/41-001-F_V7_O/2016 genomic sequence, sequence
+     MH157203.1 |UNVERIFIED: Zika virus strain ZIKV/Homo sapiens/MEX/42-001-F_V3_O/2016 genomic sequence, sequence
+     MH157204.1 |UNVERIFIED: Zika virus strain ZIKV/Homo sapiens/MEX/43-023-F_V3_O/2016 genomic sequence, sequence
+     MH157205.1 |UNVERIFIED: Zika virus strain ZIKV/Homo sapiens/MEX/41-017-F_V7_O/2016 genomic sequence, sequence
+     MH157206.1 |UNVERIFIED: Zika virus strain ZIKV/Homo sapiens/MEX/42-018-F_V3_O/2016 genomic sequence, sequence
+     MH157207.1 |UNVERIFIED: Zika virus strain ZIKV/Homo sapiens/MEX/41-022-F_V7_O/2016 genomic sequence, sequence
+     MH157209.1 |UNVERIFIED: Zika virus strain ZIKV/Homo sapiens/MEX/41-006-F_V0_O/2016 genomic sequence, sequence
+     MH157210.1 |UNVERIFIED: Zika virus strain ZIKV/Homo sapiens/MEX/41-023-F_V3_O/2016 genomic sequence, sequence
+     MH157212.1 |UNVERIFIED: Zika virus strain ZIKV/Homo sapiens/MEX/42-016-F_V0_O/2016 genomic sequence, sequence
+     MH157214.1 |UNVERIFIED: Zika virus strain ZIKV/Homo sapiens/MEX/42-001-F_V0_O/2016 genomic sequence, sequence
+     MH882549.1 |UNVERIFIED: Zika virus isolate Zika virus/H.sapiens-wt/BRA/2016/ZKV19uri_2016-04-30, partial genome
+     MH916801.1 |UNVERIFIED: Zika virus strain ZIKV/Homo sapiens/PRI/PRVABC59_4/2015 genomic sequence, sequence
+     MH916804.1 |UNVERIFIED: Zika virus strain ZIKV/Homo sapiens/PRI/PRVABC59_15/2015 genomic sequence, sequence
+     MH916805.1 |UNVERIFIED: Zika virus strain ZIKV/Homo sapiens/PRI/PRVABC59_7/2015 genomic sequence, sequence
+
+     CDS_HAS_STOP_CODON
+
+     KF383120.1
+     KY325480.1
+     KY325481.1
+     KY325482.1
+     KY325483.1
+     LR792671.1
+     MH157195.1
+     MH157196.1
+     MH157197.1
+     MH157199.1
+     MH157200.1
+     MH157201.1
+     MH157203.1
+     MH157204.1
+     MH157205.1
+     MH157206.1
+     MH157207.1
+     MH157209.1
+     MH157210.1
+     MH157212.1
+     MH157214.1
+     MH882549.1
+     MH916801.1
+     MH916804.1
+     MH916805.1
+     MW143017.1
+     MW143018.1
+     MW143019.1
+     MW143020.1
+     MW143021.1
+     OK573252.1
+     
+     KF383120.1 |Zika virus strain ArD142623 nonfunctional polyprotein gene, partial sequence
+     KY325480.1 |UNVERIFIED: Zika virus isolate Zika virus/H.sapiens-wt/USA/2016/FLUR001 polyprotein-like gene, complete sequence
+     KY325481.1 |UNVERIFIED: Zika virus isolate Zika virus/H.sapiens-wt/USA/2016/FLUR005 polyprotein-like gene, complete sequence
+     KY325482.1 |UNVERIFIED: Zika virus isolate Zika virus/H.sapiens-wt/USA/2016/FLUR014 polyprotein-like gene, complete sequence
+     KY325483.1 |UNVERIFIED: Zika virus isolate Zika virus/H.sapiens-wt/USA/2016/FLUR015 polyprotein-like gene, complete sequence
+     LR792671.1 |Zika virus partial ns5 gene for nonstructural protein 5, strain 160621054.5
+
+Wednesday, Nov 27th! 
+
+     Talked with eric about separating all of the 759 accessions from the Seabra paper by genotpe and clade! I did this 
+     in zikv-clade-assession.R, and imported all the different accession lists depending on the clade. Next step is to convert each list to a fasta file 
+
+     
+     > esl-sfetch --index zikv-comp.fa
+     > esl-sfetch -f zikv-comp.fa all-cl.list > zikv-all-cl.fa
+
+Thursday, December 5th
+
+     What is the genotype for NC_035889? Should we choose another reference genome that is known? 
+
+     Aligned sequences with mafft, and created a preliminary Phylogenetic tree
+     Used an alignment viewer to look at the 762 dataset
+
+     Initial thoughts 
+     south-america, low_feature similarity_start for 
+
+Friday, December 6th 
+
+     Instructions for pulling out metadata for zikv/genbank 
+
+     idfetch -t 3 -c 1 -G zika.acc > zika.gb
+
+     Pull accession name
+     In Features...pull source, and /geo_loc_name= "Uganda: Entebbe" 
+
+     If Title "Direct Submission", pull name of submitter, after (13-OCT-2020)
+
+December 6th - 14th
+
+         Created Python scripts to extract the best model for the
+         Asian genotype
+
+
+
+     
+
+
+
+
+
+
+
+
+
+       
+
+
+
