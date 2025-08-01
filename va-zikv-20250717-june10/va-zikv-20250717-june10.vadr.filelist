@@ -1,0 +1,20 @@
+# esl-seqstat -a output for input fasta file saved in:                             va-zikv-20250717-june10.vadr.seqstat
+# model KY989511 full original sequence alignment(stk) saved in:                   va-zikv-20250717-june10.vadr.KY989511.align.stk
+# model MG807646 full original sequence alignment(stk) saved in:                   va-zikv-20250717-june10.vadr.MG807646.align.stk
+# model NC_035889 full original sequence alignment(stk) saved in:                  va-zikv-20250717-june10.vadr.NC_035889.align.stk
+# 5 column feature table output for passing sequences saved in:                    va-zikv-20250717-june10.vadr.pass.tbl
+# 5 column feature table output for failing sequences saved in:                    va-zikv-20250717-june10.vadr.fail.tbl
+# list of passing sequences saved in:                                              va-zikv-20250717-june10.vadr.pass.list
+# list of failing sequences saved in:                                              va-zikv-20250717-june10.vadr.fail.list
+# list of alerts in the feature tables saved in:                                   va-zikv-20250717-june10.vadr.alt.list
+# fasta file with passing sequences saved in:                                      va-zikv-20250717-june10.vadr.pass.fa
+# fasta file with failing sequences saved in:                                      va-zikv-20250717-june10.vadr.fail.fa
+# per-sequence tabular annotation summary file saved in:                           va-zikv-20250717-june10.vadr.sqa
+# per-sequence tabular classification summary file saved in:                       va-zikv-20250717-june10.vadr.sqc
+# per-feature tabular summary file saved in:                                       va-zikv-20250717-june10.vadr.ftr
+# per-model-segment tabular summary file saved in:                                 va-zikv-20250717-june10.vadr.sgm
+# per-alert tabular summary file saved in:                                         va-zikv-20250717-june10.vadr.alt
+# alert count tabular summary file saved in:                                       va-zikv-20250717-june10.vadr.alc
+# per-model tabular summary file saved in:                                         va-zikv-20250717-june10.vadr.mdl
+# alignment doctoring tabular summary file saved in:                               va-zikv-20250717-june10.vadr.dcr
+# replaced stretches of Ns summary file (-r) saved in:                             va-zikv-20250717-june10.vadr.rpn

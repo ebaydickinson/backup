@@ -1,0 +1,143 @@
+#                                   num   num   num
+#idx  model      group  subgroup   seqs  pass  fail
+#---  ---------  -----  ---------  ----  ----  ----
+1     NC_035889  ZIKV   american    877   865    12
+2     MG807646   ZIKV   ZB.1-asia   243   234     9
+3     KY989511   ZIKV   african     128   119     9
+#---  ---------  -----  ---------  ----  ----  ----
+-     *all*      -      -          1248  1218    30
+-     *none*     -      -             0     0     0
+#---  ---------  -----  ---------  ----  ----  ----
+
+
+
+13    dupregin  yes      DUPLICATE_REGIONS              sequence      3     3  similarity to a model region occurs more than once
+14    discontn  yes      DISCONTINUOUS_SIMILARITY       sequence      2     2  not all hits are in the same order in the sequence and the homology model
+15    lowsim3s  yes      LOW_SIMILARITY_END             sequence      1     1  significant similarity not detected at 3' end of the sequence
+16    lowsimis  yes      LOW_SIMILARITY                 sequence      1     1  internal region without significant similarity
+17    mutendcd  yes      MUTATION_AT_END                 feature      1     1  expected stop codon could not be identified, predicted CDS stop by homology is invalid
+18    mutendex  yes      MUTATION_AT_END                 feature      1     1  expected stop codon could not be identified, first in-frame stop codon exists 3' of predicted stop position
+19    cdsstopn  yes      CDS_HAS_STOP_CODON              feature      5     5  in-frame stop codon exists 5' of stop position predicted by homology to reference
+20    cdsstopp  yes      CDS_HAS_STOP_CODON              feature      5     5  stop codon in protein-based alignment
+21    fsthicfi  yes      POSSIBLE_FRAMESHIFT_HIGH_CONF   feature     22    19  high confidence possible frameshift in CDS (frame restored before end)
+22    peptrans  yes      PEPTIDE_TRANSLATION_PROBLEM     feature    236    18  mat_peptide may not be translated because its parent CDS has a problem
+23    indf3pst  yes      INDEFINITE_ANNOTATION_END       feature      1     1  protein-based alignment does not extend close enough to nucleotide-based alignment 3' endpoint
+24    deletinp  yes      DELETION_OF_NT                  feature      1     1  too large of a deletion in protein-based alignment
+
+dupregin
+
+    yes      DUPLICATE_REGIONS              sequence      3     3  similarity to a model region occurs more than once
+
+    569.1.2    MK028861.1  NC_035889  -            -                                    -  dupregin  yes   DUPLICATE_REGIONS           2..8228:+,10323..10415:+   8320                17..8243:+,2796..2888:+   8320  similarity to a model region occurs more than once [2796..2888:+ (len 93>=20) hits 1 (10935.0 bits) and 3 (49.3 bits)]  
+    1127.1.3   KX197205.1  NC_035889  -            -                                    -  dupregin  yes   DUPLICATE_REGIONS           1..10797:+,10799..10863:+  10862  10..10806:+,10637..10701:+  10862  similarity to a model region occurs more than once [10637..10701:+ (len 65>=20) hits 1 (14363.4 bits) and 2 (49.5 bits)]
+    1166.1.2   KX198134.2  KY989511   -            -                                    -  dupregin  yes   DUPLICATE_REGIONS           368..11117:+,1..367:+  11117  53..10802:+,3169..3535:+  11117  similarity to a model region occurs more than once [3169..3535:+ (len 367>=20) hits 1 (12891.2 bits) and 2 (413.9 bits)]
+
+discontn
+
+    14    discontn  yes      DISCONTINUOUS_SIMILARITY       sequence      2     2  not all hits are in the same order in the sequence and the homology model
+
+    569.1.3   MK028861.1  NC_035889  -            -                                    -  discontn  yes   DISCONTINUOUS_SIMILARITY     2..8228:+,8231..10322:+,10323..10415:+  10412  17..8243:+,8330..10421:+,2796..2888:+  10412  not all hits are in the same order in the sequence and the homology model [seq order: 1,2,3, mdl order: 1,3,2]
+    1166.1.3  KX198134.2  KY989511   -            -                                    -  discontn  yes   DISCONTINUOUS_SIMILARITY    368..11117:+,1..367:+  11117  53..10802:+,3169..3535:+  11117  not all hits are in the same order in the sequence and the homology model [seq order: 2,1, mdl order: 1,2]
+
+lowsim3s
+
+    698.1.3   KY766069.1  NC_035889  -            -                                    -  lowsim3s  yes   LOW_SIMILARITY_END           10766..11155:+   390  10776..10808:+    33  significant similarity not detected at 3' end of the sequence [low similarity region of length 390]
+
+lowsimis
+
+    16    lowsimis  yes      LOW_SIMILARITY                 sequence      1     1  internal region without significant similarity
+
+    1127.1.4   KX197205.1  NC_035889  -            -                                    -  lowsimis  yes   LOW_SIMILARITY                         10798..10798:+      1              10807..10807:+      1  internal region without significant similarity [low similarity region of length 1]
+
+mutendcd
+
+    2  mutendcd  yes   MUTATION_AT_END              10345..10347:+    3  10377..10379:+    3  expected stop codon could not be identified, predicted CDS stop by homology is invalid [ACA]
+    
+
+mutendex
+
+    18    mutendex  yes      MUTATION_AT_END                 feature      1     1  expected stop codon could not be identified, first in-frame stop codon exists 3' of predicted stop position
+   
+    2  mutendex  yes   MUTATION_AT_END              10447..10449:+    3  10479..10481:+    3  expected stop codon could not be identified, first in-frame stop codon exists 3' of predicted stop position [TAG]
+
+cdsstopn
+
+    19    cdsstopn  yes      CDS_HAS_STOP_CODON              feature      5     5  in-frame stop codon exists 5' of stop position predicted by homology to reference
+
+    328.1.1   MW143017.1  KY989511   CDS          polyprotein                          1  cdsstopn  yes   CDS_HAS_STOP_CODON             1431..1433:+    3  1451..1453:+    3  in-frame stop codon exists 5' of stop position predicted by homology to reference [TAA, shifted S:8925,M:8925]
+    329.1.1   MW143018.1  KY989511   CDS          polyprotein                          1  cdsstopn  yes   CDS_HAS_STOP_CODON             1431..1433:+    3  1451..1453:+    3  in-frame stop codon exists 5' of stop position predicted by homology to reference [TAA, shifted S:8925,M:8925]
+    330.1.1   MW143019.1  KY989511   CDS          polyprotein                          1  cdsstopn  yes   CDS_HAS_STOP_CODON             1431..1433:+    3  1451..1453:+    3  in-frame stop codon exists 5' of stop position predicted by homology to reference [TAA, shifted S:8925,M:8925]
+    331.1.1   MW143020.1  KY989511   CDS          polyprotein                          1  cdsstopn  yes   CDS_HAS_STOP_CODON             1431..1433:+    3  1451..1453:+    3  in-frame stop codon exists 5' of stop position predicted by homology to reference [TAA, shifted S:8925,M:8925]
+    332.1.1   MW143021.1  KY989511   CDS          polyprotein                          1  cdsstopn  yes   CDS_HAS_STOP_CODON             1431..1433:+    3  1451..1453:+    3  in-frame stop codon exists 5' of stop position predicted by homology to reference [TAA, shifted S:8925,M:8925]
+
+cdsstopp
+
+    20    cdsstopp  yes      CDS_HAS_STOP_CODON              feature      5     5  stop codon in protein-based alignment
+
+    328.1.2   MW143017.1  KY989511   CDS          polyprotein                          1  cdsstopp  yes   CDS_HAS_STOP_CODON             1431..1433:+    3  1451..1453:+    3  stop codon in protein-based alignment [-]
+    329.1.2   MW143018.1  KY989511   CDS          polyprotein                          1  cdsstopp  yes   CDS_HAS_STOP_CODON             1431..1433:+    3  1451..1453:+    3  stop codon in protein-based alignment [-]
+    330.1.2   MW143019.1  KY989511   CDS          polyprotein                          1  cdsstopp  yes   CDS_HAS_STOP_CODON             1431..1433:+    3  1451..1453:+    3  stop codon in protein-based alignment [-]
+    331.1.2   MW143020.1  KY989511   CDS          polyprotein                          1  cdsstopp  yes   CDS_HAS_STOP_CODON             1431..1433:+    3  1451..1453:+    3  stop codon in protein-based alignment [-]
+    332.1.2   MW143021.1  KY989511   CDS          polyprotein                          1  cdsstopp  yes   CDS_HAS_STOP_CODON             1431..1433:+    3  1451..1453:+    3  stop codon in protein-based alignment [-]        
+
+fsthicfi
+
+    21    fsthicfi  yes      POSSIBLE_FRAMESHIFT_HIGH_CONF   feature     22    19  high confidence possible frameshift in CDS (frame restored before end)
+
+    2.1.1   NC_012532.1  KY989511   CDS          polyprotein                          1  fsthicfi  yes   POSSIBLE_FRAMESHIFT_HIGH_CONF    117..138:+   22    117..138:+   22  high confidence possible frameshift in CDS (frame restored before end) [cause:insert,S:117(1),M:116; restore:delete,S:138,M:138(1); frame:1(2)131; length:10:(22):7020:9:3199; shifted_avgpp:0.901; exp_avgpp:0.930;]
+    2.1.2   NC_012532.1  KY989511   CDS          polyprotein                          1  fsthicfi  yes   POSSIBLE_FRAMESHIFT_HIGH_CONF  7159..7167:+    9  7171..7179:+    9  high confidence possible frameshift in CDS (frame restored before end) [cause:delete,S:7158,M:7171(1); restore:insert,S:7167(1),M:7179; frame:121(3)1; length:10:22:7020:(9):3199; shifted_avgpp:0.811; exp_avgpp:0.975;]
+    3.2.1   PV549934.1   MG807646   CDS          polyprotein                          1  fsthicfi  yes   POSSIBLE_FRAMESHIFT_HIGH_CONF  5076..5099:+   24  5116..5139:+   24  high confidence possible frameshift in CDS (frame restored before end) [cause:delete,S:5075,M:5116(1); restore:insert,S:5099(1),M:5139; frame:1(3)1; length:5008:(24):5240; shifted_avgpp:0.914; exp_avgpp:0.975;]
+    4.2.1   PV549935.1   MG807646   CDS          polyprotein                          1  fsthicfi  yes   POSSIBLE_FRAMESHIFT_HIGH_CONF  5076..5099:+   24  5116..5139:+   24  high confidence possible frameshift in CDS (frame restored before end) [cause:delete,S:5075,M:5116(1); restore:insert,S:5099(1),M:5139; frame:1(3)1; length:5008:(24):5240; shifted_avgpp:0.914; exp_avgpp:0.975;]
+    52.2.1  PQ203661.1   MG807646   CDS          polyprotein                          1  fsthicfi  yes   POSSIBLE_FRAMESHIFT_HIGH_CONF  5082..5105:+   24  5116..5139:+   24  high confidence possible frameshift in CDS (frame restored before end) [cause:delete,S:5081,M:5116(1); restore:insert,S:5105(1),M:5139; frame:1(3)1; length:5002:(24):5240; shifted_avgpp:0.914; exp_avgpp:0.975;]
+    53.2.1  PQ129494.1   MG807646   CDS          polyprotein                          1  fsthicfi  yes   POSSIBLE_FRAMESHIFT_HIGH_CONF  5082..5105:+   24  5116..5139:+   24  high confidence possible frameshift in CDS (frame restored before end) [cause:delete,S:5081,M:5116(1); restore:insert,S:5105(1),M:5139; frame:1(3)1; length:5002:(24):5240; shifted_avgpp:0.914; exp_avgpp:0.975;]
+    54.2.1  PQ129495.1   MG807646   CDS          polyprotein                          1  fsthicfi  yes   POSSIBLE_FRAMESHIFT_HIGH_CONF  5085..5108:+   24  5116..5139:+   24  high confidence possible frameshift in CDS (frame restored before end) [cause:delete,S:5084,M:5116(1); restore:insert,S:5108(1),M:5139; frame:1(3)1; length:5005:(24):5240; shifted_avgpp:0.914; exp_avgpp:0.975;]
+    163.2.2  OM666891.1  MG807646   CDS          polyprotein                          1  fsthicfi  yes   POSSIBLE_FRAMESHIFT_HIGH_CONF    107..130:+   24    116..139:+   24  high confidence possible frameshift in CDS (frame restored before end) [cause:insert,S:107(1),M:115; restore:delete,S:130,M:139(1); frame:1(2)131; length:8:(24):7020:11:3197; shifted_avgpp:0.931; exp_avgpp:0.803;]
+    163.2.3  OM666891.1  MG807646   CDS          polyprotein                          1  fsthicfi  yes   POSSIBLE_FRAMESHIFT_HIGH_CONF  7151..7161:+   11  7172..7182:+   11  high confidence possible frameshift in CDS (frame restored before end) [cause:delete,S:7150,M:7172(1); restore:insert,S:7161(1),M:7182; frame:121(3)1; length:8:24:7020:(11):3197; shifted_avgpp:0.834; exp_avgpp:0.969;]
+    164.2.3  OM666892.1  MG807646   CDS          polyprotein                          1  fsthicfi  yes   POSSIBLE_FRAMESHIFT_HIGH_CONF    102..126:+   25    115..139:+   25  high confidence possible frameshift in CDS (frame restored before end) [cause:insert,S:102(1),M:114; restore:delete,S:126,M:139(1); frame:1(2)131; length:7:(25):7020:8:3200; shifted_avgpp:0.919; exp_avgpp:0.871;]
+    165.2.3  OM666893.1  MG807646   CDS          polyprotein                          1  fsthicfi  yes   POSSIBLE_FRAMESHIFT_HIGH_CONF    106..129:+   24    116..139:+   24  high confidence possible frameshift in CDS (frame restored before end) [cause:insert,S:106(1),M:115; restore:delete,S:129,M:139(1); frame:1(2)131; length:8:(24):7020:8:3200; shifted_avgpp:0.931; exp_avgpp:0.803;]
+    345.2.1  MT439641.1  NC_035889  CDS          polyprotein                          2  fsthicfi  yes   POSSIBLE_FRAMESHIFT_HIGH_CONF     82..109:+   28    112..139:+   28  high confidence possible frameshift in CDS (frame restored before end) [cause:insert,S:82(1),M:111; restore:delete,S:109,M:139(1); frame:1(2)1; length:4:(28):10228; shifted_avgpp:0.910; exp_avgpp:0.931;]
+    346.2.1  MT439642.1  NC_035889  CDS          polyprotein                          2  fsthicfi  yes   POSSIBLE_FRAMESHIFT_HIGH_CONF     84..111:+   28    112..139:+   28  high confidence possible frameshift in CDS (frame restored before end) [cause:insert,S:84(1),M:111; restore:delete,S:111,M:139(1); frame:1(2)1; length:4:(28):10228; shifted_avgpp:0.899; exp_avgpp:0.931;]
+    347.2.1  MT439643.1  NC_035889  CDS          polyprotein                          2  fsthicfi  yes   POSSIBLE_FRAMESHIFT_HIGH_CONF     84..111:+   28    112..139:+   28  high confidence possible frameshift in CDS (frame restored before end) [cause:insert,S:84(1),M:111; restore:delete,S:111,M:139(1); frame:1(2)1; length:4:(28):10228; shifted_avgpp:0.899; exp_avgpp:0.931;]
+    348.2.1  MT439644.1  NC_035889  CDS          polyprotein                          2  fsthicfi  yes   POSSIBLE_FRAMESHIFT_HIGH_CONF     84..111:+   28    112..139:+   28  high confidence possible frameshift in CDS (frame restored before end) [cause:insert,S:84(1),M:111; restore:delete,S:111,M:139(1); frame:1(2)1; length:4:(28):10228; shifted_avgpp:0.899; exp_avgpp:0.931;]
+    349.2.1   MT439645.1  NC_035889 CDS          polyprotein                          2  fsthicfi  yes   POSSIBLE_FRAMESHIFT_HIGH_CONF     84..111:+   28    112..139:+   28  high confidence possible frameshift in CDS (frame restored before end) [cause:insert,S:84(1),M:111; restore:delete,S:111,M:139(1); frame:1(2)1; length:4:(28):10228; shifted_avgpp:0.910; exp_avgpp:0.931;]
+    350.2.1   MT439646.1  NC_035889 CDS          polyprotein                          2  fsthicfi  yes   POSSIBLE_FRAMESHIFT_HIGH_CONF     84..111:+   28    112..139:+   28  high confidence possible frameshift in CDS (frame restored before end) [cause:insert,S:84(1),M:111; restore:delete,S:111,M:139(1); frame:1(2)1; length:4:(28):10228; shifted_avgpp:0.899; exp_avgpp:0.931;]
+    351.2.1   MT439647.1  NC_035889 CDS          polyprotein                          2  fsthicfi  yes   POSSIBLE_FRAMESHIFT_HIGH_CONF     83..110:+   28    112..139:+   28  high confidence possible frameshift in CDS (frame restored before end) [cause:insert,S:83(1),M:111; restore:delete,S:110,M:139(1); frame:1(2)1; length:4:(28):10228; shifted_avgpp:0.899; exp_avgpp:0.931;]
+    
+    1238.1.1  KF383118.1  KY989511  CDS           polyprotein                         1  fsthicfi  yes   POSSIBLE_FRAMESHIFT_HIGH_CONF  7065..7073:+    9  7171..7179:+    9  high confidence possible frameshift in CDS (frame restored before end) [cause:delete,S:7064,M:7171(1); restore:insert,S:7073(1),M:7179; frame:1(3)1; length:7064:(9):3199; shifted_avgpp:0.811; exp_avgpp:0.974;]
+    1247.2.1  EU545988.1  MG807646  CDS           polyprotein                         1  fsthicfi  yes   POSSIBLE_FRAMESHIFT_HIGH_CONF      11..32:+   22    118..139:+   22  high confidence possible frameshift in CDS (frame restored before end) [cause:insert,S:11(1),M:117; restore:delete,S:32,M:139(1); frame:1(2)1; length:10:(22):10240; shifted_avgpp:0.898; exp_avgpp:0.802;]
+    1248.1.1  AY632535.2  KY989511  CDS           polyprotein                         1  fsthicfi  yes   POSSIBLE_FRAMESHIFT_HIGH_CONF    117..138:+   22    117..138:+   22  high confidence possible frameshift in CDS (frame restored before end) [cause:insert,S:117(1),M:116; restore:delete,S:138,M:138(1); frame:1(2)131; length:10:(22):7020:9:3199; shifted_avgpp:0.901; exp_avgpp:0.930;]
+    1248.1.2  AY632535.2  KY989511  CDS           polyprotein                         1  fsthicfi  yes   POSSIBLE_FRAMESHIFT_HIGH_CONF  7159..7167:+    9  7171..7179:+    9  high confidence possible frameshift in CDS (frame restored before end) [cause:delete,S:7158,M:7171(1); restore:insert,S:7167(1),M:7179; frame:121(3)1; length:10:22:7020:(9):3199; shifted_avgpp:0.811; exp_avgpp:0.975;]
+
+peptrans
+
+    22    peptrans  yes      PEPTIDE_TRANSLATION_PROBLEM     feature    236    18  mat_peptide may not be translated because its parent CDS has a problem
+
+    2.1       NC_012532.1  KY989511   mat_peptide  capsid_protein_C                     2  peptrans  yes   PEPTIDE_TRANSLATION_PROBLEM               -    -             -    -  mat_peptide may not be translated because its parent CDS has a problem [-]\
+    192.3.1   MW123924.1  NC_035889  mat_peptide  anchored_capsid_protein_C            3  peptrans  yes   PEPTIDE_TRANSLATION_PROBLEM               -    -               -    -  mat_peptide may not be translated because its parent CDS has a problem [-]
+    328.2.1   MW143017.1  KY989511   mat_peptide  capsid_protein_C                     2  peptrans  yes   PEPTIDE_TRANSLATION_PROBLEM               -    -             -    -  mat_peptide may not be translated because its parent CDS has a problem [-]
+    329.2.1   MW143018.1  KY989511   mat_peptide  capsid_protein_C                     2  peptrans  yes   PEPTIDE_TRANSLATION_PROBLEM               -    -             -    -  mat_peptide may not be translated because its parent CDS has a problem [-]
+    330.2.1   MW143019.1  KY989511   mat_peptide  capsid_protein_C                     2  peptrans  yes   PEPTIDE_TRANSLATION_PROBLEM               -    -             -    -  mat_peptide may not be translated because its parent CDS has a problem [-]
+    331.2.1   MW143020.1  KY989511   mat_peptide  capsid_protein_C                     2  peptrans  yes   PEPTIDE_TRANSLATION_PROBLEM               -    -             -    -  mat_peptide may not be translated because its parent CDS has a problem [-]
+    332.2.1   MW143021.1  KY989511   mat_peptide  capsid_protein_C                     2  peptrans  yes   PEPTIDE_TRANSLATION_PROBLEM               -    -             -    -  mat_peptide may not be translated because its parent CDS has a problem [-]
+    345.3.1   MT439641.1  NC_035889  mat_peptide  anchored_capsid_protein_C            3  peptrans  yes   PEPTIDE_TRANSLATION_PROBLEM               -    -             -    -  mat_peptide may not be translated because its parent CDS has a problem [-]
+    346.3.1   MT439642.1  NC_035889  mat_peptide  anchored_capsid_protein_C            3  peptrans  yes   PEPTIDE_TRANSLATION_PROBLEM               -    -             -    -  mat_peptide may not be translated because its parent CDS has a problem [-]
+    347.3.1   MT439643.1  NC_035889  mat_peptide  anchored_capsid_protein_C            3  peptrans  yes   PEPTIDE_TRANSLATION_PROBLEM               -    -             -    -  mat_peptide may not be translated because its parent CDS has a problem [-]
+    348.3.1   MT439644.1  NC_035889  mat_peptide  anchored_capsid_protein_C            3  peptrans  yes   PEPTIDE_TRANSLATION_PROBLEM               -    -             -    -  mat_peptide may not be translated because its parent CDS has a problem [-]
+    349.3.1   MT439645.1  NC_035889  mat_peptide  anchored_capsid_protein_C            3  peptrans  yes   PEPTIDE_TRANSLATION_PROBLEM               -    -             -    -  mat_peptide may not be translated because its parent CDS has a problem [-]
+    350.3.1   MT439646.1  NC_035889  mat_peptide  anchored_capsid_protein_C            3  peptrans  yes   PEPTIDE_TRANSLATION_PROBLEM               -    -             -    -  mat_peptide may not be translated because its parent CDS has a problem [-]
+    351.3.1   MT439647.1  NC_035889  mat_peptide  anchored_capsid_protein_C            3  peptrans  yes   PEPTIDE_TRANSLATION_PROBLEM               -    -             -    -  mat_peptide may not be translated because its parent CDS has a problem [-]
+    569.4.1   MK028861.1  NC_035889  mat_peptide  anchored_capsid_protein_C            3  peptrans  yes   PEPTIDE_TRANSLATION_PROBLEM                                       -      -                                      -      -  mat_peptide may not be translated because its parent CDS has a problem [-]
+    724.4.2   MF801407.1  NC_035889  mat_peptide  anchored_capsid_protein_C            3  peptrans  yes   PEPTIDE_TRANSLATION_PROBLEM               -     -               -     -  mat_peptide may not be translated because its parent CDS has a problem [-]
+    1238.2.1   KF383118.1  KY989511   mat_peptide  capsid_protein_C              2  peptrans  yes   PEPTIDE_TRANSLATION_PROBLEM               -    -             -    -  mat_peptide may not be translated because its parent CDS has a problem [-]
+    1248.2.1   AY632535.2  KY989511   mat_peptide  capsid_protein_C              2  peptrans  yes   PEPTIDE_TRANSLATION_PROBLEM               -    -             -    -  mat_peptide may not be translated because its parent CDS has a problem [-]
+
+indf3pst
+    23    indf3pst  yes      INDEFINITE_ANNOTATION_END       feature      1     1  protein-based alignment does not extend close enough to nucleotide-based alignment 3' endpoint
+
+    724.3.2   MF801407.1  NC_035889  CDS          polyprotein                          2  indf3pst  yes   INDEFINITE_ANNOTATION_END    10325..10345:+    21  10379..10379:+     1  protein-based alignment does not extend close enough to nucleotide-based alignment 3' endpoint [21>9, no valid stop codon in nucleotide-based prediction]
+
+deletinp 
+
+    24    deletinp  yes      DELETION_OF_NT                  feature      1     1  too large of a deletion in protein-based alignment
+
+    2  deletinp  yes   DELETION_OF_NT                                         8231..8231:+      1                           8247..8330:+     84  too large of a deletion in protein-based alignment [84>27]
