@@ -1,0 +1,4 @@
+#perl $GDIR/vadr/miniscripts/build-add-to-blast-db.pl -f zikv.minfo . MG807646 KX377336 108..10379:+ 108..10379:+ add-KX377336
+#perl $GDIR/vadr/miniscripts/build-add-to-blast-db.pl -f zikv.minfo . MG807646 MW915411 108..10379:+ 108..10379:+ add-MW915411
+perl $GDIR/vadr/miniscripts/build-add-to-blast-db.pl -f zikv.minfo . MG807646 MT377504 32..10303:+   108..10379:+ add-MT377504
+#perl $GDIR/vadr/miniscripts/build-add-to-blast-db.pl -f zikv.minfo . MG807646 MN611472 108..10379:+ 108..10379:+ add-MN611472

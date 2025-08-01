@@ -1,0 +1,1 @@
+/home/dickinsoneb/vadr_files/infernal/binaries/cmbuild -F --fragthresh 0.99 -O frag.stk --p7ml --eset 1.04 -n MG807646 --verbose --noh3pri MG807646.5.2seq-p7mlft99.cm 5.2.stk > MG807646.5.2seq-p7ml.ft99.cmbuild

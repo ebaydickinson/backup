@@ -1,0 +1,31 @@
+# build-add-to-blast-db.pl :: add a single protein to a VADR blastx protein database
+# VADR 1.6.4 (Jun 2024)
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# date:             Fri Jul 18 10:12:40 2025
+# $VADRBLASTDIR:    /net/intdev/oblast01/infernal/notebook/24_0626_vadr_1p6p4_bugfix_release/test-install2/ncbi-blast/bin
+# $VADREASELDIR:    /net/intdev/oblast01/infernal/notebook/24_0626_vadr_1p6p4_bugfix_release/test-install2/infernal/binaries
+# $VADRSCRIPTSDIR:  /net/intdev/oblast01/infernal/notebook/24_0626_vadr_1p6p4_bugfix_release/test-install2/vadr
+#
+# input model info file:                      zikv.minfo
+# input blast db path:                        .
+# input model name:                           MG807646
+# nucleotide accession to add:                KX377336
+# nt coords of CDS to add:                    108..10379:+
+# CDS feature coords this CDS should map to:  108..10379:+
+# output directory:                           add-KX377336
+# forcing directory overwrite:                yes [-f]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+#
+# Output printed to screen saved in:                           add-KX377336.vadr.log
+# List of executed commands saved in:                          add-KX377336.vadr.cmd
+# List and description of all output files saved in:           add-KX377336.vadr.filelist
+# fasta file with source sequence (KX377336) saved in:         add-KX377336.vadr.source.fa
+# fasta file with CDS from KX377336 saved in:                  add-KX377336.vadr.cds.fa
+# fasta file with translated protein from KX377336 saved in:   add-KX377336.vadr.prot.fa
+#
+# All output files created in directory ./add-KX377336/
+#
+# Elapsed time:  00:00:05.99
+#                hh:mm:ss
+# 
+[ok]
