@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "KY989511.vadr.protein.fa",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "KY989511/KY989511.vadr.protein.fa",
+  "number-of-letters": 3423,
+  "number-of-sequences": 1,
+  "last-updated": "2024-11-25T15:18:00",
+  "number-of-volumes": 1,
+  "bytes-total": 40547,
+  "bytes-to-cache": 3569,
+  "files": [
+    "KY989511.vadr.protein.fa.pdb",
+    "KY989511.vadr.protein.fa.phr",
+    "KY989511.vadr.protein.fa.pin",
+    "KY989511.vadr.protein.fa.pot",
+    "KY989511.vadr.protein.fa.psq",
+    "KY989511.vadr.protein.fa.ptf",
+    "KY989511.vadr.protein.fa.pto"
+  ]
+}
