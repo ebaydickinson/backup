@@ -1,0 +1,2223 @@
+
+
+Wed, Jan 8th
+
+     Goals this year:
+
+     Contact the Bring Your Kid to Work Day coordinator 
+     () Work on booth designs
+     () What materials do we need? 
+
+     ASV 2025 - Montreal. Abstract due Monday, Feb 3
+     () Contact Eneida about abstract to sponsor 
+     () Do I need my passport?
+
+     Continue to work on python code
+     () Next step? 
+
+     Find the new genotype models with VADR
+     () Read back on last years notes 
+     () 
+
+     Summer Student - 
+     () Due January 15th, abstract 
+
+     # Notes
+
+     To bulk comment out (cmd + /)
+
+     VS Code 
+     Ctr + N (create a new file)
+     Ctr + S( save a file)
+     cmd + shift + k (delete a line)
+
+     F1 Command Palette 
+
+     In mac screens, move right a space to vs code
+
+     To dos for today
+      (d) Learned about command line arguments
+      https://www.youtube.com/watch?v=ZQ9JO0e9468
+      https://www.geeksforgeeks.org/command-line-arguments-in-python/
+      (d) Created a keyboard shortcut between to toggle  between the editor and 
+         the terminal 
+      (d) Asked Betsy about advice 
+
+   To dos for tomorrow
+      () Figure out how to mix a command line argument with a functional
+
+Friday, Jan 10th 
+   (d) Reset terminal to ctrl t + ctrl r
+   () Email back biocuration folks 
+   () Email the Take Your Kid to workday folks 
+   () Email Betsy again
+   (-) Coding 
+
+   Make coding faster:
+   https://www.youtube.com/watch?v=dLzMz2Jk_qU
+
+Monday Jan 13th
+
+Master list
+   (d) Email back biocuration folks 
+   (d) Email the Take Your Kid to workday folks 
+   (d) Email Betsy again
+   (d) continue to work on the python coding script
+   (d) solidify the notes from last week's meeting 
+   (d) learn how to use git/github in vscode
+   (d) Email Eneida 
+   (d) FAES course - Join FAES from 10 a.m. – 12 p.m. on Tuesday, January 14 for our Spring Open House event in the FAES flex space in Building 10.
+   () Email Eric and Richard about recommendation to MarMic
+   () Continue to work on the application google sheet
+   (d) Go to Ryan Bells eminar on Tues, Jan 14th 
+   () Get trainshare for the love of god!
+
+   New keystrokes
+   shift + option + up/down (copy and code up and down)
+   cmd + up/down (move to the beginning and end of a file)
+   cmd + w (close tabs)
+   cmd + (+/-) (change text size in meetings)
+   cmd + \ (split current file into another editor )
+
+   shift + ctrl + -> (expand selection)
+   shift + ctrl + -> (expand selection)
+
+
+   Today:
+   (-) learn how to use git/github in vscode
+   https://www.youtube.com/watch?v=Uz_mTOQL9Tw
+   (d) Email back biocuration folks 
+   (d) Email Betsy again
+   (-) Email about conference
+
+
+
+   Git version control
+   git status 
+   git log 
+
+   git add
+   git commit
+   git push
+
+   creating a new repository on the command line! 
+   
+      echo "# test" >> README.md
+      git init
+      git add README.md
+      git commit -m "first commit"
+      git branch -M main
+      git remote add origin https://github.com/dickinson-ncbi/test.git
+      git push -u origin main (or git push)
+
+Tuesday Jan 14th 
+
+   (d) Email the Take Your Kid to workday folks 
+   (d)  Continue to learn Git
+   (d) Email Ulli   
+   ()  Work on the script to pull out full sequences
+   (d) Email Eneida 
+   (-) Email Destiny
+
+  (d)  Continue to learn Git https://youtu.be/vbQ2bYHxxEA?si=ZHsG1i1im3m7yV8S
+
+   For eb_meetings
+   Select clone repository in vs code
+
+   1.) git add txt.md # what file?
+   2.) git commit -m "note" # commit note 
+   3.) git push origin master # push to the remote repository 
+
+   Other options
+   4.) git pull # push from remote repository to local repository
+
+   Problem that I am seeing is that there is a repository called eb_meetings within a repository called eb_meetings, perhaps figure
+   that out with eric 
+
+   removed main and master with rm -R.git (don't do git init)
+
+Wednesday Jan 15th
+
+   (d) work on code for detecting gaps
+ 
+      if versus elif 
+
+      def random_function(a)
+         if a > 0: 
+             return 'positive'
+         elif a < 0 
+            return 'negative'
+         else:
+            return 'neither'
+
+Thursday, Jan 16th 
+
+   To do: I want to write out the passing sequences to a text file like so:
+
+      MN611472.1 
+      MF996804.1 
+      MG548660.1 
+      MG548661.1 
+      MG807646.1 
+      MG807647.1 
+      MH158236.1 
+      KY553111.1 
+      KY272987.1 
+      KX377336.1
+   
+   Meeting with Eric, to do next week: 
+   
+   Percent identity, rank by average, and then pick off of the full seq list. 
+
+   Percent identity check if it is in the full seq list, and then if yes, propose that model, if in that list, output that line 
+   Store in a list or a hash
+
+   hash , keys and values - a more efficent way of checking 
+
+   add output root ZB1.2
+
+   after setting up and pushing from local to remote, you can just use git push 
+
+   cp ../vadr_files/test_python/prune-gaps.py . - to move 
+
+   git push --set-upstream origin main
+
+Friday, Jan 17th 
+   () Message eric 
+   () Message Richard
+   () Message one of the american marmic students 
+   (d) Message adrien
+   () Message the marmic registrar 
+
+   Hi Adrien, I hope you are having a new year! I was looking at your website a during the hackathon, 
+   and I saw that you went to the MarMic program for your graduate degree. How 
+   did you like it? I am applying to master's degrees, and am super interested in the program. 
+   I would love to talk to you about it if you have time!
+
+   I also would like to learn more about your cartoons, they are super cute. 
+
+   Letters of recommendation:
+
+   I was wondering if you could write me a letter of recommendation for MarMic program:
+   https://marmic.mpg.de/marmic2/mscprogram.php?section=msc#:~:text=MarMic%20offers%20a%20combined%20M,MarMic%20students%20enters%20the%20Ph.
+
+   Here are the criteria for the recommendation:
+
+      Two Letters of Reference. The criteria for assessment are that the letter contains
+   statements referring to the applicant’s theoretical knowledge, practical skills,
+   creativity, flexibility, commitment, a sense of responsibility and ability to work in a
+   team. 
+
+   They also asked to describe working in an international setting. 
+
+   To convert from .stk file to pfam.stk file:
+
+   $VADRINFERNALDIR/esl-reformat pfam va-zikv-ZB.1-asian.vadr.NC_035889.align.stk > va-zikv-ZB.1-asian.pfam.stk
+
+   $VADRINFERNALDIR/esl-reformat pfam va-zikv-south-america-ZB.2.0.vadr.NC_035889.align.stk  > va-zikv-south-america-ZB.2.0.pfam.stk
+
+   I tried my script with va-zikv-south-america-ZB.2.0, and good news, my script is working super well! 
+   Bad news, there are no full seqs with va-zikv-south-america-ZB.2.0, this is the closest one:
+   with a range set at 20 and 20
+
+   accession: KY766069.1
+   Start count: 11
+   End count: 0
+
+Monday, Jan 21st
+
+To do this week:
+() Contact Eneida 
+() Create lists of complete sequences for each clade and genotype
+   () va-zikv-ZB.1.0-southeast-asian - getting an error when trying to convert to a pfam file 
+   (-) va-zikv-ZB.1.1_southern_asia 
+   
+      south-asia_5_5.list
+      
+      MN611472.1
+      MH158236.1
+      KY553111.1
+      KY272987.1
+
+   (-) va-zikv-ZB.2-american
+
+      american_20_20.list
+
+      accession: KY766069.1
+      Start count: 11
+      End count: 0
+
+   (d) va-zikv-south-america-ZB.2.0
+
+      accession: KY766069.1
+      Start count: 11
+      End count: 0
+
+   (-) va-zikv-central-america-ZB.2.1
+
+      Research KX906952.1, why isn' that picking up with my script?
+      Because it has 0 gaps at the beginning, and 64 gaps at the end
+
+      cen-american_1_1.list
+
+      accession: MN577550.1
+      Start count: 1
+      End count: 1
+
+      accession: MH675629.1
+      Start count: 1
+      End count: 1
+
+      accession: MH675630.1
+      Start count: 1
+      End count: 1
+
+      MN577550.1
+      MH675629.1
+      MH675630.1
+
+   (-) va-zikv-caribbean-ZB.2.2 
+      Start count: 0
+      End count: 0
+      
+      MN566104.1
+      MN566106.1
+      MF384325.1
+      KY415986.1
+      KY415988.1
+      KY415989.1
+   
+   (d) va-zikv-south-america-ZB.2.0
+
+   I tried my script with va-zikv-south-america-ZB.2.0, and good news, my script is working super well! 
+   Bad news, there are no full seqs with va-zikv-south-america-ZB.2.0, this is the closest one:
+   with a range set at 20 and 20
+
+   accession: KY766069.1
+   Start count: 11
+   End count: 0
+
+   I am sooo confused about why the american genotype isn't pulling up more full sequences. 
+   The same sequences are coming back as full when run as a clade, for example with the caribbean sequences 
+   
+   might have to do with rf gaps lollll, I might have to write a script that detects rf and removes columns based on rf gaps
+
+   create python script called remove-rf-gaps.py 
+
+   number the lines of the characters 
+   -, A, C, T, G, N
+
+   Tomorrow - 
+   Could try and script the rf or do the hash map for some, I will see what eric thinks . My name is EB Dickinson and I am trying to code better than before . Mbifes what I can type withou
+   t looking at the keyboard wow look at me ahhhhhhh! 
+
+Wednesday, Jan 22
+
+   American sequences
+
+   Because of the gap rfs from a sequence () that is bigger than the reference sequence, I have pulled out sequences based on what a "full sequence" is 
+   in comparison to NC_035889, the reference sequence. So that means, a gap of 1 at the beginning, and an end of 366. 
+
+   accession: MN577544.1
+   Start count: 1
+   End count: 366
+
+   from American american_1_366.list 
+
+   MN566104.1
+   MN566106.1
+   MN577543.1
+   MN577544.1
+   MF384325.1
+   KY415986.1
+   KY415988.1
+   KY415989.1
+   KU527068.1
+   KX247646.1
+   KU509998.3
+
+   (d) va-zikv-south-america-ZB.2.0
+   
+   from s-american_1_366.list
+
+   MN577543.1
+   MN577544.1
+   KU527068.1
+   KX247646.1
+   KU509998.3
+
+   Several of these sequences are from this paper: https://pubmed.ncbi.nlm.nih.gov/27111294/
+
+   "Zika Virus Outbreak in Haiti in 2014: Molecular and Clinical Data"
+
+   To do tomorrow:
+
+   () Read that paper above
+   () Check above on both American and South American after cleaning .stk file with esl-alimask --rf-is-mask <input-alignment> 
+   () Start the percent identity scores 
+   () Maybe generate a hash
+
+   For: 
+
+   remove all rf
+   esl-alimask --rf-is-mask va-zikv-ZB.2-american.NC_035889.align.stk
+   Alignment input open failed.
+   couldn't open va-zikv-ZB.2-american.NC_035889.align.stk for reading
+
+   is the .stk file 
+
+   () va-zikv-ZB.1.0-southeast-asian - getting an error when trying to convert to a pfam file 
+
+   (any who)
+
+   Percent identity 
+
+   I did top 50 rather than 10, because the average percent identity is relatively close across pairs
+
+   (d) va-zikv-ZB.2-american
+   () va-zikv-ZB.1.0-southeast-asian - getting an error when trying to convert to a pfam file 
+
+   Alignment input open failed.
+   couldn't open va-zikv-ZB.1.0-southeast-asia.vadr.NC_035889.align.stk for reading
+
+   problem with alignment file 
+
+   (d) va-zikv-ZB.1.1_southern_asia 
+   (d) va-zikv-south-america-ZB.2.0
+   (d) va-zikv-central-america-ZB.2.1
+   (d) va-zikv-caribbean-ZB.2.2 
+
+   Next step create hash script to compare the two 
+
+   For meeting with Eric:
+
+   For Eric: 
+
+   () esl-alimask --rf-is-mask va-zikv-ZB.2-american.NC_035889.align.stk
+      Alignment input open failed.
+      couldn't open va-zikv-ZB.2-american.NC_035889.align.stk for reading
+
+   () va-zikv-ZB.1.0-southeast-asian - getting an error when trying to convert to a pfam file 
+
+   () va-zikv-ZB.1.0-southeast-asian - getting an error when trying to convert to a pfam file 
+
+      Alignment input open failed.
+      couldn't open va-zikv-ZB.1.0-southeast-asia.vadr.NC_035889.align.stk for reading
+
+    problem with alignment file
+
+   () Conferences, will wait till Feb 1st. 
+   () Will follow up with Eneida re ASV, I still plan to submit
+   () Recommendation for MarMic 
+
+Wednesday, Jan 29th 
+
+(d) work on the comparison part of the find-model.py script 
+() email back the Take Your Kid to Workday folks 
+()
+
+(d)read the accession list that survives the count-gaps script
+read the % id file, check for each accesion, (if) that accession exists in the array (accession list)'
+print list 
+
+note - the script is not outputting the output text file. 
+
+
+Friday, January 31st
+
+() send recommendation request to richard and eric
+() submit asv abstract today
+() message take your child to work day folks 
+
+------------------------------------------------------
+Protocol:
+
+() run find-model on all genotypes and clades 
+() also run alimask on american and south american 
+esl-alimask --rf-is-mask va-zikv-ZB.2-american.NC_035889.align.stk
+
+() then convert to pfam.stk files    $VADRINFERNALDIR/esl-reformat pfam va-zikv-ZB.1-asian.vadr.NC_035889.align.stk > va-zikv-ZB.1-asian.pfam.stk
+
+() run prune-gaps on those new cleaned pfam.stk files ## i don't know, this might be a little too complicated to do especially when I can do it visually 
+
+-------------------------------------------------
+
+   () va-zikv-singapore-ZB.2.2.vadr.NC_035889 
+
+      there is a problem opening the file --> I just had the wrong name in there
+
+      converted to -no rf file --> pfam file --> prune gaps 
+
+      Was able to produce a list of 0 gaps at the beginning and 1 gap at the end
+
+      accessions 
+
+      MF996804.1
+      MG548660.1
+      MG548661.1
+      MG807646.1
+      MG807647.1
+
+         we have found a match! Here is a full sequence that is the most closely related to all other sequences:
+         https://www.ncbi.nlm.nih.gov/nuccore/MG807647.1
+
+        Zika virus isolate SI-BKK06, complete genome.
+
+         accession: MG807647.1
+         average percent id: 98.840
+
+--------------------------------------------------
+   
+   (d) va-zikv-ZB.2-american 
+
+      Was able to produce a list of 0 gaps at beginning and end
+
+      This has been visually verified
+      And also verified by esl-alimask 
+      
+      Zika virus strain Haiti/1225/2014, complete genome.
+      https://www.ncbi.nlm.nih.gov/nuccore/KU509998.3
+
+      accession: KU509998.3
+      average percent id: 96.237
+
+   (d) va-zikv-ZB.1.0-southeast-asian - getting an error when trying to convert to a pfam file 
+
+      I can look at this visually, it looks to me like KX377336.1 is full, except for one nuc at the end. I can check the percent id file.  
+
+      The stk file is not opening, however, there are only two seqs in this group, so...I don't even know if I need to check the percent id file  
+
+   (d) va-zikv-ZB.1.1_southern_asia
+      
+      () needs to be visually verified 
+      List - 0 gaps at beginning and 1 gap at the end 
+      s-asian_0_1.list
+
+       
+       KY272987
+       Zika virus isolate SI-BKK01, complete genome.
+       https://www.ncbi.nlm.nih.gov/nuccore/KY272987.1   
+
+      accession: KY272987.1
+      average percent id: 96.805
+
+   (d) va-zikv-south-america-ZB.2.0
+
+      () visually verified 
+      Was able to produce a list of 0 gaps at the beginning and end
+
+      Zika virus strain Haiti/1225/2014, complete genome.
+      https://www.ncbi.nlm.nih.gov/nuccore/KU509998.3
+
+      accession: KU509998.3
+      average percent id: 95.785
+
+   (d) va-zikv-central-america-ZB.2.1
+
+      () visually verified
+     
+      Was able to produce a list of 0 gaps at the beginning and 1 gap at the end
+
+      Zika virus isolate QTX-04, complete genome
+      https://www.ncbi.nlm.nih.gov/nuccore/MH675630.1
+
+      accession: MH675630.1
+      average percent id: 96.960
+
+   (d) va-zikv-caribbean-ZB.2.2 
+
+      Was able to produce a list of 0 gaps at the beginning and 1 gap at the end
+
+      Zika virus isolate Haiti/0074/2014, complete genome
+      https://www.ncbi.nlm.nih.gov/nuccore/KY415989.1
+
+      accession: KY415989.1
+      average percent id: 96.292   
+
+   MF384325.1 96.306
+   KY415986.1 96.301
+   MN566104.1 96.292
+   KY415989.1 96.292
+   KY415988.1 96.292
+   MN566106.1 96.283
+
+   python ../find-model.py carib_0_0.list va-zikv-caribbean-ZB.2.2.alipid.perseq carib-model.list | sort -rnk2
+
+   We troubleshot my find-models.py script, it was only pulling out the first sequence on the bottom, we fixed it! 
+   I will redo the sequences that I've already calculated! 
+
+
+Monday, Feb 3rd 
+
+To do:
+() send recommendation request to richard and eric
+(d) submit asv abstract today
+() message take your child to work day folks 
+
+() re run everything with the new script, and select highest score usimg sort -rnk2
+
+
+Forgot asian sequences, fully ran those through the cleaning pipeline (should I do a readme for the pipeline?)
+
+   () va-zikv-ZB.1-asian
+
+      MG807646.1 98.705
+      MF996804.1 98.604
+      MG548660.1 98.576
+      MG548661.1 98.566
+      MG807647.1 98.293
+      MN611472.1 98.060
+      KY272987.1 97.752
+      MH158236.1 97.705
+      KY553111.1 97.001
+      KX377336.1 95.059
+
+   () va-zikv-ZB.1.0-southeast-asian 
+      
+      KX377336.1
+
+   () va-zikv-ZB.1.1_southern_asia
+      
+      MN611472.1 96.844
+
+   () va-zikv-singapore-ZB.1.2
+
+      MG807646.1 99.384
+      MF996804.1 99.253
+      MG548660.1 99.224
+      MG548661.1 99.215
+      MG807647.1 98.840
+
+   (d) va-zikv-ZB.2-american 
+      
+      KU509998.3 96.237
+
+   () va-zikv-south-america-ZB.2.0
+      KU509998.3 95.785
+      KX247646.1 95.723
+      KU527068.1 95.694
+      MN577543.1 95.660
+      MN577544.1 95.470
+
+   () va-zikv-central-america-ZB.2.1
+
+      MN577550.1 96.990
+      MH675630.1 96.960
+      MH675629.1 96.915   
+
+   () va-zikv-caribbean-ZB.2.2
+
+      MF384325.1 96.306
+      KY415986.1 96.301
+      MN566104.1 96.292
+      KY415989.1 96.292
+      KY415988.1 96.292
+      MN566106.1 96.283
+
+
+Questions to ponder: 
+            
+So, we have a new asian model MG807646.1
+
+For the genotype model, should we test:
+Asian: MG807646.1
+American: NC_035889 or (KU509998.3)
+African: KY...
+
+For the clades:
+
+va-zikv-ZA-african: KY..
+va-zikv-ZB.1.0-southeast-asian: KX377336.1 
+va-zikv-ZB.1.1_southern_asia: MN611472.1
+va-zikv-singapore-ZB.1.2: MG807646.1
+va-zikv-south-america-ZB.2.0: KU509998.3
+va-zikv-central-america-ZB.2.1: MN577550.1
+va-zikv-caribbean-ZB.2.2: MF384325.1
+
+To do: 
+
+() first run three models against the full list of zikv-759 or zikv-762 sequences 
+() should we use NC_035889 since we don't know the Genotype? we could potentially use the seabra method to detect the genotype/clade since we are only assuming it is from south america
+() figure out how to compare between the original list of sequences and what VADR has detected (percent accuracy)
+
+() then shall we the clades against the full list of asian sequences
+
+Tuesday, Feb 4th 
+
+() talked with Eric today about github push of vadr_files
+   () decided to use new models generated from each genotype, need to build new models using adv-v-build 
+   () add secondary structure to new 
+
+(d) Talk to Eneida about improvements with NCBI Virus in strain 
+   () Adding strain to build custom of select FASTA definition line for flu. 
+      For ex. A/chicken/Nakorn-Patom/Thailand/CU-K2/04(H5N1):
+   () Adding a column to the ncbi virus label
+   () This used to be an option in the old influenza database resource
+
+Wednesday, Feb 5th 
+
+   (d) pushed folders to ebaydickinson github
+
+   added these:
+
+   drwxr-xr-x 2 dickinsoneb oblast 4096 Feb  5 10:59 zikv-models
+   drwxr-xr-x 2 dickinsoneb oblast 4096 Feb  5 16:58 fasta_files
+   drwxr-xr-x 2 dickinsoneb oblast 4096 Feb  5 17:14 NC_035889
+   drwxr-xr-x 2 dickinsoneb oblast 4096 Feb  5 17:14 KY989511
+   drwxr-xr-x 2 dickinsoneb oblast 4096 Feb  5 17:15 test_python
+   drwxr-xr-x 2 dickinsoneb oblast 4096 Feb  5 17:15 feb_5_shell_scripts
+   drwxr-xr-x 2 dickinsoneb oblast 4096 Feb  5 17:15 feb_5_accessions
+
+   git config --global user.email
+   git config --global user.name
+
+   added NIH github token to access my personal github on my work computer, access in my gmail
+
+   Tomorrow: 
+   () come in early, try to get here at 8 am, go for a run this evening! 
+
+   Friday
+   () meeting with Alexander at 10 am 
+
+Thursday, Feb 6
+
+Meeting with Eric:
+Check for mat_peptides for each model
+Use the 
+
+   () find the models that have a full set of mat peptides
+
+   () va-zikv-ZA-african 
+
+      did the whole process:
+      (add to a readme)
+
+      esl-alimask --rf-is-mask va-zikv-ZA-african.vadr.KY989511.align.stk > va-zikv-ZA-african.no-rf.stk
+      $VADRINFERNALDIR/esl-reformat pfam va-zikv-ZA-african.no-rf.stk > va-zikv-ZA-african.no-rf.pfam.stk
+
+      
+      python ../prune-gaps.py va-zikv-ZA-african.no-rf.pfam.stk african_0_0.list 0 0
+
+      $VADREASELDIR/esl-alipid va-zikv-ZA-african.vadr.KY989511.align.stk > va-zikv-ZA-african.alipid
+      perl $VADRSCRIPTSDIR/miniscripts/esl-alipid-per-seq-stats.pl va-zikv-ZA-african.alipid > va-zikv-ZA-african.alipid.perseq
+      grep -v ^\# va-zikv-ZA-african.alipid.perseq | sort -rnk 2 | head -n 50 > va-zikv-ZA-african.top50.alipid.perseq
+
+      python ../find-model.py va-zikv-ZA-african.top50.alipid.perseq african_0_0.list african-model.list | sort -rnk2
+
+      AY632535.2 94.307 (no mat_peptides noooooo)
+      Could we potentially use KY989511
+
+   () va-zikv-ZB.1-asian MN611472.1
+
+     (√) MG807646.1 
+     (√) MF996804.1 
+     (√) MG548660.1 
+     (√) MG548661.1 
+     (√) MG807647.1 
+     --> (√) MN611472.1 (yes this has matpeptides! https://www.ncbi.nlm.nih.gov/nuccore/MN611472.1)
+     (√) KY272987.1 
+     (√) MH158236.1 
+     (√) KY553111.1 
+     (√)KX377336.1 
+
+   () va-zikv-ZB.1.0-southeast-asian 
+   
+      KX377336.1 (no, matpeptides)
+
+   
+   () * va-zikv-ZB.1.1_southern_asia  MN611472.1 
+      
+     -->  MN611472.1 96.844 (yes, this has peptides https://www.ncbi.nlm.nih.gov/nuccore/MN611472.1)
+
+   () va-zikv-singapore-ZB.1.2
+
+   none that have mat_peptides 
+
+      MG807646.1 99.384
+      MF996804.1 99.253
+      MG548660.1 99.224
+      MG548661.1 99.215
+      MG807647.1 98.840
+
+      d MG807646.1 
+      d MF996804.1 
+      d MG548660.1 
+      d MG548661.1 
+      d MG807647.1 
+
+      (no peptides in this group)
+
+   (d) va-zikv-ZB.2-american KU509998.3
+      
+      --> KU509998.3 96.237 (has peptides, but only 11 of them)
+
+   () va-zikv-south-america-ZB.2.0 KU509998.3 *
+      KU509998.3 95.785
+      KX247646.1 95.723
+      KU527068.1 95.694
+      MN577543.1 95.660
+      MN577544.1 95.470
+
+      --> (√) KU509998.3 yes, mat peptides, only 11 https://www.ncbi.nlm.nih.gov/nuccore/KU509998.3
+      (√) KX247646.1 
+      (√) KU527068.1 
+      (√) MN577543.1 yes, mat peptides, only 11 tho (https://www.ncbi.nlm.nih.gov/nuccore/MN577543.1)
+      (√) MN577544.1  yes, mat peptides, only 11 https://www.ncbi.nlm.nih.gov/nuccore/MN577544.1
+
+   () va-zikv-central-america-ZB.2.1 MN577550.1
+
+      MN577550.1 96.990
+      MH675630.1 96.960
+      MH675629.1 96.915   
+
+      --> MN577550.1 (yes all 14, https://www.ncbi.nlm.nih.gov/nuccore/MN577550.1)
+      MH675630.1 
+      MH675629.1 
+
+   () va-zikv-caribbean-ZB.2.2 MN566104.1
+
+      MF384325.1 96.306
+      KY415986.1 96.301
+      MN566104.1 96.292
+      KY415989.1 96.292
+      KY415988.1 96.292
+      MN566106.1 96.283
+
+      (√)MF384325.1 
+      (√)KY415986.1 
+      --> MN566104.1 (yes, all 14 https://www.ncbi.nlm.nih.gov/nuccore/MN566104.1)
+      ()KY415989.1 
+      ()KY415988.1 
+      ()MN566106.1 
+
+Friday, Feb, 6 7
+
+() Send message to Uni Humbolt 
+() work on motivational statement
+
+Monday, Feb 10 
+
+   asked Eric, I don't need to create new mat_peptides for the models that are without them
+
+   () tomorrow, build the models in the morning
+      Make sure to add the --group and --subgroup (zikv) and (ZA-african)
+
+   () then try running them against the whole group :)) 
+
+   Investigate this: 
+
+    The final step is to see if KY654518 and MZ516105 satisfy the criteria 
+    that the corresponding gene and CDS coordinates are identical, unlike 
+    in the RefSeqs. Inspecting the GenBank record pages for KY654518 and [MZ516105](
+      (https://www.ncbi.nlm.nih.gov/nuccore/MZ516105) allows us to confirm that they do. 
+      (If they did not, we could manually modify the gene feature boundaries in the model info file after running v-build.pl so that they did.)
+
+https://github.com/ncbi/vadr/blob/master/documentation/advbuild.md#step5
+
+Friday, Feb 14th (everyday the 14th! )
+
+v-annotate.pl -f --out_stk --mdir KY989511 --mkey KY989511.vadr NC_012532.fa out_test 
+
+va-zikv-ZA-african 
+AY632535.2
+va-zikv-ZB.1-asian
+MN611472.1
+va-zikv-ZB.2-american
+KU509998.3
+
+
+v-build.pl --group ZIKV --subgroup ZA-african AY632535 AY632535
+v-build.pl --group ZIKV --subgroup ZB.1-asian MN611472 MN611472
+v-build.pl --group ZIKV --subgroup ZB.2-american KU509998 KU509998
+
+$VADRINFERNALDIR/esl-sfetch --index zikv-genotype-models/zikv.fa
+$VADRINFERNALDIR/cmpress zikv-genotype-models/zikv.cm
+$VADRINFERNALDIR/hmmpress zikv-genotype-models/zikv.hmm
+$VADRBLASTDIR/makeblastdb -dbtype nucl -in zikv-genotype-models/zikv.fa
+
+v-annotate.pl --out_stk --mdir zikv-genotype-models --mkey zikv zikv-genotype-models/zikv.fa va-zikv-test
+
+use zikv-759.fa (excludes three accessions that are not genotyped)
+
+
+File Edit Options Buffers Tools Help                                                                                                                                                                                              
+#                                      num   num   num
+#idx  model     group  subgroup       seqs  pass  fail
+#---  --------  -----  -------------  ----  ----  ----
+1     KU509998  ZIKV   ZB.2-american   751   728    23
+2     AY632535  ZIKV   ZA-african        7     1     6
+3     MN611472  ZIKV   ZB.1-asian        2     2     0
+#---  --------  -----  -------------  ----  ----  ----
+-     *all*     -      -               760   731    29
+-     *none*    -      -                 0     0     0
+#---  --------  -----  -------------  ----  ----  ----
+
+   ...vadr was able to separate ZB.2-american, but not ZB.1-asian
+   why!!!!!
+
+   ZB.1-asian
+
+   #=GS gi|1773320022|gb|MN611472.1| DE Zika virus isolate 2019YNZIKV02, complete genome
+   #=GS gi|1720334759|gb|MN190155.1| DE Zika virus isolate Yunnan/01/2019 polyprotein gene, complete cds
+
+   cmstat zikv.cm
+   cmfetch zikv.cm MN611472 > MN611472
+
+   Move to doing the clade models
+   Make an alignment of 2.0,
+
+   v-annotate.pl 
+   --mlist (file with one model listed in it)
+
+   Read into the seabra paper next
+
+Tuesday, Feb 18th 
+
+() TreeTime - use on command line, see the mutations
+() maaft on command line - alignment tool 
+() 
+
+Friday, Feb 21st - talk with Eric
+
+   Built models today for all of the clades:
+
+   va-zikv-ZA-african: KY..
+   va-zikv-ZB.1.0-southeast-asian: KX377336.1 
+   va-zikv-ZB.1.1_southern_asia: MN611472.1
+   va-zikv-singapore-ZB.1.2: MG807646.1
+   va-zikv-south-america-ZB.2.0: KU509998.3
+   va-zikv-central-america-ZB.2.1: MN577550.1
+   va-zikv-caribbean-ZB.2.2: MF384325.1
+
+   Don't focus on trying to figure out why VADR is not separating ZB2.0 and ZB1.0
+
+   concatenated everything into zikv-clade-models 
+
+   #idx  model     group  subgroup                VADR  real  % accuracy
+#---  --------  -----  ----------------------  ----  ----  ----
+1     KU509998  ZIKV   ZB.2.0-south-america     317   327     
+2     MN577550  ZIKV   central-america-ZB.2.1   245   231    
+3     MF384325  ZIKV   caribbean-ZB.2.2         106    88     
+4     MG807646  ZIKV   singapore-ZB.1.2          81    78     
+5     AY632535  ZIKV   ZA-african                 7     7     
+6     KX377336  ZIKV   southeast-asia-ZB.1.0      2     2     
+7     MN611472  ZIKV   ZB.1.1-south-asia          2    26     
+#---  --------  -----  ----------------------  ----  ----  ----
+
+Friday, Feb 28th -
+
+   Count march
+   ------------
+   #accession list
+
+   count match
+   -----------
+   genotype list 
+
+   Started writing a script called accession-match.py
+   The first part of the script pulls the accession names out of the align.stk files
+
+   To do this week:
+   I have two lists: Seaborn predicted (genotyped) and VADR
+   Eric mentioned that I can use awk, grep, sort, and uniq to find the percent difference
+
+   Data-wrangling in R
+
+          seaborn   VADR  (model predicted)
+   KY      MK        MK    
+   MK      
+   AY 
+
+   MK  KY 
+   A    B
+   B    C
+   C
+
+   Format needed 
+
+() 
+
+
+   () wrangle the data
+   () send meeting notes to git 
+   () ask eric about how best to use new dataset
+
+Wednesday, Mar 5 
+
+I combined the list of all seaborn genotyped seqs and vadr clade classified seqs, put them together, 
+then worked to merge()/left_join() them in R.
+
+I am now amazed how much I do not like R syntax, and that you need to come up with a new object name each time. 
+Anywho...
+
+It looked like this under model-match.txt:
+
+id       vadr     genotype
+MN025403 AY632535 AY632535
+KX601166 AY632535 AY632535
+KY288905 AY632535 AY632535
+KF268948 AY632535 AY632535
+KF268949 AY632535 AY632535
+KF268950 AY632535 AY632535
+AY632535 AY632535 AY632535
+OK054351 KX377336 KX377336
+KX377336 KX377336 KX377336
+MN611472 MN611472 MN611472
+MN190155 MN611472 MN611472
+MT377491 MG807646 MG807646
+MT377492 MG807646 MG807646
+MT377493 MG807646 MN611472
+MT377494 MG807646 MG807646
+MT377495 MG807646 MG807646
+MT377496 MG807646 MG807646
+MT377497 MG807646 MG807646
+MT377499 MG807646 MG807646
+
+We wanted get the percent match of the vadr classifications to the genotyped classification. 
+
+when you're grouping by the Seaborn classification
+
+grep -v ^id model-match.txt | awk '{ printf("%s %s\n", $2, $3); }' | sort | uniq -c | sort -nk 3
+
+      1 KU509998 MN577550
+      1 MF384325 MN611472
+      1 MN577550 MN611472
+      2 KX377336 KX377336*
+      2 MN611472 MN611472*
+      3 MG807646 MN611472
+      7 AY632535 AY632535*
+     14 MN577550 KU509998
+     16 MF384325 KU509998
+     19 KU509998 MN611472
+     78 MG807646 MG807646*
+     88 MF384325 MF384325*
+    230 MN577550 MN577550*
+    297 KU509998 KU509998*
+
+
+   #idx  model     group  subgroup             VADR  real  % accuracy
+#---  --------  -----  ----------------------  ----  ----  ----
+1     KU509998  ZIKV   ZB.2.0-south-america     317   327   297/327   (90.8%)
+2     MN577550  ZIKV   central-america-ZB.2.1   245   231   230/231   (99.6%)
+3     MF384325  ZIKV   caribbean-ZB.2.2         106    88   88/88      (100%)
+4     MG807646  ZIKV   singapore-ZB.1.2          81    78   78/78      (100%)
+5     AY632535  ZIKV   ZA-african                 7     7   7/7        (100%)
+6     KX377336  ZIKV   southeast-asia-ZB.1.0      2     2   2/2        (100%)
+7     MN611472  ZIKV   ZB.1.1-south-asia          2    26   2/26       (7.7%)
+#---  --------  -----  ----------------------  ----  ----  ----
+
+KU509998 and MN611472 performed the worst
+
+Looking back through my notes about the cleaning Protocol, want to spell it out 
+
+Reran all accession-760.fa models with the -s flag, only took three minutes
+
+   Protocol - I am thinking of writing a tutorial for Eric (and the general audience )
+
+   Choosing a new model for genotypes and clades of ZIKV
+
+      1. Build models with v-build
+      1. Align and annotate with v-annotate, in that folder, you should use the --out_stk and --keep file
+
+      1. Remove rf gaps in the .stk file 
+
+         esl-alimask --rf-is-mask <.stk> 
+
+      You should get a pfam.stk file as a result 
+
+      2. Run prune-gaps.py 
+
+         Download prune-gaps.py in destination folder:
+
+         python prune-gaps.py <.pfam.stk> <output file.list> <5' end gaps> <3' end gaps> 
+
+      3. Find Percent IDs of 
+
+         https://github.com/ncbi/vadr/blob/master/documentation/advbuild.md#step5
+
+      1. run find-model.py on all genotypes and clades 
+
+         
+      2. also run alimask on american and south american 
+      esl-alimask --rf-is-mask va-zikv-ZB.2-american.NC_035889.align.stk
+
+      3. then convert to pfam.stk files    $VADRINFERNALDIR/esl-reformat pfam va-zikv-ZB.1-asian.vadr.NC_035889.align.stk > va-zikv-ZB.1-asian.pfam.stk
+
+      4. run prune-gaps on those new cleaned pfam.stk files ## i don't know, this might be a little too complicated to do especially when I can do it visually 
+
+
+
+   Create model library with the new frankenmodel of 26 sequences (replace MN611472) and the singular sequence models combined
+
+   cp zikv-clade-models zikv-clade-models
+
+   rm zikv.cm* (remove all the .cm files)
+
+   pull out the lines that have a .cm
+
+Next week:
+
+() Create a tutorial of building a new model and the cleaning process
+(d) create new model libraries with the frankenmodel as a replacement
+(d) rerun 760 sequences
+() for the va-zikv-s-clade (acceleration heurestic using blasn rather than cmalign) results, reformat those into the three column comparison with the genotyped sequences
+
+Woohoo! - keep your chin up
+
+Monday, Mar 10, 2025
+
+   IQtree
+   sitePath
+   TreeTime
+
+   Ran the va-zikv-franken-MN611472-clade after updating and replacing the zikv.cm file in zikv-franken-clade-models
+
+   /home/dickinsoneb/vadr_files/infernal/binaries/cmbuild -n MN611472 --hand --verbose  --noss --noh3pri new.26.cm <stkfile> > new.26.cmbuild
+
+
+   #idx  model     group  subgroup               seqs  pass  fail
+   #---  --------  -----  ---------------------  ----  ----  ----
+   1     MN611472  ZIKV   ZB.1-asian              751   731    20
+   2     AY632535  ZIKV   ZA-african                7     1     6
+   3     KX377336  ZIKV   southeast-asia-ZB.1.0     2     2     0
+   #---  --------  -----  ---------------------  ----  ----  ----
+   -     *all*     -      -                       760   734    26
+   -     *none*    -      -                         0     0     0
+
+   Need to fix the weighting issues, Eric will send me information tomorrow 
+
+Tuesday, Mar 11, 2025
+
+
+   # test with combined MN611472 model
+         #                                           num   num   num
+      #idx  model     group  subgroup                seqs  pass  fail
+      #---  --------  -----  ----------------------  ----  ----  ----
+      1     MN577550  ZIKV   central-america-ZB.2.1   242   229    13 (231)
+      2     MN611472  ZIKV   ZB.1.1-south-asia        226   224     2  (26)
+      3     KU509998  ZIKV   ZB.2.0-south-america     108   103     5 (327)
+      4     MF384325  ZIKV   caribbean-ZB.2.2         103   101     2  (88)
+      5     MG807646  ZIKV   singapore-ZB.1.2          72    72     0  (78)
+      6     AY632535  ZIKV   ZA-african                 7     1     6   (7)
+      7     KX377336  ZIKV   southeast-asia-ZB.1.0      2     2     0   (2)
+      #---  --------  -----  ----------------------  ----  ----  ----
+      -     *all*     -      -                        760   732    28
+      -     *none*    -      -                          0     0     0
+      #---  --------  -----  ----------------------  ----  ----  ----
+
+
+   Looks like the sequences are being sorted less accurately, potentiall ZB.1-south-asia has improved lol? 
+
+   Two more things to do:
+
+   () Find percent accuracy for each new group ?
+   () Create new models for asian, african, and american
+
+   I redid the process for prune-gaps.py and find-model.py, with asian_0_1.list and created asian-model2.list, 
+   and I only got MG807646.1, before I got a bigger list for asian-model.list, why is that, what happened? 
+
+   Looked in va-zikv-ZB.1-asian.top50.alipid.perseq, and MN611472 isn't even in the top50 percent id list
+
+   american : KU509998.3
+   asian : MG807646.1 98.705
+
+   The clades that are the least differentiated are:
+
+   MN611472  ZIKV   ZB.1.1-south-asia  (South-Eastern Asia, Southern Asia, and Micronesia sequences)  
+   KU509998  ZIKV   ZB.2.0-south-america (basal American sequences and the sequences from French Polynesia, the putative origin of South America introduction)  
+
+   From Seabra et al. 
+
+   Major mutations--
+
+   One is the serine-to-asparagine S139N substitution in the Pr peptide that occurred in the clade that 
+   diverged from Asian strains and lead to the lineage that includes French Polynesia and American sequences
+
+   The other is the A982V (position 188 of the NS1 protein), which confers enhanced mosquito infectivity (Liu et al. 2017) 
+   and is absent in the early Asian sequences and present in African and recent American strains 
+
+   Mean genetic distances between subgroups from ZA and ZB ranged from 0.117 to 0.127 NT substitutions per site (Table 1). 
+
+   Between ZB subgroups (ZB.1.0, ZB.1.1, ZB.1.2, ZB.2.0, ZB.2.1, and ZB.2.2), it ranged from 0.005 to 0.063, with higher 
+   values occurring between the basal Asian sequences (ZB.1.0) and the other groups and with lower values occurring between ZB.2 subgroups.
+
+   #idx  model     group  subgroup          seqs  pass  fail
+   #---  --------  -----  ----------------  ----  ----  ----
+   1     KU509998  ZIKV   ZB.2-american      670   647    23 (646) 
+   2     MG807646  ZIKV   ZB.1-asian          83    83     0 (106) 
+   3     AY632535  ZIKV   ZA-african           7     1     6  (7)
+   #---  --------  -----  ----------------  ----  ----  ----
+   -     *all*     -      -                  760   731    29
+   -     *none*    -      -                    0     0     0
+   #---  --------  -----  ----------------  ----  ----  ----
+
+   wc -l word count
+
+
+Thursday, March 13th (Mom's bday!)
+
+Synapomorphies (shared unique characteristics)
+Plesiomorphies (shared by all members of a group)
+Autapomorphy (traits found only in one member of the group)
+
+Monday, March 17th - 
+
+   Phylogenetic Handbook 
+
+   -Chapters to read 
+   Basic conceepts of molecular evolution
+
+   msa
+   
+Tuesday, March 18th - meeting with Eric 
+
+() Run the genotypes with -s and 
+
+git clone http://ebaydickinson@<Bitbucket Data Center URL>/scm/<project key>/website.git> 
+
+
+https://bitbucket.org/backup-2025/test-bitbucket/src/main/
+
+   Running the va-zikv-genotype with -S
+
+   #idx  model     group  subgroup          seqs  pass  fail
+   #---  --------  -----  ----------------  ----  ----  ----
+   1     KU509998  ZIKV   ZB.2-american      670   644    26
+   2     MG807646  ZIKV   singapore-ZB.1.2    82    82     0
+   3     AY632535  ZIKV   ZA-african           8     1     7
+   #---  --------  -----  ----------------  ----  ----  ----
+   -     *all*     -      -                  760   727    33
+   -     *none*    -      -                    0     0     0
+   #---  --------  -----  ----------------  ----  ----  ----
+
+   Running va-zikv-clade with -S
+
+   # Summary of classified sequences:
+   #
+   #                                               num   num   num
+   #idx  model     group  subgroup                seqs  pass  fail
+   #---  --------  -----  ----------------------  ----  ----  ----
+   1     KU509998  ZIKV   ZB.2-american            345   335    10
+   2     MN577550  ZIKV   central-america-ZB.2.1   230   217    13
+   3     MF384325  ZIKV   caribbean-ZB.2.2          93    91     2
+   4     MG807646  ZIKV   singapore-ZB.1.2          80    80     0
+   5     AY632535  ZIKV   ZA-african                 8     1     7
+   6     KX377336  ZIKV   southeast-asia-ZB.1.0      2     2     0
+   7     MN611472  ZIKV   ZB.1-asian                 2     2     0
+   #---  --------  -----  ----------------------  ----  ----  ----
+   -     *all*     -      -                        760   728    32
+   -     *none*    -      -                          0     0     0
+   #---  --------  -----  ----------------------  ----  ----  ----
+
+
+      Goals
+
+      () Compare genotype trees w/ and w/o -s 
+      () Create a -s genotype tree
+      () rfam models literature review(for example a dumbell)
+      () literature review for zikv secondary structure
+
+   it scores:
+   rank     E-value  score  bias  modelname        start    end   mdl trunc   gc  description
+   ----   --------- ------ -----  --------------- ------ ------   --- ----- ----  -----------
+   (1) !   4.7e-12   67.6   0.0  Flavivirus-5UTR      1    162 +  cm    no 0.40  Flavivirus 5' UTR
+   (2) !   5.4e-12   63.0   0.0  Flavivirus_DB    10618  10691 +  cm    no 0.57  Flavivirus DB element
+   (3) !   4.2e-09   57.6   0.0  DENV_SLA             1     71 +  cm    no 0.44  Dengue virus SLA
+   (4) !   5.6e-08   54.0   0.0  Flavi_CRE        10711  10807 +  cm    no 0.62  Flavivirus 3' UTR cis-acting replication element (CRE)   
+
+Friday, March 21st - met with Eric
+
+   Showed him the phylogenetic trees comparing Blast versus cmalign
+
+To dos science : 
+   
+   1. gather representative sequences from two purple areas of tree where v-annotate makes classification mistakes and also one of the yellow sequences
+   create 2 alignments:  (a) one of the set of 3 sequences (2 purple plus existing orange model sequence) (b) 3 seqs from (a) plus one yellow sequence with below cmalign command
+   /home/dickinsoneb/vadr_files/infernal/binaries/cmalign --cpu 1 -o <stkfile> --tau 0.001 --mxsize 4000.00 --sub --notrunc -g --fixedtau --flanktoins 0.1 --flankselfins 0.8 <cmfile> <fastafile>
+
+   3. build 2 CMs, one each from the (a) and (b), the two alignments you created in step 2 with command like this:
+   /home/dickinsoneb/vadr_files/infernal/binaries/cmbuild -n MN611472 --hand --verbose  --noss --noh3pri <new cmfile> <stkfile>
+
+   4. create two new model libraries, one with orange CM replaced with new CM from (a) and one with orange CM replaced with new CM from (b), this will be an exact copy of your 3 model genotype library zikv-genotype-models2 with one change: zikv.cm will include the new CM you built in step 3 instead of the original orange.cm.
+
+   5. retest genotype classification using new models (edited)
+
+   For the blast models, use sequences from step 1 above and run v-build.pl with each of those, assign the group and subgroup to the same as the orange model. Then build a new vadr library using three models from zikv-genotype-models2 plus these new models.
+   You can make two new model libraries, one with the 2 new sequences from set (a) and one with the 3 sequences from set (b).
+
+Other to dos:
+
+() Check in with Sue if you need to create a poster (Work on that all this week), due March 31st
+() gather the highest perc identity of both the ZB1.0 (KX377336) + ZB1.1 groups + ZB1.2 (MG807646) 
+
+Monday, Mar 24th 
+
+   Top branch of ZB1.1
+
+   a) one of the set of 3 sequences (2 purple plus existing orange model sequence)
+   b) 3 seqs from (a) plus one yellow sequence with below cmalign command
+   
+   /home/dickinsoneb/vadr_files/infernal/binaries/cmalign --cpu 1 -o <stkfile> --tau 0.001 --mxsize 4000.00 --sub --notrunc -g --fixedtau --flanktoins 0.1 --flankselfins 0.8 <cmfile> <fastafile>
+
+   Pick sequences that are misclassified by VADR and have high percent identities 
+   
+   ZB1.0 - KX377336
+
+   Top branch of ZB1.1
+     
+      * gi|2030207736|gb| MW915411.1|  96.906 (Categorized as american)
+        gi|1151098826|dbj|LC219720.1|  96.878
+                          MW915414.1|  96.854
+        gi|1773320022|gb| MN611472.1|  96.844 (categorized as asian)
+
+   Bottom branch of ZB1.1
+
+        gi|1847502737|gb|MT377502.1|   96.983 (categorized as asian by vadr)
+      * gi|1847502741|gb|MT377504.1|   96.929 (categorized as american)
+        gi|1115549285|gb|KY328290.1|   96.871  (american)
+
+   V-build.pl
+   For example: v-build.pl --group ZIKV --subgroup south-asia-ZB.1.1 MW915411 MW915411
+
+   (d)ZB1.0 - KX377336
+   ()Top branch of ZB1.1 - MW915411.1|
+   Bottom branch of ZB1.1 - MT377504.1
+   ZB1.2 - MG807646
+
+   cmalign is the alignment program
+
+   2. create 2 alignments:  (a) one of the set of 3 sequences (2 purple plus existing orange model 
+   sequence) (b) 3 seqs from (a) plus one yellow sequence with below cmalign command
+
+   combined cm file 
+   combined fasta file 
+
+   /home/dickinsoneb/vadr_files/infernal/binaries/cmalign --cpu 1 -o <stkfile> --tau 0.001 --mxsize 4000.00 --sub --notrunc -g --fixedtau --flanktoins 0.1 --flankselfins 0.8 <cmfile> <fastafile>
+
+Thursday, Mar 27th - meeting with Eric
+
+
+I was confused about a couple of things, including this command
+
+ /home/dickinsoneb/vadr_files/infernal/binaries/cmalign --cpu 1 -o MG807646.vadr.stk --tau 0.001 --mxsize 4000.00 --sub --notrunc -g --fixedtau --flanktoins 0.1 --flankselfins 0.8 MG807646.vadr.cm MG807646.vadr.fa
+
+Built the two cms called asia-combo3.cm and asia-combo4.cm
+
+/home/dickinsoneb/vadr_files/infernal/binaries/cmbuild -n MG807646 --hand --verbose  --noss --noh3pri asia-combo3-2.cm MG807646-2.vadr.stk
+
+
+Monday, Mar 31st 2025 
+
+   (d) cmalign
+   home/dickinsoneb/vadr_files/infernal/binaries/cmalign --cpu 1 -o MG807646.vadr.stk --tau 0.001 --mxsize 4000.00 --sub --notrunc -g --fixedtau --flanktoins 0.1 --flankselfins 0.8 MG807646.vadr.cm asia-combo3.fa 
+   () cmbuild
+   /home/dickinsoneb/vadr_files/infernal/binaries/cmbuild -n MG807646 --hand --verbose  --noss --noh3pri MG807646.new.vadr.cm MG807646.vadr.stk
+   (d) build fasta with all three seqs  
+      idfetch -t 5 -c 1 -G asia-combo3.txt > asia-combo3.fa
+      
+   () run v-annotate
+
+   (d) be able to verbalize how VADR works
+   () What is the schedule for the online conference 
+
+Thursday, April 3rd, 2025
+
+I  haven't worked on my science due to...interview and the political environment
+
+
+ /home/dickinsoneb/vadr_files/infernal/binaries/cmbuild -n MG807646 --hand --verbose  --noss --noh3pri asia-combo3.new.vadr.cm asia-combo3.vadr.stk
+
+ asia-combo3.txt 
+
+ Used idfetch to get the 
+
+ idfetch -t 5 -c 1 -G asia-combo4.txt > asia-combo4.fa
+
+   infernal/binaries/cmalign --cpu 1 -o asia-combo4.vadr.stk --tau 0.001 --mxsize 4000.00 --sub --notrunc -g --fixedtau --flanktoins 0.1 --flankselfins 0.8 MG807646.vadr.cm asia-combo4.fa 
+   infernal/binaries/cmbuild -n MG807646 --hand --verbose  --noss --noh3pri asia-combo4.new.vadr.cm asia-combo4.vadr.stk
+
+Monday, April 7th, 2024
+
+   From va-zikv-genotype2 
+
+   #                                         num   num   num
+   #idx  model     group  subgroup          seqs  pass  fail
+   #---  --------  -----  ----------------  ----  ----  ----
+   1     KU509998  ZIKV   ZB.2-american      670   647    23
+   2     MG807646  ZIKV   singapore-ZB.1.2    83    83     0
+   3     AY632535  ZIKV   ZA-african           7     1     6
+   #---  --------  -----  ----------------  ----  ----  ----
+   -     *all*     -      -                  760   731    29
+   -     *none*    -      -                    0     0     0
+   #---  --------  -----  ----------------  ----  ----  ----
+
+   va-zikv-s-genotype 
+
+   #                                         num   num   num
+   #idx  model     group  subgroup          seqs  pass  fail
+   #---  --------  -----  ----------------  ----  ----  ----
+   1     KU509998  ZIKV   ZB.2-american      670   644    26
+   2     MG807646  ZIKV   singapore-ZB.1.2    82    82     0
+   3     AY632535  ZIKV   ZA-african           8     1     7
+   #---  --------  -----  ----------------  ----  ----  ----
+   -     *all*     -      -                  760   727    33
+   -     *none*    -      -                    0     0     0
+   #---  --------  -----  ----------------  ----  ----  ----
+   #
+
+   From va-zikv-gen-asia-combo3
+
+   #                                         num   num   num
+   #idx  model     group  subgroup          seqs  pass  fail
+   #---  --------  -----  ----------------  ----  ----  ----
+   1     MG807646  ZIKV   singapore-ZB.1.2   753   732    21
+   2     AY632535  ZIKV   ZA-african           7     1     6
+   #---  --------  -----  ----------------  ----  ----  ----
+   -     *all*     -      -                  760   733    27
+   -     *none*    -      -                    0     0     0
+   #---  --------  -----  ----------------  ----  ----  ----
+
+   From va-zikv-gen-asia-combo4
+
+
+   Eric's comments on a mysterious error after running va-zikv-gen-asia-combo3- 
+
+   ERROR in vdr_MergeOutputGetFileList, expected file to concatenate va-zikv-gen-asia-combo3/va-zikv-gen-asia-combo3.5/va-zikv-gen-asia-combo3.5.vadr.pass.tbl does not exist
+
+   I think I figured out the problem. Try rerunning  the annotations without using -s , for these tests of a model built from 3 sequences we can't use -s because that invokes blast which is always based on a single sequence.
+   You found is a bug in vadr that occurs if you use -s on a model built with the --hand option from cmbuild. This should only happen if you have built the CM from multiple sequences, in which case you wouldn't want to use -s
+   What do you think about postponing our meeting until you have the results of the annotation?
+
+
+   infernal/binaries/cmbuild --p7ere 0.353 -n MG807646 --hand --verbose --noss --noh3pri asia-combo3.new2.vadr.cm asia-combo3.vadr.stk
+
+Wednesday, April 9th 
+
+   From va-zikv-genotype2 
+
+   #                                         num   num   num
+   #idx  model     group  subgroup          seqs  pass  fail
+   #---  --------  -----  ----------------  ----  ----  ----
+   1     KU509998  ZIKV   ZB.2-american      670   647    23
+   2     MG807646  ZIKV   singapore-ZB.1.2    83    83     0
+   3     AY632535  ZIKV   ZA-african           7     1     6
+   #---  --------  -----  ----------------  ----  ----  ----
+   -     *all*     -      -                  760   731    29
+   -     *none*    -      -                    0     0     0
+   #---  --------  -----  ----------------  ----  ----  ----
+
+   va-zikv-s-genotype 
+
+   #                                         num   num   num
+   #idx  model     group  subgroup          seqs  pass  fail
+   #---  --------  -----  ----------------  ----  ----  ----
+   1     KU509998  ZIKV   ZB.2-american      670   644    26
+   2     MG807646  ZIKV   singapore-ZB.1.2    82    82     0
+   3     AY632535  ZIKV   ZA-african           8     1     7
+   #---  --------  -----  ----------------  ----  ----  ----
+   -     *all*     -      -                  760   727    33
+   -     *none*    -      -                    0     0     0
+   #---  --------  -----  ----------------  ----  ----  ----
+   #
+   
+   va-zikv-gen-asia-combo3
+
+   #                                         num   num   num
+   #idx  model     group  subgroup          seqs  pass  fail
+   #---  --------  -----  ----------------  ----  ----  ----
+   1     KU509998  ZIKV   ZB.2-american      380   359    21
+   2     MG807646  ZIKV   singapore-ZB.1.2   373   371     2
+   3     AY632535  ZIKV   ZA-african           7     1     6
+   #---  --------  -----  ----------------  ----  ----  ----
+   -     *all*     -      -                  760   731    29
+   -     *none*    -      -                    0     0     0
+   #---  --------  -----  ----------------  ----  ----  ----
+   #
+
+Why is the model not using the name 
+
+   infernal/binaries/cmbuild --p7ere 0.353 -n MG807646 --hand --verbose --noss --noh3pri asia-combo4.new2.vadr.cm asia-combo4.vadr.stk
+
+Is the .stk file built correctly?
+
+va-zikv-gen-asia-combo4
+
+Tuesday, April 15th 
+
+   #                                         num   num   num
+   #idx  model     group  subgroup          seqs  pass  fail
+   #---  --------  -----  ----------------  ----  ----  ----
+   1     KU509998  ZIKV   ZB.2-american      647   625    22 (100%)
+   2     MG807646  ZIKV   singapore-ZB.1.2   106   105     1 (100%)
+   3     AY632535  ZIKV   ZA-african           7     1     6 (100%)
+   #---  --------  -----  ----------------  ----  ----  ----
+   -     *all*     -      -                  760   731    29
+   -     *none*    -      -                    0     0     0
+   #---  --------  -----  ----------------  ----  ----  ----
+
+
+   Exciting news, running va-zikv-gen-asia-combo4 with combo4 models, and it looks like it was super accurate! 
+
+   grep -v ^id asia-combo4-model-match.txt| awk '{ printf("%s %s\n", $2, $3); }' | sort | uniq -c
+
+    7   AY632535 AY632535 (7/7) (100%)
+    106 MG807646 MG807646 (106/106) (100%)
+    646 KU509998 KU509998 (646/646) (100%)
+
+
+Fri April 17
+
+   Relative entropy 
+   p7ere 0.353 is an effective relative entropy 
+   What is relative entropy? -measure of reward verus penalty 
+
+   reward vs penalty 
+   Changes to a more conserved area 
+
+   t g t g 
+   A g a g
+  -4 5 -4 5
+
+  relative entropy normalizing scoring system
+
+  cmbuild -> always uses the same relative entropy = same scoring 
+
+  using combined sequences = different relative entropy, and you need to normalize 
+
+  more conserved -> higher score (5)
+  less conserved --. lower score 3/-2
+
+   How does adding a more divergent sequence change the scoring?
+
+   Sequence space 
+
+   closest to another sequence --> highest scoring
+   yellow sequences, pretty far away 
+   MG vs. combo3 --. combo3 more inclusive 
+
+   divergent sequences, makes it more specific 
+   Because how far apart the yellow sequences are to the purple sequences
+
+Possibly test how far apart yellow is to purple
+    
+   
+Mon Apr 21
+
+   Poster process
+
+   () pick a color! 
+
+   Ggseqlogo to explain how relative entropy 
+
+Mon Apr 28th 
+
+   To do for poster:
+
+   (d) Illustrate your own ZIKV genome to show annotation (one pink one blue to represent alignment)
+   (d) changed colors on the zikv virus icon
+
+   (d) read the VADR paper to get ideas 
+   () Standardize color pallet (cod e of the colors )
+   (-) Work on introduction
+   () Design figures for each step of the process
+
+   () French class 
+
+   This Monday at 2 PM, turn in poster for print! 
+
+   vadr.std.cls.tblout
+
+Monday, May 12th 
+
+   Poster session went well, Richard told me about a ribosomal frameshift (116..138+)
+
+   "The 5′and 3′Untranslated Regions of the Flaviviral Genome" Ng et al. 
+
+   Literature review for summer project - targeting the 
+
+Thursday, May 15th 
+
+   I don't know how I didn't catch this before but I am not sure about adding the .vadr.protein.fa blast files, I am guessing that I may not need them.
+   It seems that combo4 model has it for MG807646, I think that I probably copied it from a previous folder, and just replaced the cm files lol.
+   I'll need to recreate it this time, I'll use the MG807646
+
+   cp KY989511/*.vadr.protein.fa* zikv-final-test-models/
+   cp MG807646/*.vadr.protein.fa* zikv-final-test-models/
+   cp NC_035889/*.vadr.protein.fa* zikv-final-test-models/
+
+   #                                   num   num   num
+   #idx  model      group  subgroup   seqs  pass  fail
+   #---  ---------  -----  ---------  ----  ----  ----
+   1     NC_035889  -      america     648   619    29
+   2     MG807646   ZIKV   ZB.1-asia   105   104     1
+   3     KY989511   -      africa        7     6     1
+   #---  ---------  -----  ---------  ----  ----  ----
+   -     *all*      -      -           760   729    31
+   -     *none*     -      -             0     0     0
+   #---  ---------  -----  ---------  ----  ----  ----
+
+   https://nextstrain.org/zika?l=unrooted&p=full
+
+Tuesday, May 27th
+
+   From: The Antigenic Structure of Zika Virus and Its Relation to Other Flaviviruses: Implications for Infection and Immunoprophylaxis
+
+   Similarly to most other flaviviruses, there is a single glycan attached to a loop in domain I of the Zika virus E protein that has been highlighted as a noticeable feature and hypothesized to govern cellular tropism or contribute to disease outcomes (63). In contemporary Asian and American strains and all other strains since the outbreak in Yap island 2007, this glycan loop is longer than those in YF, dengue, and TBE viruses but similar to those in WN and JE viruses. Of note, many older Zika virus strains have a deletion of the loop or a mutation at the carbohydrate attachment site (N154DT to N154DI) that would lead to nonglycosylated E proteins (67, 68). This lack of glycosylation is specifically observed in African strains isolated before 2007 (68), including the first Ugandan isolate from 1947 (MR766-UGA-1947). It is striking that individual data bank entries corresponding to the same strain in principle (e.g., of MR766-UGA-1947, DAK-41524-1984, or P6-740-MYS-1966)
+
+   () To do, what are the key mutations that devide the american from the
+   asian sequences?
+
+   Pulls accession name from .stk - help from Alexander
+
+   grep '#=GS' va-zikv-clean.vadr.KY989511.align.stk | cut -d\  -f1 
+
+Tuesday, June 3rd
+
+   Two months until end of my fellowship (one week on vacation to visit AT and Orla, one week at ASV)
+   
+
+    Quite time to write, perhaps get to work early at 8 am, before the rest of the folks
+
+   Scientific Writing and communication by Angelika H. Hofmann
+
+   Writing Schedule for the paper!
+   Quite place 
+
+Wednesday, June 4th 
+
+   To do:
+
+   (d) Get back to Alexander
+   (d) Message to Cuong, David, and Eric about leaving
+   () Once you are done with sources, write the introduction in sentences 
+   (d) Talk to Eric about trip
+
+   Hi Eric, I just wanted to let you know, I want to be out of town from June 23rd-26th, and back on
+   that Friday to see my friends in Chicago. 
+
+June 5th 2025 - meeting with Eric 
+
+   What data do I want to present? 
+   Sequences that pass/fail - reproducible
+   How well does VADR do at annotating zikv? 
+   Compare against VIGOR
+
+   Add the structural RNAs to all models
+
+   Make sure all models are annotated 
+
+   (d) Ask Eneida if she wants to be an author, include that I want to add structural RNAs like Eric did for Dengue, we have at least one, maybe up to five RefSeqs if you agree. I am hoping to t  together a manuscript, and if that does come together we were interested if you would want to become a co-author! Cc Eric! 
+
+   (d) We downloaded all zika viruses on June 10th, 2025 (2574) - two groups (95% of refseq length (1442 seqs)
+   And all-zikv) 
+
+June 11 2025
+
+   The we downloaded sequences on June 10th from GenBank (june-10-comp95.fasta), and got the sequences that were 95% length and above (so download anything from 10267 or greater) 
+
+   Format:              FASTA
+   Alphabet type:       DNA
+   Number of sequences: 1442
+   Total # residues:    15327666
+   Smallest:            10269
+   Largest:             11520
+   Average length:      10629.4
+
+   june-10-zikv-comp-cl.fa - cleaned the Patent and synthetic sequences 
+
+   Format:              FASTA
+   Alphabet type:       DNA
+   Number of sequences: 1286
+   Total # residues:    13660896
+   Smallest:            10269
+   Largest:             11520
+   Average length:      10622.8
+
+June 12 2025
+
+   Update the infernal information into the other models, 
+
+   (d) NC_0135889 is done
+   () KY989511
+   () MG807646
+
+
+   MODEL NC_035889 blastdb:"NC_035889.vadr.protein.fa" cmfile:"NC_035889.vadr.cm" length:"10808"
+   FEATURE NC_035889 type:"ncRNA" coords:"1..162:+" parent_idx_str:"GBNULL" product:"Flavivirus 5' UTR (Rfam 14.10)"
+   FEATURE NC_035889 type:"gene" coords:"108..10379:+" parent_idx_str:"GBNULL" gene:"POLY"
+   FEATURE NC_035889 type:"CDS" coords:"108..10379:+" parent_idx_str:"GBNULL" gene:"POLY" product:"polyprotein"
+   FEATURE NC_035889 type:"mat_peptide" coords:"108..473:+" parent_idx_str:"1" product:"anchored capsid protein C"
+   FEATURE NC_035889 type:"mat_peptide" coords:"108..419:+" parent_idx_str:"1" product:"capsid protein C"
+   FEATURE NC_035889 type:"mat_peptide" coords:"474..977:+" parent_idx_str:"1" product:"membrane glycoprotein precursor M"
+   FEATURE NC_035889 type:"mat_peptide" coords:"474..752:+" parent_idx_str:"1" product:"protein pr"
+   FEATURE NC_035889 type:"mat_peptide" coords:"753..977:+" parent_idx_str:"1" product:"membrane glycoprotein M"
+   FEATURE NC_035889 type:"mat_peptide" coords:"978..2489:+" parent_idx_str:"1" product:"envelope protein E"
+   FEATURE NC_035889 type:"mat_peptide" coords:"2490..3545:+" parent_idx_str:"1" product:"nonstructural protein NS1"
+   FEATURE NC_035889 type:"mat_peptide" coords:"3546..4223:+" parent_idx_str:"1" product:"nonstructural protein NS2A"
+   FEATURE NC_035889 type:"mat_peptide" coords:"4224..4613:+" parent_idx_str:"1" product:"nonstructural protein NS2B"
+   FEATURE NC_035889 type:"mat_peptide" coords:"4614..6464:+" parent_idx_str:"1" product:"nonstructural protein NS3"
+   FEATURE NC_035889 type:"mat_peptide" coords:"6465..6845:+" parent_idx_str:"1" product:"nonstructural protein NS4A"
+   FEATURE NC_035889 type:"mat_peptide" coords:"6846..6914:+" parent_idx_str:"1" product:"protein 2K"
+   FEATURE NC_035889 type:"mat_peptide" coords:"6915..7667:+" parent_idx_str:"1" product:"nonstructural protein NS4B"
+   FEATURE NC_035889 type:"mat_peptide" coords:"7668..10376:+" parent_idx_str:"1" product:"RNA-dependent RNA polymerase NS5"
+   FEATURE NC_035889 type:"ncRNA" coords:"10392..10467:+" parent_idx_str:"GBNULL" product:"Flavivirus 3'UTR stem loop IV 1 (Rfam 14.10)"
+   FEATURE NC_035889 type:"ncRNA" coords:"10476..10548:+" parent_idx_str:"GBNULL" product:"Flavivirus 3'UTR stem loop IV 2 (Rfam 14.10)"
+   FEATURE NC_035889 type:"ncRNA" coords:"10618..10691:+" parent_idx_str:"GBNULL" product:"Flavivirus DB element (Rfam 14.10)"
+   FEATURE NC_035889 type:"ncRNA" coords:"10711..10807:+" parent_idx_str:"GBNULL" product:"Flavivirus 3' UTR cis-acting replication element (CRE) (Rfam 14.10)"
+
+   MODEL KY989511 blastdb:"KY989511.vadr.protein.fa" cmfile:"KY989511.vadr.cm" length:"10807"
+   FEATURE KY989511 type:"ncRNA" coords:"1..161:+" parent_idx_str:"GBNULL" product:"Flavivirus 5' UTR (Rfam 14.10)"
+   FEATURE KY989511 type:"CDS" coords:"107..10378:+" parent_idx_str:"GBNULL" product:"polyprotein"
+   FEATURE KY989511 type:"mat_peptide" coords:"107..472:+" parent_idx_str:"0" product:"capsid protein C"
+   FEATURE KY989511 type:"mat_peptide" coords:"473..751:+" parent_idx_str:"0" product:"protein pr"
+   FEATURE KY989511 type:"mat_peptide" coords:"752..976:+" parent_idx_str:"0" product:"small envelope protein M"
+   FEATURE KY989511 type:"mat_peptide" coords:"977..2488:+" parent_idx_str:"0" product:"envelope protein E"
+   FEATURE KY989511 type:"mat_peptide" coords:"2489..3544:+" parent_idx_str:"0" product:"nonstructural protein NS1"
+   FEATURE KY989511 type:"mat_peptide" coords:"3545..4222:+" parent_idx_str:"0" product:"nonstructural protein NS2A"
+   FEATURE KY989511 type:"mat_peptide" coords:"4223..4612:+" parent_idx_str:"0" product:"nonstructural protein NS2B"
+   FEATURE KY989511 type:"mat_peptide" coords:"4613..6463:+" parent_idx_str:"0" product:"nonstructural protein NS3"
+   FEATURE KY989511 type:"mat_peptide" coords:"6464..6844:+" parent_idx_str:"0" product:"nonstructural protein NS4A"
+   FEATURE KY989511 type:"mat_peptide" coords:"6845..6913:+" parent_idx_str:"0" product:"protein 2K"
+   FEATURE KY989511 type:"mat_peptide" coords:"6914..7666:+" parent_idx_str:"0" product:"nonstructural protein NS4B"
+   FEATURE KY989511 type:"mat_peptide" coords:"7667..10375:+" parent_idx_str:"0" product:"nonstructural protein NS5"
+   FEATURE KY989511 type:"ncRNA" coords:"10391..10466:+" parent_idx_str:"GBNULL" product:"Flavivirus 3'UTR stem loop IV 1 (Rfam 14.10)"
+   FEATURE KY989511 type:"ncRNA" coords:"10475..10547:+" parent_idx_str:"GBNULL" product:"Flavivirus 3'UTR stem loop IV 2 (Rfam 14.10)"
+   FEATURE KY989511 type:"ncRNA" coords:"10617..10690:+" parent_idx_str:"GBNULL" product:"Flavivirus DB element (Rfam 14.10)"
+   FEATURE KY989511 type:"ncRNA" coords:"10710..10807:+" parent_idx_str:"GBNULL" product:"Flavivirus 3' UTR cis-acting replication element (CRE) (Rfam 14.10)"
+
+   MG807646
+
+   MODEL MG807646 blastdb:"MG807646.vadr.protein.fa" cmfile:"MG807646.vadr.cm" group:"ZIKV" length:"10807" subgroup:"ZB.1-asia"
+   FEATURE MG807646 type:"CDS" coords:"108..10379:+" parent_idx_str:"GBNULL" product:"polyprotein"
+
+   Maybe use:
+
+   MODEL KY989511 blastdb:"KY989511.vadr.protein.fa" cmfile:"KY989511.vadr.cm" length:"10807"
+   FEATURE KY989511 type:"ncRNA" coords:"1..161:+" parent_idx_str:"GBNULL" product:"Flavivirus 5' UTR (Rfam 14.10)"
+   FEATURE KY989511 type:"CDS" coords:"107..10378:+" parent_idx_str:"GBNULL" product:"polyprotein"
+   FEATURE KY989511 type:"mat_peptide" coords:"107..472:+" parent_idx_str:"0" product:"capsid protein C"
+   FEATURE KY989511 type:"mat_peptide" coords:"473..751:+" parent_idx_str:"0" product:"protein pr"
+   FEATURE KY989511 type:"mat_peptide" coords:"752..976:+" parent_idx_str:"0" product:"small envelope protein M"
+   FEATURE KY989511 type:"mat_peptide" coords:"977..2488:+" parent_idx_str:"0" product:"envelope protein E"
+   FEATURE KY989511 type:"mat_peptide" coords:"2489..3544:+" parent_idx_str:"0" product:"nonstructural protein NS1"
+   FEATURE KY989511 type:"mat_peptide" coords:"3545..4222:+" parent_idx_str:"0" product:"nonstructural protein NS2A"
+   FEATURE KY989511 type:"mat_peptide" coords:"4223..4612:+" parent_idx_str:"0" product:"nonstructural protein NS2B"
+   FEATURE KY989511 type:"mat_peptide" coords:"4613..6463:+" parent_idx_str:"0" product:"nonstructural protein NS3"
+   FEATURE KY989511 type:"mat_peptide" coords:"6464..6844:+" parent_idx_str:"0" product:"nonstructural protein NS4A"
+   FEATURE KY989511 type:"mat_peptide" coords:"6845..6913:+" parent_idx_str:"0" product:"protein 2K"
+   FEATURE KY989511 type:"mat_peptide" coords:"6914..7666:+" parent_idx_str:"0" product:"nonstructural protein NS4B"
+   FEATURE KY989511 type:"mat_peptide" coords:"7667..10375:+" parent_idx_str:"0" product:"nonstructural protein NS5"
+   FEATURE KY989511 type:"ncRNA" coords:"10391..10466:+" parent_idx_str:"GBNULL" product:"Flavivirus 3'UTR stem loop IV 1 (Rfam 14.10)"
+   FEATURE KY989511 type:"ncRNA" coords:"10475..10547:+" parent_idx_str:"GBNULL" product:"Flavivirus 3'UTR stem loop IV 2 (Rfam 14.10)"
+   FEATURE KY989511 type:"ncRNA" coords:"10617..10690:+" parent_idx_str:"GBNULL" product:"Flavivirus DB element (Rfam 14.10)"
+   FEATURE KY989511 type:"ncRNA" coords:"10710..10807:+" parent_idx_str:"GBNULL" product:"Flavivirus 3' UTR cis-acting replication element (CRE) (Rfam 14.10)"
+
+
+   Correspondence with Eric:
+
+   "I would try annotating the MG807646 sequence with the american model (assuming the american model has mat_peptides annotated)
+   If the sequence passes, then the mat peptide annotations are probably correct. Run that with --keep and that way you can also look at the alignment to see 
+   if you think the mat_peptide annotations are correct. You can run v-annotate.pl and force it to use a specific model by creating a text file called my.mlist
+   and adding a single line to it with the name of the model you want to use, then run v-annotate.pl with --mlist my.mlist."
+
+   I created the MG807646.fa and ran it through v-annotate.pl:
+   qsub -N $a -b y -v SGE_FACILITIES -P unified -S /bin/bash -cwd -V -j n -o /dev/null -e cm.$a.err -l m_mem_free=32G,h_rt=2880000,mem_free=32G,h_vmem=64G -pe multicore 4 -R y -m n 
+   "v-annotate.pl --mlist my.mlist --keep -f -r --cpu 4 --split --mdir zikv-final-models --mkey zikv MG807646.fa va-$a"
+
+   #                                   num   num   num
+   #idx  model      group  subgroup   seqs  pass  fail
+   #---  ---------  -----  ---------  ----  ----  ----
+   1     NC_035889  -      -           905   878    27
+   2     MG807646   ZIKV   ZB.1-asia   246   237     9
+   3     KY989511   -      -           135   120    15
+   #---  ---------  -----  ---------  ----  ----  ----
+   -     *all*      -      -          1286  1235    51
+   -     *none*     -      -             0     0     0
+   #---  ---------  -----  ---------  ----  ----  ----
+
+   grep HIGH_CONF *.alt | awk '{ print $2,$12 }' | sort | uniq
+
+   I looked at where some of the high confidence frameshifts were coming from! 
+
+   AY632535.2 KY989511 117..138:+
+   AY632535.2 KY989511 7171..7179:+
+   KF383118.1 KY989511 7171..7179:+
+   LY589883.1 KY989511 117..138:+
+   LY589883.1 KY989511 7171..7179:+
+   LY683289.1 KY989511 7171..7179:+
+   MA887907.1 KY989511 117..138:+
+   MA887907.1 KY989511 7171..7179:+
+   NC_012532.1 KY989511 117..138:+
+   NC_012532.1 KY989511 7171..7179:+
+
+
+   MT439641.1 NC_035889 112..139:+
+   MT439642.1 NC_035889 112..139:+
+   MT439643.1 NC_035889 112..139:+
+   MT439644.1 NC_035889 112..139:+
+   MT439645.1 NC_035889 112..139:+
+   MT439646.1 NC_035889 112..139:+
+   MT439647.1 NC_035889 112..139:+
+
+   EU545988.1 MG807646 118..139:+
+   OM666891.1 MG807646 116..139:+
+   OM666892.1 MG807646 116..139:+
+   OM666893.1 MG807646 116..139:+
+   PQ129494.1 MG807646 5116..5139:+
+   PQ129495.1 MG807646 5116..5139:+
+   PQ203661.1 MG807646 5116..5139:+
+   PV549934.1 MG807646 5116..5139:+
+   PV549935.1 MG807646 5116..5139:+
+
+June 13th 2025 
+
+   Meeting with Eric 
+   () Talked about the results of running v-annotate for the full seqs 
+   () Read about VIGOR - how does annotation comparison work? Have you ever used VIGOR before?
+
+   " VIGOR can also be used as a tool to validate sequence accuracy and completeness during the genome finishing process."
+
+   () Annotation for MG807646 combined model. It looks like it works! Perhaps we can add it this week? 
+
+   () Logo/meeting with Eneida. I was thinking of presenting her with some of the results of 
+
+      *ftr file - an annotation file, pass.tbl
+
+   Just add the mat_peptides! You can be confident that it is correct
+   because VADR does a lot of tests!
+
+   Make all three seqs
+
+   MG807646 was built as an HMM rather than a cm, and that is potentially changing
+   classification
+
+   Build a cm (cmbuild) with 1* sequence, cmalign a sequence file that
+   has all four asian sequences. Follow the directions!
+
+   cmbuild command: /home/dickinsoneb/vadr_files/infernal/binaries/cmbuild -n MG807646 --verbose --noh3pri MG807646.single.cm va-zikv-MG807646-test/va-zikv-MG807646-test.vadr.NC_035889.align.stk
+
+   next step, create 4 sequence fasta file with 4 MG807646 model sequences.
+
+   then run cmalign like this:
+   /home/dickinsoneb/vadr_files/infernal/binaries/cmalign --cpu 1 -o MG807646.4seq.stk --tau 0.001 --mxsize 4000.00 --sub --notrunc -g --fixedtau --flanktoins 0.1 --flankselfins 0.8 MG807646.single.cm 4seq.fasta (edited) 
+
+   /home/dickinsoneb/vadr_files/infernal/binaries/cmalign --cpu 1 -o MG807646.4seq.stk --tau 0.001 --mxsize 4000.00 --sub --notrunc -g --fixedtau --flanktoins 0.1 --flankselfins 0.8 MG807646.single.cm asia-combo4.fa
+
+   Finally, build a new CM from the 4 sequence alignment like this:
+   /home/dickinsoneb/vadr_files/infernal/binaries/cmbuild -n MG807646 --verbose --noh3pri MG807646.4seq.cm MG807646.4seq.stk
+
+   after running cmbuild 
+   # idx    name                     nseq eff_nseq   alen  clen  bps bifs    CM   HMM description
+   # ------ -------------------- -------- -------- ------ ----- ---- ---- ----- ----- -----------
+         1 MG807646                    1     1.00  10808 10807  120   13 0.540 0.530 
+
+   after runnign cmalign 
+      idx  seq name                      length  cm from    cm to  trunc    bit sc  avg pp  band calc  alignment      total  mem (Mb)
+   # ---  ----------------------------  ------  -------  -------  -----  --------  ------  ---------  ---------  ---------  --------
+      1  gi|1036637432|gb|KX377336.1|   10807        1    10807     no  13598.74   1.000      11.78       0.01      22.29   7479.18
+      2  gi|2030207736|gb|MW915411.1|   10661        1    10661     3'  14172.26   1.000      10.98       0.01      18.39   7379.15
+      3  gi|1847502741|gb|MT377504.1|   10603       77    10679  5'&3'  14015.03   1.000      10.95       0.01      19.70   7339.14
+      4  gi|1345605838|gb|MG807646.1|   10807        1    10807     no  14624.48   1.000      11.31       0.01      19.37   7479.18
+
+
+June 16 2025 
+
+   reran all the seqs using the new MG807646.4seq.cm, which uses a cm rather than an hmm
+
+   Then I added the new cm to zikv-final-models2
+
+   And ran all the models through
+
+   used cmstat to find out more about relative entropy
+
+   # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+   #                                                                                     rel entropy
+   #                                                                                     ------------
+   # idx   name                       nseq  eff_nseq   clen      W   bps  bifs  model     cm    hmm
+   # ----  --------------------    --------  --------  -----  -----  ----  ----  -----  -----  -----
+      1  KY989511                       1      1.00  10807  10681   118    13     cm  0.541  0.531
+      2  MG807646                       4      0.71  10807  10654     0     0    hmm      -  0.356
+      3  NC_035889             -        1      1.00  10808  10682   120    13     cm  0.540  0.530
+   #
+
+June 17th 2025 
+
+   Correspondence with Eric
+
+   So eff_nseq of 1.0 gives 5.19, and 1.14 gives 0.591, we need to figure out what number for eff_nseq gives 0.540 or 0.541
+   So I would retry cmbuild with --eset 1.05, --eset 1.07 and --eset 1.09
+   Actually try --eset 1.03 instead of 1.09
+
+   How --eset, priors, and how alignments behave -according to Eric! 
+
+   The effective sequence number is the parameter that controls the relative weight of the counts from the input sequence alignment 
+   and the 'priors' which are kind of like generic parameters that are averaged over many different large structural RNA alignments. 
+   Using 'priors' significantly improves performance for models that are built from a small number of sequences because the input alignment 
+   doesn't provide a very rich representation of how structural alignments behave, just because it is so small. For example, 
+   the prior provides information on how watson crick basepairs (A:U and G:C) commonly substitute for each other in structural RNA alignments.
+   
+   The effective sequence number parameter controls what the relative entropy of the model will be.
+   The --eset parameter defines the effective sequence number, so what we are trying to do is figure out what the effective sequence number should 
+   be to get a relative entropy of between 0.540 and 0.541. Once we do that, the three models will all be balanced the 
+   same way, such that when they score a sequence that is say 99% similar to the model they will all give just about the same score, eg 10000 bits. 
+   If the relative entropies are different than a sequence of 99% similarity will get a score of 10000 bits with the models with effective sequence 
+   number of 0.540 and something like 10500 bits with the 0.591 model. This is why your last test had MG807646 classifying all the NC sequences.
+
+   Sequences that were actually more similar to the NC model were still getting a slightly higher score with the MG model, just because it had a higher 
+   relative entropy of 0.591.
+
+   Tried an effective sequence number of 1.03 and 1.05, got too high and too low of a cm score, try 1.04.
+
+   --eset 1.04 works  
+
+   /home/dickinsoneb/vadr_files/infernal/binaries/cmbuild --eset 1.04 -n MG807646 --verbose --noh3pri MG807646.4seq-1.04.cm MG807646.4seq.stk
+   # idx    name                     nseq eff_nseq   alen  clen  bps bifs    CM   HMM description
+   # ------ -------------------- -------- -------- ------ ----- ---- ---- ----- ----- -----------
+       1 MG807646                    4     1.04  10807 10807  120   13 0.540 0.530 
+
+   #                                                                                              rel entropy
+   #                                                                                             ------------
+   # idx   name                  accession      nseq  eff_nseq   clen      W   bps  bifs  model     cm    hmm
+   # ----  --------------------  ---------  --------  --------  -----  -----  ----  ----  -----  -----  -----
+     1  KY989511              -                 1      1.00  10807  10681   118    13     cm  0.541  0.531
+     2  MG807646              -                 4      1.04  10807  10678   120    13     cm  0.541  0.530
+     3  NC_035889             -                 1      1.00  10808  10682   120    13     cm  0.540  0.530
+
+() mail merge! 
+   
+() correct .minfo file 
+
+June 18th 
+
+   --p7ere 
+
+   MG807646
+
+   infernal/binaries/cmbuild --p7ere 0.353 -n MG807646 --hand --verbose --noss --noh3pri asia-combo3.new.vadr.cm asia-combo3.vadr.stk
+
+   cmbuild -F -n KY989511 --verbose KY989511.vadr.cm KY989511.sscons.stk
+
+   /home/dickinsoneb/vadr_files/infernal/binaries/cmbuild --p7ml --eset 1.04 -n MG807646 --verbose --noh3pri MG807646.4seq-p7ml.cm MG807646.4seq.stk
+
+   v-build.pl --cmp7ml --stk KY989511.sscons.stk --group ZIKV --subgroup african KY989511 KY989511
+
+   Incorrect number of command line arguments.
+   Usage: v-build.pl [-options] <accession> <path to output directory to create>
+
+   To see more help on available options, do v-build.pl -h
+
+July 2 - forgot to clean the PAT and SYN sequences, booo
+
+cat june-10-zikv-comp-cl.fa | grep '>' |  awk ' {print $1}'| sed 's/^>//' > june-10-zikv-comp-cl.list
+grep -c . june-10-zikv-comp-cl.list
+
+1286 sequence 
+
+awk '/^LOCUS/ && $7 !~ /SYN|PAT/ { locus_check = 1 } /^VERSION/ && locus_check { print $2; locus_check = 0 }' june-10-zikv-comp-cl.gb > june-10-clean2.list
+
+1248 sequences 
+
+esl-sfetch --index june-10-zikv-comp-cl.fa
+esl-sfetch --index june-10-zikv-comp-cl.fa
+
+Format:              FASTA
+Alphabet type:       DNA
+Number of sequences: 1248
+Total # residues:    13252744
+Smallest:            10269
+Largest:             11155
+Average length:      10619.2
+
+From va-zikv-all2-june10 before I deleteq
+
+# Summary of classified sequences:
+#
+#                                   num   num   num
+#idx  model     group  subgroup    seqs  pass  fail
+#---  --------  -----  ----------  ----  ----  ----
+1     MG807646  ZIKV   ZB.1-asian  1151  1130    21
+2     KY989511  -      ZA-african   135   120    15
+#---  --------  -----  ----------  ----  ----  ----
+-     *all*     -      -           1286  1250    36
+-     *none*    -      -              0     0     0
+#---  --------  -----  ----------  ----  ----  ----
+
+
+Meeting with Eric! 
+
+- Discuss the results, talk about rerunning a new version without SYS or PAT oops 
+- Need to update my poster with results, have it printed early next week, I will have Alvin run a tree for me!
+- Create research code on github, supplementary material, when I
+  finalize everything, keep notes on whatever tests that I do.
+
+- continue to work on the introduction, results and discussion
+- (intro/discussion), future work/limitations
+- get the frame of what you want to report, I need to test the models,
+  and see if they work. 
+
+- methods next week
+- reach out to the Seabra team, see if they want me to present to them, communicate that I am using their research 
+- Talk to Eneida about finding particular mutations around the frameshift
+
+-Designing the tests and experiments!!! Comparison to Seabra
+ classification data, comparing to the Seabra to what is in GenBank
+
+-Comparing to Viper and Vigor
+
+- get the annotation from viper and vigor into a comparison, run
+  Vigor4
+
+- which sequences have failed both viper, vigor, and vadr, these 50
+  seqs had these issues, and these are the alerts! Which sequences
+  should have failed!
+
+-classification, looking into the vadr errors
+-trying to get vigor to work (through command line) 
+-experiments, classification (vigor, genbank, etc)
+
+Methods
+-how I got the dataset
+- how to run the program, command etc
+- classification tests (Sebra dataset)
+- final annotation testing
+
+Schaeffer 2020 et al. 
+
+-seabra classification comparison
+- keep notes accession by accession to put in the paper! 
+
+July 7th 
+
+So I reran the seabra dataset with the new models (zikv-final-models3)
+
+#                                                                                              rel entropy
+#                                                                                             ------------
+# idx   name                  accession      nseq  eff_nseq   clen      W   bps  bifs  model     cm    hmm
+# ----  --------------------  ---------  --------  --------  -----  -----  ----  ----  -----  -----  -----
+     1  KY989511              -                 1      1.00  10807  10681   118    13     cm  0.541  0.531
+     2  MG807646              -                 4      1.04  10807  10678   120    13     cm  0.541  0.530
+     3  NC_035889             -                 1      1.00  10808  10682   120    13     cm  0.540  0.530
+
+And received these results: 
+
+   Seabra 760 dataset
+
+   #idx  model      group  subgroup   seqs  pass  fail
+   #---  ---------  -----  ---------  ----  ----  ----
+   1     NC_035889  ZIKV   american    653   634    19
+   2     MG807646   ZIKV   ZB.1-asia   100    99     1
+   3     KY989511   ZIKV   african       7     6     1
+   #---  ---------  -----  ---------  ----  ----  ----
+   -     *all*      -      -           760   739    21
+   -     *none*     -      -             0     0     0
+   #---  ---------  -----  ---------  ----  ----  ----
+
+   All ZiKV dataset 
+
+   # Summary of classified sequences:
+   #
+   #                                   num   num   num
+   #idx  model      group  subgroup   seqs  pass  fail
+   #---  ---------  -----  ---------  ----  ----  ----
+   1     NC_035889  ZIKV   american    891   879    12
+   2     MG807646   ZIKV   ZB.1-asia   229   221     8
+   3     KY989511   ZIKV   african     128   119     9
+   #---  ---------  -----  ---------  ----  ----  ----
+   -     *all*      -      -          1248  1219    29
+   -     *none*     -      -             0     0     0
+   #---  ---------  -----  ---------  ----  ----  ----
+
+*It appears that these sequences: 
+
+   MG807647.1
+   MK238037.1      
+   MN190155.1
+   MN611472.1   
+   MW915412.1      
+   MT377496.2|
+
+   Are being misclassified 
+
+   I think I can look at the difference between this and va-zikv-gen-asia-combo4 to locate the ones that are missing 
+
+   Tomorrow, try and get poster in by 3 PM, sent everything to Alvin
+
+   june-10-zikv-comp-cl.fa
+
+
+July 22nd 
+
+*What I learned from 
+
+   Format:              FASTA
+   Alphabet type:       DNA
+   Number of sequences: 1286
+   Total # residues:    13660896
+   Smallest:            10269
+   Largest:             11520
+   Average length:      10622.8
+
+   = gi|1345605840|gb|MG807647.1|    10807 Zika virus isolate SI-BKK06, complete genome
+   = gi|1547059539|gb|MK238037.1|    10768 Zika virus isolate 20366 polyprotein gene, complete cds
+   = gi|1720334759|gb|MN190155.1|    10647 Zika virus isolate Yunnan/01/2019 polyprotein gene, complete cds
+   = gi|1773320022|gb|MN611472.1|    10807 Zika virus isolate 2019YNZIKV02, complete genome
+   = gi|2030207738|gb|MW915412.1|    10661 Zika virus isolate 7040 polyprotein gene, complete cds
+   = gi|2713917346|gb|MT377496.2|    10754 Zika virus isolate MU-DMSC-2/2016, complete genome
+
+   Misclassified sequences from the Seabra dataset using 
+   MG807647.1
+   MK238037.1      
+   MN190155.1
+   MN611472.1   
+   MW915412.1      
+   MT377496.2|
+
+   Eric fixed the models
+
+   Here is the result: 
+   #                                   num   num   num
+   #idx  model      group  subgroup   seqs  pass  fail
+   #---  ---------  -----  ---------  ----  ----  ----
+   1     NC_035889  ZIKV   american    904   891    13
+   2     MG807646   ZIKV   ZB.1-asia   247   238     9
+   3     KY989511   ZIKV   african     135   121    14
+   #---  ---------  -----  ---------  ----  ----  ----
+   -     *all*      -      -          1286  1250    36
+   -     *none*     -      -             0     0     0
+   #---  ---------  -----  ---------  ----  ----  ----
+   #
+
+July 23rd 
+
+   We saw a difference of 14 sequences between va-zikv-20250717-june10
+
+   va-zikv-20250717-june10
+
+   #                                   num   num   num
+   #idx  model      group  subgroup   seqs  pass  fail
+   #---  ---------  -----  ---------  ----  ----  ----
+   1     NC_035889  ZIKV   american    877   865    12
+   2     MG807646   ZIKV   ZB.1-asia   243   234     9
+   3     KY989511   ZIKV   african     128   119     9
+   #---  ---------  -----  ---------  ----  ----  ----
+   -     *all*      -      -          1248  1218    30
+   -     *none*     -      -             0     0     0
+   #---  ---------  -----  ---------  ----  ----  ----
+
+      
+   va-zikv-all-clean-june10
+
+   # Summary of classified sequences:
+   #
+   #                                   num   num   num
+   #idx  model      group  subgroup   seqs  pass  fail
+   #---  ---------  -----  ---------  ----  ----  ----
+   1     NC_035889  ZIKV   american    891   879    12
+   2     MG807646   ZIKV   ZB.1-asia   229   221     8
+   3     KY989511   ZIKV   african     128   119     9
+   #---  ---------  -----  ---------  ----  ----  ----
+   -     *all*      -      -          1248  1219    29
+   -     *none*     -      -             0     0     0
+   #---  ---------  -----  ---------  ----  ----  ----
+
+
+List of 14 asian sequences categorized as american. 
+   MK238037.1   
+   PP115590.1
+   KU681081.3
+   MG770187.1  
+   MG770188.1
+   MG807647.1
+   PP626407.1
+   PP626404.1
+   MT377496.2
+   PP626406.1
+   MW915412.1
+   MN611472.1
+   MN190155.1
+   PP326314.1
+
+They are all being correctly classified by the new model
+
+   (d)MK238037.1   
+   (d)PP115590.1
+   (d)KU681081.3
+   (d)MG770187.1  
+   (d)MG770188.1
+   (d)MG807647.1
+   (d)PP626407.1
+   (d)PP626404.1
+   (d)MT377496.2
+   (d)PP626406.1
+   (d)MW915412.1
+   (d)MN611472.1
+   (d)MN190155.1
+   (d)PP326314.1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+      
+
+
+      
+      
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+         
+
+
+
+      
+         
+         
+
+
+
+
+      
+
+
+
+
+
