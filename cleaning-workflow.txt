@@ -1,0 +1,63 @@
+Final cleaning process ZIKV (june-10-clean2.fa)
+
+     1.) Download sequences from 95% length and above on GenBank (for ZIKV download anything 10267 or greater)
+
+          Format:              FASTA
+          Alphabet type:       DNA
+          Number of sequences: 2562
+          Total # residues:    17971193
+          Smallest:            20
+          Largest:             11520
+          Average length:      7014.5
+     
+     1.) Removed UNVERIFIED and Patent sequences in titles using:
+         
+          awk -vRS=">" -vORS="" -vFS="\n" -vOFS="\n" 'NR>1 && $1!~/UNVERIFIED|Patent/ {print ">"$0}' zikv-comp.fa > zikv-comp-cl.fa
+
+          esl-seqstat zikv-comp-cl.fa 
+
+          Format:              FASTA
+          Alphabet type:       DNA
+          Number of sequences: 2316
+          Total # residues:    16080438
+          Smallest:            20
+          Largest:             11520
+          Average length:      6943.2
+          
+     2.) Create an accension list (zikv-comp-cl.list)
+     
+          With labels 
+          grep '^>' zikv-comp-cl.fa | sed 's/^>//' > zikv-comp-cl.list
+
+          Without labels
+          cat zikv-comp-cl.fa | grep '>' |  awk ' {print $1}'| sed 's/^>//' > zikv-comp-cl.list
+       
+     3.) Sanity check for correct number of sequences 
+          grep -c . zikv-comp-cl.list
+          2316
+
+     4.) Use idfetch to create a genbank file:
+          idfetch -t 3 -c 1 -G june-10-zikv-comp-cl.list > june-10-zikv-comp-cl.gb
+
+     5.) Remove accessions that are categorized as SYN and PAT:
+          awk '/^LOCUS/ && $7 !~ /SYN|PAT/ { locus_check = 1 } /^VERSION/ && locus_check { print $2; locus_check = 0 }' june-10-zikv-comp-cl.gb > june-10-clean2.list
+
+          1248
+
+     6.) convert back into a fasta file
+
+          > esl-sfetch --index june-10-zikv-comp-cl.fa
+          > esl-sfetch -f june-10-zikv-comp-cl.fa june-10-clean2.list > june-10-clean2.fa
+
+     7.) Sanity check esl-seqstat
+          esl-seqstat june-10-clean2.fa
+          
+          Format:              FASTA
+          Alphabet type:       DNA
+          Number of sequences: 1248
+          Total # residues:    13252744
+          Smallest:            10269
+          Largest:             11155
+          Average length:      10619.2
+
+     8.) run v-annotate
