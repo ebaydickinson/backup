@@ -802,7 +802,7 @@ INDEFINITE_ANNOTATION_START - protein-based alignment does not extend close enou
 
      Met with Eric, the next step is to run a bigger subset of sequences that are 95% full or greater! 
 
-     1.) Download fasta that are 95% or greater (around 1,391), so download anything from 10267 or greater
+     1.) Download fasta that are 95% or greater (around 1,391), d
 
      called zikv.comp95.fa
 
@@ -1618,6 +1618,8 @@ December 6th - 14th
 
          Created Python scripts to extract the best model for the
          Asian genotype
+
+seq OK571913 not found in SSI index for file zikv.comp95.fa
 
 
 
