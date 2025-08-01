@@ -1,0 +1,22 @@
+#seq  seq            seq             best             sub                                   seq   
+#idx  name           len  p/f   ant  model      grp   grp        nfa  nfn  nf5  nf3  nfalt  alerts
+#---  -----------  -----  ----  ---  ---------  ----  ---------  ---  ---  ---  ---  -----  ------
+1     AY632535.2   10794  FAIL  yes  KY989511   ZIKV  african     13    0    0    0     13  -     
+2     EU545988.1   10272  FAIL  yes  MG807646   ZIKV  ZB.1-asia    1    0    0    0      1  INDEFINITE_CLASSIFICATION(indfclas)
+3     KF383118.1   10272  FAIL  yes  KY989511   ZIKV  african     13    0    0    0     13  -     
+4     MT439641.1   10370  FAIL  yes  NC_035889  ZIKV  american    16    0    1    1     17  INDEFINITE_CLASSIFICATION(indfclas)
+5     MT439642.1   10627  FAIL  yes  NC_035889  ZIKV  american    16    0    1    1     17  INDEFINITE_CLASSIFICATION(indfclas)
+6     MT439643.1   10627  FAIL  yes  NC_035889  ZIKV  american    16    0    2    2     19  INDEFINITE_CLASSIFICATION(indfclas)
+7     MT439644.1   10627  FAIL  yes  NC_035889  ZIKV  american    16    0    1    1     17  INDEFINITE_CLASSIFICATION(indfclas)
+8     MT439645.1   10625  FAIL  yes  NC_035889  ZIKV  american    16    0    2    2     19  INDEFINITE_CLASSIFICATION(indfclas)
+9     MT439646.1   10627  FAIL  yes  NC_035889  ZIKV  american    16    0    2    2     19  INDEFINITE_CLASSIFICATION(indfclas)
+10    MT439647.1   10627  FAIL  yes  NC_035889  ZIKV  american    16    0    2    2     19  INDEFINITE_CLASSIFICATION(indfclas)
+11    NC_012532.1  10794  FAIL  yes  KY989511   ZIKV  african     13    0    0    0     13  -     
+12    OM666891.1   10749  FAIL  yes  MG807646   ZIKV  ZB.1-asia    1    0    0    0      2  INDEFINITE_CLASSIFICATION(indfclas),N_RICH_REGION_NOT_REPLACED(ambgntrp)
+13    OM666892.1   10753  FAIL  yes  MG807646   ZIKV  ZB.1-asia    1    0    0    0      3  INDEFINITE_CLASSIFICATION(indfclas),N_RICH_REGION_NOT_REPLACED(ambgntrp)
+14    OM666893.1   10748  FAIL  yes  MG807646   ZIKV  ZB.1-asia    1    0    0    0      3  INDEFINITE_CLASSIFICATION(indfclas),N_RICH_REGION_NOT_REPLACED(ambgntrp)
+15    PQ129494.1   10636  FAIL  yes  MG807646   ZIKV  ZB.1-asia    1    0    0    0      1  INDEFINITE_CLASSIFICATION(indfclas)
+16    PQ129495.1   10639  FAIL  yes  MG807646   ZIKV  ZB.1-asia    1    0    0    0      1  INDEFINITE_CLASSIFICATION(indfclas)
+17    PQ203661.1   10636  FAIL  yes  MG807646   ZIKV  ZB.1-asia    1    0    0    0      1  INDEFINITE_CLASSIFICATION(indfclas)
+18    PV549934.1   10660  FAIL  yes  MG807646   ZIKV  ZB.1-asia    1    0    0    0      1  INDEFINITE_CLASSIFICATION(indfclas)
+19    PV549935.1   10660  FAIL  yes  MG807646   ZIKV  ZB.1-asia    1    0    0    0      1  INDEFINITE_CLASSIFICATION(indfclas)

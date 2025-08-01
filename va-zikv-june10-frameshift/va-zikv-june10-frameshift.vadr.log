@@ -1,0 +1,88 @@
+# v-annotate.pl :: classify and annotate sequences using a model library
+# VADR 1.6.4 (Jun 2024)
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# date:              Thu Jul 31 16:26:29 2025
+# $VADRBIOEASELDIR:  /home/dickinsoneb/vadr_files/Bio-Easel
+# $VADRBLASTDIR:     /home/dickinsoneb/vadr_files/ncbi-blast/bin
+# $VADREASELDIR:     /home/dickinsoneb/vadr_files/infernal/binaries
+# $VADRINFERNALDIR:  /home/dickinsoneb/vadr_files/infernal/binaries
+# $VADRMODELDIR:     /home/dickinsoneb/vadr_files/vadr-models-calici
+# $VADRSCRIPTSDIR:   /home/dickinsoneb/vadr_files/vadr
+#
+# sequence file:                                                                  june-10-frameshift.fa
+# output directory:                                                               va-zikv-june10-frameshift
+# force directory overwrite:                                                      yes [-f]
+# .cm, .minfo, blastn .fa files in $VADRMODELDIR start with key <s>, not 'vadr':  zikv [--mkey]
+# model files are in directory <s>, not in $VADRMODELDIR:                         final-model-20250717 [--mdir]
+# replace stretches of Ns with expected nts, where possible:                      yes [-r]
+# split input file into chunks, run each chunk separately:                        yes [--split]
+# parallelize across <n> CPU workers (requires --split or --glsearch):            4 [--cpu]
+# output per-model full length stockholm alignments (.stk):                       yes [--out_stk]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Validating input                                                                                          ... done. [    0.1 seconds]
+# Splitting sequence file into chunks to run independently in parallel on 4 processors                      ... done. [    0.3 seconds]
+# Executing 4 scripts in parallel on 4 processors to process 4 partition(s) of all 19 sequence(s)           ... 
+#	   3 of    4 jobs finished (0.1 minutes spent waiting)
+#	   4 of    4 jobs finished (0.2 minutes spent waiting)
+# done. [  182.1 seconds]
+# Merging and finalizing output                                                                             ... done. [    0.4 seconds]
+#
+# Summary of classified sequences:
+#
+#                                   num   num   num
+#idx  model      group  subgroup   seqs  pass  fail
+#---  ---------  -----  ---------  ----  ----  ----
+1     MG807646   ZIKV   ZB.1-asia     9     0     9
+2     NC_035889  ZIKV   american      7     0     7
+3     KY989511   ZIKV   african       3     0     3
+#---  ---------  -----  ---------  ----  ----  ----
+-     *all*      -      -            19     0    19
+-     *none*     -      -             0     0     0
+#---  ---------  -----  ---------  ----  ----  ----
+#
+# Summary of reported alerts:
+#
+#     alert     causes   short                               per    num   num  long
+#idx  code      failure  description                        type  cases  seqs  description
+#---  --------  -------  -----------------------------  --------  -----  ----  -----------
+1     indfclas  no       INDEFINITE_CLASSIFICATION      sequence     16    16  low score difference between best overall model and second best model (not in best model's subgroup)
+2     ambgntrp  no       N_RICH_REGION_NOT_REPLACED     sequence      3     3  N-rich region of unexpected length not replaced
+3     fstlocfi  no       POSSIBLE_FRAMESHIFT_LOW_CONF    feature      2     2  low confidence possible frameshift in CDS (frame restored before end)
+4     lowsimic  no       LOW_FEATURE_SIMILARITY          feature      3     3  region overlapping annotated feature that is or matches a CDS lacks significant similarity
+5     ambgnt5f  no       AMBIGUITY_AT_FEATURE_START      feature     11     7  first nucleotide of non-CDS feature is an ambiguous nucleotide
+6     ambgnt3f  no       AMBIGUITY_AT_FEATURE_END        feature     11     7  final nucleotide of non-CDS feature is an ambiguous nucleotide
+#---  --------  -------  -----------------------------  --------  -----  ----  -----------
+7     fsthicfi  yes      POSSIBLE_FRAMESHIFT_HIGH_CONF   feature     22    19  high confidence possible frameshift in CDS (frame restored before end)
+8     peptrans  yes      PEPTIDE_TRANSLATION_PROBLEM     feature    134    10  mat_peptide may not be translated because its parent CDS has a problem
+#---  --------  -------  -----------------------------  --------  -----  ----  -----------
+#
+# Output printed to screen saved in:                                va-zikv-june10-frameshift.vadr.log
+# List of executed commands saved in:                               va-zikv-june10-frameshift.vadr.cmd
+# List and description of all output files saved in:                va-zikv-june10-frameshift.vadr.filelist
+# esl-seqstat -a output for input fasta file saved in:              va-zikv-june10-frameshift.vadr.seqstat
+# model KY989511 full original sequence alignment(stk) saved in:    va-zikv-june10-frameshift.vadr.KY989511.align.stk
+# model MG807646 full original sequence alignment(stk) saved in:    va-zikv-june10-frameshift.vadr.MG807646.align.stk
+# model NC_035889 full original sequence alignment(stk) saved in:   va-zikv-june10-frameshift.vadr.NC_035889.align.stk
+# 5 column feature table output for passing sequences saved in:     va-zikv-june10-frameshift.vadr.pass.tbl
+# 5 column feature table output for failing sequences saved in:     va-zikv-june10-frameshift.vadr.fail.tbl
+# list of passing sequences saved in:                               va-zikv-june10-frameshift.vadr.pass.list
+# list of failing sequences saved in:                               va-zikv-june10-frameshift.vadr.fail.list
+# list of alerts in the feature tables saved in:                    va-zikv-june10-frameshift.vadr.alt.list
+# fasta file with passing sequences saved in:                       va-zikv-june10-frameshift.vadr.pass.fa
+# fasta file with failing sequences saved in:                       va-zikv-june10-frameshift.vadr.fail.fa
+# per-sequence tabular annotation summary file saved in:            va-zikv-june10-frameshift.vadr.sqa
+# per-sequence tabular classification summary file saved in:        va-zikv-june10-frameshift.vadr.sqc
+# per-feature tabular summary file saved in:                        va-zikv-june10-frameshift.vadr.ftr
+# per-model-segment tabular summary file saved in:                  va-zikv-june10-frameshift.vadr.sgm
+# per-alert tabular summary file saved in:                          va-zikv-june10-frameshift.vadr.alt
+# alert count tabular summary file saved in:                        va-zikv-june10-frameshift.vadr.alc
+# per-model tabular summary file saved in:                          va-zikv-june10-frameshift.vadr.mdl
+# alignment doctoring tabular summary file saved in:                va-zikv-june10-frameshift.vadr.dcr
+# replaced stretches of Ns summary file (-r) saved in:              va-zikv-june10-frameshift.vadr.rpn
+#
+# All output files created in directory ./va-zikv-june10-frameshift/
+#
+# Elapsed time:  00:03:02.86
+#                hh:mm:ss
+# 
+[ok]

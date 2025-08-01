@@ -1,0 +1,533 @@
+>Feature AY632535.2
+107	10366	misc_feature
+			note	similar to polyprotein
+107	472	misc_feature
+			note	similar to capsid protein C
+473	751	misc_feature
+			note	similar to protein pr
+752	976	misc_feature
+			note	similar to small envelope protein M
+977	2476	misc_feature
+			note	similar to envelope protein E
+2477	3532	misc_feature
+			note	similar to nonstructural protein NS1
+3533	4210	misc_feature
+			note	similar to nonstructural protein NS2A
+4211	4600	misc_feature
+			note	similar to nonstructural protein NS2B
+4601	6451	misc_feature
+			note	similar to nonstructural protein NS3
+6452	6832	misc_feature
+			note	similar to nonstructural protein NS4A
+6833	6901	misc_feature
+			note	similar to protein 2K
+6902	7654	misc_feature
+			note	similar to nonstructural protein NS4B
+7655	10363	misc_feature
+			note	similar to nonstructural protein NS5
+
+Additional note(s) to submitter:
+ERROR: POSSIBLE_FRAMESHIFT_HIGH_CONF: (CDS:polyprotein) high confidence possible frameshift in CDS (frame restored before end) [cause:insert,S:117(1),M:116; restore:delete,S:138,M:138(1); frame:1(2)131; length:10:(22):7020:9:3199; shifted_avgpp:0.901; exp_avgpp:0.930;]; seq-coords:117..138:+; mdl-coords:117..138:+; mdl:KY989511;
+ERROR: POSSIBLE_FRAMESHIFT_HIGH_CONF: (CDS:polyprotein) high confidence possible frameshift in CDS (frame restored before end) [cause:delete,S:7158,M:7171(1); restore:insert,S:7167(1),M:7179; frame:121(3)1; length:10:22:7020:(9):3199; shifted_avgpp:0.811; exp_avgpp:0.975;]; seq-coords:7159..7167:+; mdl-coords:7171..7179:+; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:capsid protein C) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:protein pr) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:small envelope protein M) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:envelope protein E) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS1) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS2A) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS2B) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS3) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS4A) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:protein 2K) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS4B) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS5) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+>Feature EU545988.1
+1	10272	misc_feature
+			note	similar to polyprotein
+
+Additional note(s) to submitter:
+ERROR: POSSIBLE_FRAMESHIFT_HIGH_CONF: (CDS:polyprotein) high confidence possible frameshift in CDS (frame restored before end) [cause:insert,S:11(1),M:117; restore:delete,S:32,M:139(1); frame:1(2)1; length:10:(22):10240; shifted_avgpp:0.898; exp_avgpp:0.802;]; seq-coords:11..32:+; mdl-coords:118..139:+; mdl:MG807646;
+>Feature KF383118.1
+1	10272	misc_feature
+			note	similar to polyprotein
+1	366	misc_feature
+			note	similar to capsid protein C
+367	645	misc_feature
+			note	similar to protein pr
+646	870	misc_feature
+			note	similar to small envelope protein M
+871	2382	misc_feature
+			note	similar to envelope protein E
+2383	3438	misc_feature
+			note	similar to nonstructural protein NS1
+3439	4116	misc_feature
+			note	similar to nonstructural protein NS2A
+4117	4506	misc_feature
+			note	similar to nonstructural protein NS2B
+4507	6357	misc_feature
+			note	similar to nonstructural protein NS3
+6358	6738	misc_feature
+			note	similar to nonstructural protein NS4A
+6739	6807	misc_feature
+			note	similar to protein 2K
+6808	7560	misc_feature
+			note	similar to nonstructural protein NS4B
+7561	10269	misc_feature
+			note	similar to nonstructural protein NS5
+
+Additional note(s) to submitter:
+ERROR: POSSIBLE_FRAMESHIFT_HIGH_CONF: (CDS:polyprotein) high confidence possible frameshift in CDS (frame restored before end) [cause:delete,S:7064,M:7171(1); restore:insert,S:7073(1),M:7179; frame:1(3)1; length:7064:(9):3199; shifted_avgpp:0.811; exp_avgpp:0.974;]; seq-coords:7065..7073:+; mdl-coords:7171..7179:+; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:capsid protein C) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:protein pr) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:small envelope protein M) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:envelope protein E) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS1) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS2A) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS2B) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS3) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS4A) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:protein 2K) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS4B) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS5) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+>Feature MT439641.1
+78	10337	gene
+			gene	POLY
+78	10337	misc_feature
+			note	similar to polyprotein
+78	443	misc_feature
+			note	similar to anchored capsid protein C
+78	389	misc_feature
+			note	similar to capsid protein C
+444	947	misc_feature
+			note	similar to membrane glycoprotein precursor M
+444	722	misc_feature
+			note	similar to protein pr
+723	947	misc_feature
+			note	similar to membrane glycoprotein M
+948	2447	misc_feature
+			note	similar to envelope protein E
+2448	3503	misc_feature
+			note	similar to nonstructural protein NS1
+3504	4181	misc_feature
+			note	similar to nonstructural protein NS2A
+4182	4571	misc_feature
+			note	similar to nonstructural protein NS2B
+4572	6422	misc_feature
+			note	similar to nonstructural protein NS3
+6423	6803	misc_feature
+			note	similar to nonstructural protein NS4A
+6804	6872	misc_feature
+			note	similar to protein 2K
+6873	7625	misc_feature
+			note	similar to nonstructural protein NS4B
+7626	10334	misc_feature
+			note	similar to RNA-dependent RNA polymerase NS5
+
+Additional note(s) to submitter:
+ERROR: POSSIBLE_FRAMESHIFT_HIGH_CONF: (CDS:polyprotein) high confidence possible frameshift in CDS (frame restored before end) [cause:insert,S:82(1),M:111; restore:delete,S:109,M:139(1); frame:1(2)1; length:4:(28):10228; shifted_avgpp:0.910; exp_avgpp:0.931;]; seq-coords:82..109:+; mdl-coords:112..139:+; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:anchored capsid protein C) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:capsid protein C) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:membrane glycoprotein precursor M) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:protein pr) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:membrane glycoprotein M) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:envelope protein E) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS1) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS2A) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS2B) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS3) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS4A) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:protein 2K) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS4B) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:RNA-dependent RNA polymerase NS5) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+>Feature MT439642.1
+80	10339	gene
+			gene	POLY
+80	10339	misc_feature
+			note	similar to polyprotein
+80	445	misc_feature
+			note	similar to anchored capsid protein C
+80	391	misc_feature
+			note	similar to capsid protein C
+446	949	misc_feature
+			note	similar to membrane glycoprotein precursor M
+446	724	misc_feature
+			note	similar to protein pr
+725	949	misc_feature
+			note	similar to membrane glycoprotein M
+950	2449	misc_feature
+			note	similar to envelope protein E
+2450	3505	misc_feature
+			note	similar to nonstructural protein NS1
+3506	4183	misc_feature
+			note	similar to nonstructural protein NS2A
+4184	4573	misc_feature
+			note	similar to nonstructural protein NS2B
+4574	6424	misc_feature
+			note	similar to nonstructural protein NS3
+6425	6805	misc_feature
+			note	similar to nonstructural protein NS4A
+6806	6874	misc_feature
+			note	similar to protein 2K
+6875	7627	misc_feature
+			note	similar to nonstructural protein NS4B
+7628	10336	misc_feature
+			note	similar to RNA-dependent RNA polymerase NS5
+
+Additional note(s) to submitter:
+ERROR: POSSIBLE_FRAMESHIFT_HIGH_CONF: (CDS:polyprotein) high confidence possible frameshift in CDS (frame restored before end) [cause:insert,S:84(1),M:111; restore:delete,S:111,M:139(1); frame:1(2)1; length:4:(28):10228; shifted_avgpp:0.899; exp_avgpp:0.931;]; seq-coords:84..111:+; mdl-coords:112..139:+; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:anchored capsid protein C) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:capsid protein C) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:membrane glycoprotein precursor M) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:protein pr) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:membrane glycoprotein M) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:envelope protein E) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS1) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS2A) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS2B) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS3) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS4A) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:protein 2K) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS4B) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:RNA-dependent RNA polymerase NS5) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+>Feature MT439643.1
+80	10339	gene
+			gene	POLY
+80	10339	misc_feature
+			note	similar to polyprotein
+80	445	misc_feature
+			note	similar to anchored capsid protein C
+80	391	misc_feature
+			note	similar to capsid protein C
+446	949	misc_feature
+			note	similar to membrane glycoprotein precursor M
+446	724	misc_feature
+			note	similar to protein pr
+725	949	misc_feature
+			note	similar to membrane glycoprotein M
+950	2449	misc_feature
+			note	similar to envelope protein E
+2450	3505	misc_feature
+			note	similar to nonstructural protein NS1
+3506	4183	misc_feature
+			note	similar to nonstructural protein NS2A
+4184	4573	misc_feature
+			note	similar to nonstructural protein NS2B
+4574	6424	misc_feature
+			note	similar to nonstructural protein NS3
+6425	6805	misc_feature
+			note	similar to nonstructural protein NS4A
+6806	6874	misc_feature
+			note	similar to protein 2K
+6875	7627	misc_feature
+			note	similar to nonstructural protein NS4B
+7628	10336	misc_feature
+			note	similar to RNA-dependent RNA polymerase NS5
+
+Additional note(s) to submitter:
+ERROR: POSSIBLE_FRAMESHIFT_HIGH_CONF: (CDS:polyprotein) high confidence possible frameshift in CDS (frame restored before end) [cause:insert,S:84(1),M:111; restore:delete,S:111,M:139(1); frame:1(2)1; length:4:(28):10228; shifted_avgpp:0.899; exp_avgpp:0.931;]; seq-coords:84..111:+; mdl-coords:112..139:+; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:anchored capsid protein C) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:capsid protein C) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:membrane glycoprotein precursor M) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:protein pr) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:membrane glycoprotein M) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:envelope protein E) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS1) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS2A) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS2B) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS3) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS4A) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:protein 2K) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS4B) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:RNA-dependent RNA polymerase NS5) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+>Feature MT439644.1
+80	10339	gene
+			gene	POLY
+80	10339	misc_feature
+			note	similar to polyprotein
+80	445	misc_feature
+			note	similar to anchored capsid protein C
+80	391	misc_feature
+			note	similar to capsid protein C
+446	949	misc_feature
+			note	similar to membrane glycoprotein precursor M
+446	724	misc_feature
+			note	similar to protein pr
+725	949	misc_feature
+			note	similar to membrane glycoprotein M
+950	2449	misc_feature
+			note	similar to envelope protein E
+2450	3505	misc_feature
+			note	similar to nonstructural protein NS1
+3506	4183	misc_feature
+			note	similar to nonstructural protein NS2A
+4184	4573	misc_feature
+			note	similar to nonstructural protein NS2B
+4574	6424	misc_feature
+			note	similar to nonstructural protein NS3
+6425	6805	misc_feature
+			note	similar to nonstructural protein NS4A
+6806	6874	misc_feature
+			note	similar to protein 2K
+6875	7627	misc_feature
+			note	similar to nonstructural protein NS4B
+7628	10336	misc_feature
+			note	similar to RNA-dependent RNA polymerase NS5
+
+Additional note(s) to submitter:
+ERROR: POSSIBLE_FRAMESHIFT_HIGH_CONF: (CDS:polyprotein) high confidence possible frameshift in CDS (frame restored before end) [cause:insert,S:84(1),M:111; restore:delete,S:111,M:139(1); frame:1(2)1; length:4:(28):10228; shifted_avgpp:0.899; exp_avgpp:0.931;]; seq-coords:84..111:+; mdl-coords:112..139:+; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:anchored capsid protein C) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:capsid protein C) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:membrane glycoprotein precursor M) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:protein pr) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:membrane glycoprotein M) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:envelope protein E) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS1) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS2A) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS2B) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS3) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS4A) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:protein 2K) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS4B) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:RNA-dependent RNA polymerase NS5) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+>Feature MT439645.1
+80	10339	gene
+			gene	POLY
+80	10339	misc_feature
+			note	similar to polyprotein
+80	445	misc_feature
+			note	similar to anchored capsid protein C
+80	391	misc_feature
+			note	similar to capsid protein C
+446	949	misc_feature
+			note	similar to membrane glycoprotein precursor M
+446	724	misc_feature
+			note	similar to protein pr
+725	949	misc_feature
+			note	similar to membrane glycoprotein M
+950	2449	misc_feature
+			note	similar to envelope protein E
+2450	3505	misc_feature
+			note	similar to nonstructural protein NS1
+3506	4183	misc_feature
+			note	similar to nonstructural protein NS2A
+4184	4573	misc_feature
+			note	similar to nonstructural protein NS2B
+4574	6424	misc_feature
+			note	similar to nonstructural protein NS3
+6425	6805	misc_feature
+			note	similar to nonstructural protein NS4A
+6806	6874	misc_feature
+			note	similar to protein 2K
+6875	7627	misc_feature
+			note	similar to nonstructural protein NS4B
+7628	10336	misc_feature
+			note	similar to RNA-dependent RNA polymerase NS5
+
+Additional note(s) to submitter:
+ERROR: POSSIBLE_FRAMESHIFT_HIGH_CONF: (CDS:polyprotein) high confidence possible frameshift in CDS (frame restored before end) [cause:insert,S:84(1),M:111; restore:delete,S:111,M:139(1); frame:1(2)1; length:4:(28):10228; shifted_avgpp:0.910; exp_avgpp:0.931;]; seq-coords:84..111:+; mdl-coords:112..139:+; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:anchored capsid protein C) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:capsid protein C) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:membrane glycoprotein precursor M) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:protein pr) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:membrane glycoprotein M) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:envelope protein E) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS1) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS2A) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS2B) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS3) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS4A) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:protein 2K) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS4B) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:RNA-dependent RNA polymerase NS5) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+>Feature MT439646.1
+80	10339	gene
+			gene	POLY
+80	10339	misc_feature
+			note	similar to polyprotein
+80	445	misc_feature
+			note	similar to anchored capsid protein C
+80	391	misc_feature
+			note	similar to capsid protein C
+446	949	misc_feature
+			note	similar to membrane glycoprotein precursor M
+446	724	misc_feature
+			note	similar to protein pr
+725	949	misc_feature
+			note	similar to membrane glycoprotein M
+950	2449	misc_feature
+			note	similar to envelope protein E
+2450	3505	misc_feature
+			note	similar to nonstructural protein NS1
+3506	4183	misc_feature
+			note	similar to nonstructural protein NS2A
+4184	4573	misc_feature
+			note	similar to nonstructural protein NS2B
+4574	6424	misc_feature
+			note	similar to nonstructural protein NS3
+6425	6805	misc_feature
+			note	similar to nonstructural protein NS4A
+6806	6874	misc_feature
+			note	similar to protein 2K
+6875	7627	misc_feature
+			note	similar to nonstructural protein NS4B
+7628	10336	misc_feature
+			note	similar to RNA-dependent RNA polymerase NS5
+
+Additional note(s) to submitter:
+ERROR: POSSIBLE_FRAMESHIFT_HIGH_CONF: (CDS:polyprotein) high confidence possible frameshift in CDS (frame restored before end) [cause:insert,S:84(1),M:111; restore:delete,S:111,M:139(1); frame:1(2)1; length:4:(28):10228; shifted_avgpp:0.899; exp_avgpp:0.931;]; seq-coords:84..111:+; mdl-coords:112..139:+; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:anchored capsid protein C) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:capsid protein C) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:membrane glycoprotein precursor M) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:protein pr) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:membrane glycoprotein M) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:envelope protein E) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS1) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS2A) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS2B) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS3) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS4A) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:protein 2K) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS4B) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:RNA-dependent RNA polymerase NS5) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+>Feature MT439647.1
+79	10338	gene
+			gene	POLY
+79	10338	misc_feature
+			note	similar to polyprotein
+79	444	misc_feature
+			note	similar to anchored capsid protein C
+79	390	misc_feature
+			note	similar to capsid protein C
+445	948	misc_feature
+			note	similar to membrane glycoprotein precursor M
+445	723	misc_feature
+			note	similar to protein pr
+724	948	misc_feature
+			note	similar to membrane glycoprotein M
+949	2448	misc_feature
+			note	similar to envelope protein E
+2449	3504	misc_feature
+			note	similar to nonstructural protein NS1
+3505	4182	misc_feature
+			note	similar to nonstructural protein NS2A
+4183	4572	misc_feature
+			note	similar to nonstructural protein NS2B
+4573	6423	misc_feature
+			note	similar to nonstructural protein NS3
+6424	6804	misc_feature
+			note	similar to nonstructural protein NS4A
+6805	6873	misc_feature
+			note	similar to protein 2K
+6874	7626	misc_feature
+			note	similar to nonstructural protein NS4B
+7627	10335	misc_feature
+			note	similar to RNA-dependent RNA polymerase NS5
+
+Additional note(s) to submitter:
+ERROR: POSSIBLE_FRAMESHIFT_HIGH_CONF: (CDS:polyprotein) high confidence possible frameshift in CDS (frame restored before end) [cause:insert,S:83(1),M:111; restore:delete,S:110,M:139(1); frame:1(2)1; length:4:(28):10228; shifted_avgpp:0.899; exp_avgpp:0.931;]; seq-coords:83..110:+; mdl-coords:112..139:+; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:anchored capsid protein C) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:capsid protein C) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:membrane glycoprotein precursor M) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:protein pr) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:membrane glycoprotein M) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:envelope protein E) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS1) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS2A) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS2B) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS3) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS4A) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:protein 2K) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS4B) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:RNA-dependent RNA polymerase NS5) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:NC_035889;
+>Feature NC_012532.1
+107	10366	misc_feature
+			note	similar to polyprotein
+107	472	misc_feature
+			note	similar to capsid protein C
+473	751	misc_feature
+			note	similar to protein pr
+752	976	misc_feature
+			note	similar to small envelope protein M
+977	2476	misc_feature
+			note	similar to envelope protein E
+2477	3532	misc_feature
+			note	similar to nonstructural protein NS1
+3533	4210	misc_feature
+			note	similar to nonstructural protein NS2A
+4211	4600	misc_feature
+			note	similar to nonstructural protein NS2B
+4601	6451	misc_feature
+			note	similar to nonstructural protein NS3
+6452	6832	misc_feature
+			note	similar to nonstructural protein NS4A
+6833	6901	misc_feature
+			note	similar to protein 2K
+6902	7654	misc_feature
+			note	similar to nonstructural protein NS4B
+7655	10363	misc_feature
+			note	similar to nonstructural protein NS5
+
+Additional note(s) to submitter:
+ERROR: POSSIBLE_FRAMESHIFT_HIGH_CONF: (CDS:polyprotein) high confidence possible frameshift in CDS (frame restored before end) [cause:insert,S:117(1),M:116; restore:delete,S:138,M:138(1); frame:1(2)131; length:10:(22):7020:9:3199; shifted_avgpp:0.901; exp_avgpp:0.930;]; seq-coords:117..138:+; mdl-coords:117..138:+; mdl:KY989511;
+ERROR: POSSIBLE_FRAMESHIFT_HIGH_CONF: (CDS:polyprotein) high confidence possible frameshift in CDS (frame restored before end) [cause:delete,S:7158,M:7171(1); restore:insert,S:7167(1),M:7179; frame:121(3)1; length:10:22:7020:(9):3199; shifted_avgpp:0.811; exp_avgpp:0.975;]; seq-coords:7159..7167:+; mdl-coords:7171..7179:+; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:capsid protein C) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:protein pr) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:small envelope protein M) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:envelope protein E) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS1) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS2A) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS2B) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS3) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS4A) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:protein 2K) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS4B) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:nonstructural protein NS5) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KY989511;
+>Feature OM666891.1
+99	10358	misc_feature
+			note	similar to polyprotein
+
+Additional note(s) to submitter:
+ERROR: POSSIBLE_FRAMESHIFT_HIGH_CONF: (CDS:polyprotein) high confidence possible frameshift in CDS (frame restored before end) [cause:insert,S:107(1),M:115; restore:delete,S:130,M:139(1); frame:1(2)131; length:8:(24):7020:11:3197; shifted_avgpp:0.931; exp_avgpp:0.803;]; seq-coords:107..130:+; mdl-coords:116..139:+; mdl:MG807646;
+ERROR: POSSIBLE_FRAMESHIFT_HIGH_CONF: (CDS:polyprotein) high confidence possible frameshift in CDS (frame restored before end) [cause:delete,S:7150,M:7172(1); restore:insert,S:7161(1),M:7182; frame:121(3)1; length:8:24:7020:(11):3197; shifted_avgpp:0.834; exp_avgpp:0.969;]; seq-coords:7151..7161:+; mdl-coords:7172..7182:+; mdl:MG807646;
+>Feature OM666892.1
+95	10354	misc_feature
+			note	similar to polyprotein
+
+Additional note(s) to submitter:
+ERROR: POSSIBLE_FRAMESHIFT_HIGH_CONF: (CDS:polyprotein) high confidence possible frameshift in CDS (frame restored before end) [cause:insert,S:102(1),M:114; restore:delete,S:126,M:139(1); frame:1(2)131; length:7:(25):7020:8:3200; shifted_avgpp:0.919; exp_avgpp:0.871;]; seq-coords:102..126:+; mdl-coords:115..139:+; mdl:MG807646;
+>Feature OM666893.1
+98	10357	misc_feature
+			note	similar to polyprotein
+
+Additional note(s) to submitter:
+ERROR: POSSIBLE_FRAMESHIFT_HIGH_CONF: (CDS:polyprotein) high confidence possible frameshift in CDS (frame restored before end) [cause:insert,S:106(1),M:115; restore:delete,S:129,M:139(1); frame:1(2)131; length:8:(24):7020:8:3200; shifted_avgpp:0.931; exp_avgpp:0.803;]; seq-coords:106..129:+; mdl-coords:116..139:+; mdl:MG807646;
+>Feature PQ129494.1
+80	10345	misc_feature
+			note	similar to polyprotein
+
+Additional note(s) to submitter:
+ERROR: POSSIBLE_FRAMESHIFT_HIGH_CONF: (CDS:polyprotein) high confidence possible frameshift in CDS (frame restored before end) [cause:delete,S:5081,M:5116(1); restore:insert,S:5105(1),M:5139; frame:1(3)1; length:5002:(24):5240; shifted_avgpp:0.914; exp_avgpp:0.975;]; seq-coords:5082..5105:+; mdl-coords:5116..5139:+; mdl:MG807646;
+>Feature PQ129495.1
+80	10348	misc_feature
+			note	similar to polyprotein
+
+Additional note(s) to submitter:
+ERROR: POSSIBLE_FRAMESHIFT_HIGH_CONF: (CDS:polyprotein) high confidence possible frameshift in CDS (frame restored before end) [cause:delete,S:5084,M:5116(1); restore:insert,S:5108(1),M:5139; frame:1(3)1; length:5005:(24):5240; shifted_avgpp:0.914; exp_avgpp:0.975;]; seq-coords:5085..5108:+; mdl-coords:5116..5139:+; mdl:MG807646;
+>Feature PQ203661.1
+80	10345	misc_feature
+			note	similar to polyprotein
+
+Additional note(s) to submitter:
+ERROR: POSSIBLE_FRAMESHIFT_HIGH_CONF: (CDS:polyprotein) high confidence possible frameshift in CDS (frame restored before end) [cause:delete,S:5081,M:5116(1); restore:insert,S:5105(1),M:5139; frame:1(3)1; length:5002:(24):5240; shifted_avgpp:0.914; exp_avgpp:0.975;]; seq-coords:5082..5105:+; mdl-coords:5116..5139:+; mdl:MG807646;
+>Feature PV549934.1
+68	10339	misc_feature
+			note	similar to polyprotein
+
+Additional note(s) to submitter:
+ERROR: POSSIBLE_FRAMESHIFT_HIGH_CONF: (CDS:polyprotein) high confidence possible frameshift in CDS (frame restored before end) [cause:delete,S:5075,M:5116(1); restore:insert,S:5099(1),M:5139; frame:1(3)1; length:5008:(24):5240; shifted_avgpp:0.914; exp_avgpp:0.975;]; seq-coords:5076..5099:+; mdl-coords:5116..5139:+; mdl:MG807646;
+>Feature PV549935.1
+68	10339	misc_feature
+			note	similar to polyprotein
+
+Additional note(s) to submitter:
+ERROR: POSSIBLE_FRAMESHIFT_HIGH_CONF: (CDS:polyprotein) high confidence possible frameshift in CDS (frame restored before end) [cause:delete,S:5075,M:5116(1); restore:insert,S:5099(1),M:5139; frame:1(3)1; length:5008:(24):5240; shifted_avgpp:0.914; exp_avgpp:0.975;]; seq-coords:5076..5099:+; mdl-coords:5116..5139:+; mdl:MG807646;

@@ -1,0 +1,22 @@
+#seq  seq            seq                              sub                          seq    mdl         num                        sub         score  diff/  seq   
+#idx  name           len  p/f   ant  model1     grp1  grp1         score  sc/nt    cov    cov  bias  hits  str  model2     grp2  grp2         diff     nt  alerts
+#---  -----------  -----  ----  ---  ---------  ----  ---------  -------  -----  -----  -----  ----  ----  ---  ---------  ----  ---------  ------  -----  ------
+1     AY632535.2   10794  FAIL  yes  KY989511   ZIKV  african    14420.2  1.336  1.000  1.000  48.6     1    +  MG807646   ZIKV  ZB.1-asia  2269.7  0.210  -     
+2     EU545988.1   10272  FAIL  yes  MG807646   ZIKV  ZB.1-asia  13539.1  1.318  1.000  0.950  40.8     1    +  NC_035889  ZIKV  american    170.4  0.017  INDEFINITE_CLASSIFICATION(indfclas)
+3     KF383118.1   10272  FAIL  yes  KY989511   ZIKV  african    13363.6  1.301  1.000  0.950  43.9     1    +  MG807646   ZIKV  ZB.1-asia  1978.8  0.193  -     
+4     MT439641.1   10370  FAIL  yes  NC_035889  ZIKV  american   13827.7  1.333  1.000  0.961  37.7     1    +  MG807646   ZIKV  ZB.1-asia    94.8  0.009  INDEFINITE_CLASSIFICATION(indfclas)
+5     MT439642.1   10627  FAIL  yes  NC_035889  ZIKV  american   14134.5  1.330  1.000  0.984  40.1     1    +  MG807646   ZIKV  ZB.1-asia    96.2  0.009  INDEFINITE_CLASSIFICATION(indfclas)
+6     MT439643.1   10627  FAIL  yes  NC_035889  ZIKV  american   14139.6  1.331  1.000  0.984  38.7     1    +  MG807646   ZIKV  ZB.1-asia    87.8  0.008  INDEFINITE_CLASSIFICATION(indfclas)
+7     MT439644.1   10627  FAIL  yes  NC_035889  ZIKV  american   14152.4  1.332  1.000  0.984  38.1     1    +  MG807646   ZIKV  ZB.1-asia   100.8  0.009  INDEFINITE_CLASSIFICATION(indfclas)
+8     MT439645.1   10625  FAIL  yes  NC_035889  ZIKV  american   14170.8  1.334  1.000  0.984  39.2     1    +  MG807646   ZIKV  ZB.1-asia   115.2  0.011  INDEFINITE_CLASSIFICATION(indfclas)
+9     MT439646.1   10627  FAIL  yes  NC_035889  ZIKV  american   14155.9  1.332  1.000  0.984    39     1    +  MG807646   ZIKV  ZB.1-asia   121.8  0.011  INDEFINITE_CLASSIFICATION(indfclas)
+10    MT439647.1   10627  FAIL  yes  NC_035889  ZIKV  american   14142.6  1.331  1.000  0.984  38.8     1    +  MG807646   ZIKV  ZB.1-asia   105.5  0.010  INDEFINITE_CLASSIFICATION(indfclas)
+11    NC_012532.1  10794  FAIL  yes  KY989511   ZIKV  african    14420.2  1.336  1.000  1.000  48.6     1    +  MG807646   ZIKV  ZB.1-asia  2269.7  0.210  -     
+12    OM666891.1   10749  FAIL  yes  MG807646   ZIKV  ZB.1-asia  13924.4  1.295  0.993  0.988  36.2     2    +  NC_035889  ZIKV  american     49.5  0.005  INDEFINITE_CLASSIFICATION(indfclas),N_RICH_REGION_NOT_REPLACED(ambgntrp)
+13    OM666892.1   10753  FAIL  yes  MG807646   ZIKV  ZB.1-asia  13859.1  1.289  0.992  0.988  34.7     2    +  NC_035889  ZIKV  american     54.4  0.005  INDEFINITE_CLASSIFICATION(indfclas),N_RICH_REGION_NOT_REPLACED(ambgntrp)
+14    OM666893.1   10748  FAIL  yes  MG807646   ZIKV  ZB.1-asia  13860.6  1.290  0.993  0.988  35.6     2    +  NC_035889  ZIKV  american     54.3  0.005  INDEFINITE_CLASSIFICATION(indfclas),N_RICH_REGION_NOT_REPLACED(ambgntrp)
+15    PQ129494.1   10636  FAIL  yes  MG807646   ZIKV  ZB.1-asia  13949.4  1.312  1.000  0.985  39.6     1    +  NC_035889  ZIKV  american     62.5  0.006  INDEFINITE_CLASSIFICATION(indfclas)
+16    PQ129495.1   10639  FAIL  yes  MG807646   ZIKV  ZB.1-asia  13941.2  1.310  1.000  0.985  39.8     1    +  NC_035889  ZIKV  american     64.7  0.006  INDEFINITE_CLASSIFICATION(indfclas)
+17    PQ203661.1   10636  FAIL  yes  MG807646   ZIKV  ZB.1-asia  13935.0  1.310  1.000  0.985  41.2     1    +  NC_035889  ZIKV  american     61.3  0.006  INDEFINITE_CLASSIFICATION(indfclas)
+18    PV549934.1   10660  FAIL  yes  MG807646   ZIKV  ZB.1-asia  13996.0  1.313  1.000  0.986  40.3     1    +  NC_035889  ZIKV  american     67.5  0.006  INDEFINITE_CLASSIFICATION(indfclas)
+19    PV549935.1   10660  FAIL  yes  MG807646   ZIKV  ZB.1-asia  13994.9  1.313  1.000  0.986  42.2     1    +  NC_035889  ZIKV  american     68.8  0.006  INDEFINITE_CLASSIFICATION(indfclas)

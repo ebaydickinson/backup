@@ -1,0 +1,26 @@
+= AY632535.2                   10794 |Zika virus strain MR 766, complete genome
+= EU545988.1                   10272 |Zika virus polyprotein gene, complete cds
+= KF383118.1                   10272 |Zika virus strain ArD157995 polyprotein gene, complete cds
+= MT439641.1                   10370 |Zika virus isolate 1524_16 polyprotein gene, complete cds
+= MT439642.1                   10627 |Zika virus isolate 1609_16 polyprotein gene, complete cds
+= MT439643.1                   10627 |Zika virus isolate 1685_16 polyprotein gene, complete cds
+= MT439644.1                   10627 |Zika virus isolate 2012_16 polyprotein gene, complete cds
+= MT439645.1                   10625 |Zika virus isolate 1008_16 polyprotein gene, complete cds
+= MT439646.1                   10627 |Zika virus isolate 1820_16 polyprotein gene, complete cds
+= MT439647.1                   10627 |Zika virus isolate 1860_16 polyprotein gene, complete cds
+= NC_012532.1                  10794 |Zika virus, complete genome
+= OM666891.1                   10749 |Zika virus isolate MCl-21-H-11953_RNA-7996, complete genome
+= OM666892.1                   10753 |Zika virus isolate MCL-21-H-8900_RNA-7139, complete genome
+= OM666893.1                   10748 |Zika virus isolate MCL-21-H-8901_RNA-7140 polyprotein (POLY) gene, complete cds
+= PQ129494.1                   10636 |Zika virus isolate BD_044, complete genome
+= PQ129495.1                   10639 |Zika virus isolate BD_147, complete genome
+= PQ203661.1                   10636 |Zika virus isolate BD-104, complete genome
+= PV549934.1                   10660 |Zika virus isolate CD193 polyprotein (POLY) gene, complete cds
+= PV549935.1                   10660 |Zika virus isolate CD266 polyprotein (POLY) gene, complete cds
+Format:              FASTA
+Alphabet type:       DNA
+Number of sequences: 19
+Total # residues:    201743
+Smallest:            10272
+Largest:             10794
+Average length:      10618.1
