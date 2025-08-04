@@ -50,11 +50,11 @@
 
 #17/21 for a in zikv-gen-asia-combo3; do 
 
-#for a in zikv-gen-asia-combo3; do 
+#18for a in zikv-gen-asia-combo3; do 
 
-#for a in zikv-gen-asia-combo4; do 
+#19for a in zikv-gen-asia-combo4; do 
 
-#for a in zikv-gen-asia-combo3-2; do
+#20for a in zikv-gen-asia-combo3-2; do
 
 #22for a in zikv-gen-asia-combo4; do
 
@@ -102,17 +102,17 @@ for a in zikv-june10-frameshift; do
 
 #3qsub -N $a -b y -v SGE_FACILITIES -P unified -S /bin/bash -cwd -V -j n -o /dev/null -e cm.$a.err -l m_mem_free=32G,h_rt=2880000,mem_free=32G,h_vmem=64G -pe multicore 4 -R y -m n "v-annotate.pl --out_stk -f -r --cpu 4 --split --mdir zikv-models --mkey zikv ZA_african_id.fa va-$a"
 
-#qsub -N $a -b y -v SGE_FACILITIES -P unified -S /bin/bash -cwd -V -j n -o /dev/null -e cm.$a.err -l m_mem_free=32G,h_rt=2880000,mem_free=32G,h_vmem=64G -pe multicore 4 -R y -m n "v-annotate.pl --out_stk -f -r --cpu 4 --split --mdir zikv-models --mkey zikv ZB.1_asian_id.fa va-$a"
+#4qsub -N $a -b y -v SGE_FACILITIES -P unified -S /bin/bash -cwd -V -j n -o /dev/null -e cm.$a.err -l m_mem_free=32G,h_rt=2880000,mem_free=32G,h_vmem=64G -pe multicore 4 -R y -m n "v-annotate.pl --out_stk -f -r --cpu 4 --split --mdir zikv-models --mkey zikv ZB.1_asian_id.fa va-$a"
 
-#qsub -N $a -b y -v SGE_FACILITIES -P unified -S /bin/bash -cwd -V -j n -o /dev/null -e cm.$a.err -l m_mem_free=32G,h_rt=2880000,mem_free=32G,h_vmem=64G -pe multicore 4 -R y -m n "v-annotate.pl --out_stk -f -r --cpu 4 --split --mdir zikv-models --mkey zikv ZB.1.0_southeast_asia.fa va-$a"
+#5qsub -N $a -b y -v SGE_FACILITIES -P unified -S /bin/bash -cwd -V -j n -o /dev/null -e cm.$a.err -l m_mem_free=32G,h_rt=2880000,mem_free=32G,h_vmem=64G -pe multicore 4 -R y -m n "v-annotate.pl --out_stk -f -r --cpu 4 --split --mdir zikv-models --mkey zikv ZB.1.0_southeast_asia.fa va-$a"
 
-#qsub -N $a -b y -v SGE_FACILITIES -P unified -S /bin/bash -cwd -V -j n -o /dev/null -e cm.$a.err -l m_mem_free=32G,h_rt=2880000,mem_free=32G,h_vmem=64G -pe multicore 4 -R y -m n "v-annotate.pl --out_stk -f -r --cpu 4 --split --mdir zikv-models --mkey zikv ZB.2.0_south_america.fa va-$a"
+#6qsub -N $a -b y -v SGE_FACILITIES -P unified -S /bin/bash -cwd -V -j n -o /dev/null -e cm.$a.err -l m_mem_free=32G,h_rt=2880000,mem_free=32G,h_vmem=64G -pe multicore 4 -R y -m n "v-annotate.pl --out_stk -f -r --cpu 4 --split --mdir zikv-models --mkey zikv ZB.2.0_south_america.fa va-$a"
 
-# qsub -N $a -b y -v SGE_FACILITIES -P unified -S /bin/bash -cwd -V -j n -o /dev/null -e cm.$a.err -l m_mem_free=32G,h_rt=2880000,mem_free=32G,h_vmem=64G -pe multicore 4 -R y -m n "v-annotate.pl --out_stk -f -r --cpu 4 --split --mdir zikv-models --mkey zikv ZB.2.2_carribean.fa va-$a"
+#8qsub -N $a -b y -v SGE_FACILITIES -P unified -S /bin/bash -cwd -V -j n -o /dev/null -e cm.$a.err -l m_mem_free=32G,h_rt=2880000,mem_free=32G,h_vmem=64G -pe multicore 4 -R y -m n "v-annotate.pl --out_stk -f -r --cpu 4 --split --mdir zikv-models --mkey zikv ZB.2.2_carribean.fa va-$a"
 
-# qsub -N $a -b y -v SGE_FACILITIES -P unified -S /bin/bash -cwd -V -j n -o /dev/null -e cm.$a.err -l m_mem_free=32G,h_rt=2880000,mem_free=32G,h_vmem=64G -pe multicore 4 -R y -m n "v-annotate.pl --out_stk -f -r --cpu 4 --split --mdir zikv-models --mkey zikv ZB.2.2_carribean.fa va-$a"
+#8qsub -N $a -b y -v SGE_FACILITIES -P unified -S /bin/bash -cwd -V -j n -o /dev/null -e cm.$a.err -l m_mem_free=32G,h_rt=2880000,mem_free=32G,h_vmem=64G -pe multicore 4 -R y -m n "v-annotate.pl --out_stk -f -r --cpu 4 --split --mdir zikv-models --mkey zikv ZB.2.2_carribean.fa va-$a"
 
-#qsub -N $a -b y -v SGE_FACILITIES -P unified -S /bin/bash -cwd -V -j n -o /dev/null -e cm.$a.err -l m_mem_free=32G,h_rt=2880000,mem_free=32G,h_vmem=64G -pe multicore 4 -R y -m n "v-annotate.pl --keep -f -r --cpu 4 --split --mdir zikv-genotype-models --mkey zikv accession-760.fa va-$a"
+#9qsub -N $a -b y -v SGE_FACILITIES -P unified -S /bin/bash -cwd -V -j n -o /dev/null -e cm.$a.err -l m_mem_free=32G,h_rt=2880000,mem_free=32G,h_vmem=64G -pe multicore 4 -R y -m n "v-annotate.pl --keep -f -r --cpu 4 --split --mdir zikv-genotype-models --mkey zikv accession-760.fa va-$a"
 
 #10 qsub -N $a -b y -v SGE_FACILITIES -P unified -S /bin/bash -cwd -V -j n -o /dev/null -e cm.$a.err -l m_mem_free=32G,h_rt=2880000,mem_free=32G,h_vmem=64G -pe multicore 4 -R y -m n "v-annotate.pl --keep -f -r --cpu 4 --split --mdir zikv-clade-models --mkey zikv accession-760.fa va-$a"
 
@@ -132,11 +132,11 @@ for a in zikv-june10-frameshift; do
 
 #Try rerunning  the annotations without using -s , for these tests of a model built from 3 sequences we can't use -s because that invokes blast which is always based on a single sequence.
 
-#qsub -N $a -b y -v SGE_FACILITIES -P unified -S /bin/bash -cwd -V -j n -o /dev/null -e cm.$a.err -l m_mem_free=32G,h_rt=2880000,mem_free=32G,h_vmem=64G -pe multicore 4 -R y -m n "v-annotate.pl --keep -f -r --cpu 4 --split --mdir zikv-asia-combo3-models --mkey zikv accession-760.fa va-$a"
+#18qsub -N $a -b y -v SGE_FACILITIES -P unified -S /bin/bash -cwd -V -j n -o /dev/null -e cm.$a.err -l m_mem_free=32G,h_rt=2880000,mem_free=32G,h_vmem=64G -pe multicore 4 -R y -m n "v-annotate.pl --keep -f -r --cpu 4 --split --mdir zikv-asia-combo3-models --mkey zikv accession-760.fa va-$a"
 
-#qsub -N $a -b y -v SGE_FACILITIES -P unified -S /bin/bash -cwd -V -j n -o /dev/null -e cm.$a.err -l m_mem_free=32G,h_rt=2880000,mem_free=32G,h_vmem=64G -pe multicore 4 -R y -m n "v-annotate.pl --keep -f -r --cpu 4 --split --mdir zikv-asia-combo4-models --mkey zikv accession-760.fa va-$a"
+#19qsub -N $a -b y -v SGE_FACILITIES -P unified -S /bin/bash -cwd -V -j n -o /dev/null -e cm.$a.err -l m_mem_free=32G,h_rt=2880000,mem_free=32G,h_vmem=64G -pe multicore 4 -R y -m n "v-annotate.pl --keep -f -r --cpu 4 --split --mdir zikv-asia-combo4-models --mkey zikv accession-760.fa va-$a"
 
-#qsub -N $a -b y -v SGE_FACILITIES -P unified -S /bin/bash -cwd -V -j n -o /dev/null -e cm.$a.err -l m_mem_free=32G,h_rt=2880000,mem_free=32G,h_vmem=64G -pe multicore 4 -R y -m n "v-annotate.pl --keep -f -r --cpu 4 --split --mdir zikv-asia-combo3-models2 --mkey zikv accession-760.fa va-$a"
+#20qsub -N $a -b y -v SGE_FACILITIES -P unified -S /bin/bash -cwd -V -j n -o /dev/null -e cm.$a.err -l m_mem_free=32G,h_rt=2880000,mem_free=32G,h_vmem=64G -pe multicore 4 -R y -m n "v-annotate.pl --keep -f -r --cpu 4 --split --mdir zikv-asia-combo3-models2 --mkey zikv accession-760.fa va-$a"
 
 #21qsub -N $a -b y -v SGE_FACILITIES -P unified -S /bin/bash -cwd -V -j n -o /dev/null -e cm.$a.err -l m_mem_free=32G,h_rt=2880000,mem_free=32G,h_vmem=64G -pe multicore 4 -R y -m n "v-annotate.pl --out_stk -f -r --cpu 4 --split --mdir zikv-asia-combo3-models2 --mkey zikv accession-760.fa va-$a"
 
