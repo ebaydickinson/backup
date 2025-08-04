@@ -1,0 +1,36 @@
+# cmalign :: align sequences to a CM
+# INFERNAL 1.1.5 (Sep 2023)
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# CM file:                                     -
+# sequence file:                               va-zikv-s-genotype/va-zikv-s-genotype.11/va-zikv-s-genotype.11.vadr.KU509998.a.subseq.fa
+# CM name:                                     KU509998
+# saving alignment to file:                    va-zikv-s-genotype/va-zikv-s-genotype.11/va-zikv-s-genotype.11.vadr.KU509998.align.r1.s0.stk
+# model configuration:                         global
+# truncated sequence alignment mode:           off
+# alternative truncated seq alignment mode:    on
+# maximum total DP matrix size set to:         4000.00 Mb
+# tail loss probability for HMM bands set to:  0.001
+# tighten HMM bands when necessary:            no
+# saving insert information to file:           va-zikv-s-genotype/va-zikv-s-genotype.11/va-zikv-s-genotype.11.vadr.KU509998.align.r1.s0.ifile
+# output alignment alphabet:                   DNA
+# number of worker threads:                    1 [--cpu]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+#                                                                                                          running time (s)                                                      
+#                                                                                                   -------------------------------                                               
+# idx  seq name                                  length  cm from    cm to  trunc    bit sc  avg pp  band calc  alignment      total  mem (Mb)      tau  thresh1  thresh2  failover
+# ---  ----------------------------------------  ------  -------  -------  -----  --------  ------  ---------  ---------  ---------  --------  -------  -------  -------  --------
+    1  gi|1773320022|gb|MN611472.1|/1-178           178        1      177     3'    190.24   0.987       0.00       0.00       0.09     61.96    0.001        -        -         -
+    2  gi|1772831094|gb|MN566104.1|/1-178           178        1      177     3'    190.24   0.987       0.00       0.00       0.07     61.96    0.001        -        -         -
+    3  gi|1772831098|gb|MN566106.1|/1-178           178        1      177     3'    190.24   0.987       0.00       0.00       0.07     61.96    0.001        -        -         -
+    4  gi|1772831104|gb|MN577543.1|/1-178           178        1      177     3'    190.24   0.987       0.00       0.00       0.07     61.96    0.001        -        -         -
+    5  gi|1772831106|gb|MN577544.1|/1-178           178        1      177     3'    190.24   0.987       0.00       0.00       0.07     61.96    0.001        -        -         -
+    6  gi|1772502757|gb|MN577550.1|/1-178           178        1      177     3'    190.24   0.987       0.00       0.00       0.07     61.96    0.001        -        -         -
+    7  gi|1765883934|gb|MN473450.1|/1-101           101      358      458  5'&3'    117.82   1.000       0.00       0.00       0.04     61.94    0.001        -        -         -
+    8  gi|1765883938|gb|MN473452.1|/10266-10366     101    10313    10413  5'&3'    116.99   1.000       0.00       0.00       0.04     61.94    0.001        -        -         -
+    9  gi|1765883942|gb|MN473454.1|/10485-10585     101    10547    10647  5'&3'    116.97   1.000       0.00       0.00       0.05     61.94    0.001        -        -         -
+   10  gi|1548994184|gb|MK269357.1|/1-165           165       14      177  5'&3'    184.39   0.986       0.00       0.00       0.07     61.96    0.001        -        -         -
+   11  gi|1548994190|gb|MK269360.1|/1-165           165       14      177  5'&3'    184.39   0.986       0.00       0.00       0.07     61.96    0.001        -        -         -
+#
+# CPU time: 0.78u 0.04s 00:00:00.82 Elapsed: 00:00:00.86

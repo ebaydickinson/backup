@@ -1,0 +1,34 @@
+= gi|1098883730|gb|KY075936.1|    10607 Zika virus isolate ZIKV/Homo_sapiens/USA/2016/FL036Se polyprotein gene, complete cds
+= gi|1098883732|gb|KY075937.1|    10608 Zika virus isolate ZIKV/Aedes_aegypti/USA/2016/FL05M polyprotein gene, complete cds
+= gi|1098883734|gb|KY075938.1|    10605 Zika virus isolate ZIKV/Aedes_aegypti/USA/2016/FL06M polyprotein gene, complete cds
+= gi|1142915131|gb|KY075939.2|    10636 Zika virus isolate ZIKV/Aedes_aegypti/USA/2016/FL08M polyprotein gene, complete cds
+= gi|1124099354|gb|KY317936.1|    10389 Zika virus isolate ZIKV/Homo_sapiens/Colombia/2016/ZC188Se polyprotein gene, complete cds
+= gi|1124099356|gb|KY317937.1|    10462 Zika virus isolate ZIKV/Homo_sapiens/Colombia/2016/ZC192Se polyprotein gene, complete cds
+= gi|1124099358|gb|KY317938.1|    10387 Zika virus isolate ZIKV/Homo_sapiens/Colombia/2016/ZC199Se polyprotein gene, complete cds
+= gi|1124099360|gb|KY317939.1|    10608 Zika virus isolate ZIKV/Homo_sapiens/Colombia/2016/ZC204Se polyprotein gene, complete cds
+= gi|1124099362|gb|KY317940.1|    10391 Zika virus isolate ZIKV/Homo_sapiens/Colombia/2016/ZC207Se polyprotein gene, complete cds
+= gi|1120603260|gb|KY325464.1|    10790 Zika virus isolate Zika virus/H.sapiens-wt/USA/2016/FLSR036 polyprotein gene, complete cds
+= gi|1120603262|gb|KY325465.1|    10790 Zika virus isolate Zika virus/H.sapiens-wt/USA/2016/FLSR043 polyprotein gene, complete cds
+= gi|1120603266|gb|KY325467.1|    10742 Zika virus isolate Zika virus/H.sapiens-wt/USA/2016/FLUR006 polyprotein gene, complete cds
+= gi|1120603268|gb|KY325468.1|    10742 Zika virus isolate Zika virus/H.sapiens-wt/USA/2016/FLUR007 polyprotein gene, complete cds
+= gi|1120603270|gb|KY325469.1|    10776 Zika virus isolate Zika virus/H.sapiens-wt/USA/2016/FLUR008 polyprotein gene, complete cds
+= gi|1120603274|gb|KY325471.1|    10622 Zika virus isolate Zika virus/H.sapiens-wt/USA/2016/FLUR011 polyprotein gene, complete cds
+= gi|1120603278|gb|KY325473.1|    10786 Zika virus isolate Zika virus/H.sapiens-wt/USA/2016/FLUR022 polyprotein gene, complete cds
+= gi|1120603284|gb|KY325476.1|    10785 Zika virus isolate Zika virus/H.sapiens-wt/USA/2016/FLUR058 polyprotein gene, complete cds
+= gi|1120603286|gb|KY325477.1|    10751 Zika virus isolate Zika virus/H.sapiens-wt/USA/2016/FLUR063 polyprotein gene, complete cds
+= gi|1120603288|gb|KY325478.1|    10407 Zika virus isolate Zika virus/H.sapiens-wt/USA/2016/FLWB042 polyprotein gene, partial cds
+= gi|1120603295|gb|KY325483.1|    10688 UNVERIFIED: Zika virus isolate Zika virus/H.sapiens-wt/USA/2016/FLUR015 polyprotein-like gene, complete sequence
+= gi|1134427391|gb|KY415986.1|    10808 Zika virus isolate Haiti/0029/2014, complete genome
+= gi|1134427395|gb|KY415988.1|    10808 Zika virus isolate Haiti/0054/2014, complete genome
+= gi|1134427397|gb|KY415989.1|    10808 Zika virus isolate Haiti/0074/2014, complete genome
+= gi|1196819745|gb|MF098764.1|    10076 Zika virus isolate Dominican_Rep-Rus-3ALT-2016 polyprotein gene, partial cds
+= gi|1196819747|gb|MF098765.1|    10076 Zika virus isolate Dominican_Rep-Rus-4MRG-2016 polyprotein gene, partial cds
+= gi|1196819749|gb|MF098766.1|    10339 Zika virus isolate Dominican_Rep-Rus-5RMN-2016 polyprotein gene, complete cds
+= gi|1196819751|gb|MF098767.1|    10102 Zika virus isolate Saint-Barthelemi-Rus-6BRN-2016 polyprotein gene, partial cds
+Format:              FASTA
+Alphabet type:       DNA
+Number of sequences: 27
+Total # residues:    285589
+Smallest:            10076
+Largest:             10808
+Average length:      10577.4

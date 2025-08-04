@@ -1,0 +1,36 @@
+>Feature gi|1696858399|gb|MN025403.1|
+93	10364	misc_feature
+			note	similar to polyprotein
+
+Additional note(s) to submitter:
+ERROR: POSSIBLE_FRAMESHIFT_HIGH_CONF: (CDS:polyprotein) high confidence possible frameshift in CDS (frame restored before end) [cause:delete,S:100,M:115(1); restore:insert,S:123(1),M:137; frame:1(3)121; length:8:(23):7034:8:3199; shifted_avgpp:0.975; exp_avgpp:0.975;]; seq-coords:101..123:+; mdl-coords:115..137:+; mdl:AY632535;
+>Feature gi|1153694675|gb|KX601166.2|
+79	10350	misc_feature
+			note	similar to polyprotein
+
+Additional note(s) to submitter:
+ERROR: POSSIBLE_FRAMESHIFT_HIGH_CONF: (CDS:polyprotein) high confidence possible frameshift in CDS (frame restored before end) [cause:delete,S:86,M:115(1); restore:insert,S:109(1),M:137; frame:1(3)121; length:8:(23):7033:9:3199; shifted_avgpp:0.975; exp_avgpp:0.975;]; seq-coords:87..109:+; mdl-coords:115..137:+; mdl:AY632535;
+>Feature gi|1122001540|gb|KY288905.1|
+106	10377	misc_feature
+			note	similar to polyprotein
+
+Additional note(s) to submitter:
+ERROR: POSSIBLE_FRAMESHIFT_HIGH_CONF: (CDS:polyprotein) high confidence possible frameshift in CDS (frame restored before end) [cause:delete,S:113,M:115(1); restore:insert,S:136(1),M:137; frame:1(3)121; length:8:(23):7033:9:3199; shifted_avgpp:0.975; exp_avgpp:0.975;]; seq-coords:114..136:+; mdl-coords:115..137:+; mdl:AY632535;
+>Feature gi|572167484|gb|KF268948.1|
+107	10375	misc_feature
+			note	similar to polyprotein
+
+Additional note(s) to submitter:
+ERROR: POSSIBLE_FRAMESHIFT_HIGH_CONF: (CDS:polyprotein) high confidence possible frameshift in CDS (frame restored before end) [cause:delete,S:114,M:115(1); restore:insert,S:137(1),M:137; frame:1(3)121; length:8:(23):7033:9:3196; shifted_avgpp:0.975; exp_avgpp:0.975;]; seq-coords:115..137:+; mdl-coords:115..137:+; mdl:AY632535;
+>Feature gi|572167486|gb|KF268949.1|
+106	10359	misc_feature
+			note	similar to polyprotein
+
+Additional note(s) to submitter:
+ERROR: POSSIBLE_FRAMESHIFT_HIGH_CONF: (CDS:polyprotein) high confidence possible frameshift in CDS (frame restored before end) [cause:delete,S:114,M:116(1); restore:insert,S:137(1),M:138; frame:1(3)121; length:9:(23):7014:9:3199; shifted_avgpp:0.884; exp_avgpp:0.869;]; seq-coords:115..137:+; mdl-coords:116..138:+; mdl:AY632535;
+>Feature gi|572167488|gb|KF268950.1|
+107	10375	misc_feature
+			note	similar to polyprotein
+
+Additional note(s) to submitter:
+ERROR: POSSIBLE_FRAMESHIFT_HIGH_CONF: (CDS:polyprotein) high confidence possible frameshift in CDS (frame restored before end) [cause:delete,S:115,M:116(1); restore:insert,S:138(1),M:138; frame:1(3)121; length:9:(23):7032:9:3196; shifted_avgpp:0.884; exp_avgpp:0.869;]; seq-coords:116..138:+; mdl-coords:116..138:+; mdl:AY632535;

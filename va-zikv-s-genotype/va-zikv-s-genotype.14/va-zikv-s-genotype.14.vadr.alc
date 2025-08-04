@@ -1,0 +1,19 @@
+1   indfclas  no   INDEFINITE_CLASSIFICATION      sequence    5   5  low score difference between best overall model and second best model (not in best model's subgroup)
+2   ambgntrp  no   N_RICH_REGION_NOT_REPLACED     sequence   13  12  N-rich region of unexpected length not replaced
+3   fstlocft  no   POSSIBLE_FRAMESHIFT_LOW_CONF    feature    1   1  low confidence possible frameshift in CDS (frame not restored before end)
+4   lowsimic  no   LOW_FEATURE_SIMILARITY          feature   32  12  region overlapping annotated feature that is or matches a CDS lacks significant similarity
+5   ambgnt5f  no   AMBIGUITY_AT_FEATURE_START      feature   12   9  first nucleotide of non-CDS feature is an ambiguous nucleotide
+6   ambgnt3f  no   AMBIGUITY_AT_FEATURE_END        feature   17   9  final nucleotide of non-CDS feature is an ambiguous nucleotide
+7   ambgnt3c  no   AMBIGUITY_AT_CDS_END            feature    4   4  final nucleotide of CDS is an ambiguous nucleotide
+#-  --------  ---  -----------------------------  --------  ---  --  
+8   lowcovrg  yes  LOW_COVERAGE                   sequence    1   1  low sequence fraction with significant similarity to homology model
+9   unexleng  yes  UNEXPECTED_LENGTH               feature   24  12  length of complete coding (CDS or mat_peptide) feature is not a multiple of 3
+10  cdsstopn  yes  CDS_HAS_STOP_CODON              feature   12  12  in-frame stop codon exists 5' of stop position predicted by homology to reference
+11  fsthicft  yes  POSSIBLE_FRAMESHIFT_HIGH_CONF   feature   10  10  high confidence possible frameshift in CDS (frame not restored before end)
+12  fsthicfi  yes  POSSIBLE_FRAMESHIFT_HIGH_CONF   feature    1   1  high confidence possible frameshift in CDS (frame restored before end)
+13  peptrans  yes  PEPTIDE_TRANSLATION_PROBLEM     feature  132  12  mat_peptide may not be translated because its parent CDS has a problem
+14  indf5lcn  yes  INDEFINITE_ANNOTATION_START     feature    5   5  alignment to homology model has low confidence at 5' boundary for feature that does not match a CDS
+15  indf5pst  yes  INDEFINITE_ANNOTATION_START     feature    5   5  protein-based alignment does not extend close enough to nucleotide-based alignment 5' endpoint
+16  indf3lcn  yes  INDEFINITE_ANNOTATION_END       feature    5   5  alignment to homology model has low confidence at 3' boundary for feature that does not match a CDS
+17  indf3pst  yes  INDEFINITE_ANNOTATION_END       feature    7   7  protein-based alignment does not extend close enough to nucleotide-based alignment 3' endpoint
+#-  --------  ---  -----------------------------  --------  ---  --  

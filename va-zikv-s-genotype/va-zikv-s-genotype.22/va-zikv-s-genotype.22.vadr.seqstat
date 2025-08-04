@@ -1,0 +1,34 @@
+= gi|1196819753|gb|MF098768.1|    10339 Zika virus isolate Dominican_Rep-Rus-7EGR-2016 polyprotein gene, complete cds
+= gi|1196819757|gb|MF098770.1|     9608 Zika virus isolate Mexico-Rus-10GNN-2016 polyprotein gene, partial cds
+= gi|1196819759|gb|MF098771.1|    10657 Zika virus isolate Mexico-Rus-12TVR-2017 polyprotein gene, complete cds
+= gi|1111251141|gb|KY241671.1|    10767 Zika virus isolate ZIKV-SG-001 polyprotein gene, complete cds
+= gi|1111251145|gb|KY241673.1|    10740 Zika virus isolate ZIKV-SG-003 polyprotein gene, complete cds
+= gi|1111251147|gb|KY241674.1|    10631 Zika virus isolate ZIKV-SG-004 polyprotein gene, complete cds
+= gi|1111251149|gb|KY241675.1|    10735 Zika virus isolate ZIKV-SG-005 polyprotein gene, complete cds
+= gi|1111251155|gb|KY241678.1|    10721 Zika virus isolate ZIKV-SG-008 polyprotein gene, complete cds
+= gi|1111251157|gb|KY241679.1|    10755 Zika virus isolate ZIKV-SG-009 polyprotein gene, complete cds
+= gi|1111251159|gb|KY241680.1|    10728 Zika virus isolate ZIKV-SG-010 polyprotein gene, complete cds
+= gi|1111251163|gb|KY241682.1|    10755 Zika virus isolate ZIKV-SG-012 polyprotein gene, complete cds
+= gi|1111251165|gb|KY241683.1|    10596 Zika virus isolate ZIKV-SG-013 polyprotein gene, complete cds
+= gi|1111251171|gb|KY241686.1|    10770 Zika virus isolate ZIKV-SG-016 polyprotein gene, complete cds
+= gi|1111251173|gb|KY241687.1|    10751 Zika virus isolate ZIKV-SG-017 polyprotein gene, complete cds
+= gi|1111251175|gb|KY241688.1|    10659 Zika virus isolate ZIKV-SG-018 polyprotein gene, complete cds
+= gi|1111251177|gb|KY241689.1|    10738 Zika virus isolate ZIKV-SG-019 polyprotein gene, complete cds
+= gi|1111251179|gb|KY241690.1|    10756 Zika virus isolate ZIKV-SG-020 polyprotein gene, complete cds
+= gi|1111251181|gb|KY241691.1|    10734 Zika virus isolate ZIKV-SG-021 polyprotein gene, complete cds
+= gi|1111251183|gb|KY241692.1|    10716 Zika virus isolate ZIKV-SG-022 polyprotein gene, complete cds
+= gi|1111251189|gb|KY241695.1|    10770 Zika virus isolate ZIKV-SG-025 polyprotein gene, complete cds
+= gi|1111251191|gb|KY241696.1|    10769 Zika virus isolate ZIKV-SG-026 polyprotein gene, complete cds
+= gi|1111251193|gb|KY241697.1|    10734 Zika virus isolate ZIKV-SG-027 polyprotein gene, complete cds
+= gi|1111251195|gb|KY241698.1|    10740 Zika virus isolate ZIKV-SG-028 polyprotein gene, complete cds
+= gi|1111251207|gb|KY241704.1|    10706 Zika virus isolate ZIKV-SG-034 polyprotein gene, complete cds
+= gi|1111251211|gb|KY241706.1|    10770 Zika virus isolate ZIKV-SG-036 polyprotein gene, complete cds
+= gi|1111251213|gb|KY241707.1|    10744 Zika virus isolate ZIKV-SG-037 polyprotein gene, complete cds
+= gi|1111251225|gb|KY241713.1|    10765 Zika virus isolate ZIKV-SG-043 polyprotein gene, complete cds
+Format:              FASTA
+Alphabet type:       DNA
+Number of sequences: 27
+Total # residues:    288154
+Smallest:            9608
+Largest:             10770
+Average length:      10672.4

@@ -1,0 +1,54 @@
+# copy of input fasta file saved in:                                               va-zikv-s-genotype.vadr.in.fa
+# copy of input fasta file with descriptions removed for blastn saved in:          va-zikv-s-genotype.vadr.blastn.fa
+# esl-seqstat -a output for input fasta file saved in:                             va-zikv-s-genotype.vadr.seqstat
+# Stockholm file for >= 1 possible frameshifts for CDS.1.1 for model AY632535 saved in:   va-zikv-s-genotype.vadr.AY632535.CDS.1.1.frameshift.stk
+# Stockholm file for >= 1 possible frameshifts for CDS.1.1 for model KU509998 saved in:   va-zikv-s-genotype.vadr.KU509998.CDS.1.1.frameshift.stk
+# model AY632535 alignment list (stk) saved in:                                           va-zikv-s-genotype.vadr.AY632535.align.stk.list
+# model AY632535 full original sequence alignment(stk) saved in:                          va-zikv-s-genotype.vadr.AY632535.align.stk
+# model AY632535 full original sequence alignment(afa) saved in:                          va-zikv-s-genotype.vadr.AY632535.align.afa
+# model AY632535 alignment list (rpstk) saved in:                                         va-zikv-s-genotype.vadr.AY632535.align.rpstk.list
+# model AY632535 full replaced sequence alignment(stk) saved in:                          va-zikv-s-genotype.vadr.AY632535.align.rpstk
+# model AY632535 full replaced sequence alignment(afa) saved in:                          va-zikv-s-genotype.vadr.AY632535.align.rpafa
+# model MG807646 alignment list (stk) saved in:                                           va-zikv-s-genotype.vadr.MG807646.align.stk.list
+# model MG807646 full original sequence alignment(stk) saved in:                          va-zikv-s-genotype.vadr.MG807646.align.stk
+# model MG807646 full original sequence alignment(afa) saved in:                          va-zikv-s-genotype.vadr.MG807646.align.afa
+# model MG807646 alignment list (rpstk) saved in:                                         va-zikv-s-genotype.vadr.MG807646.align.rpstk.list
+# model MG807646 full replaced sequence alignment(stk) saved in:                          va-zikv-s-genotype.vadr.MG807646.align.rpstk
+# model MG807646 full replaced sequence alignment(afa) saved in:                          va-zikv-s-genotype.vadr.MG807646.align.rpafa
+# model KU509998 alignment list (stk) saved in:                                           va-zikv-s-genotype.vadr.KU509998.align.stk.list
+# model KU509998 full original sequence alignment(stk) saved in:                          va-zikv-s-genotype.vadr.KU509998.align.stk
+# model KU509998 full original sequence alignment(afa) saved in:                          va-zikv-s-genotype.vadr.KU509998.align.afa
+# model KU509998 alignment list (rpstk) saved in:                                         va-zikv-s-genotype.vadr.KU509998.align.rpstk.list
+# model KU509998 full replaced sequence alignment(stk) saved in:                          va-zikv-s-genotype.vadr.KU509998.align.rpstk
+# model KU509998 full replaced sequence alignment(afa) saved in:                          va-zikv-s-genotype.vadr.KU509998.align.rpafa
+# model AY632535 feature CDS#1 predicted seqs saved in:                                   va-zikv-s-genotype.vadr.AY632535.CDS.1.fa
+# model MG807646 feature CDS#1 predicted seqs saved in:                                   va-zikv-s-genotype.vadr.MG807646.CDS.1.fa
+# model KU509998 feature CDS#1 predicted seqs saved in:                                   va-zikv-s-genotype.vadr.KU509998.CDS.1.fa
+# model KU509998 feature mat_peptide#1 predicted seqs saved in:                           va-zikv-s-genotype.vadr.KU509998.mat_peptide.1.fa
+# model KU509998 feature mat_peptide#2 predicted seqs saved in:                           va-zikv-s-genotype.vadr.KU509998.mat_peptide.2.fa
+# model KU509998 feature mat_peptide#3 predicted seqs saved in:                           va-zikv-s-genotype.vadr.KU509998.mat_peptide.3.fa
+# model KU509998 feature mat_peptide#4 predicted seqs saved in:                           va-zikv-s-genotype.vadr.KU509998.mat_peptide.4.fa
+# model KU509998 feature mat_peptide#5 predicted seqs saved in:                           va-zikv-s-genotype.vadr.KU509998.mat_peptide.5.fa
+# model KU509998 feature mat_peptide#6 predicted seqs saved in:                           va-zikv-s-genotype.vadr.KU509998.mat_peptide.6.fa
+# model KU509998 feature mat_peptide#7 predicted seqs saved in:                           va-zikv-s-genotype.vadr.KU509998.mat_peptide.7.fa
+# model KU509998 feature mat_peptide#8 predicted seqs saved in:                           va-zikv-s-genotype.vadr.KU509998.mat_peptide.8.fa
+# model KU509998 feature mat_peptide#9 predicted seqs saved in:                           va-zikv-s-genotype.vadr.KU509998.mat_peptide.9.fa
+# model KU509998 feature mat_peptide#10 predicted seqs saved in:                          va-zikv-s-genotype.vadr.KU509998.mat_peptide.10.fa
+# model KU509998 feature mat_peptide#11 predicted seqs saved in:                          va-zikv-s-genotype.vadr.KU509998.mat_peptide.11.fa
+# 5 column feature table output for passing sequences saved in:                           va-zikv-s-genotype.vadr.pass.tbl
+# 5 column feature table output for failing sequences saved in:                           va-zikv-s-genotype.vadr.fail.tbl
+# list of passing sequences saved in:                                                     va-zikv-s-genotype.vadr.pass.list
+# list of failing sequences saved in:                                                     va-zikv-s-genotype.vadr.fail.list
+# list of alerts in the feature tables saved in:                                          va-zikv-s-genotype.vadr.alt.list
+# fasta file with passing sequences saved in:                                             va-zikv-s-genotype.vadr.pass.fa
+# fasta file with failing sequences saved in:                                             va-zikv-s-genotype.vadr.fail.fa
+# per-sequence tabular annotation summary file saved in:                                  va-zikv-s-genotype.vadr.sqa
+# per-sequence tabular classification summary file saved in:                              va-zikv-s-genotype.vadr.sqc
+# per-feature tabular summary file saved in:                                              va-zikv-s-genotype.vadr.ftr
+# per-model-segment tabular summary file saved in:                                        va-zikv-s-genotype.vadr.sgm
+# per-alert tabular summary file saved in:                                                va-zikv-s-genotype.vadr.alt
+# alert count tabular summary file saved in:                                              va-zikv-s-genotype.vadr.alc
+# per-model tabular summary file saved in:                                                va-zikv-s-genotype.vadr.mdl
+# alignment doctoring tabular summary file saved in:                                      va-zikv-s-genotype.vadr.dcr
+# seed alignment summary file (-s) saved in:                                              va-zikv-s-genotype.vadr.sda
+# replaced stretches of Ns summary file (-r) saved in:                                    va-zikv-s-genotype.vadr.rpn

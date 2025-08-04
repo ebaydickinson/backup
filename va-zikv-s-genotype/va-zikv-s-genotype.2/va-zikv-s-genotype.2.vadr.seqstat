@@ -1,0 +1,34 @@
+= gi|2104438090|gb|OK054392.1|    10761 Zika virus isolate ZIKV/Homo_Sapiens/NIC/5066_CZB195/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438092|gb|OK054393.1|    10776 Zika virus isolate ZIKV/Homo_Sapiens/NIC/5072_CHB3151/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438094|gb|OK054394.1|    10718 Zika virus isolate ZIKV/Homo_Sapiens/NIC/5149_CZB131/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438096|gb|OK054395.1|    10761 Zika virus isolate ZIKV/Homo_Sapiens/NIC/5355_CZB145/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438098|gb|OK054396.1|    10738 Zika virus isolate ZIKV/Homo_Sapiens/NIC/5376_CZB225/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438100|gb|OK054397.1|    10691 Zika virus isolate ZIKV/Homo_Sapiens/NIC/5886_CZB194/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438102|gb|OK054398.1|    10752 Zika virus isolate ZIKV/Homo_Sapiens/NIC/5893_CZB127/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438104|gb|OK054399.1|    10766 Zika virus isolate ZIKV/Homo_Sapiens/NIC/5894_CZB175/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438106|gb|OK054400.1|    10756 Zika virus isolate ZIKV/Homo_Sapiens/NIC/5962_CHB3156/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438108|gb|OK054401.1|    10778 Zika virus isolate ZIKV/Homo_Sapiens/NIC/6153_CZB160/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438110|gb|OK054402.1|    10753 Zika virus isolate ZIKV/Homo_Sapiens/NIC/6215_CZB141/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438112|gb|OK054403.1|    10741 Zika virus isolate ZIKV/Homo_Sapiens/NIC/6316_CZB219/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438116|gb|OK054405.1|    10763 Zika virus isolate ZIKV/Homo_Sapiens/NIC/6720_CZB143/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438118|gb|OK054406.1|    10766 Zika virus isolate ZIKV/Homo_Sapiens/NIC/6775_CZB144/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438120|gb|OK054407.1|    10778 Zika virus isolate ZIKV/Homo_Sapiens/NIC/6799_CHB3154/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438122|gb|OK054408.1|    10770 Zika virus isolate ZIKV/Homo_Sapiens/NIC/7083_CHB3155/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438124|gb|OK054409.1|    10760 Zika virus isolate ZIKV/Homo_Sapiens/NIC/7180_CZB122/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438126|gb|OK054410.1|    10769 Zika virus isolate ZIKV/Homo_Sapiens/NIC/7193_CHB3146/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438128|gb|OK054411.1|    10735 Zika virus isolate ZIKV/Homo_Sapiens/NIC/7253_CZH177/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438130|gb|OK054412.1|    10727 Zika virus isolate ZIKV/Homo_Sapiens/NIC/7311_CZB192/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438132|gb|OK054413.1|    10767 Zika virus isolate ZIKV/Homo_Sapiens/NIC/7547_CHB3152/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438134|gb|OK054414.1|    10770 Zika virus isolate ZIKV/Homo_Sapiens/NIC/7550_CZB154/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438136|gb|OK054415.1|    10774 Zika virus isolate ZIKV/Homo_Sapiens/NIC/7683_CZB177/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438138|gb|OK054416.1|    10775 Zika virus isolate ZIKV/Homo_Sapiens/NIC/8065_CHB3163/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438140|gb|OK054417.1|    10750 Zika virus isolate ZIKV/Homo_Sapiens/NIC/8079_CZH181/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438142|gb|OK054418.1|    10772 Zika virus isolate ZIKV/Homo_Sapiens/NIC/8298_CZB165/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438144|gb|OK054419.1|    10762 Zika virus isolate ZIKV/Homo_Sapiens/NIC/8389_CZB147/2016 polyprotein (POLY) gene, complete cds
+Format:              FASTA
+Alphabet type:       DNA
+Number of sequences: 27
+Total # residues:    290429
+Smallest:            10691
+Largest:             10778
+Average length:      10756.6

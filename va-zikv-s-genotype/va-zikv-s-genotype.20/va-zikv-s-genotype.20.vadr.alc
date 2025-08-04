@@ -1,0 +1,5 @@
+1  ambgnt5f  no   AMBIGUITY_AT_FEATURE_START   feature  7  3  first nucleotide of non-CDS feature is an ambiguous nucleotide
+2  ambgnt3f  no   AMBIGUITY_AT_FEATURE_END     feature  7  3  final nucleotide of non-CDS feature is an ambiguous nucleotide
+#  --------  ---  --------------------------  --------  -  -  
+3  lowsim5s  yes  LOW_SIMILARITY_START        sequence  1  1  significant similarity not detected at 5' end of the sequence
+#  --------  ---  --------------------------  --------  -  -  

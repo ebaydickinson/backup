@@ -1,0 +1,39 @@
+# Insert information file created by cmalign.
+# This file includes 2+<nseq> non-'#' pre-fixed lines per model used for alignment,
+# where <nseq> is the number of sequences in the target file.
+# The first non-'#' prefixed line per model includes 2 tokens, separated by a single space (' '):
+# The first token is the model name and the second is the consensus length of the model (<clen>).
+# The following <nseq> lines include (4+3*<n>) whitespace delimited tokens per line.
+# The format for these <nseq> lines is:
+#   <seqname> <seqlen> <spos> <epos> <c_1> <u_1> <i_1> <c_2> <u_2> <i_2> .... <c_x> <u_x> <i_x> .... <c_n> <u_n> <i_n>
+#   indicating <seqname> has >= 1 inserted residues after <n> different consensus positions,
+#   <seqname> is the name of the sequence
+#   <seqlen>  is the unaligned length of the sequence
+#   <spos>    is the first (5'-most) consensus position filled by a nongap for this sequence (-1 if 0 nongap consensus posns)
+#   <epos>    is the final (3'-most) consensus position filled by a nongap for this sequence (-1 if 0 nongap consensus posns)
+#   <c_x> is a consensus position (between 0 and <clen>; if 0: inserts before 1st consensus posn)
+#   <u_x> is the *unaligned* position (b/t 1 and <seqlen>) in <seqname> of the first inserted residue after <c_x>.
+#   <i_x> is the number of inserted residues after position <c_x> for <seqname>.
+# Lines for sequences with 0 inserted residues will include only <seqname> <seqlen> <spos> <epos>.
+# The final non-'#' prefixed line per model includes only '//', indicating the end of info for a model.
+#
+KU509998 10807
+gi|1127353061|gb|KY379148.1|/10591-10691 101 10610 10710
+gi|1198363793|gb|MF073358.1|/1-178 178 1 177  79 80 1
+gi|1198363795|gb|MF073359.1|/1-178 178 1 177  79 80 1
+gi|1386872119|gb|MH158236.1|/1-178 178 1 177  79 80 1
+gi|1386872121|gb|MH158237.1|/1-178 178 1 177  79 80 1
+gi|1384890571|gb|MH157195.1|/6304-10659 4356 6321 10677
+gi|1384890575|gb|MH157199.1|/9721-10642 922 9754 10677
+gi|1384890576|gb|MH157200.1|/1-4177 4177 19 4195  79 62 1
+gi|1384890577|gb|MH157201.1|/8304-10662 2359 8318 10677
+gi|1384890580|gb|MH157203.1|/8111-10661 2551 8126 10677
+gi|1384890581|gb|MH157204.1|/9738-10659 922 9755 10677
+gi|1384890582|gb|MH157205.1|/9745-10657 913 9764 10677
+gi|1384890584|gb|MH157207.1|/1-4217 4217 21 4236  79 60 1  1813 1795 1
+gi|1384890587|gb|MH157209.1|/8132-10657 2526 8151 10677
+gi|1384890588|gb|MH157210.1|/1-4179 4179 17 4195  79 64 1
+gi|1384890590|gb|MH157212.1|/1-4662 4662 20 4681  79 61 1
+gi|1384890593|gb|MH157214.1|/1-4175 4175 41 4215  79 40 1
+gi|1377672473|gb|MH119185.1|/1-169 169 10 177  79 71 1
+//

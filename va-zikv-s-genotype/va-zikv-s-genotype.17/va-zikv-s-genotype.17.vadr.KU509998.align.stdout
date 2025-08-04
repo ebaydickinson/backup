@@ -1,0 +1,41 @@
+# cmalign :: align sequences to a CM
+# INFERNAL 1.1.5 (Sep 2023)
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# CM file:                                     -
+# sequence file:                               va-zikv-s-genotype/va-zikv-s-genotype.17/va-zikv-s-genotype.17.vadr.KU509998.a.subseq.fa
+# CM name:                                     KU509998
+# saving alignment to file:                    va-zikv-s-genotype/va-zikv-s-genotype.17/va-zikv-s-genotype.17.vadr.KU509998.align.r1.s0.stk
+# model configuration:                         global
+# truncated sequence alignment mode:           off
+# alternative truncated seq alignment mode:    on
+# maximum total DP matrix size set to:         4000.00 Mb
+# tail loss probability for HMM bands set to:  0.001
+# tighten HMM bands when necessary:            no
+# saving insert information to file:           va-zikv-s-genotype/va-zikv-s-genotype.17/va-zikv-s-genotype.17.vadr.KU509998.align.r1.s0.ifile
+# output alignment alphabet:                   DNA
+# number of worker threads:                    1 [--cpu]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+#                                                                                                           running time (s)                                                      
+#                                                                                                    -------------------------------                                               
+# idx  seq name                                   length  cm from    cm to  trunc    bit sc  avg pp  band calc  alignment      total  mem (Mb)      tau  thresh1  thresh2  failover
+# ---  -----------------------------------------  ------  -------  -------  -----  --------  ------  ---------  ---------  ---------  --------  -------  -------  -------  --------
+    1  gi|1093294041|dbj|LC191864.1|/1-178           178        1      177     3'    189.49   0.987       0.00       0.00       0.09     61.96    0.001        -        -         -
+    2  gi|1093294041|dbj|LC191864.1|/10704-10807     104    10703    10806  5'&3'    116.49   1.000       0.00       0.00       0.04     61.95    0.001        -        -         -
+    3  gi|1243281029|gb|MF794971.1|/1-179            179        1      177     3'    182.51   0.985       0.00       0.00       0.07     62.31    0.001        -        -         -
+    4  gi|1234332972|gb|KU179098.2|/10562-10668      107    10589    10696  5'&3'    118.93   0.979       0.00       0.00       0.05     62.29    0.001        -        -         -
+    5  gi|1148884845|gb|KY553111.1|/1-1533          1533        1     1544     3'   1727.53   0.998       0.12       0.00       0.77    605.00    0.001        -        -         -
+    6  gi|1185548443|gb|KY962729.1|/1-232            232     1301     1544  5'&3'    259.34   0.994       0.00       0.00       0.09    530.71    0.001        -        -         -
+    7  gi|1216619098|gb|MF434516.1|/1-162            162       17      177  5'&3'    185.45   0.985       0.00       0.00       0.06    530.69    0.001        -        -         -
+    8  gi|1216619100|gb|MF434517.1|/1-162            162       17      177  5'&3'    185.45   0.985       0.00       0.00       0.06    530.69    0.001        -        -         -
+    9  gi|1216619102|gb|MF434518.1|/1-162            162       17      177  5'&3'    185.45   0.985       0.00       0.00       0.06    530.69    0.001        -        -         -
+   10  gi|1216619108|gb|MF434521.1|/1-162            162       17      177  5'&3'    185.45   0.985       0.00       0.00       0.06    530.69    0.001        -        -         -
+   11  gi|1216619110|gb|MF434522.1|/1-162            162       17      177  5'&3'    185.45   0.985       0.00       0.00       0.06    530.69    0.001        -        -         -
+   12  gi|1212085907|gb|MF384325.1|/1-178            178        1      177     3'    190.24   0.987       0.00       0.00       0.07    530.70    0.001        -        -         -
+   13  gi|1150463024|gb|KY014296.2|/1-165            165       14      177  5'&3'    184.39   0.986       0.00       0.00       0.06    530.69    0.001        -        -         -
+   14  gi|1150463029|gb|KY014300.2|/1-160            160       19      177  5'&3'    182.93   0.985       0.00       0.00       0.06    530.69    0.001        -        -         -
+   15  gi|1150463034|gb|KY014303.2|/1-165            165       14      177  5'&3'    184.39   0.986       0.00       0.00       0.06    530.69    0.001        -        -         -
+   16  gi|1150463035|gb|KY014304.2|/1-165            165       14      177  5'&3'    184.39   0.986       0.00       0.00       0.07    530.69    0.001        -        -         -
+#
+# CPU time: 1.63u 0.27s 00:00:01.90 Elapsed: 00:00:01.95

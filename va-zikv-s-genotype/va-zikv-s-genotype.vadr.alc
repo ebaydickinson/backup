@@ -1,0 +1,35 @@
+#     alert     causes   short                               per    num   num  long       
+#idx  code      failure  description                        type  cases  seqs  description
+#---  --------  -------  -----------------------------  --------  -----  ----  -----------
+1     indfclas  no       INDEFINITE_CLASSIFICATION      sequence     66    66  low score difference between best overall model and second best model (not in best model's subgroup)
+2     extrant5  no       EXTRA_SEQUENCE_START           sequence      2     2  extra sequence detected 5' of expected sequence start
+3     extrant3  no       EXTRA_SEQUENCE_END             sequence      1     1  extra sequence detected 3' of expected sequence end
+4     unjoinbl  no       UNJOINABLE_SUBSEQ_ALIGNMENTS   sequence      2     2  inconsistent alignment of overlapping region between seed and flanking region
+5     ambgntrp  no       N_RICH_REGION_NOT_REPLACED     sequence     13    12  N-rich region of unexpected length not replaced
+6     fstlocft  no       POSSIBLE_FRAMESHIFT_LOW_CONF    feature      1     1  low confidence possible frameshift in CDS (frame not restored before end)
+7     fstlocfi  no       POSSIBLE_FRAMESHIFT_LOW_CONF    feature      7     7  low confidence possible frameshift in CDS (frame restored before end)
+8     deletinn  no       DELETION_OF_NT                  feature      4     2  too large of a deletion in nucleotide-based alignment of CDS feature
+9     lowsimic  no       LOW_FEATURE_SIMILARITY          feature     39    15  region overlapping annotated feature that is or matches a CDS lacks significant similarity
+10    ambgnt5f  no       AMBIGUITY_AT_FEATURE_START      feature    194   119  first nucleotide of non-CDS feature is an ambiguous nucleotide
+11    ambgnt3f  no       AMBIGUITY_AT_FEATURE_END        feature    199   120  final nucleotide of non-CDS feature is an ambiguous nucleotide
+12    ambgnt5c  no       AMBIGUITY_AT_CDS_START          feature      3     3  first nucleotide of CDS is an ambiguous nucleotide
+13    ambgnt3c  no       AMBIGUITY_AT_CDS_END            feature     11    11  final nucleotide of CDS is an ambiguous nucleotide
+#---  --------  -------  -----------------------------  --------  -----  ----  -----------
+14    lowcovrg  yes      LOW_COVERAGE                   sequence      1     1  low sequence fraction with significant similarity to homology model
+15    dupregin  yes      DUPLICATE_REGIONS              sequence      1     1  similarity to a model region occurs more than once
+16    discontn  yes      DISCONTINUOUS_SIMILARITY       sequence      1     1  not all hits are in the same order in the sequence and the homology model
+17    lowsim5s  yes      LOW_SIMILARITY_START           sequence      4     4  significant similarity not detected at 5' end of the sequence
+18    lowsim3s  yes      LOW_SIMILARITY_END             sequence      3     3  significant similarity not detected at 3' end of the sequence
+19    mutendcd  yes      MUTATION_AT_END                 feature      1     1  expected stop codon could not be identified, predicted CDS stop by homology is invalid
+20    mutendex  yes      MUTATION_AT_END                 feature      1     1  expected stop codon could not be identified, first in-frame stop codon exists 3' of predicted stop position
+21    unexleng  yes      UNEXPECTED_LENGTH               feature     33    16  length of complete coding (CDS or mat_peptide) feature is not a multiple of 3
+22    cdsstopn  yes      CDS_HAS_STOP_CODON              feature     16    16  in-frame stop codon exists 5' of stop position predicted by homology to reference
+23    fsthicft  yes      POSSIBLE_FRAMESHIFT_HIGH_CONF   feature     14    14  high confidence possible frameshift in CDS (frame not restored before end)
+24    fsthicfi  yes      POSSIBLE_FRAMESHIFT_HIGH_CONF   feature      8     8  high confidence possible frameshift in CDS (frame restored before end)
+25    peptrans  yes      PEPTIDE_TRANSLATION_PROBLEM     feature    220    20  mat_peptide may not be translated because its parent CDS has a problem
+26    indf5lcn  yes      INDEFINITE_ANNOTATION_START     feature      5     5  alignment to homology model has low confidence at 5' boundary for feature that does not match a CDS
+27    indf5pst  yes      INDEFINITE_ANNOTATION_START     feature      8     8  protein-based alignment does not extend close enough to nucleotide-based alignment 5' endpoint
+28    indf3lcn  yes      INDEFINITE_ANNOTATION_END       feature      5     5  alignment to homology model has low confidence at 3' boundary for feature that does not match a CDS
+29    indf3pst  yes      INDEFINITE_ANNOTATION_END       feature     10    10  protein-based alignment does not extend close enough to nucleotide-based alignment 3' endpoint
+30    deletinp  yes      DELETION_OF_NT                  feature      3     2  too large of a deletion in protein-based alignment
+#---  --------  -------  -----------------------------  --------  -----  ----  -----------

@@ -1,0 +1,33 @@
+# cmalign :: align sequences to a CM
+# INFERNAL 1.1.5 (Sep 2023)
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# CM file:                                     -
+# sequence file:                               va-zikv-s-genotype/va-zikv-s-genotype.28/va-zikv-s-genotype.28.vadr.AY632535.a.subseq.fa
+# CM name:                                     AY632535
+# saving alignment to file:                    va-zikv-s-genotype/va-zikv-s-genotype.28/va-zikv-s-genotype.28.vadr.AY632535.align.r1.s0.stk
+# model configuration:                         global
+# truncated sequence alignment mode:           off
+# alternative truncated seq alignment mode:    on
+# maximum total DP matrix size set to:         4000.00 Mb
+# tail loss probability for HMM bands set to:  0.001
+# tighten HMM bands when necessary:            no
+# saving insert information to file:           va-zikv-s-genotype/va-zikv-s-genotype.28/va-zikv-s-genotype.28.vadr.AY632535.align.r1.s0.ifile
+# output alignment alphabet:                   DNA
+# number of worker threads:                    1 [--cpu]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+#                                                                                                         running time (s)                                                      
+#                                                                                                  -------------------------------                                               
+# idx  seq name                                 length  cm from    cm to  trunc    bit sc  avg pp  band calc  alignment      total  mem (Mb)      tau  thresh1  thresh2  failover
+# ---  ---------------------------------------  ------  -------  -------  -----  --------  ------  ---------  ---------  ---------  --------  -------  -------  -------  --------
+    1  gi|1696858399|gb|MN025403.1|/7058-10710    3653     7060    10711  5'&3'   3882.39   0.999       0.56       0.00       1.85   1689.31    0.001        -        -         -
+    2  gi|1153694675|gb|KX601166.2|/7044-10771    3728     7060    10786  5'&3'   4005.99   0.999       0.59       0.00       1.82   1733.24    0.001        -        -         -
+    3  gi|1122001540|gb|KY288905.1|/7071-10752    3682     7060    10740  5'&3'   3965.52   0.999       0.57       0.00       1.75   1723.23    0.001        -        -         -
+    4  gi|572167484|gb|KF268948.1|/7072-10788     3717     7060    10778  5'&3'   4064.08   0.999       0.58       0.00       1.80   1731.24    0.001        -        -         -
+    5  gi|572167486|gb|KF268949.1|/1-1536         1536        2     1543  5'&3'   1683.90   0.996       0.10       0.00       0.62   1364.76    0.001        -        -         -
+    6  gi|572167486|gb|KF268949.1|/7053-10776     3724     7060    10782  5'&3'   4080.49   0.999       0.67       0.00       1.91   1733.24    0.001        -        -         -
+    7  gi|572167488|gb|KF268950.1|/1-237           237        1      237     3'    257.18   0.983       0.00       0.00       0.09   1288.47    0.001        -        -         -
+    8  gi|572167488|gb|KF268950.1|/7072-10755     3684     7060    10745  5'&3'   4028.49   0.998       0.62       0.00       1.81   1723.24    0.001        -        -         -
+#
+# CPU time: 11.08u 0.66s 00:00:11.74 Elapsed: 00:00:11.82

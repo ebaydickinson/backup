@@ -1,0 +1,3 @@
+#
+46.1.1  gi|2104438128|gb|OK054411.1|  KU509998  mat_peptide  capsid_protein  2  ambgnt3f  no  AMBIGUITY_AT_FEATURE_END    386..447:+   62  420..481:+   62  final nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+46.2.1  gi|2104438128|gb|OK054411.1|  KU509998  mat_peptide  propeptide      3  ambgnt5f  no  AMBIGUITY_AT_FEATURE_START  448..560:+  113  482..594:+  113  first nucleotide of non-CDS feature is an ambiguous nucleotide [-]

@@ -1,0 +1,13 @@
+#     alert     causes   short                             per    num   num  long       
+#idx  code      failure  description                      type  cases  seqs  description
+#---  --------  -------  ---------------------------  --------  -----  ----  -----------
+1     ambgnt5f  no       AMBIGUITY_AT_FEATURE_START    feature      8     7  first nucleotide of non-CDS feature is an ambiguous nucleotide
+2     ambgnt3f  no       AMBIGUITY_AT_FEATURE_END      feature      9     8  final nucleotide of non-CDS feature is an ambiguous nucleotide
+3     ambgnt3c  no       AMBIGUITY_AT_CDS_END          feature      1     1  final nucleotide of CDS is an ambiguous nucleotide
+#---  --------  -------  ---------------------------  --------  -----  ----  -----------
+4     lowsim5s  yes      LOW_SIMILARITY_START         sequence      1     1  significant similarity not detected at 5' end of the sequence
+5     lowsim3s  yes      LOW_SIMILARITY_END           sequence      1     1  significant similarity not detected at 3' end of the sequence
+6     mutendcd  yes      MUTATION_AT_END               feature      1     1  expected stop codon could not be identified, predicted CDS stop by homology is invalid
+7     mutendex  yes      MUTATION_AT_END               feature      1     1  expected stop codon could not be identified, first in-frame stop codon exists 3' of predicted stop position
+8     peptrans  yes      PEPTIDE_TRANSLATION_PROBLEM   feature     11     1  mat_peptide may not be translated because its parent CDS has a problem
+#---  --------  -------  ---------------------------  --------  -----  ----  -----------

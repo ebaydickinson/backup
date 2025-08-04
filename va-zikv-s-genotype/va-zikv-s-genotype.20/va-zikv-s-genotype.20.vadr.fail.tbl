@@ -1,0 +1,40 @@
+>Feature gi|1208330436|gb|MF352141.1|
+108	10379	CDS
+			product	polyprotein
+			protein_id	1208330436_1
+108	482	mat_peptide
+			product	capsid protein
+			protein_id	1208330436_1
+483	752	mat_peptide
+			product	propeptide
+			protein_id	1208330436_1
+753	977	mat_peptide
+			product	membrane protein
+			protein_id	1208330436_1
+978	2492	mat_peptide
+			product	envelope protein
+			protein_id	1208330436_1
+2493	3578	mat_peptide
+			product	NS1
+			protein_id	1208330436_1
+3579	4232	mat_peptide
+			product	NS2A
+			protein_id	1208330436_1
+4233	4664	mat_peptide
+			product	NS2B
+			protein_id	1208330436_1
+4665	6473	mat_peptide
+			product	NS3
+			protein_id	1208330436_1
+6474	6914	mat_peptide
+			product	NS4A
+			protein_id	1208330436_1
+6915	8420	mat_peptide
+			product	NS4B
+			protein_id	1208330436_1
+8421	10376	mat_peptide
+			product	NS5
+			protein_id	1208330436_1
+
+Additional note(s) to submitter:
+ERROR: LOW_SIMILARITY_START: (*sequence*) significant similarity not detected at 5' end of the sequence [low similarity region of length 15]; seq-coords:1..15:+; mdl-coords:1..15:+; mdl:KU509998;

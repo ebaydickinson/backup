@@ -1,0 +1,35 @@
+= gi|1920873871|gb|MW122449.1|    10272 Zika virus isolate PR/DB-ZIKV1019/2016 polyprotein (POLY) gene, complete cds
+= gi|1920873873|gb|MW122450.1|    10272 Zika virus isolate PR/DB-ZIKV1020/2017 polyprotein (POLY) gene, complete cds
+= gi|1920873875|gb|MW122451.1|    10272 Zika virus isolate PR/DB-ZIKV1025/2017 polyprotein (POLY) gene, complete cds
+= gi|1920873888|gb|MW122452.1|    10272 Zika virus isolate PR/DB-ZIKV375/2017 polyprotein (POLY) gene, complete cds
+= gi|1920873890|gb|MW122453.1|    10272 Zika virus isolate PR/DB-ZIKV461/2016 polyprotein (POLY) gene, complete cds
+= gi|1920873892|gb|MW122454.1|    10272 Zika virus isolate PR/DB-ZIKV852/2016 polyprotein (POLY) gene, complete cds
+= gi|1920873894|gb|MW122455.1|    10272 Zika virus isolate PR/DB-ZIKV1034/2017 polyprotein (POLY) gene, complete cds
+= gi|1913349842|gb|MW008559.1|    10670 Zika virus isolate E3R polyprotein (POLY) gene, complete cds
+= gi|1913350401|gb|MW012428.1|    10641 Zika virus isolate V1R polyprotein (POLY) gene, complete cds
+= gi|1894866072|gb|MH544701.2|    10807 Zika virus isolate 459148_Meta_Colombia_2016, complete genome
+= gi|1870191318|gb|MN101548.1|    10738 Zika virus isolate Salvador, complete genome
+= gi|1858735570|gb|MT483911.1|    10676 Zika virus isolate 800/16, complete genome
+= gi|1628761371|gb|MK696551.1|    10272 Zika virus isolate JXLHS1807 polyprotein gene, complete cds
+= gi|1818758641|gb|MT078742.1|    10269 Zika virus PE243 polyprotein (POLY) gene, partial cds
+= gi|1548994188|gb|MK269359.1|    10791 Zika virus isolate FLUR100 polyprotein gene, complete cds
+= gi|1548994192|gb|MK269361.1|    10054 Zika virus isolate FLUR066 polyprotein gene, partial cds
+= gi|1547059361|gb|MK216687.1|    10338 Zika virus isolate AMA2 polyprotein gene, complete cds
+= gi|1547059363|gb|MK216688.1|    10338 Zika virus isolate AMA5 polyprotein gene, complete cds
+= gi|1547059367|gb|MK216690.1|    10338 Zika virus isolate AMA9 polyprotein gene, complete cds
+= gi|1547059369|gb|MK216691.1|     9703 Zika virus isolate AMA6 polyprotein gene, partial cds
+= gi|1547059371|gb|MK216692.1|    10338 Zika virus isolate AMA13 polyprotein gene, complete cds
+= gi|1547059373|gb|MK216693.1|     9703 Zika virus isolate AMA14 polyprotein gene, partial cds
+= gi|1547059375|gb|MK216694.1|     8821 Zika virus isolate AMA15 polyprotein gene, partial cds
+= gi|1547059377|gb|MK216695.1|    10338 Zika virus isolate AMA16 polyprotein gene, complete cds
+= gi|1547059379|gb|MK216696.1|    10338 Zika virus isolate AMA19 polyprotein gene, complete cds
+= gi|1547059381|gb|MK216697.1|    10338 Zika virus isolate AMA20 polyprotein gene, complete cds
+= gi|1547059383|gb|MK216698.1|    10338 Zika virus isolate AMA21 polyprotein gene, complete cds
+= gi|1547059385|gb|MK216699.1|    10338 Zika virus isolate AMA22 polyprotein gene, complete cds
+Format:              FASTA
+Alphabet type:       DNA
+Number of sequences: 28
+Total # residues:    288091
+Smallest:            8821
+Largest:             10807
+Average length:      10289.0

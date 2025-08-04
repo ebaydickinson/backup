@@ -1,0 +1,8 @@
+1  extrant5  no   EXTRA_SEQUENCE_START         sequence   1  1  extra sequence detected 5' of expected sequence start
+2  ambgnt5f  no   AMBIGUITY_AT_FEATURE_START    feature  14  6  first nucleotide of non-CDS feature is an ambiguous nucleotide
+3  ambgnt3f  no   AMBIGUITY_AT_FEATURE_END      feature  16  6  final nucleotide of non-CDS feature is an ambiguous nucleotide
+4  ambgnt3c  no   AMBIGUITY_AT_CDS_END          feature   3  3  final nucleotide of CDS is an ambiguous nucleotide
+#  --------  ---  ---------------------------  --------  --  -  
+5  peptrans  yes  PEPTIDE_TRANSLATION_PROBLEM   feature  11  1  mat_peptide may not be translated because its parent CDS has a problem
+6  indf3pst  yes  INDEFINITE_ANNOTATION_END     feature   1  1  protein-based alignment does not extend close enough to nucleotide-based alignment 3' endpoint
+#  --------  ---  ---------------------------  --------  --  -  

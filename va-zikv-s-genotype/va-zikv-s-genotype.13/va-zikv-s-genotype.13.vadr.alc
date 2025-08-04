@@ -1,0 +1,11 @@
+1  indfclas  no   INDEFINITE_CLASSIFICATION      sequence   3  3  low score difference between best overall model and second best model (not in best model's subgroup)
+2  ambgnt5f  no   AMBIGUITY_AT_FEATURE_START      feature   6  4  first nucleotide of non-CDS feature is an ambiguous nucleotide
+3  ambgnt3f  no   AMBIGUITY_AT_FEATURE_END        feature   7  4  final nucleotide of non-CDS feature is an ambiguous nucleotide
+4  ambgnt3c  no   AMBIGUITY_AT_CDS_END            feature   2  2  final nucleotide of CDS is an ambiguous nucleotide
+#  --------  ---  -----------------------------  --------  --  -  
+5  unexleng  yes  UNEXPECTED_LENGTH               feature   2  1  length of complete coding (CDS or mat_peptide) feature is not a multiple of 3
+6  cdsstopn  yes  CDS_HAS_STOP_CODON              feature   1  1  in-frame stop codon exists 5' of stop position predicted by homology to reference
+7  fsthicft  yes  POSSIBLE_FRAMESHIFT_HIGH_CONF   feature   1  1  high confidence possible frameshift in CDS (frame not restored before end)
+8  peptrans  yes  PEPTIDE_TRANSLATION_PROBLEM     feature  11  1  mat_peptide may not be translated because its parent CDS has a problem
+9  indf5pst  yes  INDEFINITE_ANNOTATION_START     feature   1  1  protein-based alignment does not extend close enough to nucleotide-based alignment 5' endpoint
+#  --------  ---  -----------------------------  --------  --  -  

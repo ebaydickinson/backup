@@ -1,0 +1,29 @@
+# Insert information file created by cmalign.
+# This file includes 2+<nseq> non-'#' pre-fixed lines per model used for alignment,
+# where <nseq> is the number of sequences in the target file.
+# The first non-'#' prefixed line per model includes 2 tokens, separated by a single space (' '):
+# The first token is the model name and the second is the consensus length of the model (<clen>).
+# The following <nseq> lines include (4+3*<n>) whitespace delimited tokens per line.
+# The format for these <nseq> lines is:
+#   <seqname> <seqlen> <spos> <epos> <c_1> <u_1> <i_1> <c_2> <u_2> <i_2> .... <c_x> <u_x> <i_x> .... <c_n> <u_n> <i_n>
+#   indicating <seqname> has >= 1 inserted residues after <n> different consensus positions,
+#   <seqname> is the name of the sequence
+#   <seqlen>  is the unaligned length of the sequence
+#   <spos>    is the first (5'-most) consensus position filled by a nongap for this sequence (-1 if 0 nongap consensus posns)
+#   <epos>    is the final (3'-most) consensus position filled by a nongap for this sequence (-1 if 0 nongap consensus posns)
+#   <c_x> is a consensus position (between 0 and <clen>; if 0: inserts before 1st consensus posn)
+#   <u_x> is the *unaligned* position (b/t 1 and <seqlen>) in <seqname> of the first inserted residue after <c_x>.
+#   <i_x> is the number of inserted residues after position <c_x> for <seqname>.
+# Lines for sequences with 0 inserted residues will include only <seqname> <seqlen> <spos> <epos>.
+# The final non-'#' prefixed line per model includes only '//', indicating the end of info for a model.
+#
+AY632535 10794
+gi|1696858399|gb|MN025403.1|/7058-10710 3653 7060 10711  7159 101 1  10697 3639 1
+gi|1153694675|gb|KX601166.2|/7044-10771 3728 7060 10786  7158 100 1  10697 3639 1
+gi|1122001540|gb|KY288905.1|/7071-10752 3682 7060 10740  7158 100 1  10697 3639 1
+gi|572167484|gb|KF268948.1|/7072-10788 3717 7060 10778  7158 100 1  10697 3636 1
+gi|572167486|gb|KF268949.1|/1-1536 1536 2 1543  138 137 1
+gi|572167486|gb|KF268949.1|/7053-10776 3724 7060 10782  7158 100 1  10697 3639 1
+gi|572167488|gb|KF268950.1|/1-237 237 1 237  138 138 1
+gi|572167488|gb|KF268950.1|/7072-10755 3684 7060 10745  7158 100 1  10697 3636 1
+//

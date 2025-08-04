@@ -1,0 +1,5 @@
+1  indfclas  no  INDEFINITE_CLASSIFICATION   sequence  6  6  low score difference between best overall model and second best model (not in best model's subgroup)
+2  extrant5  no  EXTRA_SEQUENCE_START        sequence  1  1  extra sequence detected 5' of expected sequence start
+3  ambgnt5f  no  AMBIGUITY_AT_FEATURE_START   feature  1  1  first nucleotide of non-CDS feature is an ambiguous nucleotide
+4  ambgnt3f  no  AMBIGUITY_AT_FEATURE_END     feature  2  2  final nucleotide of non-CDS feature is an ambiguous nucleotide
+#  --------  --  --------------------------  --------  -  -  

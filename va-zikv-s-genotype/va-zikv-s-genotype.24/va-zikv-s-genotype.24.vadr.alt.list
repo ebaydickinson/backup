@@ -1,0 +1,1 @@
+gi|1148885035|gb|KY559012.1|	AY632535	CDS	polyprotein	POSSIBLE_FRAMESHIFT_HIGH_CONF	36..57:+	117..138:+	high confidence possible frameshift in CDS (frame restored before end) [cause:delete,S:35,M:117(1); restore:insert,S:57(1),M:138; frame:1(3)121; length:10:(22):7032:9:3199; shifted_avgpp:0.856; exp_avgpp:0.870;]

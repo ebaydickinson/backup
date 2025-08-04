@@ -1,0 +1,35 @@
+= gi|2030207738|gb|MW915412.1|    10661 Zika virus isolate 7040 polyprotein gene, complete cds
+= gi|2030207740|gb|MW915413.1|    10330 Zika virus isolate 8546 polyprotein gene, partial cds
+= gi|2030207742|gb|MW915414.1|    10661 Zika virus isolate 8607 polyprotein gene, complete cds
+= gi|1932127300|gb|MW165880.1|    10584 Zika virus isolate USVI/4/2016 polyprotein (POLY) gene, complete cds
+= gi|1932127302|gb|MW165881.1|    10385 Zika virus isolate USVI/5/2016 polyprotein (POLY) gene, complete cds
+= gi|1932127304|gb|MW165882.1|    10370 Zika virus isolate USVI/25/2016 polyprotein (POLY) gene, complete cds
+= gi|1932127306|gb|MW165883.1|    10385 Zika virus isolate USVI/35/2016 polyprotein (POLY) gene, complete cds
+= gi|1932127308|gb|MW165884.1|    10385 Zika virus isolate USVI/43/2016 polyprotein (POLY) gene, complete cds
+= gi|1920873719|gb|MW122373.1|    10272 Zika virus isolate PR/DB-ZIKV001/2016 polyprotein (POLY) gene, complete cds
+= gi|1920873721|gb|MW122374.1|    10272 Zika virus isolate PR/DB-ZIKV002/2016 polyprotein (POLY) gene, complete cds
+= gi|1920873723|gb|MW122375.1|    10272 Zika virus isolate PR/DB-ZIKV003/2016 polyprotein (POLY) gene, complete cds
+= gi|1920873725|gb|MW122376.1|    10272 Zika virus isolate PR/DB-ZIKV010/2016 polyprotein (POLY) gene, complete cds
+= gi|1920873727|gb|MW122377.1|    10272 Zika virus isolate PR/DB-ZIKV018/2016 polyprotein (POLY) gene, complete cds
+= gi|1920873729|gb|MW122378.1|    10272 Zika virus isolate PR/DB-ZIKV070/2016 polyprotein (POLY) gene, complete cds
+= gi|1920873731|gb|MW122379.1|    10272 Zika virus isolate PR/DB-ZIKV093/2016 polyprotein (POLY) gene, complete cds
+= gi|1920873733|gb|MW122380.1|    10272 Zika virus isolate PR/DB-ZIKV104/2016 polyprotein (POLY) gene, complete cds
+= gi|1920873735|gb|MW122381.1|    10272 Zika virus isolate PR/DB-ZIKV172/2016 polyprotein (POLY) gene, complete cds
+= gi|1920873737|gb|MW122382.1|    10272 Zika virus isolate PR/DB-ZIKV219/2016 polyprotein (POLY) gene, complete cds
+= gi|1920873739|gb|MW122383.1|    10272 Zika virus isolate PR/DB-ZIKV232/2016 polyprotein (POLY) gene, complete cds
+= gi|1920873741|gb|MW122384.1|    10272 Zika virus isolate PR/DB-ZIKV236/2016 polyprotein (POLY) gene, complete cds
+= gi|1920873743|gb|MW122385.1|    10272 Zika virus isolate PR/DB-ZIKV245/2016 polyprotein (POLY) gene, complete cds
+= gi|1920873745|gb|MW122386.1|    10272 Zika virus isolate PR/DB-ZIKV255/2016 polyprotein (POLY) gene, complete cds
+= gi|1920873747|gb|MW122387.1|    10272 Zika virus isolate PR/DB-ZIKV256/2016 polyprotein (POLY) gene, complete cds
+= gi|1920873749|gb|MW122388.1|    10272 Zika virus isolate PR/DB-ZIKV266/2016 polyprotein (POLY) gene, complete cds
+= gi|1920873751|gb|MW122389.1|    10272 Zika virus isolate PR/DB-ZIKV269/2016 polyprotein (POLY) gene, complete cds
+= gi|1920873753|gb|MW122390.1|    10272 Zika virus isolate PR/DB-ZIKV270/2016 polyprotein (POLY) gene, complete cds
+= gi|1920873755|gb|MW122391.1|    10272 Zika virus isolate PR/DB-ZIKV272/2016 polyprotein (POLY) gene, complete cds
+= gi|1920873757|gb|MW122392.1|    10272 Zika virus isolate PR/DB-ZIKV275/2016 polyprotein (POLY) gene, complete cds
+Format:              FASTA
+Alphabet type:       DNA
+Number of sequences: 28
+Total # residues:    289201
+Smallest:            10272
+Largest:             10661
+Average length:      10328.6

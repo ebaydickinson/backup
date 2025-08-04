@@ -1,0 +1,44 @@
+>Feature gi|1120603295|gb|KY325483.1|
+95	10364	misc_feature
+			note	similar to polyprotein
+95	469	misc_feature
+			note	similar to capsid protein
+470	739	misc_feature
+			note	similar to propeptide
+740	964	misc_feature
+			note	similar to membrane protein
+965	2479	misc_feature
+			note	similar to envelope protein
+2480	3565	misc_feature
+			note	similar to NS1
+3566	4219	misc_feature
+			note	similar to NS2A
+4220	4650	misc_feature
+			note	similar to NS2B
+4651	6458	misc_feature
+			note	similar to NS3
+6459	6899	misc_feature
+			note	similar to NS4A
+6900	8405	misc_feature
+			note	similar to NS4B
+8406	10361	misc_feature
+			note	similar to NS5
+
+Additional note(s) to submitter:
+ERROR: CDS_HAS_STOP_CODON: (CDS:polyprotein) in-frame stop codon exists 5' of stop position predicted by homology to reference [TAA, shifted S:5725,M:5726]; seq-coords:4637..4639:+; mdl-coords:4650..4652:+; mdl:KU509998;
+ERROR: POSSIBLE_FRAMESHIFT_HIGH_CONF: (CDS:polyprotein) high confidence possible frameshift in CDS (frame not restored before end) [cause:delete,S:4620,M:4633(1); frame:1(32); length:4526:(468:5276); shifted_avgpp:0.975; exp_avgpp:0.975; intermediate:delete,S:5088,M:5102(1);]; seq-coords:4621..10364:+; mdl-coords:4633..10378:+; mdl:KU509998;
+ERROR: INDEFINITE_ANNOTATION_START: (CDS:polyprotein) protein-based alignment does not extend close enough to nucleotide-based alignment 5' endpoint [4993>5]; seq-coords:95..5087:+; mdl-coords:107..107:+; mdl:KU509998;
+ERROR: UNEXPECTED_LENGTH: (CDS:polyprotein) length of complete coding (CDS or mat_peptide) feature is not a multiple of 3 [10270]; seq-coords:95..10364:+; mdl-coords:107..10378:+; mdl:KU509998;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:capsid protein) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KU509998;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:propeptide) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KU509998;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:membrane protein) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KU509998;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:envelope protein) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KU509998;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:NS1) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KU509998;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:NS2A) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KU509998;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:NS2B) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KU509998;
+ERROR: UNEXPECTED_LENGTH: (mat_peptide:NS2B) length of complete coding (CDS or mat_peptide) feature is not a multiple of 3 [431]; seq-coords:4220..4650:+; mdl-coords:4232..4663:+; mdl:KU509998;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:NS3) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KU509998;
+ERROR: UNEXPECTED_LENGTH: (mat_peptide:NS3) length of complete coding (CDS or mat_peptide) feature is not a multiple of 3 [1808]; seq-coords:4651..6458:+; mdl-coords:4664..6472:+; mdl:KU509998;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:NS4A) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KU509998;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:NS4B) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KU509998;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:NS5) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KU509998;

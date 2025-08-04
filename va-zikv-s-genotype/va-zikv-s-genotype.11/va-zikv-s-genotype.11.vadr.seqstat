@@ -1,0 +1,35 @@
+= gi|1547059501|gb|MK241416.1|    10617 Zika virus isolate ZIKV/Homo_sapiens/CPV/2015/CV487, complete genome
+= gi|1547059503|gb|MK241417.1|    10617 Zika virus isolate ZIKV/Homo_sapiens/CPV/2016/CV907u, complete genome
+= gi|1773320022|gb|MN611472.1|    10807 Zika virus isolate 2019YNZIKV02, complete genome
+= gi|1772831094|gb|MN566104.1|    10808 Zika virus isolate Haiti/0011/2016, complete genome
+= gi|1772831098|gb|MN566106.1|    10808 Zika virus isolate Haiti/0395/2016, complete genome
+= gi|1772831104|gb|MN577543.1|    10808 Zika virus isolate Haiti/1327/2014, complete genome
+= gi|1772831106|gb|MN577544.1|    10808 Zika virus isolate Haiti/0148/2016, complete genome
+= gi|1772502757|gb|MN577550.1|    10807 Zika virus isolate ZIKV-Nicaragua/2016-UCB7420, complete genome
+= gi|1765883934|gb|MN473450.1|     9747 Zika virus isolate 96622 polyprotein (POLY) gene, partial cds
+= gi|1765883936|gb|MN473451.1|    10599 Zika virus isolate 96623 polyprotein (POLY) gene, complete cds
+= gi|1765883938|gb|MN473452.1|    10366 Zika virus isolate 96624 polyprotein (POLY) gene, complete cds
+= gi|1765883940|gb|MN473453.1|    10329 Zika virus isolate 96625 polyprotein (POLY) gene, complete cds
+= gi|1765883942|gb|MN473454.1|    10585 Zika virus isolate 96626 polyprotein (POLY) gene, complete cds
+= gi|1649323185|gb|MK829153.1|    10007 Zika virus isolate ZIKV/Human/Angola/2017/P151 polyprotein gene, partial cds
+= gi|1649323187|gb|MK829154.1|    10335 Zika virus isolate ZIKV/Human/Angola/2017/PoHuZV634959 polyprotein gene, complete cds
+= gi|1198363990|gb|MF159531.1|    10608 Zika virus isolate ZIKV/Homo_sapiens/Cuba/2017/Hu0046Sa polyprotein gene, complete cds
+= gi|1377548001|gb|MH063260.1|    10342 Zika virus isolate ZIKV/Homo_sapiens/Cuba/2017/FL047U polyprotein gene, complete cds
+= gi|1377548003|gb|MH063261.1|    10385 Zika virus isolate ZIKV/Homo_sapiens/Cuba/2017/FL049U polyprotein gene, complete cds
+= gi|1377548005|gb|MH063262.1|    10619 Zika virus isolate ZIKV/Homo_sapiens/Cuba/2017/FL051Se polyprotein gene, complete cds
+= gi|1377548007|gb|MH063263.1|    10098 Zika virus isolate ZIKV/Homo_sapiens/Cuba/2017/FL052U polyprotein gene, partial cds
+= gi|1377548009|gb|MH063264.1|    10366 Zika virus isolate ZIKV/Homo_sapiens/Cuba/2017/FL055Se polyprotein gene, complete cds
+= gi|1377548011|gb|MH063265.1|    10341 Zika virus isolate ZIKV/Homo_sapiens/Cuba/2017/FL057U polyprotein gene, complete cds
+= gi|1548994176|gb|MK269353.1|    10699 Zika virus isolate FLSR118 polyprotein gene, complete cds
+= gi|1548994182|gb|MK269356.1|     9706 Zika virus isolate FLUR076 polyprotein gene, partial cds
+= gi|1548994184|gb|MK269357.1|    10702 Zika virus isolate FLUR096 polyprotein gene, complete cds
+= gi|1548994190|gb|MK269360.1|    10781 Zika virus isolate FLSR103 polyprotein gene, complete cds
+= gi|1591623434|gb|MK560178.1|    10269 Zika virus isolate ZIKV/Homo_sapiens/Cuba/2017-10-09/FL82U polyprotein gene, partial cds
+= gi|1591623436|gb|MK560179.1|    10269 Zika virus isolate ZIKV/Homo_sapiens/Cuba/2018-01-18/FL257U polyprotein gene, partial cds
+Format:              FASTA
+Alphabet type:       DNA
+Number of sequences: 28
+Total # residues:    293233
+Smallest:            9706
+Largest:             10808
+Average length:      10472.6

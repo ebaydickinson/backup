@@ -1,0 +1,38 @@
+# Insert information file created by cmalign.
+# This file includes 2+<nseq> non-'#' pre-fixed lines per model used for alignment,
+# where <nseq> is the number of sequences in the target file.
+# The first non-'#' prefixed line per model includes 2 tokens, separated by a single space (' '):
+# The first token is the model name and the second is the consensus length of the model (<clen>).
+# The following <nseq> lines include (4+3*<n>) whitespace delimited tokens per line.
+# The format for these <nseq> lines is:
+#   <seqname> <seqlen> <spos> <epos> <c_1> <u_1> <i_1> <c_2> <u_2> <i_2> .... <c_x> <u_x> <i_x> .... <c_n> <u_n> <i_n>
+#   indicating <seqname> has >= 1 inserted residues after <n> different consensus positions,
+#   <seqname> is the name of the sequence
+#   <seqlen>  is the unaligned length of the sequence
+#   <spos>    is the first (5'-most) consensus position filled by a nongap for this sequence (-1 if 0 nongap consensus posns)
+#   <epos>    is the final (3'-most) consensus position filled by a nongap for this sequence (-1 if 0 nongap consensus posns)
+#   <c_x> is a consensus position (between 0 and <clen>; if 0: inserts before 1st consensus posn)
+#   <u_x> is the *unaligned* position (b/t 1 and <seqlen>) in <seqname> of the first inserted residue after <c_x>.
+#   <i_x> is the number of inserted residues after position <c_x> for <seqname>.
+# Lines for sequences with 0 inserted residues will include only <seqname> <seqlen> <spos> <epos>.
+# The final non-'#' prefixed line per model includes only '//', indicating the end of info for a model.
+#
+KU509998 10807
+gi|1063797600|gb|KX830930.1|/1-176 176 3 177  79 78 1
+gi|1150481738|gb|KY631492.1|/1-161 161 17 177  79 63 1
+gi|1063302139|gb|KX827268.1|/1-167 167 12 177  79 69 1
+gi|1145144301|gb|KY606272.1|/1-178 178 1 177  79 80 1
+gi|1145144303|gb|KY606273.1|/1-178 178 1 177  79 80 1
+gi|1145144305|gb|KY606274.1|/1-178 178 1 177  78 79 1
+gi|1145144305|gb|KY606274.1|/5530-10558 5029 5529 10557
+gi|1120603294|gb|KY325482.1|/1-164 164 15 177  79 66 1
+gi|1001910894|gb|KU761560.1|/1-165 165 14 177  79 67 1
+gi|1001910896|gb|KU761561.1|/1-165 165 14 177  79 67 1
+gi|1111251139|gb|KY272991.1|/1-178 178 1 177  79 80 1
+gi|1111251377|gb|KY272987.1|/1-178 178 1 177  79 80 1
+gi|1032810831|gb|KX269878.1|/1-178 178 1 177  79 80 1
+gi|942523345|gb|KR872956.1|/1-166 166 13 177  79 68 1
+gi|1083262084|dbj|LC190723.1|/1-160 160 19 177  79 62 1
+gi|982894594|gb|KU527068.1|/1-178 178 1 177  79 80 1
+gi|1007624023|gb|KU940228.1|/1-114 114 2 115
+//

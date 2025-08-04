@@ -1,0 +1,47 @@
+#       seq                                     ftr          ftr               ftr  alert           alert                                   seq  seq             mdl  mdl  alert 
+#idx    name                          model     type         name              idx  code      fail  description                          coords  len          coords  len  detail
+#-----  ----------------------------  --------  -----------  ----------------  ---  --------  ----  ---------------------------  --------------  ---  --------------  ---  ------
+1.1.1   gi|2128382615|gb|OK571913.1|  KU509998  -            -                   -  lowsim5s  yes   LOW_SIMILARITY_START                1..15:+   15         1..15:+   15  significant similarity not detected at 5' end of the sequence [low similarity region of length 15]
+#
+5.1.1   gi|1932127316|gb|MW123924.1|  KU509998  CDS          polyprotein         1  mutendcd  yes   MUTATION_AT_END              10345..10347:+    3  10376..10378:+    3  expected stop codon could not be identified, predicted CDS stop by homology is invalid [ACA]
+5.1.2   gi|1932127316|gb|MW123924.1|  KU509998  CDS          polyprotein         1  mutendex  yes   MUTATION_AT_END              10447..10449:+    3  10478..10480:+    3  expected stop codon could not be identified, first in-frame stop codon exists 3' of predicted stop position [TAG]
+5.2.1   gi|1932127316|gb|MW123924.1|  KU509998  mat_peptide  capsid_protein      2  peptrans  yes   PEPTIDE_TRANSLATION_PROBLEM               -    -               -    -  mat_peptide may not be translated because its parent CDS has a problem [-]
+5.3.1   gi|1932127316|gb|MW123924.1|  KU509998  mat_peptide  propeptide          3  peptrans  yes   PEPTIDE_TRANSLATION_PROBLEM               -    -               -    -  mat_peptide may not be translated because its parent CDS has a problem [-]
+5.4.1   gi|1932127316|gb|MW123924.1|  KU509998  mat_peptide  membrane_protein    4  peptrans  yes   PEPTIDE_TRANSLATION_PROBLEM               -    -               -    -  mat_peptide may not be translated because its parent CDS has a problem [-]
+5.5.1   gi|1932127316|gb|MW123924.1|  KU509998  mat_peptide  envelope_protein    5  peptrans  yes   PEPTIDE_TRANSLATION_PROBLEM               -    -               -    -  mat_peptide may not be translated because its parent CDS has a problem [-]
+5.6.1   gi|1932127316|gb|MW123924.1|  KU509998  mat_peptide  NS1                 6  peptrans  yes   PEPTIDE_TRANSLATION_PROBLEM               -    -               -    -  mat_peptide may not be translated because its parent CDS has a problem [-]
+5.7.1   gi|1932127316|gb|MW123924.1|  KU509998  mat_peptide  NS2A                7  peptrans  yes   PEPTIDE_TRANSLATION_PROBLEM               -    -               -    -  mat_peptide may not be translated because its parent CDS has a problem [-]
+5.8.1   gi|1932127316|gb|MW123924.1|  KU509998  mat_peptide  NS2B                8  peptrans  yes   PEPTIDE_TRANSLATION_PROBLEM               -    -               -    -  mat_peptide may not be translated because its parent CDS has a problem [-]
+5.9.1   gi|1932127316|gb|MW123924.1|  KU509998  mat_peptide  NS3                 9  peptrans  yes   PEPTIDE_TRANSLATION_PROBLEM               -    -               -    -  mat_peptide may not be translated because its parent CDS has a problem [-]
+5.10.1  gi|1932127316|gb|MW123924.1|  KU509998  mat_peptide  NS4A               10  peptrans  yes   PEPTIDE_TRANSLATION_PROBLEM               -    -               -    -  mat_peptide may not be translated because its parent CDS has a problem [-]
+5.11.1  gi|1932127316|gb|MW123924.1|  KU509998  mat_peptide  NS4B               11  peptrans  yes   PEPTIDE_TRANSLATION_PROBLEM               -    -               -    -  mat_peptide may not be translated because its parent CDS has a problem [-]
+5.12.1  gi|1932127316|gb|MW123924.1|  KU509998  mat_peptide  NS5                12  peptrans  yes   PEPTIDE_TRANSLATION_PROBLEM               -    -               -    -  mat_peptide may not be translated because its parent CDS has a problem [-]
+#
+7.1.1   gi|1932127320|gb|MW123926.1|  KU509998  -            -                   -  lowsim3s  yes   LOW_SIMILARITY_END           10696..10711:+   16  10704..10719:+   16  significant similarity not detected at 3' end of the sequence [low similarity region of length 16]
+#
+10.1.1  gi|2104438048|gb|OK054371.1|  KU509998  mat_peptide  capsid_protein      2  ambgnt3f  no    AMBIGUITY_AT_FEATURE_END         410..469:+   60      422..481:+   60  final nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+10.2.1  gi|2104438048|gb|OK054371.1|  KU509998  mat_peptide  propeptide          3  ambgnt5f  no    AMBIGUITY_AT_FEATURE_START       470..552:+   83      482..564:+   83  first nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+#
+11.1.1  gi|2104438050|gb|OK054372.1|  KU509998  mat_peptide  capsid_protein      2  ambgnt3f  no    AMBIGUITY_AT_FEATURE_END         404..462:+   59      423..481:+   59  final nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+11.2.1  gi|2104438050|gb|OK054372.1|  KU509998  mat_peptide  propeptide          3  ambgnt5f  no    AMBIGUITY_AT_FEATURE_START       463..523:+   61      482..542:+   61  first nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+#
+12.1.1  gi|2104438052|gb|OK054373.1|  KU509998  mat_peptide  envelope_protein    5  ambgnt3f  no    AMBIGUITY_AT_FEATURE_END       2189..2465:+  277    2215..2491:+  277  final nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+12.2.1  gi|2104438052|gb|OK054373.1|  KU509998  mat_peptide  NS1                 6  ambgnt5f  no    AMBIGUITY_AT_FEATURE_START     2466..2469:+    4    2492..2495:+    4  first nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+#
+13.1.1  gi|2104438054|gb|OK054374.1|  KU509998  mat_peptide  capsid_protein      2  ambgnt3f  no    AMBIGUITY_AT_FEATURE_END          92..463:+  372      110..481:+  372  final nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+13.2.1  gi|2104438054|gb|OK054374.1|  KU509998  mat_peptide  propeptide          3  ambgnt5f  no    AMBIGUITY_AT_FEATURE_START       464..492:+   29      482..510:+   29  first nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+#
+14.1.1  gi|2104438056|gb|OK054375.1|  KU509998  mat_peptide  capsid_protein      2  ambgnt3f  no    AMBIGUITY_AT_FEATURE_END         140..242:+  103      379..481:+  103  final nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+14.2.1  gi|2104438056|gb|OK054375.1|  KU509998  mat_peptide  propeptide          3  ambgnt5f  no    AMBIGUITY_AT_FEATURE_START       243..512:+  270      482..751:+  270  first nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+14.2.2  gi|2104438056|gb|OK054375.1|  KU509998  mat_peptide  propeptide          3  ambgnt3f  no    AMBIGUITY_AT_FEATURE_END         243..512:+  270      482..751:+  270  final nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+14.3.1  gi|2104438056|gb|OK054375.1|  KU509998  mat_peptide  membrane_protein    4  ambgnt5f  no    AMBIGUITY_AT_FEATURE_START       513..527:+   15      752..766:+   15  first nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+#
+15.1.1  gi|2104438058|gb|OK054376.1|  KU509998  mat_peptide  propeptide          3  ambgnt3f  no    AMBIGUITY_AT_FEATURE_END         252..423:+  172      580..751:+  172  final nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+15.2.1  gi|2104438058|gb|OK054376.1|  KU509998  mat_peptide  membrane_protein    4  ambgnt5f  no    AMBIGUITY_AT_FEATURE_START       424..562:+  139      752..890:+  139  first nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+#
+16.1.1  gi|2104438060|gb|OK054377.1|  KU509998  mat_peptide  NS5                12  ambgnt3f  no    AMBIGUITY_AT_FEATURE_END     10152..10171:+   20  10356..10375:+   20  final nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+#
+17.1.1  gi|2104438062|gb|OK054378.1|  KU509998  CDS          polyprotein         1  ambgnt3c  no    AMBIGUITY_AT_CDS_END           9967..9968:+    2  10377..10378:+    2  final nucleotide of CDS is an ambiguous nucleotide [-]
+#
+20.1.1  gi|2104438074|gb|OK054384.1|  KU509998  mat_peptide  capsid_protein      2  ambgnt3f  no    AMBIGUITY_AT_FEATURE_END         441..465:+   25      457..481:+   25  final nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+20.2.1  gi|2104438074|gb|OK054384.1|  KU509998  mat_peptide  propeptide          3  ambgnt5f  no    AMBIGUITY_AT_FEATURE_START       466..476:+   11      482..492:+   11  first nucleotide of non-CDS feature is an ambiguous nucleotide [-]

@@ -1,0 +1,19 @@
+#
+444.1.1  gi|1093294041|dbj|LC191864.1|  KU509998  -            -                -  indfclas  no  INDEFINITE_CLASSIFICATION              -   -             -   -  low score difference between best overall model and second best model (not in best model's subgroup) [0.026<0.030 bits/nt, best group/subgroup: ZIKV/ZB.2-american, second group/subgroup: ZIKV/singapore-ZB.1.2]
+#
+445.1.1  gi|1243281029|gb|MF794971.1|   KU509998  -            -                -  extrant5  no  EXTRA_SEQUENCE_START              1..1:+   1        0..0:+   1  extra sequence detected 5' of expected sequence start [1 extra nucleotide]
+#
+447.1.1  gi|1239639844|gb|MF692778.1|   MG807646  -            -                -  indfclas  no  INDEFINITE_CLASSIFICATION              -   -             -   -  low score difference between best overall model and second best model (not in best model's subgroup) [0.025<0.030 bits/nt, best group/subgroup: ZIKV/singapore-ZB.1.2, second group/subgroup: ZIKV/ZB.2-american]
+#
+448.1.1  gi|1234332972|gb|KU179098.2|   KU509998  -            -                -  indfclas  no  INDEFINITE_CLASSIFICATION              -   -             -   -  low score difference between best overall model and second best model (not in best model's subgroup) [0.006<0.030 bits/nt, best group/subgroup: ZIKV/ZB.2-american, second group/subgroup: ZIKV/singapore-ZB.1.2]
+#
+449.1.1  gi|1148884845|gb|KY553111.1|   KU509998  -            -                -  indfclas  no  INDEFINITE_CLASSIFICATION              -   -             -   -  low score difference between best overall model and second best model (not in best model's subgroup) [0.003<0.030 bits/nt, best group/subgroup: ZIKV/ZB.2-american, second group/subgroup: ZIKV/singapore-ZB.1.2]
+#
+450.1.1  gi|1185548443|gb|KY962729.1|   KU509998  -            -                -  indfclas  no  INDEFINITE_CLASSIFICATION              -   -             -   -  low score difference between best overall model and second best model (not in best model's subgroup) [0.010<0.030 bits/nt, best group/subgroup: ZIKV/ZB.2-american, second group/subgroup: ZIKV/singapore-ZB.1.2]
+#
+453.1.1  gi|1216619102|gb|MF434518.1|   KU509998  mat_peptide  NS4A            10  ambgnt3f  no  AMBIGUITY_AT_FEATURE_END    6867..6898:+  32  6882..6913:+  32  final nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+453.2.1  gi|1216619102|gb|MF434518.1|   KU509998  mat_peptide  NS4B            11  ambgnt5f  no  AMBIGUITY_AT_FEATURE_START  6899..6938:+  40  6914..6953:+  40  first nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+#
+458.1.1  gi|1110840052|gb|KY126351.1|   MG807646  -            -                -  indfclas  no  INDEFINITE_CLASSIFICATION              -   -             -   -  low score difference between best overall model and second best model (not in best model's subgroup) [0.004<0.030 bits/nt, best group/subgroup: ZIKV/singapore-ZB.1.2, second group/subgroup: ZIKV/ZB.2-american]
+#
+470.1.1  gi|1150463040|gb|KY014307.2|   KU509998  mat_peptide  capsid_protein   2  ambgnt3f  no  AMBIGUITY_AT_FEATURE_END      445..445:+   1    481..481:+   1  final nucleotide of non-CDS feature is an ambiguous nucleotide [-]

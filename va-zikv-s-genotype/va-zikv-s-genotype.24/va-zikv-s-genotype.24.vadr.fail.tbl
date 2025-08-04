@@ -1,0 +1,6 @@
+>Feature gi|1148885035|gb|KY559012.1|
+26	10297	misc_feature
+			note	similar to polyprotein
+
+Additional note(s) to submitter:
+ERROR: POSSIBLE_FRAMESHIFT_HIGH_CONF: (CDS:polyprotein) high confidence possible frameshift in CDS (frame restored before end) [cause:delete,S:35,M:117(1); restore:insert,S:57(1),M:138; frame:1(3)121; length:10:(22):7032:9:3199; shifted_avgpp:0.856; exp_avgpp:0.870;]; seq-coords:36..57:+; mdl-coords:117..138:+; mdl:AY632535;

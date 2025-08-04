@@ -1,0 +1,39 @@
+>Feature gi|1248250019|gb|MF801407.1|
+74	448	misc_feature
+			note	similar to capsid protein
+74	>10341	misc_feature
+			note	similar to polyprotein
+449	718	misc_feature
+			note	similar to propeptide
+719	943	misc_feature
+			note	similar to membrane protein
+944	2458	misc_feature
+			note	similar to envelope protein
+2459	3544	misc_feature
+			note	similar to NS1
+3545	4198	misc_feature
+			note	similar to NS2A
+4199	4630	misc_feature
+			note	similar to NS2B
+4631	6439	misc_feature
+			note	similar to NS3
+6440	6880	misc_feature
+			note	similar to NS4A
+6881	8386	misc_feature
+			note	similar to NS4B
+8387	>10341	misc_feature
+			note	similar to NS5
+
+Additional note(s) to submitter:
+ERROR: INDEFINITE_ANNOTATION_END: (CDS:polyprotein) protein-based alignment does not extend close enough to nucleotide-based alignment 3' endpoint [21>9, no valid stop codon in nucleotide-based prediction]; seq-coords:10325..10345:+; mdl-coords:10378..10378:+; mdl:KU509998;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:capsid protein) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KU509998;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:propeptide) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KU509998;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:membrane protein) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KU509998;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:envelope protein) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KU509998;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:NS1) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KU509998;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:NS2A) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KU509998;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:NS2B) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KU509998;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:NS3) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KU509998;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:NS4A) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KU509998;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:NS4B) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KU509998;
+ERROR: PEPTIDE_TRANSLATION_PROBLEM: (mat_peptide:NS5) mat_peptide may not be translated because its parent CDS has a problem [-]; seq-coords:-; mdl-coords:-; mdl:KU509998;

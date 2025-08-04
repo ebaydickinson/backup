@@ -1,0 +1,15 @@
+746  gi|984874583|gb|KU501216.1|     10272  PASS  yes  KU509998  ZIKV  ZB.2-american  12  0  0  0  0  -
+747  gi|984874585|gb|KU501217.1|     10272  PASS  yes  KU509998  ZIKV  ZB.2-american  12  0  0  0  0  -
+748  gi|975885964|gb|KU365777.1|     10662  PASS  yes  KU509998  ZIKV  ZB.2-american  12  0  0  0  0  -
+749  gi|975885966|gb|KU365778.1|     10727  PASS  yes  KU509998  ZIKV  ZB.2-american  12  0  0  0  0  -
+750  gi|975885971|gb|KU365780.1|     10662  PASS  yes  KU509998  ZIKV  ZB.2-american  12  0  0  0  0  -
+751  gi|973447404|gb|KU312312.1|     10374  PASS  yes  KU509998  ZIKV  ZB.2-american  12  0  0  0  0  -
+752  gi|591399175|gb|KF993678.1|     10141  PASS  yes  KU509998  ZIKV  ZB.2-american  12  0  2  2  0  INDEFINITE_CLASSIFICATION(indfclas)
+753  gi|1696858399|gb|MN025403.1|    10710  FAIL  yes  AY632535  ZIKV  ZA-african      1  0  0  0  2  -
+754  gi|1153694675|gb|KX601166.2|    10771  FAIL  yes  AY632535  ZIKV  ZA-african      1  0  0  0  2  -
+755  gi|1122001540|gb|KY288905.1|    10752  FAIL  yes  AY632535  ZIKV  ZA-african      1  0  0  0  2  -
+756  gi|572167484|gb|KF268948.1|     10788  FAIL  yes  AY632535  ZIKV  ZA-african      1  0  0  0  2  -
+757  gi|572167486|gb|KF268949.1|     10776  FAIL  yes  AY632535  ZIKV  ZA-african      1  0  0  0  2  -
+758  gi|572167488|gb|KF268950.1|     10755  FAIL  yes  AY632535  ZIKV  ZA-african      1  0  0  0  2  -
+759  gi|226374362|gb|AY632535.2|     10794  PASS  yes  AY632535  ZIKV  ZA-african      1  0  0  0  0  -
+760  gi|1245709111|ref|NC_035889.1|  10808  PASS  yes  KU509998  ZIKV  ZB.2-american  12  0  0  0  0  -

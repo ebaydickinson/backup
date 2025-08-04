@@ -1,0 +1,999 @@
+>Feature gi|2104438146|gb|OK054420.1|
+84	10355	CDS
+			product	polyprotein
+			protein_id	2104438146_1
+84	458	mat_peptide
+			product	capsid protein
+			protein_id	2104438146_1
+459	728	mat_peptide
+			product	propeptide
+			protein_id	2104438146_1
+729	953	mat_peptide
+			product	membrane protein
+			protein_id	2104438146_1
+954	2468	mat_peptide
+			product	envelope protein
+			protein_id	2104438146_1
+2469	3554	mat_peptide
+			product	NS1
+			protein_id	2104438146_1
+3555	4208	mat_peptide
+			product	NS2A
+			protein_id	2104438146_1
+4209	4640	mat_peptide
+			product	NS2B
+			protein_id	2104438146_1
+4641	6449	mat_peptide
+			product	NS3
+			protein_id	2104438146_1
+6450	6890	mat_peptide
+			product	NS4A
+			protein_id	2104438146_1
+6891	8396	mat_peptide
+			product	NS4B
+			protein_id	2104438146_1
+8397	10352	mat_peptide
+			product	NS5
+			protein_id	2104438146_1
+>Feature gi|2104438148|gb|OK054421.1|
+91	10362	CDS
+			product	polyprotein
+			protein_id	2104438148_1
+91	465	mat_peptide
+			product	capsid protein
+			protein_id	2104438148_1
+466	735	mat_peptide
+			product	propeptide
+			protein_id	2104438148_1
+736	960	mat_peptide
+			product	membrane protein
+			protein_id	2104438148_1
+961	2475	mat_peptide
+			product	envelope protein
+			protein_id	2104438148_1
+2476	3561	mat_peptide
+			product	NS1
+			protein_id	2104438148_1
+3562	4215	mat_peptide
+			product	NS2A
+			protein_id	2104438148_1
+4216	4647	mat_peptide
+			product	NS2B
+			protein_id	2104438148_1
+4648	6456	mat_peptide
+			product	NS3
+			protein_id	2104438148_1
+6457	6897	mat_peptide
+			product	NS4A
+			protein_id	2104438148_1
+6898	8403	mat_peptide
+			product	NS4B
+			protein_id	2104438148_1
+8404	10359	mat_peptide
+			product	NS5
+			protein_id	2104438148_1
+>Feature gi|2104438150|gb|OK054422.1|
+91	10362	CDS
+			product	polyprotein
+			protein_id	2104438150_1
+91	465	mat_peptide
+			product	capsid protein
+			protein_id	2104438150_1
+466	735	mat_peptide
+			product	propeptide
+			protein_id	2104438150_1
+736	960	mat_peptide
+			product	membrane protein
+			protein_id	2104438150_1
+961	2475	mat_peptide
+			product	envelope protein
+			protein_id	2104438150_1
+2476	3561	mat_peptide
+			product	NS1
+			protein_id	2104438150_1
+3562	4215	mat_peptide
+			product	NS2A
+			protein_id	2104438150_1
+4216	4647	mat_peptide
+			product	NS2B
+			protein_id	2104438150_1
+4648	6456	mat_peptide
+			product	NS3
+			protein_id	2104438150_1
+6457	6897	mat_peptide
+			product	NS4A
+			protein_id	2104438150_1
+6898	8403	mat_peptide
+			product	NS4B
+			protein_id	2104438150_1
+8404	10359	mat_peptide
+			product	NS5
+			protein_id	2104438150_1
+>Feature gi|2104438152|gb|OK054423.1|
+90	10361	CDS
+			product	polyprotein
+			protein_id	2104438152_1
+90	464	mat_peptide
+			product	capsid protein
+			protein_id	2104438152_1
+465	734	mat_peptide
+			product	propeptide
+			protein_id	2104438152_1
+735	959	mat_peptide
+			product	membrane protein
+			protein_id	2104438152_1
+960	2474	mat_peptide
+			product	envelope protein
+			protein_id	2104438152_1
+2475	3560	mat_peptide
+			product	NS1
+			protein_id	2104438152_1
+3561	4214	mat_peptide
+			product	NS2A
+			protein_id	2104438152_1
+4215	4646	mat_peptide
+			product	NS2B
+			protein_id	2104438152_1
+4647	6455	mat_peptide
+			product	NS3
+			protein_id	2104438152_1
+6456	6896	mat_peptide
+			product	NS4A
+			protein_id	2104438152_1
+6897	8402	mat_peptide
+			product	NS4B
+			protein_id	2104438152_1
+8403	10358	mat_peptide
+			product	NS5
+			protein_id	2104438152_1
+>Feature gi|2104438154|gb|OK054424.1|
+84	10355	CDS
+			product	polyprotein
+			protein_id	2104438154_1
+84	458	mat_peptide
+			product	capsid protein
+			protein_id	2104438154_1
+459	728	mat_peptide
+			product	propeptide
+			protein_id	2104438154_1
+729	953	mat_peptide
+			product	membrane protein
+			protein_id	2104438154_1
+954	2468	mat_peptide
+			product	envelope protein
+			protein_id	2104438154_1
+2469	3554	mat_peptide
+			product	NS1
+			protein_id	2104438154_1
+3555	4208	mat_peptide
+			product	NS2A
+			protein_id	2104438154_1
+4209	4640	mat_peptide
+			product	NS2B
+			protein_id	2104438154_1
+4641	6449	mat_peptide
+			product	NS3
+			protein_id	2104438154_1
+6450	6890	mat_peptide
+			product	NS4A
+			protein_id	2104438154_1
+6891	8396	mat_peptide
+			product	NS4B
+			protein_id	2104438154_1
+8397	10352	mat_peptide
+			product	NS5
+			protein_id	2104438154_1
+>Feature gi|2104438156|gb|OK054425.1|
+95	10366	CDS
+			product	polyprotein
+			protein_id	2104438156_1
+95	469	mat_peptide
+			product	capsid protein
+			protein_id	2104438156_1
+470	739	mat_peptide
+			product	propeptide
+			protein_id	2104438156_1
+740	964	mat_peptide
+			product	membrane protein
+			protein_id	2104438156_1
+965	2479	mat_peptide
+			product	envelope protein
+			protein_id	2104438156_1
+2480	3565	mat_peptide
+			product	NS1
+			protein_id	2104438156_1
+3566	4219	mat_peptide
+			product	NS2A
+			protein_id	2104438156_1
+4220	4651	mat_peptide
+			product	NS2B
+			protein_id	2104438156_1
+4652	6460	mat_peptide
+			product	NS3
+			protein_id	2104438156_1
+6461	6901	mat_peptide
+			product	NS4A
+			protein_id	2104438156_1
+6902	8407	mat_peptide
+			product	NS4B
+			protein_id	2104438156_1
+8408	10363	mat_peptide
+			product	NS5
+			protein_id	2104438156_1
+>Feature gi|2104438158|gb|OK054426.1|
+95	10366	CDS
+			product	polyprotein
+			protein_id	2104438158_1
+95	469	mat_peptide
+			product	capsid protein
+			protein_id	2104438158_1
+470	739	mat_peptide
+			product	propeptide
+			protein_id	2104438158_1
+740	964	mat_peptide
+			product	membrane protein
+			protein_id	2104438158_1
+965	2479	mat_peptide
+			product	envelope protein
+			protein_id	2104438158_1
+2480	3565	mat_peptide
+			product	NS1
+			protein_id	2104438158_1
+3566	4219	mat_peptide
+			product	NS2A
+			protein_id	2104438158_1
+4220	4651	mat_peptide
+			product	NS2B
+			protein_id	2104438158_1
+4652	6460	mat_peptide
+			product	NS3
+			protein_id	2104438158_1
+6461	6901	mat_peptide
+			product	NS4A
+			protein_id	2104438158_1
+6902	8407	mat_peptide
+			product	NS4B
+			protein_id	2104438158_1
+8408	10363	mat_peptide
+			product	NS5
+			protein_id	2104438158_1
+>Feature gi|2104438160|gb|OK054427.1|
+95	10366	CDS
+			product	polyprotein
+			protein_id	2104438160_1
+95	469	mat_peptide
+			product	capsid protein
+			protein_id	2104438160_1
+470	739	mat_peptide
+			product	propeptide
+			protein_id	2104438160_1
+740	964	mat_peptide
+			product	membrane protein
+			protein_id	2104438160_1
+965	2479	mat_peptide
+			product	envelope protein
+			protein_id	2104438160_1
+2480	3565	mat_peptide
+			product	NS1
+			protein_id	2104438160_1
+3566	4219	mat_peptide
+			product	NS2A
+			protein_id	2104438160_1
+4220	4651	mat_peptide
+			product	NS2B
+			protein_id	2104438160_1
+4652	6460	mat_peptide
+			product	NS3
+			protein_id	2104438160_1
+6461	6901	mat_peptide
+			product	NS4A
+			protein_id	2104438160_1
+6902	8407	mat_peptide
+			product	NS4B
+			protein_id	2104438160_1
+8408	10363	mat_peptide
+			product	NS5
+			protein_id	2104438160_1
+>Feature gi|2104438162|gb|OK054428.1|
+95	10366	CDS
+			product	polyprotein
+			protein_id	2104438162_1
+95	469	mat_peptide
+			product	capsid protein
+			protein_id	2104438162_1
+470	739	mat_peptide
+			product	propeptide
+			protein_id	2104438162_1
+740	964	mat_peptide
+			product	membrane protein
+			protein_id	2104438162_1
+965	2479	mat_peptide
+			product	envelope protein
+			protein_id	2104438162_1
+2480	3565	mat_peptide
+			product	NS1
+			protein_id	2104438162_1
+3566	4219	mat_peptide
+			product	NS2A
+			protein_id	2104438162_1
+4220	4651	mat_peptide
+			product	NS2B
+			protein_id	2104438162_1
+4652	6460	mat_peptide
+			product	NS3
+			protein_id	2104438162_1
+6461	6901	mat_peptide
+			product	NS4A
+			protein_id	2104438162_1
+6902	8407	mat_peptide
+			product	NS4B
+			protein_id	2104438162_1
+8408	10363	mat_peptide
+			product	NS5
+			protein_id	2104438162_1
+>Feature gi|2104438164|gb|OK054429.1|
+95	10366	CDS
+			product	polyprotein
+			protein_id	2104438164_1
+95	469	mat_peptide
+			product	capsid protein
+			protein_id	2104438164_1
+470	739	mat_peptide
+			product	propeptide
+			protein_id	2104438164_1
+740	964	mat_peptide
+			product	membrane protein
+			protein_id	2104438164_1
+965	2479	mat_peptide
+			product	envelope protein
+			protein_id	2104438164_1
+2480	3565	mat_peptide
+			product	NS1
+			protein_id	2104438164_1
+3566	4219	mat_peptide
+			product	NS2A
+			protein_id	2104438164_1
+4220	4651	mat_peptide
+			product	NS2B
+			protein_id	2104438164_1
+4652	6460	mat_peptide
+			product	NS3
+			protein_id	2104438164_1
+6461	6901	mat_peptide
+			product	NS4A
+			protein_id	2104438164_1
+6902	8407	mat_peptide
+			product	NS4B
+			protein_id	2104438164_1
+8408	10363	mat_peptide
+			product	NS5
+			protein_id	2104438164_1
+>Feature gi|2104438166|gb|OK054430.1|
+95	10366	CDS
+			product	polyprotein
+			protein_id	2104438166_1
+95	469	mat_peptide
+			product	capsid protein
+			protein_id	2104438166_1
+470	739	mat_peptide
+			product	propeptide
+			protein_id	2104438166_1
+740	964	mat_peptide
+			product	membrane protein
+			protein_id	2104438166_1
+965	2479	mat_peptide
+			product	envelope protein
+			protein_id	2104438166_1
+2480	3565	mat_peptide
+			product	NS1
+			protein_id	2104438166_1
+3566	4219	mat_peptide
+			product	NS2A
+			protein_id	2104438166_1
+4220	4651	mat_peptide
+			product	NS2B
+			protein_id	2104438166_1
+4652	6460	mat_peptide
+			product	NS3
+			protein_id	2104438166_1
+6461	6901	mat_peptide
+			product	NS4A
+			protein_id	2104438166_1
+6902	8407	mat_peptide
+			product	NS4B
+			protein_id	2104438166_1
+8408	10363	mat_peptide
+			product	NS5
+			protein_id	2104438166_1
+>Feature gi|2104438168|gb|OK054431.1|
+95	10366	CDS
+			product	polyprotein
+			protein_id	2104438168_1
+95	469	mat_peptide
+			product	capsid protein
+			protein_id	2104438168_1
+470	739	mat_peptide
+			product	propeptide
+			protein_id	2104438168_1
+740	964	mat_peptide
+			product	membrane protein
+			protein_id	2104438168_1
+965	2479	mat_peptide
+			product	envelope protein
+			protein_id	2104438168_1
+2480	3565	mat_peptide
+			product	NS1
+			protein_id	2104438168_1
+3566	4219	mat_peptide
+			product	NS2A
+			protein_id	2104438168_1
+4220	4651	mat_peptide
+			product	NS2B
+			protein_id	2104438168_1
+4652	6460	mat_peptide
+			product	NS3
+			protein_id	2104438168_1
+6461	6901	mat_peptide
+			product	NS4A
+			protein_id	2104438168_1
+6902	8407	mat_peptide
+			product	NS4B
+			protein_id	2104438168_1
+8408	10363	mat_peptide
+			product	NS5
+			protein_id	2104438168_1
+>Feature gi|2104438170|gb|OK054432.1|
+95	10366	CDS
+			product	polyprotein
+			protein_id	2104438170_1
+95	469	mat_peptide
+			product	capsid protein
+			protein_id	2104438170_1
+470	739	mat_peptide
+			product	propeptide
+			protein_id	2104438170_1
+740	964	mat_peptide
+			product	membrane protein
+			protein_id	2104438170_1
+965	2479	mat_peptide
+			product	envelope protein
+			protein_id	2104438170_1
+2480	3565	mat_peptide
+			product	NS1
+			protein_id	2104438170_1
+3566	4219	mat_peptide
+			product	NS2A
+			protein_id	2104438170_1
+4220	4651	mat_peptide
+			product	NS2B
+			protein_id	2104438170_1
+4652	6460	mat_peptide
+			product	NS3
+			protein_id	2104438170_1
+6461	6901	mat_peptide
+			product	NS4A
+			protein_id	2104438170_1
+6902	8407	mat_peptide
+			product	NS4B
+			protein_id	2104438170_1
+8408	10363	mat_peptide
+			product	NS5
+			protein_id	2104438170_1
+>Feature gi|2104438172|gb|OK054433.1|
+95	10366	CDS
+			product	polyprotein
+			protein_id	2104438172_1
+95	469	mat_peptide
+			product	capsid protein
+			protein_id	2104438172_1
+470	739	mat_peptide
+			product	propeptide
+			protein_id	2104438172_1
+740	964	mat_peptide
+			product	membrane protein
+			protein_id	2104438172_1
+965	2479	mat_peptide
+			product	envelope protein
+			protein_id	2104438172_1
+2480	3565	mat_peptide
+			product	NS1
+			protein_id	2104438172_1
+3566	4219	mat_peptide
+			product	NS2A
+			protein_id	2104438172_1
+4220	4651	mat_peptide
+			product	NS2B
+			protein_id	2104438172_1
+4652	6460	mat_peptide
+			product	NS3
+			protein_id	2104438172_1
+6461	6901	mat_peptide
+			product	NS4A
+			protein_id	2104438172_1
+6902	8407	mat_peptide
+			product	NS4B
+			protein_id	2104438172_1
+8408	10363	mat_peptide
+			product	NS5
+			protein_id	2104438172_1
+>Feature gi|2104438174|gb|OK054434.1|
+95	10366	CDS
+			product	polyprotein
+			protein_id	2104438174_1
+95	469	mat_peptide
+			product	capsid protein
+			protein_id	2104438174_1
+470	739	mat_peptide
+			product	propeptide
+			protein_id	2104438174_1
+740	964	mat_peptide
+			product	membrane protein
+			protein_id	2104438174_1
+965	2479	mat_peptide
+			product	envelope protein
+			protein_id	2104438174_1
+2480	3565	mat_peptide
+			product	NS1
+			protein_id	2104438174_1
+3566	4219	mat_peptide
+			product	NS2A
+			protein_id	2104438174_1
+4220	4651	mat_peptide
+			product	NS2B
+			protein_id	2104438174_1
+4652	6460	mat_peptide
+			product	NS3
+			protein_id	2104438174_1
+6461	6901	mat_peptide
+			product	NS4A
+			protein_id	2104438174_1
+6902	8407	mat_peptide
+			product	NS4B
+			protein_id	2104438174_1
+8408	10363	mat_peptide
+			product	NS5
+			protein_id	2104438174_1
+>Feature gi|2104438176|gb|OK054435.1|
+95	10366	CDS
+			product	polyprotein
+			protein_id	2104438176_1
+95	469	mat_peptide
+			product	capsid protein
+			protein_id	2104438176_1
+470	739	mat_peptide
+			product	propeptide
+			protein_id	2104438176_1
+740	964	mat_peptide
+			product	membrane protein
+			protein_id	2104438176_1
+965	2479	mat_peptide
+			product	envelope protein
+			protein_id	2104438176_1
+2480	3565	mat_peptide
+			product	NS1
+			protein_id	2104438176_1
+3566	4219	mat_peptide
+			product	NS2A
+			protein_id	2104438176_1
+4220	4651	mat_peptide
+			product	NS2B
+			protein_id	2104438176_1
+4652	6460	mat_peptide
+			product	NS3
+			protein_id	2104438176_1
+6461	6901	mat_peptide
+			product	NS4A
+			protein_id	2104438176_1
+6902	8407	mat_peptide
+			product	NS4B
+			protein_id	2104438176_1
+8408	10363	mat_peptide
+			product	NS5
+			protein_id	2104438176_1
+>Feature gi|2104438178|gb|OK054436.1|
+95	10366	CDS
+			product	polyprotein
+			protein_id	2104438178_1
+95	469	mat_peptide
+			product	capsid protein
+			protein_id	2104438178_1
+470	739	mat_peptide
+			product	propeptide
+			protein_id	2104438178_1
+740	964	mat_peptide
+			product	membrane protein
+			protein_id	2104438178_1
+965	2479	mat_peptide
+			product	envelope protein
+			protein_id	2104438178_1
+2480	3565	mat_peptide
+			product	NS1
+			protein_id	2104438178_1
+3566	4219	mat_peptide
+			product	NS2A
+			protein_id	2104438178_1
+4220	4651	mat_peptide
+			product	NS2B
+			protein_id	2104438178_1
+4652	6460	mat_peptide
+			product	NS3
+			protein_id	2104438178_1
+6461	6901	mat_peptide
+			product	NS4A
+			protein_id	2104438178_1
+6902	8407	mat_peptide
+			product	NS4B
+			protein_id	2104438178_1
+8408	10363	mat_peptide
+			product	NS5
+			protein_id	2104438178_1
+>Feature gi|2104438180|gb|OK054437.1|
+95	10366	CDS
+			product	polyprotein
+			protein_id	2104438180_1
+95	469	mat_peptide
+			product	capsid protein
+			protein_id	2104438180_1
+470	739	mat_peptide
+			product	propeptide
+			protein_id	2104438180_1
+740	964	mat_peptide
+			product	membrane protein
+			protein_id	2104438180_1
+965	2479	mat_peptide
+			product	envelope protein
+			protein_id	2104438180_1
+2480	3565	mat_peptide
+			product	NS1
+			protein_id	2104438180_1
+3566	4219	mat_peptide
+			product	NS2A
+			protein_id	2104438180_1
+4220	4651	mat_peptide
+			product	NS2B
+			protein_id	2104438180_1
+4652	6460	mat_peptide
+			product	NS3
+			protein_id	2104438180_1
+6461	6901	mat_peptide
+			product	NS4A
+			protein_id	2104438180_1
+6902	8407	mat_peptide
+			product	NS4B
+			protein_id	2104438180_1
+8408	10363	mat_peptide
+			product	NS5
+			protein_id	2104438180_1
+>Feature gi|2104438182|gb|OK054438.1|
+95	10366	CDS
+			product	polyprotein
+			protein_id	2104438182_1
+95	469	mat_peptide
+			product	capsid protein
+			protein_id	2104438182_1
+470	739	mat_peptide
+			product	propeptide
+			protein_id	2104438182_1
+740	964	mat_peptide
+			product	membrane protein
+			protein_id	2104438182_1
+965	2479	mat_peptide
+			product	envelope protein
+			protein_id	2104438182_1
+2480	3565	mat_peptide
+			product	NS1
+			protein_id	2104438182_1
+3566	4219	mat_peptide
+			product	NS2A
+			protein_id	2104438182_1
+4220	4651	mat_peptide
+			product	NS2B
+			protein_id	2104438182_1
+4652	6460	mat_peptide
+			product	NS3
+			protein_id	2104438182_1
+6461	6901	mat_peptide
+			product	NS4A
+			protein_id	2104438182_1
+6902	8407	mat_peptide
+			product	NS4B
+			protein_id	2104438182_1
+8408	10363	mat_peptide
+			product	NS5
+			protein_id	2104438182_1
+>Feature gi|2104438184|gb|OK054439.1|
+95	10366	CDS
+			product	polyprotein
+			protein_id	2104438184_1
+95	469	mat_peptide
+			product	capsid protein
+			protein_id	2104438184_1
+470	739	mat_peptide
+			product	propeptide
+			protein_id	2104438184_1
+740	964	mat_peptide
+			product	membrane protein
+			protein_id	2104438184_1
+965	2479	mat_peptide
+			product	envelope protein
+			protein_id	2104438184_1
+2480	3565	mat_peptide
+			product	NS1
+			protein_id	2104438184_1
+3566	4219	mat_peptide
+			product	NS2A
+			protein_id	2104438184_1
+4220	4651	mat_peptide
+			product	NS2B
+			protein_id	2104438184_1
+4652	6460	mat_peptide
+			product	NS3
+			protein_id	2104438184_1
+6461	6901	mat_peptide
+			product	NS4A
+			protein_id	2104438184_1
+6902	8407	mat_peptide
+			product	NS4B
+			protein_id	2104438184_1
+8408	10363	mat_peptide
+			product	NS5
+			protein_id	2104438184_1
+>Feature gi|2104438186|gb|OK054440.1|
+95	10366	CDS
+			product	polyprotein
+			protein_id	2104438186_1
+95	469	mat_peptide
+			product	capsid protein
+			protein_id	2104438186_1
+470	739	mat_peptide
+			product	propeptide
+			protein_id	2104438186_1
+740	964	mat_peptide
+			product	membrane protein
+			protein_id	2104438186_1
+965	2479	mat_peptide
+			product	envelope protein
+			protein_id	2104438186_1
+2480	3565	mat_peptide
+			product	NS1
+			protein_id	2104438186_1
+3566	4219	mat_peptide
+			product	NS2A
+			protein_id	2104438186_1
+4220	4651	mat_peptide
+			product	NS2B
+			protein_id	2104438186_1
+4652	6460	mat_peptide
+			product	NS3
+			protein_id	2104438186_1
+6461	6901	mat_peptide
+			product	NS4A
+			protein_id	2104438186_1
+6902	8407	mat_peptide
+			product	NS4B
+			protein_id	2104438186_1
+8408	10363	mat_peptide
+			product	NS5
+			protein_id	2104438186_1
+>Feature gi|2104438188|gb|OK054441.1|
+95	10366	CDS
+			product	polyprotein
+			protein_id	2104438188_1
+95	469	mat_peptide
+			product	capsid protein
+			protein_id	2104438188_1
+470	739	mat_peptide
+			product	propeptide
+			protein_id	2104438188_1
+740	964	mat_peptide
+			product	membrane protein
+			protein_id	2104438188_1
+965	2479	mat_peptide
+			product	envelope protein
+			protein_id	2104438188_1
+2480	3565	mat_peptide
+			product	NS1
+			protein_id	2104438188_1
+3566	4219	mat_peptide
+			product	NS2A
+			protein_id	2104438188_1
+4220	4651	mat_peptide
+			product	NS2B
+			protein_id	2104438188_1
+4652	6460	mat_peptide
+			product	NS3
+			protein_id	2104438188_1
+6461	6901	mat_peptide
+			product	NS4A
+			protein_id	2104438188_1
+6902	8407	mat_peptide
+			product	NS4B
+			protein_id	2104438188_1
+8408	10363	mat_peptide
+			product	NS5
+			protein_id	2104438188_1
+>Feature gi|2104438190|gb|OK054442.1|
+95	10366	CDS
+			product	polyprotein
+			protein_id	2104438190_1
+95	469	mat_peptide
+			product	capsid protein
+			protein_id	2104438190_1
+470	739	mat_peptide
+			product	propeptide
+			protein_id	2104438190_1
+740	964	mat_peptide
+			product	membrane protein
+			protein_id	2104438190_1
+965	2479	mat_peptide
+			product	envelope protein
+			protein_id	2104438190_1
+2480	3565	mat_peptide
+			product	NS1
+			protein_id	2104438190_1
+3566	4219	mat_peptide
+			product	NS2A
+			protein_id	2104438190_1
+4220	4651	mat_peptide
+			product	NS2B
+			protein_id	2104438190_1
+4652	6460	mat_peptide
+			product	NS3
+			protein_id	2104438190_1
+6461	6901	mat_peptide
+			product	NS4A
+			protein_id	2104438190_1
+6902	8407	mat_peptide
+			product	NS4B
+			protein_id	2104438190_1
+8408	10363	mat_peptide
+			product	NS5
+			protein_id	2104438190_1
+>Feature gi|2104438192|gb|OK054443.1|
+95	10366	CDS
+			product	polyprotein
+			protein_id	2104438192_1
+95	469	mat_peptide
+			product	capsid protein
+			protein_id	2104438192_1
+470	739	mat_peptide
+			product	propeptide
+			protein_id	2104438192_1
+740	964	mat_peptide
+			product	membrane protein
+			protein_id	2104438192_1
+965	2479	mat_peptide
+			product	envelope protein
+			protein_id	2104438192_1
+2480	3565	mat_peptide
+			product	NS1
+			protein_id	2104438192_1
+3566	4219	mat_peptide
+			product	NS2A
+			protein_id	2104438192_1
+4220	4651	mat_peptide
+			product	NS2B
+			protein_id	2104438192_1
+4652	6460	mat_peptide
+			product	NS3
+			protein_id	2104438192_1
+6461	6901	mat_peptide
+			product	NS4A
+			protein_id	2104438192_1
+6902	8407	mat_peptide
+			product	NS4B
+			protein_id	2104438192_1
+8408	10363	mat_peptide
+			product	NS5
+			protein_id	2104438192_1
+>Feature gi|2104438194|gb|OK054444.1|
+95	10366	CDS
+			product	polyprotein
+			protein_id	2104438194_1
+95	469	mat_peptide
+			product	capsid protein
+			protein_id	2104438194_1
+470	739	mat_peptide
+			product	propeptide
+			protein_id	2104438194_1
+740	964	mat_peptide
+			product	membrane protein
+			protein_id	2104438194_1
+965	2479	mat_peptide
+			product	envelope protein
+			protein_id	2104438194_1
+2480	3565	mat_peptide
+			product	NS1
+			protein_id	2104438194_1
+3566	4219	mat_peptide
+			product	NS2A
+			protein_id	2104438194_1
+4220	4651	mat_peptide
+			product	NS2B
+			protein_id	2104438194_1
+4652	6460	mat_peptide
+			product	NS3
+			protein_id	2104438194_1
+6461	6901	mat_peptide
+			product	NS4A
+			protein_id	2104438194_1
+6902	8407	mat_peptide
+			product	NS4B
+			protein_id	2104438194_1
+8408	10363	mat_peptide
+			product	NS5
+			protein_id	2104438194_1
+>Feature gi|2104438196|gb|OK054445.1|
+95	10366	CDS
+			product	polyprotein
+			protein_id	2104438196_1
+95	469	mat_peptide
+			product	capsid protein
+			protein_id	2104438196_1
+470	739	mat_peptide
+			product	propeptide
+			protein_id	2104438196_1
+740	964	mat_peptide
+			product	membrane protein
+			protein_id	2104438196_1
+965	2479	mat_peptide
+			product	envelope protein
+			protein_id	2104438196_1
+2480	3565	mat_peptide
+			product	NS1
+			protein_id	2104438196_1
+3566	4219	mat_peptide
+			product	NS2A
+			protein_id	2104438196_1
+4220	4651	mat_peptide
+			product	NS2B
+			protein_id	2104438196_1
+4652	6460	mat_peptide
+			product	NS3
+			protein_id	2104438196_1
+6461	6901	mat_peptide
+			product	NS4A
+			protein_id	2104438196_1
+6902	8407	mat_peptide
+			product	NS4B
+			protein_id	2104438196_1
+8408	10363	mat_peptide
+			product	NS5
+			protein_id	2104438196_1
+>Feature gi|2104438198|gb|OK054446.1|
+95	10366	CDS
+			product	polyprotein
+			protein_id	2104438198_1
+95	469	mat_peptide
+			product	capsid protein
+			protein_id	2104438198_1
+470	739	mat_peptide
+			product	propeptide
+			protein_id	2104438198_1
+740	964	mat_peptide
+			product	membrane protein
+			protein_id	2104438198_1
+965	2479	mat_peptide
+			product	envelope protein
+			protein_id	2104438198_1
+2480	3565	mat_peptide
+			product	NS1
+			protein_id	2104438198_1
+3566	4219	mat_peptide
+			product	NS2A
+			protein_id	2104438198_1
+4220	4651	mat_peptide
+			product	NS2B
+			protein_id	2104438198_1
+4652	6460	mat_peptide
+			product	NS3
+			protein_id	2104438198_1
+6461	6901	mat_peptide
+			product	NS4A
+			protein_id	2104438198_1
+6902	8407	mat_peptide
+			product	NS4B
+			protein_id	2104438198_1
+8408	10363	mat_peptide
+			product	NS5
+			protein_id	2104438198_1

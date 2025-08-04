@@ -1,0 +1,46 @@
+# Insert information file created by cmalign.
+# This file includes 2+<nseq> non-'#' pre-fixed lines per model used for alignment,
+# where <nseq> is the number of sequences in the target file.
+# The first non-'#' prefixed line per model includes 2 tokens, separated by a single space (' '):
+# The first token is the model name and the second is the consensus length of the model (<clen>).
+# The following <nseq> lines include (4+3*<n>) whitespace delimited tokens per line.
+# The format for these <nseq> lines is:
+#   <seqname> <seqlen> <spos> <epos> <c_1> <u_1> <i_1> <c_2> <u_2> <i_2> .... <c_x> <u_x> <i_x> .... <c_n> <u_n> <i_n>
+#   indicating <seqname> has >= 1 inserted residues after <n> different consensus positions,
+#   <seqname> is the name of the sequence
+#   <seqlen>  is the unaligned length of the sequence
+#   <spos>    is the first (5'-most) consensus position filled by a nongap for this sequence (-1 if 0 nongap consensus posns)
+#   <epos>    is the final (3'-most) consensus position filled by a nongap for this sequence (-1 if 0 nongap consensus posns)
+#   <c_x> is a consensus position (between 0 and <clen>; if 0: inserts before 1st consensus posn)
+#   <u_x> is the *unaligned* position (b/t 1 and <seqlen>) in <seqname> of the first inserted residue after <c_x>.
+#   <i_x> is the number of inserted residues after position <c_x> for <seqname>.
+# Lines for sequences with 0 inserted residues will include only <seqname> <seqlen> <spos> <epos>.
+# The final non-'#' prefixed line per model includes only '//', indicating the end of info for a model.
+#
+KU509998 10807
+gi|2104438148|gb|OK054421.1|/1-161 161 18 177  79 63 1
+gi|2104438150|gb|OK054422.1|/1-161 161 18 177  79 63 1
+gi|2104438152|gb|OK054423.1|/1-160 160 19 177  79 62 1
+gi|2104438156|gb|OK054425.1|/1-165 165 14 177  79 67 1
+gi|2104438158|gb|OK054426.1|/1-165 165 14 177  79 67 1
+gi|2104438160|gb|OK054427.1|/1-165 165 14 177  79 67 1
+gi|2104438162|gb|OK054428.1|/1-165 165 14 177  79 67 1
+gi|2104438164|gb|OK054429.1|/1-165 165 14 177  79 67 1
+gi|2104438166|gb|OK054430.1|/1-165 165 14 177  79 67 1
+gi|2104438168|gb|OK054431.1|/1-165 165 14 177  79 67 1
+gi|2104438170|gb|OK054432.1|/1-165 165 14 177  79 67 1
+gi|2104438172|gb|OK054433.1|/1-165 165 14 177  79 67 1
+gi|2104438174|gb|OK054434.1|/1-165 165 14 177  79 67 1
+gi|2104438176|gb|OK054435.1|/1-165 165 14 177  79 67 1
+gi|2104438178|gb|OK054436.1|/1-165 165 14 177  79 67 1
+gi|2104438180|gb|OK054437.1|/1-165 165 14 177  79 67 1
+gi|2104438182|gb|OK054438.1|/1-165 165 14 177  79 67 1
+gi|2104438184|gb|OK054439.1|/1-165 165 14 177  79 67 1
+gi|2104438186|gb|OK054440.1|/1-165 165 14 177  79 67 1
+gi|2104438188|gb|OK054441.1|/1-165 165 14 177  79 67 1
+gi|2104438190|gb|OK054442.1|/1-165 165 14 177  79 67 1
+gi|2104438192|gb|OK054443.1|/1-165 165 14 177  79 67 1
+gi|2104438194|gb|OK054444.1|/1-165 165 14 177  79 67 1
+gi|2104438196|gb|OK054445.1|/1-165 165 14 177  79 67 1
+gi|2104438198|gb|OK054446.1|/1-165 165 14 177  79 67 1
+//

@@ -1,0 +1,40 @@
+#
+221.1.1  gi|1920873873|gb|MW122450.1|  KU509998  mat_peptide  membrane_protein   4  ambgnt3f  no  AMBIGUITY_AT_FEATURE_END      690..870:+  181    796..976:+  181  final nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+221.2.1  gi|1920873873|gb|MW122450.1|  KU509998  mat_peptide  envelope_protein   5  ambgnt5f  no  AMBIGUITY_AT_FEATURE_START    871..893:+   23    977..999:+   23  first nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+#
+223.1.1  gi|1920873888|gb|MW122452.1|  KU509998  mat_peptide  membrane_protein   4  ambgnt3f  no  AMBIGUITY_AT_FEATURE_END      690..870:+  181    796..976:+  181  final nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+223.2.1  gi|1920873888|gb|MW122452.1|  KU509998  mat_peptide  envelope_protein   5  ambgnt5f  no  AMBIGUITY_AT_FEATURE_START    871..893:+   23    977..999:+   23  first nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+223.3.1  gi|1920873888|gb|MW122452.1|  KU509998  mat_peptide  NS3                9  ambgnt3f  no  AMBIGUITY_AT_FEATURE_END    6348..6366:+   19  6454..6472:+   19  final nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+223.4.1  gi|1920873888|gb|MW122452.1|  KU509998  mat_peptide  NS4A              10  ambgnt5f  no  AMBIGUITY_AT_FEATURE_START  6367..6368:+    2  6473..6474:+    2  first nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+#
+232.1.1  gi|1628761371|gb|MK696551.1|  KU509998  -            -                  -  indfclas  no  INDEFINITE_CLASSIFICATION              -    -             -    -  low score difference between best overall model and second best model (not in best model's subgroup) [0.030<0.030 bits/nt, best group/subgroup: ZIKV/ZB.2-american, second group/subgroup: ZIKV/singapore-ZB.1.2]
+#
+235.1.1  gi|1548994192|gb|MK269361.1|  KU509998  mat_peptide  propeptide         3  ambgnt5f  no  AMBIGUITY_AT_FEATURE_START    433..630:+  198    482..679:+  198  first nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+235.2.1  gi|1548994192|gb|MK269361.1|  KU509998  mat_peptide  NS2B               8  ambgnt3f  no  AMBIGUITY_AT_FEATURE_END    4610..4614:+    5  4659..4663:+    5  final nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+235.3.1  gi|1548994192|gb|MK269361.1|  KU509998  mat_peptide  NS3                9  ambgnt5f  no  AMBIGUITY_AT_FEATURE_START  4615..4685:+   71  4664..4734:+   71  first nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+235.4.1  gi|1548994192|gb|MK269361.1|  KU509998  mat_peptide  NS4A              10  ambgnt3f  no  AMBIGUITY_AT_FEATURE_END    6707..6864:+  158  6756..6913:+  158  final nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+235.5.1  gi|1548994192|gb|MK269361.1|  KU509998  mat_peptide  NS4B              11  ambgnt5f  no  AMBIGUITY_AT_FEATURE_START  6865..6931:+   67  6914..6980:+   67  first nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+#
+237.1.1  gi|1547059363|gb|MK216688.1|  KU509998  mat_peptide  NS3                9  ambgnt3f  no  AMBIGUITY_AT_FEATURE_END    6407..6421:+   15  6458..6472:+   15  final nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+237.2.1  gi|1547059363|gb|MK216688.1|  KU509998  mat_peptide  NS4A              10  ambgnt5f  no  AMBIGUITY_AT_FEATURE_START  6422..6643:+  222  6473..6694:+  222  first nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+237.3.1  gi|1547059363|gb|MK216688.1|  KU509998  mat_peptide  NS4B              11  ambgnt3f  no  AMBIGUITY_AT_FEATURE_END    8368..8368:+    1  8419..8419:+    1  final nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+237.4.1  gi|1547059363|gb|MK216688.1|  KU509998  mat_peptide  NS5               12  ambgnt5f  no  AMBIGUITY_AT_FEATURE_START  8369..8385:+   17  8420..8436:+   17  first nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+#
+239.1.1  gi|1547059369|gb|MK216691.1|  KU509998  mat_peptide  membrane_protein   4  ambgnt3f  no  AMBIGUITY_AT_FEATURE_END      745..925:+  181    796..976:+  181  final nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+239.2.1  gi|1547059369|gb|MK216691.1|  KU509998  mat_peptide  envelope_protein   5  ambgnt5f  no  AMBIGUITY_AT_FEATURE_START    926..948:+   23    977..999:+   23  first nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+#
+240.1.1  gi|1547059371|gb|MK216692.1|  KU509998  mat_peptide  propeptide         3  ambgnt5f  no  AMBIGUITY_AT_FEATURE_START    431..700:+  270    482..751:+  270  first nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+240.1.2  gi|1547059371|gb|MK216692.1|  KU509998  mat_peptide  propeptide         3  ambgnt3f  no  AMBIGUITY_AT_FEATURE_END      431..700:+  270    482..751:+  270  final nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+240.2.1  gi|1547059371|gb|MK216692.1|  KU509998  mat_peptide  membrane_protein   4  ambgnt5f  no  AMBIGUITY_AT_FEATURE_START    701..925:+  225    752..976:+  225  first nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+240.2.2  gi|1547059371|gb|MK216692.1|  KU509998  mat_peptide  membrane_protein   4  ambgnt3f  no  AMBIGUITY_AT_FEATURE_END      701..925:+  225    752..976:+  225  final nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+240.3.1  gi|1547059371|gb|MK216692.1|  KU509998  mat_peptide  envelope_protein   5  ambgnt5f  no  AMBIGUITY_AT_FEATURE_START   926..1226:+  301   977..1277:+  301  first nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+#
+242.1.1  gi|1547059375|gb|MK216694.1|  KU509998  mat_peptide  membrane_protein   4  ambgnt3f  no  AMBIGUITY_AT_FEATURE_END      745..925:+  181    796..976:+  181  final nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+242.2.1  gi|1547059375|gb|MK216694.1|  KU509998  mat_peptide  envelope_protein   5  ambgnt5f  no  AMBIGUITY_AT_FEATURE_START    926..948:+   23    977..999:+   23  first nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+242.3.1  gi|1547059375|gb|MK216694.1|  KU509998  mat_peptide  NS4B              11  ambgnt3f  no  AMBIGUITY_AT_FEATURE_END    8245..8368:+  124  8296..8419:+  124  final nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+242.4.1  gi|1547059375|gb|MK216694.1|  KU509998  mat_peptide  NS5               12  ambgnt5f  no  AMBIGUITY_AT_FEATURE_START  8369..8400:+   32  8420..8451:+   32  first nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+#
+244.1.1  gi|1547059379|gb|MK216696.1|  KU509998  mat_peptide  NS3                9  ambgnt3f  no  AMBIGUITY_AT_FEATURE_END    6421..6421:+    1  6472..6472:+    1  final nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+#
+246.1.1  gi|1547059383|gb|MK216698.1|  KU509998  mat_peptide  NS3                9  ambgnt3f  no  AMBIGUITY_AT_FEATURE_END    6407..6421:+   15  6458..6472:+   15  final nucleotide of non-CDS feature is an ambiguous nucleotide [-]
+246.2.1  gi|1547059383|gb|MK216698.1|  KU509998  mat_peptide  NS4A              10  ambgnt5f  no  AMBIGUITY_AT_FEATURE_START  6422..6643:+  222  6473..6694:+  222  first nucleotide of non-CDS feature is an ambiguous nucleotide [-]

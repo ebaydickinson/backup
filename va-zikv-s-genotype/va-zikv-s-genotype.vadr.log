@@ -1,0 +1,147 @@
+# v-annotate.pl :: classify and annotate sequences using a model library
+# VADR 1.6.4 (Jun 2024)
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# date:              Tue Mar 18 12:00:32 2025
+# $VADRBIOEASELDIR:  /home/dickinsoneb/vadr_files/Bio-Easel
+# $VADRBLASTDIR:     /home/dickinsoneb/vadr_files/ncbi-blast/bin
+# $VADREASELDIR:     /home/dickinsoneb/vadr_files/infernal/binaries
+# $VADRINFERNALDIR:  /home/dickinsoneb/vadr_files/infernal/binaries
+# $VADRMODELDIR:     /home/dickinsoneb/vadr_files/vadr-models-calici
+# $VADRSCRIPTSDIR:   /home/dickinsoneb/vadr_files/vadr
+#
+# sequence file:                                                                  accession-760.fa
+# output directory:                                                               va-zikv-s-genotype
+# force directory overwrite:                                                      yes [-f]
+# leaving intermediate files on disk:                                             yes [--keep]
+# .cm, .minfo, blastn .fa files in $VADRMODELDIR start with key <s>, not 'vadr':  zikv [--mkey]
+# model files are in directory <s>, not in $VADRMODELDIR:                         zikv-genotype-models2 [--mdir]
+# use top-scoring HSP from blastn to seed the alignment:                          yes [-s]
+# replace stretches of Ns with expected nts, where possible:                      yes [-r]
+# split input file into chunks, run each chunk separately:                        yes [--split]
+# parallelize across <n> CPU workers (requires --split or --glsearch):            4 [--cpu]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Validating input                                                                                          ... done. [    0.1 seconds]
+# Splitting sequence file into chunks to run independently in parallel on 4 processors                      ... done. [    0.2 seconds]
+# Executing 4 scripts in parallel on 4 processors to process 28 partition(s) of all 760 sequence(s)         ... 
+#	   1 of    4 jobs finished (0.1 minutes spent waiting)
+#	   1 of    4 jobs finished (0.2 minutes spent waiting)
+#	   2 of    4 jobs finished (0.2 minutes spent waiting)
+#	   4 of    4 jobs finished (0.3 minutes spent waiting)
+# done. [   90.0 seconds]
+# Merging and finalizing output                                                                             ... done. [    1.7 seconds]
+#
+# Summary of classified sequences:
+#
+#                                         num   num   num
+#idx  model     group  subgroup          seqs  pass  fail
+#---  --------  -----  ----------------  ----  ----  ----
+1     KU509998  ZIKV   ZB.2-american      670   644    26
+2     MG807646  ZIKV   singapore-ZB.1.2    82    82     0
+3     AY632535  ZIKV   ZA-african           8     1     7
+#---  --------  -----  ----------------  ----  ----  ----
+-     *all*     -      -                  760   727    33
+-     *none*    -      -                    0     0     0
+#---  --------  -----  ----------------  ----  ----  ----
+#
+# Summary of reported alerts:
+#
+#     alert     causes   short                               per    num   num  long
+#idx  code      failure  description                        type  cases  seqs  description
+#---  --------  -------  -----------------------------  --------  -----  ----  -----------
+1     indfclas  no       INDEFINITE_CLASSIFICATION      sequence     66    66  low score difference between best overall model and second best model (not in best model's subgroup)
+2     extrant5  no       EXTRA_SEQUENCE_START           sequence      2     2  extra sequence detected 5' of expected sequence start
+3     extrant3  no       EXTRA_SEQUENCE_END             sequence      1     1  extra sequence detected 3' of expected sequence end
+4     unjoinbl  no       UNJOINABLE_SUBSEQ_ALIGNMENTS   sequence      2     2  inconsistent alignment of overlapping region between seed and flanking region
+5     ambgntrp  no       N_RICH_REGION_NOT_REPLACED     sequence     13    12  N-rich region of unexpected length not replaced
+6     fstlocft  no       POSSIBLE_FRAMESHIFT_LOW_CONF    feature      1     1  low confidence possible frameshift in CDS (frame not restored before end)
+7     fstlocfi  no       POSSIBLE_FRAMESHIFT_LOW_CONF    feature      7     7  low confidence possible frameshift in CDS (frame restored before end)
+8     deletinn  no       DELETION_OF_NT                  feature      4     2  too large of a deletion in nucleotide-based alignment of CDS feature
+9     lowsimic  no       LOW_FEATURE_SIMILARITY          feature     39    15  region overlapping annotated feature that is or matches a CDS lacks significant similarity
+10    ambgnt5f  no       AMBIGUITY_AT_FEATURE_START      feature    194   119  first nucleotide of non-CDS feature is an ambiguous nucleotide
+11    ambgnt3f  no       AMBIGUITY_AT_FEATURE_END        feature    199   120  final nucleotide of non-CDS feature is an ambiguous nucleotide
+12    ambgnt5c  no       AMBIGUITY_AT_CDS_START          feature      3     3  first nucleotide of CDS is an ambiguous nucleotide
+13    ambgnt3c  no       AMBIGUITY_AT_CDS_END            feature     11    11  final nucleotide of CDS is an ambiguous nucleotide
+#---  --------  -------  -----------------------------  --------  -----  ----  -----------
+14    lowcovrg  yes      LOW_COVERAGE                   sequence      1     1  low sequence fraction with significant similarity to homology model
+15    dupregin  yes      DUPLICATE_REGIONS              sequence      1     1  similarity to a model region occurs more than once
+16    discontn  yes      DISCONTINUOUS_SIMILARITY       sequence      1     1  not all hits are in the same order in the sequence and the homology model
+17    lowsim5s  yes      LOW_SIMILARITY_START           sequence      4     4  significant similarity not detected at 5' end of the sequence
+18    lowsim3s  yes      LOW_SIMILARITY_END             sequence      3     3  significant similarity not detected at 3' end of the sequence
+19    mutendcd  yes      MUTATION_AT_END                 feature      1     1  expected stop codon could not be identified, predicted CDS stop by homology is invalid
+20    mutendex  yes      MUTATION_AT_END                 feature      1     1  expected stop codon could not be identified, first in-frame stop codon exists 3' of predicted stop position
+21    unexleng  yes      UNEXPECTED_LENGTH               feature     33    16  length of complete coding (CDS or mat_peptide) feature is not a multiple of 3
+22    cdsstopn  yes      CDS_HAS_STOP_CODON              feature     16    16  in-frame stop codon exists 5' of stop position predicted by homology to reference
+23    fsthicft  yes      POSSIBLE_FRAMESHIFT_HIGH_CONF   feature     14    14  high confidence possible frameshift in CDS (frame not restored before end)
+24    fsthicfi  yes      POSSIBLE_FRAMESHIFT_HIGH_CONF   feature      8     8  high confidence possible frameshift in CDS (frame restored before end)
+25    peptrans  yes      PEPTIDE_TRANSLATION_PROBLEM     feature    220    20  mat_peptide may not be translated because its parent CDS has a problem
+26    indf5lcn  yes      INDEFINITE_ANNOTATION_START     feature      5     5  alignment to homology model has low confidence at 5' boundary for feature that does not match a CDS
+27    indf5pst  yes      INDEFINITE_ANNOTATION_START     feature      8     8  protein-based alignment does not extend close enough to nucleotide-based alignment 5' endpoint
+28    indf3lcn  yes      INDEFINITE_ANNOTATION_END       feature      5     5  alignment to homology model has low confidence at 3' boundary for feature that does not match a CDS
+29    indf3pst  yes      INDEFINITE_ANNOTATION_END       feature     10    10  protein-based alignment does not extend close enough to nucleotide-based alignment 3' endpoint
+30    deletinp  yes      DELETION_OF_NT                  feature      3     2  too large of a deletion in protein-based alignment
+#---  --------  -------  -----------------------------  --------  -----  ----  -----------
+#
+# Output printed to screen saved in:                                                      va-zikv-s-genotype.vadr.log
+# List of executed commands saved in:                                                     va-zikv-s-genotype.vadr.cmd
+# List and description of all output files saved in:                                      va-zikv-s-genotype.vadr.filelist
+# copy of input fasta file saved in:                                                      va-zikv-s-genotype.vadr.in.fa
+# copy of input fasta file with descriptions removed for blastn saved in:                 va-zikv-s-genotype.vadr.blastn.fa
+# esl-seqstat -a output for input fasta file saved in:                                    va-zikv-s-genotype.vadr.seqstat
+# Stockholm file for >= 1 possible frameshifts for CDS.1.1 for model AY632535 saved in:   va-zikv-s-genotype.vadr.AY632535.CDS.1.1.frameshift.stk
+# Stockholm file for >= 1 possible frameshifts for CDS.1.1 for model KU509998 saved in:   va-zikv-s-genotype.vadr.KU509998.CDS.1.1.frameshift.stk
+# model AY632535 alignment list (stk) saved in:                                           va-zikv-s-genotype.vadr.AY632535.align.stk.list
+# model AY632535 full original sequence alignment(stk) saved in:                          va-zikv-s-genotype.vadr.AY632535.align.stk
+# model AY632535 full original sequence alignment(afa) saved in:                          va-zikv-s-genotype.vadr.AY632535.align.afa
+# model AY632535 alignment list (rpstk) saved in:                                         va-zikv-s-genotype.vadr.AY632535.align.rpstk.list
+# model AY632535 full replaced sequence alignment(stk) saved in:                          va-zikv-s-genotype.vadr.AY632535.align.rpstk
+# model AY632535 full replaced sequence alignment(afa) saved in:                          va-zikv-s-genotype.vadr.AY632535.align.rpafa
+# model MG807646 alignment list (stk) saved in:                                           va-zikv-s-genotype.vadr.MG807646.align.stk.list
+# model MG807646 full original sequence alignment(stk) saved in:                          va-zikv-s-genotype.vadr.MG807646.align.stk
+# model MG807646 full original sequence alignment(afa) saved in:                          va-zikv-s-genotype.vadr.MG807646.align.afa
+# model MG807646 alignment list (rpstk) saved in:                                         va-zikv-s-genotype.vadr.MG807646.align.rpstk.list
+# model MG807646 full replaced sequence alignment(stk) saved in:                          va-zikv-s-genotype.vadr.MG807646.align.rpstk
+# model MG807646 full replaced sequence alignment(afa) saved in:                          va-zikv-s-genotype.vadr.MG807646.align.rpafa
+# model KU509998 alignment list (stk) saved in:                                           va-zikv-s-genotype.vadr.KU509998.align.stk.list
+# model KU509998 full original sequence alignment(stk) saved in:                          va-zikv-s-genotype.vadr.KU509998.align.stk
+# model KU509998 full original sequence alignment(afa) saved in:                          va-zikv-s-genotype.vadr.KU509998.align.afa
+# model KU509998 alignment list (rpstk) saved in:                                         va-zikv-s-genotype.vadr.KU509998.align.rpstk.list
+# model KU509998 full replaced sequence alignment(stk) saved in:                          va-zikv-s-genotype.vadr.KU509998.align.rpstk
+# model KU509998 full replaced sequence alignment(afa) saved in:                          va-zikv-s-genotype.vadr.KU509998.align.rpafa
+# model AY632535 feature CDS#1 predicted seqs saved in:                                   va-zikv-s-genotype.vadr.AY632535.CDS.1.fa
+# model MG807646 feature CDS#1 predicted seqs saved in:                                   va-zikv-s-genotype.vadr.MG807646.CDS.1.fa
+# model KU509998 feature CDS#1 predicted seqs saved in:                                   va-zikv-s-genotype.vadr.KU509998.CDS.1.fa
+# model KU509998 feature mat_peptide#1 predicted seqs saved in:                           va-zikv-s-genotype.vadr.KU509998.mat_peptide.1.fa
+# model KU509998 feature mat_peptide#2 predicted seqs saved in:                           va-zikv-s-genotype.vadr.KU509998.mat_peptide.2.fa
+# model KU509998 feature mat_peptide#3 predicted seqs saved in:                           va-zikv-s-genotype.vadr.KU509998.mat_peptide.3.fa
+# model KU509998 feature mat_peptide#4 predicted seqs saved in:                           va-zikv-s-genotype.vadr.KU509998.mat_peptide.4.fa
+# model KU509998 feature mat_peptide#5 predicted seqs saved in:                           va-zikv-s-genotype.vadr.KU509998.mat_peptide.5.fa
+# model KU509998 feature mat_peptide#6 predicted seqs saved in:                           va-zikv-s-genotype.vadr.KU509998.mat_peptide.6.fa
+# model KU509998 feature mat_peptide#7 predicted seqs saved in:                           va-zikv-s-genotype.vadr.KU509998.mat_peptide.7.fa
+# model KU509998 feature mat_peptide#8 predicted seqs saved in:                           va-zikv-s-genotype.vadr.KU509998.mat_peptide.8.fa
+# model KU509998 feature mat_peptide#9 predicted seqs saved in:                           va-zikv-s-genotype.vadr.KU509998.mat_peptide.9.fa
+# model KU509998 feature mat_peptide#10 predicted seqs saved in:                          va-zikv-s-genotype.vadr.KU509998.mat_peptide.10.fa
+# model KU509998 feature mat_peptide#11 predicted seqs saved in:                          va-zikv-s-genotype.vadr.KU509998.mat_peptide.11.fa
+# 5 column feature table output for passing sequences saved in:                           va-zikv-s-genotype.vadr.pass.tbl
+# 5 column feature table output for failing sequences saved in:                           va-zikv-s-genotype.vadr.fail.tbl
+# list of passing sequences saved in:                                                     va-zikv-s-genotype.vadr.pass.list
+# list of failing sequences saved in:                                                     va-zikv-s-genotype.vadr.fail.list
+# list of alerts in the feature tables saved in:                                          va-zikv-s-genotype.vadr.alt.list
+# fasta file with passing sequences saved in:                                             va-zikv-s-genotype.vadr.pass.fa
+# fasta file with failing sequences saved in:                                             va-zikv-s-genotype.vadr.fail.fa
+# per-sequence tabular annotation summary file saved in:                                  va-zikv-s-genotype.vadr.sqa
+# per-sequence tabular classification summary file saved in:                              va-zikv-s-genotype.vadr.sqc
+# per-feature tabular summary file saved in:                                              va-zikv-s-genotype.vadr.ftr
+# per-model-segment tabular summary file saved in:                                        va-zikv-s-genotype.vadr.sgm
+# per-alert tabular summary file saved in:                                                va-zikv-s-genotype.vadr.alt
+# alert count tabular summary file saved in:                                              va-zikv-s-genotype.vadr.alc
+# per-model tabular summary file saved in:                                                va-zikv-s-genotype.vadr.mdl
+# alignment doctoring tabular summary file saved in:                                      va-zikv-s-genotype.vadr.dcr
+# seed alignment summary file (-s) saved in:                                              va-zikv-s-genotype.vadr.sda
+# replaced stretches of Ns summary file (-r) saved in:                                    va-zikv-s-genotype.vadr.rpn
+#
+# All output files created in directory ./va-zikv-s-genotype/
+#
+# Elapsed time:  00:01:32.01
+#                hh:mm:ss
+# 
+[ok]

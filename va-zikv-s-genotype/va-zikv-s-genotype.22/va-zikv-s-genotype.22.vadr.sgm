@@ -1,0 +1,87 @@
+#
+582.1.1   gi|1196819753|gb|MF098768.1|  10339  PASS  KU509998  CDS          polyprotein        1  1  1    67  10338   107  10378  10272  +  no  0.975  0.975  no  no
+582.2.1   gi|1196819753|gb|MF098768.1|  10339  PASS  KU509998  mat_peptide  capsid_protein     2  1  1    67    441   107    481    375  +  no  0.975  0.975  no  no
+582.3.1   gi|1196819753|gb|MF098768.1|  10339  PASS  KU509998  mat_peptide  propeptide         3  1  1   442    711   482    751    270  +  no  0.975  0.975  no  no
+582.4.1   gi|1196819753|gb|MF098768.1|  10339  PASS  KU509998  mat_peptide  membrane_protein   4  1  1   712    936   752    976    225  +  no  0.975  0.975  no  no
+582.5.1   gi|1196819753|gb|MF098768.1|  10339  PASS  KU509998  mat_peptide  envelope_protein   5  1  1   937   2451   977   2491   1515  +  no  0.975  0.975  no  no
+582.6.1   gi|1196819753|gb|MF098768.1|  10339  PASS  KU509998  mat_peptide  NS1                6  1  1  2452   3537  2492   3577   1086  +  no  0.975  0.975  no  no
+582.7.1   gi|1196819753|gb|MF098768.1|  10339  PASS  KU509998  mat_peptide  NS2A               7  1  1  3538   4191  3578   4231    654  +  no  0.975  0.975  no  no
+582.8.1   gi|1196819753|gb|MF098768.1|  10339  PASS  KU509998  mat_peptide  NS2B               8  1  1  4192   4623  4232   4663    432  +  no  0.975  0.975  no  no
+582.9.1   gi|1196819753|gb|MF098768.1|  10339  PASS  KU509998  mat_peptide  NS3                9  1  1  4624   6432  4664   6472   1809  +  no  0.975  0.975  no  no
+582.10.1  gi|1196819753|gb|MF098768.1|  10339  PASS  KU509998  mat_peptide  NS4A              10  1  1  6433   6873  6473   6913    441  +  no  0.975  0.975  no  no
+582.11.1  gi|1196819753|gb|MF098768.1|  10339  PASS  KU509998  mat_peptide  NS4B              11  1  1  6874   8379  6914   8419   1506  +  no  0.975  0.975  no  no
+582.12.1  gi|1196819753|gb|MF098768.1|  10339  PASS  KU509998  mat_peptide  NS5               12  1  1  8380  10335  8420  10375   1956  +  no  0.975  0.975  no  no
+#
+583.1.1   gi|1196819757|gb|MF098770.1|   9608  PASS  KU509998  CDS          polyprotein        1  1  1    67   9608   107   9648   9542  +  3'  0.975      -  no  yes
+583.2.1   gi|1196819757|gb|MF098770.1|   9608  PASS  KU509998  mat_peptide  capsid_protein     2  1  1    67    441   107    481    375  +  no  0.975  0.975  no  no
+583.3.1   gi|1196819757|gb|MF098770.1|   9608  PASS  KU509998  mat_peptide  propeptide         3  1  1   442    711   482    751    270  +  no  0.975  0.975  no  no
+583.4.1   gi|1196819757|gb|MF098770.1|   9608  PASS  KU509998  mat_peptide  membrane_protein   4  1  1   712    936   752    976    225  +  no  0.975  0.975  no  no
+583.5.1   gi|1196819757|gb|MF098770.1|   9608  PASS  KU509998  mat_peptide  envelope_protein   5  1  1   937   2451   977   2491   1515  +  no  0.975  0.975  no  no
+583.6.1   gi|1196819757|gb|MF098770.1|   9608  PASS  KU509998  mat_peptide  NS1                6  1  1  2452   3537  2492   3577   1086  +  no  0.975  0.975  no  no
+583.7.1   gi|1196819757|gb|MF098770.1|   9608  PASS  KU509998  mat_peptide  NS2A               7  1  1  3538   4191  3578   4231    654  +  no  0.975  0.975  no  no
+583.8.1   gi|1196819757|gb|MF098770.1|   9608  PASS  KU509998  mat_peptide  NS2B               8  1  1  4192   4623  4232   4663    432  +  no  0.975  0.975  no  no
+583.9.1   gi|1196819757|gb|MF098770.1|   9608  PASS  KU509998  mat_peptide  NS3                9  1  1  4624   6432  4664   6472   1809  +  no  0.975  0.975  no  no
+583.10.1  gi|1196819757|gb|MF098770.1|   9608  PASS  KU509998  mat_peptide  NS4A              10  1  1  6433   6873  6473   6913    441  +  no  0.975  0.975  no  no
+583.11.1  gi|1196819757|gb|MF098770.1|   9608  PASS  KU509998  mat_peptide  NS4B              11  1  1  6874   8379  6914   8419   1506  +  no  0.975  0.975  no  no
+583.12.1  gi|1196819757|gb|MF098770.1|   9608  PASS  KU509998  mat_peptide  NS5               12  1  1  8380   9608  8420   9648   1229  +  3'  0.975      -  no  yes
+#
+584.1.1   gi|1196819759|gb|MF098771.1|  10657  PASS  KU509998  CDS          polyprotein        1  1  1    67  10338   107  10378  10272  +  no  0.975  0.975  no  no
+584.2.1   gi|1196819759|gb|MF098771.1|  10657  PASS  KU509998  mat_peptide  capsid_protein     2  1  1    67    441   107    481    375  +  no  0.975  0.975  no  no
+584.3.1   gi|1196819759|gb|MF098771.1|  10657  PASS  KU509998  mat_peptide  propeptide         3  1  1   442    711   482    751    270  +  no  0.975  0.975  no  no
+584.4.1   gi|1196819759|gb|MF098771.1|  10657  PASS  KU509998  mat_peptide  membrane_protein   4  1  1   712    936   752    976    225  +  no  0.975  0.975  no  no
+584.5.1   gi|1196819759|gb|MF098771.1|  10657  PASS  KU509998  mat_peptide  envelope_protein   5  1  1   937   2451   977   2491   1515  +  no  0.975  0.975  no  no
+584.6.1   gi|1196819759|gb|MF098771.1|  10657  PASS  KU509998  mat_peptide  NS1                6  1  1  2452   3537  2492   3577   1086  +  no  0.975  0.975  no  no
+584.7.1   gi|1196819759|gb|MF098771.1|  10657  PASS  KU509998  mat_peptide  NS2A               7  1  1  3538   4191  3578   4231    654  +  no  0.975  0.975  no  no
+584.8.1   gi|1196819759|gb|MF098771.1|  10657  PASS  KU509998  mat_peptide  NS2B               8  1  1  4192   4623  4232   4663    432  +  no  0.975  0.975  no  no
+584.9.1   gi|1196819759|gb|MF098771.1|  10657  PASS  KU509998  mat_peptide  NS3                9  1  1  4624   6432  4664   6472   1809  +  no  0.975  0.975  no  no
+584.10.1  gi|1196819759|gb|MF098771.1|  10657  PASS  KU509998  mat_peptide  NS4A              10  1  1  6433   6873  6473   6913    441  +  no  0.975  0.975  no  no
+584.11.1  gi|1196819759|gb|MF098771.1|  10657  PASS  KU509998  mat_peptide  NS4B              11  1  1  6874   8379  6914   8419   1506  +  no  0.975  0.975  no  no
+584.12.1  gi|1196819759|gb|MF098771.1|  10657  PASS  KU509998  mat_peptide  NS5               12  1  1  8380  10335  8420  10375   1956  +  no  0.975  0.975  no  no
+#
+585.1.1   gi|1111251141|gb|KY241671.1|  10767  PASS  MG807646  CDS          polyprotein        1  1  1    92  10363   108  10379  10272  +  no  0.975  0.975  no  no
+#
+586.1.1   gi|1111251145|gb|KY241673.1|  10740  PASS  MG807646  CDS          polyprotein        1  1  1    92  10363   108  10379  10272  +  no  0.975  0.975  no  no
+#
+587.1.1   gi|1111251147|gb|KY241674.1|  10631  PASS  MG807646  CDS          polyprotein        1  1  1    40  10311   108  10379  10272  +  no  0.975  0.975  no  no
+#
+588.1.1   gi|1111251149|gb|KY241675.1|  10735  PASS  MG807646  CDS          polyprotein        1  1  1    92  10363   108  10379  10272  +  no  0.975  0.975  no  no
+#
+589.1.1   gi|1111251155|gb|KY241678.1|  10721  PASS  MG807646  CDS          polyprotein        1  1  1    80  10351   108  10379  10272  +  no  0.975  0.975  no  no
+#
+590.1.1   gi|1111251157|gb|KY241679.1|  10755  PASS  MG807646  CDS          polyprotein        1  1  1    92  10363   108  10379  10272  +  no  0.975  0.975  no  no
+#
+591.1.1   gi|1111251159|gb|KY241680.1|  10728  PASS  MG807646  CDS          polyprotein        1  1  1    80  10351   108  10379  10272  +  no  0.975  0.975  no  no
+#
+592.1.1   gi|1111251163|gb|KY241682.1|  10755  PASS  MG807646  CDS          polyprotein        1  1  1    92  10363   108  10379  10272  +  no  0.975  0.975  no  no
+#
+593.1.1   gi|1111251165|gb|KY241683.1|  10596  PASS  MG807646  CDS          polyprotein        1  1  1    21  10292   108  10379  10272  +  no  0.975  0.975  no  no
+#
+594.1.1   gi|1111251171|gb|KY241686.1|  10770  PASS  MG807646  CDS          polyprotein        1  1  1    92  10363   108  10379  10272  +  no  0.975  0.975  no  no
+#
+595.1.1   gi|1111251173|gb|KY241687.1|  10751  PASS  MG807646  CDS          polyprotein        1  1  1    91  10362   108  10379  10272  +  no  0.975  0.975  no  no
+#
+596.1.1   gi|1111251175|gb|KY241688.1|  10659  PASS  MG807646  CDS          polyprotein        1  1  1     1  10272   108  10379  10272  +  no  0.975  0.975  no  no
+#
+597.1.1   gi|1111251177|gb|KY241689.1|  10738  PASS  MG807646  CDS          polyprotein        1  1  1    92  10363   108  10379  10272  +  no  0.975  0.975  no  no
+#
+598.1.1   gi|1111251179|gb|KY241690.1|  10756  PASS  MG807646  CDS          polyprotein        1  1  1    92  10363   108  10379  10272  +  no  0.975  0.975  no  no
+#
+599.1.1   gi|1111251181|gb|KY241691.1|  10734  PASS  MG807646  CDS          polyprotein        1  1  1    89  10360   108  10379  10272  +  no  0.975  0.975  no  no
+#
+600.1.1   gi|1111251183|gb|KY241692.1|  10716  PASS  MG807646  CDS          polyprotein        1  1  1    53  10324   108  10379  10272  +  no  0.975  0.975  no  no
+#
+601.1.1   gi|1111251189|gb|KY241695.1|  10770  PASS  MG807646  CDS          polyprotein        1  1  1    92  10363   108  10379  10272  +  no  0.975  0.975  no  no
+#
+602.1.1   gi|1111251191|gb|KY241696.1|  10769  PASS  MG807646  CDS          polyprotein        1  1  1    91  10362   108  10379  10272  +  no  0.975  0.975  no  no
+#
+603.1.1   gi|1111251193|gb|KY241697.1|  10734  PASS  MG807646  CDS          polyprotein        1  1  1    84  10355   108  10379  10272  +  no  0.975  0.975  no  no
+#
+604.1.1   gi|1111251195|gb|KY241698.1|  10740  PASS  MG807646  CDS          polyprotein        1  1  1    92  10363   108  10379  10272  +  no  0.975  0.975  no  no
+#
+605.1.1   gi|1111251207|gb|KY241704.1|  10706  PASS  MG807646  CDS          polyprotein        1  1  1    90  10361   108  10379  10272  +  no  0.975  0.975  no  no
+#
+606.1.1   gi|1111251211|gb|KY241706.1|  10770  PASS  MG807646  CDS          polyprotein        1  1  1    92  10363   108  10379  10272  +  no  0.975  0.975  no  no
+#
+607.1.1   gi|1111251213|gb|KY241707.1|  10744  PASS  MG807646  CDS          polyprotein        1  1  1    92  10363   108  10379  10272  +  no  0.975  0.975  no  no
+#
+608.1.1   gi|1111251225|gb|KY241713.1|  10765  PASS  MG807646  CDS          polyprotein        1  1  1    92  10363   108  10379  10272  +  no  0.975  0.975  no  no

@@ -1,0 +1,34 @@
+= gi|2104438258|gb|OK054476.1|    10768 Zika virus isolate ZIKV/Homo_Sapiens/NIC/7514_CHB3150/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438260|gb|OK054477.1|    10768 Zika virus isolate ZIKV/Homo_Sapiens/NIC/7543_CZB152/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438262|gb|OK054478.1|    10746 Zika virus isolate ZIKV/Homo_Sapiens/NIC/6228_CZB222/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438264|gb|OK054479.1|    10744 Zika virus isolate ZIKV/Homo_Sapiens/NIC/6253_CZB221/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438268|gb|OK054481.1|    10767 Zika virus isolate ZIKV/Homo_Sapiens/NIC/6697_CZH230/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438270|gb|OK054482.1|    10767 Zika virus isolate ZIKV/Homo_Sapiens/NIC/6739_CZB164/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438272|gb|OK054483.1|    10780 Zika virus isolate ZIKV/Homo_Sapiens/NIC/7502_CHB3148/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438274|gb|OK054484.1|    10776 Zika virus isolate ZIKV/Homo_Sapiens/NIC/8376_CZB190/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438276|gb|OK054485.1|    10775 Zika virus isolate ZIKV/Homo_Sapiens/NIC/9172_CZB201/2016 polyprotein (POLY) gene, complete cds
+= gi|2104438278|gb|OK054486.1|    10759 Zika virus isolate ZIKV/Homo_Sapiens/NIC/9275_CZB212/2016 polyprotein (POLY) gene, complete cds
+= gi|2099615427|gb|OK054351.1|    10748 Zika virus isolate 211784, complete genome
+= gi|2713917340|gb|MT377491.2|    10652 Zika virus isolate MU-DMSC-1/2017, complete genome
+= gi|1847502717|gb|MT377492.1|    10619 Zika virus isolate MU-DMSC-1/2016, complete genome
+= gi|2713917342|gb|MT377493.2|    10675 Zika virus isolate MU-DMSC-2/2017, complete genome
+= gi|1847502721|gb|MT377494.1|    10736 Zika virus isolate MU-DMSC-3/2017, complete genome
+= gi|2713917344|gb|MT377495.2|    10714 Zika virus isolate MU-DMSC-4/2017, complete genome
+= gi|2713917346|gb|MT377496.2|    10754 Zika virus isolate MU-DMSC-2/2016, complete genome
+= gi|1847502727|gb|MT377497.1|    10602 Zika virus isolate MU-DMSC-3/2016, complete genome
+= gi|1847502729|gb|MT377498.1|    10610 Zika virus isolate MU-DMSC-4/2016, complete genome
+= gi|2713917348|gb|MT377499.2|    10729 Zika virus isolate MU-DMSC-5/2016, complete genome
+= gi|2713917350|gb|MT377500.2|    10764 Zika virus isolate MU-DMSC-6/2016, complete genome
+= gi|2713917352|gb|MT377501.2|    10579 Zika virus isolate MU-DMSC-5/2017, complete genome
+= gi|1847502737|gb|MT377502.1|    10770 Zika virus isolate NS-274/2006, complete genome
+= gi|1847502739|gb|MT377503.1|    10607 Zika virus isolate 15-1144, complete genome
+= gi|1847502741|gb|MT377504.1|    10603 Zika virus isolate NS-110/2006, complete genome
+= gi|2041343258|gb|MZ008356.1|    10686 Zika virus isolate ZIKV/Homo_sapiens/Cambodia/2019/SZ1901, complete genome
+= gi|2030207736|gb|MW915411.1|    10661 Zika virus isolate 3015 polyprotein gene, complete cds
+Format:              FASTA
+Alphabet type:       DNA
+Number of sequences: 27
+Total # residues:    289159
+Smallest:            10579
+Largest:             10780
+Average length:      10709.6

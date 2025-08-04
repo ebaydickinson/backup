@@ -1,0 +1,50 @@
+KU509998 10807
+gi|1137166679|gb|KY441401.1| 10662 72 10733
+gi|1137166681|gb|KY441402.1| 10662 76 10738
+gi|1137166683|gb|KY441403.1| 10623 78 10701
+gi|1252309643|gb|MF988734.1| 10415 78 10492
+gi|1110839968|gb|KY120352.1| 10272 107 10378
+gi|1110839970|gb|KY120353.1| 10272 107 10378
+gi|1305211520|gb|MG494697.1| 10666 37 10701  77 42 1
+gi|998491032|gb|KU729218.1| 10729 15 10742  79 66 1
+gi|1041521228|gb|KX447518.1| 9146 24 9168  77 55 1
+gi|1041521230|gb|KX447519.1| 9142 24 9164  77 55 1
+gi|1041521232|gb|KX447520.1| 9725 24 9747  77 55 1
+gi|1041521234|gb|KX447521.1| 9358 24 9380  77 55 1
+gi|1151098826|dbj|LC219720.1| 10696 22 10716  77 57 1
+gi|1276740300|dbj|LC331561.1| 10668 89 10756
+gi|1240176742|gb|MF099651.1| 10260 107 10366
+gi|1248249959|gb|MF801377.1| 10356 291 10646
+gi|1248249961|gb|MF801378.1| 10722 17 10737  79 64 1
+gi|1248249965|gb|MF801380.1| 10665 17 10680  159 144 1
+gi|1248249967|gb|MF801381.1| 10693 17 10708  69 54 1
+gi|1248249969|gb|MF801382.1| 10305 400 10704
+gi|1248249971|gb|MF801383.1| 10554 135 10688
+gi|1248249973|gb|MF801384.1| 10622 67 10687  77 12 1
+gi|1248249975|gb|MF801385.1| 10685 33 10716  77 46 1
+gi|1248249977|gb|MF801386.1| 10628 61 10687  77 18 1
+gi|1248249979|gb|MF801387.1| 10682 17 10697  79 64 1
+gi|1248249983|gb|MF801389.1| 10672 17 10687  79 64 1
+//
+# Insert information file created by cmalign.
+# This file includes 2+<nseq> non-'#' pre-fixed lines per model used for alignment,
+# where <nseq> is the number of sequences in the target file.
+# The first non-'#' prefixed line per model includes 2 tokens, separated by a single space (' '):
+# The first token is the model name and the second is the consensus length of the model (<clen>).
+# The following <nseq> lines include (4+3*<n>) whitespace delimited tokens per line.
+# The format for these <nseq> lines is:
+#   <seqname> <seqlen> <spos> <epos> <c_1> <u_1> <i_1> <c_2> <u_2> <i_2> .... <c_x> <u_x> <i_x> .... <c_n> <u_n> <i_n>
+#   indicating <seqname> has >= 1 inserted residues after <n> different consensus positions,
+#   <seqname> is the name of the sequence
+#   <seqlen>  is the unaligned length of the sequence
+#   <spos>    is the first (5'-most) consensus position filled by a nongap for this sequence (-1 if 0 nongap consensus posns)
+#   <epos>    is the final (3'-most) consensus position filled by a nongap for this sequence (-1 if 0 nongap consensus posns)
+#   <c_x> is a consensus position (between 0 and <clen>; if 0: inserts before 1st consensus posn)
+#   <u_x> is the *unaligned* position (b/t 1 and <seqlen>) in <seqname> of the first inserted residue after <c_x>.
+#   <i_x> is the number of inserted residues after position <c_x> for <seqname>.
+# Lines for sequences with 0 inserted residues will include only <seqname> <seqlen> <spos> <epos>.
+# The final non-'#' prefixed line per model includes only '//', indicating the end of info for a model.
+#
+KU509998 10807
+gi|1168020439|gb|KY766069.1| 11155 9 10807  62 52 1  79 70 1  10807 10798 358
+//

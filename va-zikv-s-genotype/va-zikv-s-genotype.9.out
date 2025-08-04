@@ -1,0 +1,95 @@
+# v-annotate.pl :: classify and annotate sequences using a model library
+# VADR 1.6.4 (Jun 2024)
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# date:              Tue Mar 18 12:00:50 2025
+# $VADRBIOEASELDIR:  /home/dickinsoneb/vadr_files/Bio-Easel
+# $VADRBLASTDIR:     /home/dickinsoneb/vadr_files/ncbi-blast/bin
+# $VADREASELDIR:     /home/dickinsoneb/vadr_files/infernal/binaries
+# $VADRINFERNALDIR:  /home/dickinsoneb/vadr_files/infernal/binaries
+# $VADRMODELDIR:     /home/dickinsoneb/vadr_files/vadr-models-calici
+# $VADRSCRIPTSDIR:   /home/dickinsoneb/vadr_files/vadr
+#
+# sequence file:                                                                  va-zikv-s-genotype/va-zikv-s-genotype.vadr.in.fa.9
+# output directory:                                                               va-zikv-s-genotype/va-zikv-s-genotype.9
+# force directory overwrite:                                                      yes [-f]
+# leaving intermediate files on disk:                                             yes [--keep]
+# .cm, .minfo, blastn .fa files in $VADRMODELDIR start with key <s>, not 'vadr':  zikv [--mkey]
+# model files are in directory <s>, not in $VADRMODELDIR:                         zikv-genotype-models2 [--mdir]
+# use top-scoring HSP from blastn to seed the alignment:                          yes [-s]
+# replace stretches of Ns with expected nts, where possible:                      yes [-r]
+# start sequence indexing at <n> in tabular output files:                         220 [--sidx]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Validating input                                                                        ... done. [    0.0 seconds]
+# Preprocessing for N replacement: blastn classification (28 seqs)                        ... done. [    1.8 seconds]
+# Preprocessing for N replacement: coverage determination from blastn results (28 seqs)   ... done. [    0.0 seconds]
+# Replacing Ns based on results of blastn-based pre-processing                            ... done. [    0.0 seconds]
+# Classifying sequences with blastn (28 seqs)                                             ... done. [    1.9 seconds]
+# Determining sequence coverage from blastn results (28 seqs)                             ... done. [    0.0 seconds]
+# Aligning sequences (KU509998: 6 seqs)                                                   ... done. [    0.6 seconds]
+# Joining alignments from cmalign and blastn for model KU509998 (28 seqs)                 ... done. [    0.2 seconds]
+# Determining annotation                                                                  ... done. [    1.1 seconds]
+# Validating proteins with blastx (KU509998: 28 seqs)                                     ... done. [    1.6 seconds]
+# Generating feature table output                                                         ... done. [    0.0 seconds]
+# Generating tabular output                                                               ... done. [    0.0 seconds]
+#
+# Summary of classified sequences:
+#
+1  KU509998  ZIKV  ZB.2-american  28  28  0
+#  --------  ----  -------------  --  --
+-  *all*     -     -              28  28  0
+-  *none*    -     -               0   0  0
+#  --------  ----  -------------  --  --
+#
+# Summary of reported alerts:
+#
+1  indfclas  no  INDEFINITE_CLASSIFICATION   sequence   1  1  low score difference between best overall model and second best model (not in best model's subgroup)
+2  ambgnt5f  no  AMBIGUITY_AT_FEATURE_START   feature  15  8  first nucleotide of non-CDS feature is an ambiguous nucleotide
+3  ambgnt3f  no  AMBIGUITY_AT_FEATURE_END     feature  14  9  final nucleotide of non-CDS feature is an ambiguous nucleotide
+#  --------  --  --------------------------  --------  --  -
+#
+# Output printed to screen saved in:                                        va-zikv-s-genotype.9.vadr.log
+# List of executed commands saved in:                                       va-zikv-s-genotype.9.vadr.cmd
+# List and description of all output files saved in:                        va-zikv-s-genotype.9.vadr.filelist
+# copy of input fasta file saved in:                                        va-zikv-s-genotype.9.vadr.in.fa
+# copy of input fasta file with descriptions removed for blastn saved in:   va-zikv-s-genotype.9.vadr.blastn.fa
+# esl-seqstat -a output for input fasta file saved in:                      va-zikv-s-genotype.9.vadr.seqstat
+# model KU509998 feature CDS#1 predicted seqs saved in:                     va-zikv-s-genotype.9.vadr.KU509998.CDS.1.fa
+# model KU509998 feature mat_peptide#1 predicted seqs saved in:             va-zikv-s-genotype.9.vadr.KU509998.mat_peptide.1.fa
+# model KU509998 feature mat_peptide#2 predicted seqs saved in:             va-zikv-s-genotype.9.vadr.KU509998.mat_peptide.2.fa
+# model KU509998 feature mat_peptide#3 predicted seqs saved in:             va-zikv-s-genotype.9.vadr.KU509998.mat_peptide.3.fa
+# model KU509998 feature mat_peptide#4 predicted seqs saved in:             va-zikv-s-genotype.9.vadr.KU509998.mat_peptide.4.fa
+# model KU509998 feature mat_peptide#5 predicted seqs saved in:             va-zikv-s-genotype.9.vadr.KU509998.mat_peptide.5.fa
+# model KU509998 feature mat_peptide#6 predicted seqs saved in:             va-zikv-s-genotype.9.vadr.KU509998.mat_peptide.6.fa
+# model KU509998 feature mat_peptide#7 predicted seqs saved in:             va-zikv-s-genotype.9.vadr.KU509998.mat_peptide.7.fa
+# model KU509998 feature mat_peptide#8 predicted seqs saved in:             va-zikv-s-genotype.9.vadr.KU509998.mat_peptide.8.fa
+# model KU509998 feature mat_peptide#9 predicted seqs saved in:             va-zikv-s-genotype.9.vadr.KU509998.mat_peptide.9.fa
+# model KU509998 feature mat_peptide#10 predicted seqs saved in:            va-zikv-s-genotype.9.vadr.KU509998.mat_peptide.10.fa
+# model KU509998 feature mat_peptide#11 predicted seqs saved in:            va-zikv-s-genotype.9.vadr.KU509998.mat_peptide.11.fa
+# model KU509998 replaced sequence alignment (stockholm) saved in:          va-zikv-s-genotype.9.vadr.KU509998.align.rpstk
+# model KU509998 full original sequence alignment (stockholm) saved in:     va-zikv-s-genotype.9.vadr.KU509998.align.stk
+# model KU509998 full replaced sequence alignment (afa) saved in:           va-zikv-s-genotype.9.vadr.KU509998.align.rpafa
+# model KU509998 full original sequence alignment (afa) saved in:           va-zikv-s-genotype.9.vadr.KU509998.align.afa
+# 5 column feature table output for passing sequences saved in:             va-zikv-s-genotype.9.vadr.pass.tbl
+# 5 column feature table output for failing sequences saved in:             va-zikv-s-genotype.9.vadr.fail.tbl
+# list of passing sequences saved in:                                       va-zikv-s-genotype.9.vadr.pass.list
+# list of failing sequences saved in:                                       va-zikv-s-genotype.9.vadr.fail.list
+# list of alerts in the feature tables saved in:                            va-zikv-s-genotype.9.vadr.alt.list
+# fasta file with passing sequences saved in:                               va-zikv-s-genotype.9.vadr.pass.fa
+# fasta file with failing sequences saved in:                               va-zikv-s-genotype.9.vadr.fail.fa
+# per-sequence tabular annotation summary file saved in:                    va-zikv-s-genotype.9.vadr.sqa
+# per-sequence tabular classification summary file saved in:                va-zikv-s-genotype.9.vadr.sqc
+# per-feature tabular summary file saved in:                                va-zikv-s-genotype.9.vadr.ftr
+# per-model-segment tabular summary file saved in:                          va-zikv-s-genotype.9.vadr.sgm
+# per-model tabular summary file saved in:                                  va-zikv-s-genotype.9.vadr.mdl
+# per-alert tabular summary file saved in:                                  va-zikv-s-genotype.9.vadr.alt
+# alert count tabular summary file saved in:                                va-zikv-s-genotype.9.vadr.alc
+# alignment doctoring tabular summary file saved in:                        va-zikv-s-genotype.9.vadr.dcr
+# seed alignment summary file (-s) saved in:                                va-zikv-s-genotype.9.vadr.sda
+# replaced stretches of Ns summary file (-r) saved in:                      va-zikv-s-genotype.9.vadr.rpn
+#
+# All output files created in directory ./va-zikv-s-genotype/va-zikv-s-genotype.9/
+#
+# Elapsed time:  00:00:07.26
+#                hh:mm:ss
+# 
+[ok]

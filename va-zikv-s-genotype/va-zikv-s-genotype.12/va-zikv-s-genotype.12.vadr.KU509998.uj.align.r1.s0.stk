@@ -1,0 +1,280 @@
+# STOCKHOLM 1.0
+#=GF AU Infernal 1.1.5
+
+#=GS gi|1489376832|gb|MK028862.1| DE Zika virus isolate Zika virus/H.sapiens-tc/Cambodia/2010/FSS13025 polyprotein gene, partial cds
+
+gi|1489376832|gb|MK028862.1|         ---------------TGGCTCAGACTGCGACAGTTCGAGTTTGAAGCGAAAGCTAGCAACAGTATCAACAGGTTTTATTtTGGATTTGGAAACGAGAGTTTCTGGTCATGAAAAACCCAAAGAAGAAATCCGGAGGATTCCGGATTGTCAATATGCTAAAACGCGGAGTAGCCCGTGTGAGCCCCTTTGGGGGCTTGAAG
+#=GR gi|1489376832|gb|MK028862.1| PP ...............************************************************************99752799*********************************************************************************************************************
+#=GC SS_cons                         :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              AGUUGUUACUGUUGCUGACUCAGACUGCGACAGUUCGAGUUUGAAGCGAAAGCUAGCAACAGUAUCAACAGGUUUUAUU.UGGAUUUGGAAACGAGAGUUUCUGGUCAUGAAAAACCCAAAAAAGAAAUCCGGAGGAUUCCGGAUUGUCAAUAUGCUAAAACGCGGAGUAGCCCGUGUGAGCCCCUUUGGGGGCUUGAAG
+
+gi|1489376832|gb|MK028862.1|         AGGCTGCCAGCCGGACTTCTGCTGGGTCATGGGCCCATCAGGATGGTCTTGGCGATTCTAGCCTTTTTGAGATTCACGGCAATCAAGCCATCACTGGGTCTCATCAATAGATGGGGTTCAGTGGGGAAAAAAGAGGCTATGGAAATAATAAAGAAGTTTAAGAAAGATCTGGCTGCCATGCTGAGAATAATCAATGCTAG
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              AGGCUGCCAGCCGGACUUCUGCUGGGUCAUGGGCCCAUCAGGAUGGUCUUGGCAAUUCUAGCCUUUUUGAGAUUCACGGCAAUCAAGCCAUCACUGGGUCUCAUCAAUAGAUGGGGUUCAGUGGGGAAAAAAGAGGCUAUGGAAAUAAUAAAGAAGUUCAAGAAAGAUCUGGCUGCCAUGCUGAGAAUAAUCAAUGCUAG
+
+gi|1489376832|gb|MK028862.1|         GAAGGAGAAGAAGAGACGAGGCACAGATACTAGTGTCGGAATTGTTGGCCTCCTGCTGACCACAGCCATGGCAGTGGAGGTCACTAGACGTGGGAATGCATACTATATGTACTTGGACAGAAGCGATGCTGGGGAGGCCATATCTTTTCCAACCACAATGGGGATGAATAAGTGTTATATACAGATCATGGATCTTGGAC
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              GAAGGAGAAGAAGAGACGAGGCGCAGAUACUAGUGUCGGAAUUGUUGGCCUCCUGCUGACCACAGCUAUGGCAGCGGAGGUCACUAGACGUGGGAGUGCAUACUAUAUGUACUUGGACAGAAACGAUGCUGGGGAGGCCAUAUCUUUUCCAACCACAUUGGGGAUGAAUAAGUGUUAUAUACAGAUCAUGGAUCUUGGAC
+
+gi|1489376832|gb|MK028862.1|         ACATGTGTGATGCCACCATGAGCTATGAATGCCCTATGCTGGATGAGGGGGTAGAACCAGATGACGTCGATTGTTGGTGCAACACGACGTCAACTTGGGTTGTGTACGGAACCTGCCACCACAAAAAAGGTGAAGCACGGAGATCTAGAAGAGCTGTGACGCTCCCCTCCCATTCCACTAGGAAGCTGCAAACGCGGTCG
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              ACAUGUGUGAUGCCACCAUGAGCUAUGAAUGCCCUAUGCUGGAUGAGGGGGUGGAACCAGAUGACGUCGAUUGUUGGUGCAACACGACGUCAACUUGGGUUGUGUACGGAACCUGCCAUCACAAAAAAGGUGAAGCACGGAGAUCUAGAAGAGCUGUGACGCUCCCCUCCCAUUCCACUAGGAAGCUGCAAACGCGGUCG
+
+gi|1489376832|gb|MK028862.1|         CAGACCTGGTTGGAATCAAGAGAATACACAAAGCACCTGATTAGAGTCGAAAATTGGATATTCAGGAACCCTGGCTTCGCGTTAGCAGCAGCTGCCATCGCTTGGCTTTTGGGAAGCTCAACGAGCCAAAAAGTCATATACTTGGTCATGATACTGCTGATTGCCCCGGCATACAGCATCAGGTGCATAGGAGTCAGCAA
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              CAAACCUGGUUGGAAUCAAGAGAAUACACAAAGCACUUGAUUAGAGUCGAAAAUUGGAUAUUCAGGAACCCUGGCUUCGCGUUAGCAGCAGCUGCCAUCGCUUGGCUUUUGGGAAGCUCAACGAGCCAAAAAGUCAUAUACUUGGUCAUGAUACUGCUGAUUGCCCCGGCAUACAGCAUCAGGUGCAUAGGAGUCAGCAA
+
+gi|1489376832|gb|MK028862.1|         TAGGGACTTTGTGGAAGGTATGTCAGGTGGGACTTGGGTTGATGTTGTCTTGGAACATGGAGGTTGTGTTACCGTAATGGCACAGGACAAACCGACTGTCGACATAGAGCTGGTTACAACAACAGTCAGCAACATGGCGGAGGTAAGATCCTACTGCTATGAGGCATCAATATCGGACATGGCTTCGGACAGCCGCTGCC
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              UAGGGACUUUGUGGAAGGUAUGUCAGGUGGGACUUGGGUUGAUGUUGUCUUGGAACAUGGAGGUUGUGUCACCGUAAUGGCACAGGACAAACCGACUGUCGACAUAGAGCUGGUUACAACAACAGUCAGCAACAUGGCGGAGGUAAGAUCCUACUGCUAUGAGGCAUCAAUAUCAGACAUGGCUUCGGACAGCCGCUGCC
+
+gi|1489376832|gb|MK028862.1|         CAACACAAGGTGAAGCCTACCTTGACAAGCAATCAGACACTCAATATGTCTGCAAAAGAACGTTAGTGGACAGAGGCTGGGGAAATGGATGTGGACTTTTTGGCAAAGGGAGCCTGGTGACATGCGCTAAGTTTGCTTGCTCTAAGAAAATGACCGGGAAGAGCATCCAGCCAGAGAATCTGGAGTACCGGATAATGCTG
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              CAACACAAGGUGAAGCCUACCUUGACAAGCAAUCAGACACUCAAUAUGUCUGCAAAAGAACGUUAGUGGACAGAGGCUGGGGAAAUGGAUGUGGACUUUUUGGCAAAGGGAGUCUGGUGACAUGCGCUAAGUUUGCAUGCUCCAAGAAAAUGACCGGGAAGAGCAUCCAGCCAGAGAAUCUGGAGUACCGGAUAAUGCUG
+
+gi|1489376832|gb|MK028862.1|         TCAGTTCATGGCTCCCAGCACAGTGGGATGATCGTTAATGATACAGGACATGAAACTGATGAGAATAGAGCGAAGGTTGAGATAACGCCCAATTCACCAAGAGCCGAAGCCACCCTGGGGGGTTTTGGAAGCCTAGGACTTGATTGTGAACCGAGGACAGGCCTTGACTTTTCAGATTTGTATTACTTGACTATGAATAA
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              UCAGUUCAUGGCUCCCAGCACAGUGGGAUGAUCGUUAAUGACACAGGACAUGAAACUGAUGAGAAUAGAGCGAAGGUUGAGAUAACGCCCAAUUCACCAAGAGCCGAAGCCACCCUGGGGGGUUUUGGAAGCCUAGGACUUGAUUGUGAACCGAGGACAGGCCUUGACUUUUCAGAUUUGUAUUACUUGACUAUGAAUAA
+
+gi|1489376832|gb|MK028862.1|         CAAGCACTGGTTGGTTCACAAGGAGTGGTTCCACGACATTCCATTACCTTGGCATGCTGGGGCAGACACCGGAACTCCACACTGGAACAACAAAGAAGCACTGGTAGAGTTCAAGGACGCACATGCCAAAAGGCAGACTGTCGTGGTTCTAGGGAGTCAAGAAGGAGCAGTTCACACGGCCCTTGCTGGAGCTCTGGAGG
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              CAAGCACUGGUUGGUUCACAAGGAGUGGUUCCACGACAUUCCAUUACCUUGGCACGCUGGGGCAGACACCGGAACUCCACACUGGAACAACAAAGAAGCACUGGUAGAGUUCAAGGACGCACAUGCCAAAAGGCAAACUGUCGUGGUUCUAGGGAGUCAAGAAGGAGCAGUUCACACGGCCCUUGCUGGAGCUCUGGAGG
+
+gi|1489376832|gb|MK028862.1|         CTGAGATGGATGGTGCAAAGGGAAGGCTGTCCTCTGGCCACTTGAAATGTCGCCTGAAAATGGATAAACTTAGATTGAAGGGCGTGTCATACTCCTTGTGTACCGCAGCGTTCACATTCACTAAGATCCCGGCTGAAACACTGCACGGGACAGTCACAGTGGAGGTACAGTACGCAGGGACAGATGGACCTTGCAAGGTT
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              CUGAGAUGGAUGGUGCAAAGGGAAGGCUGUCCUCUGGCCACUUGAAAUGUCGCCUGAAAAUGGAUAAACUUAGAUUGAAGGGCGUGUCAUACUCCUUGUGUACCGCAGCGUUCACAUUCACCAAGAUCCCGGCUGAAACACUGCACGGGACAGUCACAGUGGAGGUACAGUACGCAGGGACAGAUGGACCUUGCAAGGUU
+
+gi|1489376832|gb|MK028862.1|         CCAGCTCAGATGGCGGTGGACATGCAAACTCTGACCCCAGTTGGGAGGTTGATAACCGCTAACCCTGTAATCACTGAAAGCACTGAGAACTCCAAGATGATGCTGGAACTGGATCCACCATTTGGGGACTCTTACATTGTCATAGGAGTCGGGGAAAAGAAGATCACCCACCACTGGCACAGGAGTGGCAGCACCATT--
+#=GR gi|1489376832|gb|MK028862.1| PP ***************************************************************************************************************************************************************************************************987..
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              CCAGCUCAGAUGGCGGUGGACAUGCAAACUCUGACCCCAGUUGGGAGGUUGAUAACCGCUAACCCCGUAAUCACUGAAAGCACUGAGAACUCUAAGAUGAUGCUGGAACUUGAUCCACCAUUUGGGGACUCUUACAUUGUCAUAGGAGUCGGGGAGAAGAAGAUCACCCACCACUGGCACAGGAGUGGCAGCACCAUUGG
+
+gi|1489376832|gb|MK028862.1|         ----------------------------------------GCAGTCTTGGGAGACACAGCCTGGGACTTTGGATCAGTTGGGGGTGCTCTCAACTCACTGGGCAAGGGCATCCATCAAATTTTTGGAGCAGCTTTCAAATCATTGTTTGGAGGAATGTCCTGGTTCTCACAAATTCTCATTGGAACGTTGCTGGTGTGGT
+#=GR gi|1489376832|gb|MK028862.1| PP ........................................589*************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              AAAAGCAUUUGAAGCCACUGUGAGAGGUGCCAAGAGAAUGGCAGUCUUGGGAGACACAGCCUGGGACUUUGGAUCAGUUGGAGGCGCUCUCAACUCAUUGGGCAAGGGCAUCCAUCAAAUUUUUGGAGCAGCUUUCAAAUCAUUGUUUGGAGGAAUGUCCUGGUUCUCACAAAUUCUCAUUGGAACGUUGCUGAUGUGGU
+
+gi|1489376832|gb|MK028862.1|         TGGGTCTGAATACAAAGAATGGATCTATTTCCCTTATGTGCTTGGCCTTAGGGGGAGTGTTGATCTTCTTATCCACAGCCGTCTCTGCTGATGTGGGGTGCTCGGTGGACTTCTCAAAGAAGGAAACGAGATGCGGTACAGGGGTGTTCGTCTATAACGACGTTGAAGCTTGGAGGGACAGGTACAAGTACCATCCTGAC
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              UGGGUCUGAACACAAAGAAUGGAUCUAUUUCCCUUAUGUGCUUGGCCUUAGGGGGAGUGUUGAUCUUCUUAUCCACAGCCGUCUCUGCUGAUGUGGGGUGCUCGGUGGACUUCUCAAAGAAGGAGACGAGAUGCGGUACAGGGGUGUUCGUCUAUAACGACGUUGAAGCCUGGAGGGACAGGUACAAGUACCAUCCUGAC
+
+gi|1489376832|gb|MK028862.1|         TCCCCTCGTAGATTGGCAGCAGCAGTCAAGCAAGCCTGGGAAGATGGGATCTGTGGGATCTCCTCTGTTTCAAGAATGGAAAACATCATGTGGAGATCAGTAGAAGGGGAGCTCAACGCAATCCTGGAAGAGAATGGAGTTCAACTGACGGTCGTTGTGGGATCTGTAAAAAACCCCATGTGGAGAGGTCCACAGAGATT
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              UCCCCCCGUAGAUUGGCAGCAGCAGUCAAGCAAGCCUGGGAAGAUGGUAUCUGCGGGAUCUCCUCUGUUUCAAGAAUGGAAAACAUCAUGUGGAGAUCAGUAGAAGGGGAGCUCAACGCAAUCCUGGAAGAGAAUGGAGUUCAACUGACGGUCGUUGUGGGAUCUGUAAAAAACCCCAUGUGGAGAGGUCCACAGAGAUU
+
+gi|1489376832|gb|MK028862.1|         GCCCGTGCCTGTGAACGAGCTGCCCCATGGCTGGAAGGCTTGGGGGAAATCGTACTTCGTCAGGGCAGCAAAGACAAATAACAGCTTTGTCGTGGATGGTGACACACTGAAGGAATGCCCACTCAAACATAGAGCATGGAACAGCTTTCTTGTGGAGGATCATGGGTTCGGGGTATTTCACACTAGTGTCTGGCTCAAGG
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              GCCCGUGCCUGUGAACGAGCUGCCCCACGGCUGGAAGGCUUGGGGGAAAUCGCACUUCGUCAGAGCAGCAAAGACAAAUAACAGCUUUGUCGUGGAUGGUGACACACUGAAGGAAUGCCCACUCAAACAUAGAGCAUGGAACAGCUUUCUUGUGGAGGAUCAUGGGUUCGGGGUAUUUCACACUAGUGUCUGGCUCAAGG
+
+gi|1489376832|gb|MK028862.1|         TTAGAGAAGATTATTCATTAGAGTGTGATCCAGCCGTCATTGGAACAGCCGCTAAGGGAAAGGAGGCTGTGCACAGTGATCTAGGCTACTGGATTGAGAGTGAGAAGAACGACACATGGAGGCTGAAGAGGGCCCACCTGATCGAGATGAAAACATGTGAATGGCCAAAGTCCCACACATTGTGGACAGATGGAATAGAA
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              UUAGAGAAGAUUAUUCAUUAGAGUGUGAUCCAGCCGUUAUUGGAACAGCUGUUAAGGGAAAGGAGGCUGUACACAGUGAUCUAGGCUACUGGAUUGAGAGUGAGAAGAAUGACACAUGGAGGCUGAAGAGGGCCCAUCUGAUCGAGAUGAAAACAUGUGAAUGGCCAAAGUCCCACACAUUGUGGACAGAUGGAAUAGAA
+
+gi|1489376832|gb|MK028862.1|         GAAAGTGATCTGATCATACCCAAGTCTTTAGCTGGGCCACTCAGCCATCACAACACCAGAGAGGGCTACAGGACCCAAATGGAAGGGCCATGGCATAGTGAAGAGCTTGAAATTCGGTTTGAGGAATGCCCAGGCACTAAGGTCCACGTGGAGGAAACATGTGGAACAAGAGGACCATCTCTGAGATCAACCACTGCAAG
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              GAGAGUGAUCUGAUCAUACCCAAGUCUUUAGCUGGGCCACUCAGCCAUCACAAUACCAGAGAGGGCUACAGGACCCAAAUGAAAGGGCCAUGGCACAGUGAAGAGCUUGAAAUUCGGUUUGAGGAAUGCCCAGGCACUAAGGUCCACGUGGAGGAAACAUGUGGAACAAGAGGACCAUCUCUGAGAUCAACCACUGCAAG
+
+gi|1489376832|gb|MK028862.1|         CGGAAGGGTGATCGAGGAATGGTGCTGCAGGGAGTGCACAATGCCCCCACTGTCGTTCCGGGCTAAAGATGGTTGTTGGTATGGAATGGAGATAAGGCCCAGGAAAGAACCAGAAAGTAACTTAGTAAGGTCAATGGTGACTGCAGGATCAACTGATCACATGGATCACTTCTCCCTTGGAGTGCTTGTGATTCTGCTCA
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              CGGAAGGGUGAUCGAGGAAUGGUGCUGCAGGGAGUGCACAAUGCCCCCACUGUCGUUCCGGGCUAAAGAUGGCUGUUGGUAUGGAAUGGAGAUAAGGCCCAGGAAAGAACCAGAAAGCAACUUAGUAAGGUCAAUGGUGACUGCAGGAUCAACUGAUCACAUGGAUCACUUCUCCCUUGGAGUGCUUGUGAUUCUGCUCA
+
+gi|1489376832|gb|MK028862.1|         TGGTACAGGAAGGGCTAAAGAAGAGAATGACCACAAAGATCATCATAAGCACATCAATGGCAGTGCTGGTAGCTATGATCCTGGGAGGATTTTCAATGAGTGACCTGGCTAAGCTTGCAATTTTGATGGGTGCCACCTTCGCGGAAATGAACACTGGAGGAGATGTTGCTCATCTGGCGCTGATAGCGGCATTCAAAGTC
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              UGGUGCAGGAAGGGCUGAAGAAGAGAAUGACCACAAAGAUCAUCAUAAGCACAUCAAUGGCAGUGCUGGUAGCUAUGAUCCUGGGAGGAUUUUCAAUGAGUGACCUGGCUAAGCUUGCAAUUUUGAUGGGUGCCACCUUCGCGGAAAUGAACACUGGAGGAGAUGUAGCUCAUCUGGCGCUGAUAGCGGCAUUCAAAGUC
+
+gi|1489376832|gb|MK028862.1|         AGACCTGCGTTGCTGGTATCTTTCATTTTCAGAGCTAATTGGACACCCCGTGAGAGCATGCTGCTGGCCTTGGCCTCGTGTCTTCTGCAAACTGCGATCTCCGCCTTGGAAGGCGACCTGATGGTTCCCATCAATGGTTTTGCTTTGGCCTGGTTGGCAATACGAGCGATGGTTGTTCCACGCACTGACAACATCACCTT
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              AGACCAGCGUUGCUGGUAUCUUUCAUCUUCAGAGCUAAUUGGACACCCCGUGAAAGCAUGCUGCUGGCCUUGGCCUCGUGUCUUUUGCAAACUGCGAUCUCCGCCUUGGAAGGCGACCUGAUGGUUCUCAUCAAUGGUUUUGCUUUGGCCUGGUUGGCAAUACGAGCGAUGGUUGUUCCACGCACUGAUAACAUCACCUU
+
+gi|1489376832|gb|MK028862.1|         GGCAATCCTGGCTGCTCTGACACCACTGGCCCGGGGCACACTGCTTGTGGCGTGGAGAGCAGGCCTTGCTACTTGCGGGGGGTTCATGCTCCTTTCTCTGAAGGGGAAAGGCAGTGTGAAGAAGAACTTACCATTTGTCATGGCCCTGGGACTAACCGCTGTGAGGCTGGTCGACCCCATCAACGTGGTGGGACTGCTGT
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              GGCAAUCCUGGCUGCUCUGACACCACUGGCCCGGGGCACACUGCUUGUGGCGUGGAGAGCAGGCCUUGCUACUUGCGGGGGGUUUAUGCUCCUCUCUCUGAAGGGAAAAGGCAGUGUGAAGAAGAACUUACCAUUUGUCAUGGCCCUGGGACUAACCGCUGUGAGGCUGGUCGACCCCAUCAACGUGGUGGGGCUGCUGU
+
+gi|1489376832|gb|MK028862.1|         TGCTCACAAGGAGTGGGAAGCGGAGCTGGCCCCCTAGTGAAGTACTCACAGCTGTTGGCCTGATATGCGCATTGGCTGGAGGGTTCGCCAAGGCGGATATAGAGATGGCTGGGCCCATGGCCGCGGTCGGTCTGCTAATTGTCAGTTACGTGGTCTCAGGAAAGAGTGTGGACATGTACATTGAAAGAGCAGGTGACATC
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              UGCUCACAAGGAGUGGGAAGCGGAGCUGGCCCCCUAGCGAAGUACUCACAGCUGUUGGCCUGAUAUGCGCAUUGGCUGGAGGGUUCGCCAAGGCAGAUAUAGAGAUGGCUGGGCCCAUGGCCGCGGUCGGUCUGCUAAUUGUCAGUUACGUGGUCUCAGGAAAGAGUGUGGACAUGUACAUUGAAAGAGCAGGUGACAUC
+
+gi|1489376832|gb|MK028862.1|         ACATGGGAAAAAGATGCGGAAGTCACTGGAAACAGTCCCCGGCTCGATGTGGCACTAGATGAGAGTGGTGATTTCTCCCTAGTGGAGGATGATGGTCCCCCCATGAGAGAGATCATACTCAAAGTGGTCCTGATGGCCATCTGTGGCATGAACCCAATAGCCATACCCTTTGCAGCTGGAGCGTGGTACGTGTATGTGAA
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              ACAUGGGAAAAAGAUGCGGAAGUCACUGGAAACAGUCCCCGGCUCGAUGUGGCGCUAGAUGAGAGUGGUGAUUUCUCCCUGGUGGAGGAUGACGGUCCCCCCAUGAGAGAGAUCAUACUCAAGGUGGUCCUGAUGACCAUCUGUGGCAUGAACCCAAUAGCCAUACCCUUUGCAGCUGGAGCGUGGUACGUAUACGUGAA
+
+gi|1489376832|gb|MK028862.1|         GACTGGAAAAAGGAGTGGTGCTCTATGGGATGTGCCTGCTCCCAAGGAAGTAAAAAAGGGGGAGACCACAGATGGAGTGTACAGAGTAATGACTCGTAGACTGCTAGGTTCAACACAAGTTGGAGTGGGAGTCATGCAAGAGGGGGTCTTCCACACTATGTGGCACGTCACAAAAGGATCCGCGCTGAGAAGCGGTGAAG
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              GACUGGAAAAAGGAGUGGUGCUCUAUGGGAUGUGCCUGCUCCCAAGGAAGUAAAAAAGGGGGAGACCACAGAUGGAGUGUACAGAGUAAUGACUCGUAGACUGCUAGGUUCAACACAAGUUGGAGUGGGAGUUAUGCAAGAGGGGGUCUUUCACACUAUGUGGCACGUCACAAAAGGAUCCGCGCUGAGAAGCGGUGAAG
+
+gi|1489376832|gb|MK028862.1|         GGAGACTTGATCCATACTGGGGAGATGTCAAGCAGGATCTGGTGTCATACTGTGGTCCATGGAAGCTAGATGCCGCCTGGGACGGGCACAGCGAGGTGCAGCTCTTGGCCGTGCCCCCCGGAGAGAGAGCGAGGAACATCCAGACTCTGCCCGGAATATTTAAGACAAAGGATGGGGACATTGGAGCAGTTGCGCTGGAC
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              GGAGACUUGAUCCAUACUGGGGAGAUGUCAAGCAGGAUCUGGUGUCAUACUGUGGUCCAUGGAAGCUAGAUGCCGCCUGGGACGGGCACAGCGAGGUGCAGCUCUUGGCCGUGCCCCCCGGAGAGAGAGCGAGGAACAUCCAGACUCUGCCCGGAAUAUUUAAGACAAAGGAUGGGGACAUUGGAGCGGUUGCGCUGGAU
+
+gi|1489376832|gb|MK028862.1|         TACCCAGCAGGAACTTCAGGATCTCCAATCCTAGATAAGTGTGGGAGAGTGATAGGACTCTATGGTAATGGGGTCGTGATCAAAAATGGGAGTTACGTTAGTGCCATCACCCAAGGGAGGAGGGAGGAAGAGACTCCTGTTGAGTGCTTCGAGCCTTCGATGCTGAAGAAGAAGCAGCTAACTGTCTTAGACTTGCATCC
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              UACCCAGCAGGAACUUCAGGAUCUCCAAUCCUAGACAAGUGUGGGAGAGUGAUAGGACUUUAUGGCAAUGGGGUCGUGAUCAAAAAUGGGAGUUAUGUUAGUGCCAUCACCCAAGGGAGGAGGGAGGAAGAGACUCCUGUUGAGUGCUUCGAGCCUUCGAUGCUGAAGAAGAAGCAGCUAACUGUCUUAGACUUGCAUCC
+
+gi|1489376832|gb|MK028862.1|         TGGAGCTGGGAAAACCAGGAGAGTTCTTCCTGAAATAGTCCGTGAAGCCATAAAAACAAGACTCCGCACTGTGATCTTAGCTCCAACCAGGGTTGTCGCTGCTGAAATGGAGGAAGCCCTTAGAGGGCTTCCAGTGCGTTATATGACAACAGCAGTCAATGTCACCCATTCTGGGACAGAAATCGTTGACTTAATGTGCC
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              UGGAGCUGGGAAAACCAGGAGAGUUCUUCCUGAAAUAGUCCGUGAAGCCAUAAAAACAAGACUCCGUACUGUGAUCUUAGCUCCAACCAGGGUUGUCGCUGCUGAAAUGGAGGAAGCCCUUAGAGGGCUUCCAGUGCGUUAUAUGACAACAGCAGUCAAUGUCACCCACUCUGGAACAGAAAUCGUCGACUUAAUGUGCC
+
+gi|1489376832|gb|MK028862.1|         ATGCCACCTTCACTTCACGTCTACTACAGCCAATCAGAGTCCCCAACTATAATCTGTATATTATGGATGAGGCCCACTTCACAGATCCCTCAAGTATAGCAGCAAGAGGATACATTTCAACAAGGGTTGAGATGGGCGAGGCGGCTGCCATCTTCATGACTGCCACGCCACCAGGAACCCGTGACGCATTCCCGGACTCC
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              AUGCCACCUUCACUUCACGUCUACUACAGCCAAUCAGAGUCCCCAACUAUAAUCUGUAUAUUAUGGAUGAGGCCCACUUCACAGAUCCCUCAAGUAUAGCAGCAAGAGGAUACAUUUCAACAAGGGUUGAGAUGGGCGAGGCGGCUGCCAUCUUCAUGACCGCCACGCCACCAGGAACCCGUGACGCAUUUCCGGACUCC
+
+gi|1489376832|gb|MK028862.1|         AACTCACCAATTATGGACACCGAAGTGGAAGTCCCAGAGAGAGCCTGGAGCTCAGGCTTTGATTGGGTGACGGATCATTCTGGAAAAACAGTTTGGTTTGTTCCAAGCGTGAGGAATGGCAATGAGATCGCAGCTTGTCTGACAAAGGCTGGAAAACGGGTCATACAGCTCAGCAGAAAGACTTTTGAGACAGAGTTCCA
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              AACUCACCAAUUAUGGACACCGAAGUGGAAGUCCCAGAGAGAGCCUGGAGCUCAGGCUUUGAUUGGGUGACGGAUUAUUCUGGAAAAACAGUUUGGUUUGUUCCAAGCGUGAGGAACGGCAAUGAGAUCGCAGCUUGUCUGACAAAGGCUGGAAAACGGGUCAUACAGCUCAGCAGAAAGACUUUUGAGACAGAGUUCCA
+
+gi|1489376832|gb|MK028862.1|         GAAAACAAAACATCAAGAGTGGGACTTCGTCGTGACAACTGACATTTCAGAGATGGGCGCCAACTTTAAAGCTGACCGTGTCATAGATTCCAGGAGATGCCTAAAGCCGGTCATACTTGATGGCGAGAGAGTCATTCTGGCTGGACCCATGCCTGTCACACATGCCAGCGCTGCCCAGAGGAGGGGGCGCATAGGCAGGA
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              GAAAACAAAACAUCAAGAGUGGGACUUUGUCGUGACAACUGACAUUUCAGAGAUGGGCGCCAACUUUAAAGCUGACCGUGUCAUAGAUUCCAGGAGAUGCCUAAAGCCGGUCAUACUUGAUGGCGAGAGAGUCAUUCUGGCUGGACCCAUGCCUGUCACACAUGCCAGCGCUGCCCAGAGGAGGGGGCGCAUAGGCAGGA
+
+gi|1489376832|gb|MK028862.1|         ACCCCAACAAACCTGGAGATGAGTATCTGTATGGAGGTGGGTGCGCAGAGACTGATGAAGACCATGCACACTGGCTTGAAGCAAGAATGCTTCTTGACAACATTTACCTCCAAGATGGCCTCATAGCCTCGCTCTATCGACCTGAGGCCGACAAAGTAGCAGCTATTGAGGGAGAGTTCAAGCTTAGGACGGAGCAAAGG
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              AUCCCAACAAACCUGGAGAUGAGUAUCUGUAUGGAGGUGGGUGCGCAGAGACUGACGAAGACCAUGCACACUGGCUUGAAGCAAGAAUGCUCCUUGACAAUAUUUACCUCCAAGAUGGCCUCAUAGCCUCGCUCUAUCGACCUGAGGCCGACAAAGUAGCAGCCAUUGAGGGAGAGUUCAAGCUUAGGACGGAGCAAAGG
+
+gi|1489376832|gb|MK028862.1|         AAGACCTTTGTGGAACTCATGAAAAGAGGAGATCTTCCTGTTTGGCTGGCCTATCAGGTTGCATCTGCCGGAATAACCTACACAGATAGAAGATGGTGCTTTGATGGCACGACCAACAACACCATAATGGAAGACAGTGTGCCGGCAGAGGTGTGGACCAGATACGGAGAGAAAAGAGTGCTCAAACCGAGGTGGATGGA
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              AAGACCUUUGUGGAACUCAUGAAAAGAGGAGAUCUUCCUGUUUGGCUGGCCUAUCAGGUUGCAUCUGCCGGAAUAACCUACACAGAUAGAAGAUGGUGCUUUGAUGGCACGACCAACAACACCAUAAUGGAAGACAGUGUGCCGGCAGAGGUGUGGACCAGACACGGAGAGAAAAGAGUGCUCAAACCGAGGUGGAUGGA
+
+gi|1489376832|gb|MK028862.1|         CGCCAGAGTTTGTTCAGATCATGCGGCCCTGAAGTCATTCAAAGAGTTTGCCGCTGGGAAAAGAGGAGCGGCCTTTGGAGTGATGGAAGCCCTGGGAACACTGCCAGGACATATGACAGAGAGATTCCAGGAGGCCATTGACAACCTCGCTGTGCTCATGCGGGCAGAGACTGGAAGCAGGCCCTACAAAGCCGCGGCGG
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              CGCCAGAGUUUGUUCAGAUCAUGCGGCCCUGAAGUCAUUCAAGGAGUUUGCCGCUGGGAAAAGAGGAGCGGCUUUUGGAGUGAUGGAAGCCCUGGGAACACUGCCAGGACACAUGACAGAGAGAUUCCAGGAAGCCAUUGACAACCUCGCUGUGCUCAUGCGGGCAGAGACUGGAAGCAGGCCUUACAAAGCCGCGGCGG
+
+gi|1489376832|gb|MK028862.1|         CCCAATTACCGGAGACCCTAGAGACTATCATGCTTTTGGGGTTGCTGGGAACAGTCTCGCTGGGAATCTTTTTCGTCTTGATGCGGAACAAGGGCATAGGGAAGATGGGCTTTGGAATGGTGACTCTTGGGGCCAGCGCATGGCTTATGTGGCTCTCGGAAATTGAGCCAGCCAGAATTGCATGTGTCCTCATTGTTGTG
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              CCCAAUUGCCGGAGACCCUAGAGACCAUUAUGCUUUUGGGGUUGCUGGGAACAGUCUCGCUGGGAAUCUUUUUCGUCUUGAUGAGGAACAAGGGCAUAGGGAAGAUGGGCUUUGGAAUGGUGACUCUUGGGGCCAGCGCAUGGCUCAUGUGGCUCUCGGAAAUUGAGCCAGCCAGAAUUGCAUGUGUCCUCAUUGUUGUG
+
+gi|1489376832|gb|MK028862.1|         TTCCTATTGCTGGTGGTGCTCATACCTGAGCCAGAAAAGCAAAGATCTCCCCAGGACAACCAAATGGCAATCATCATCATGGTAGCAGTGGGTCTTCTGGGCTTGATTACCGCCAATGAACTCGGATGGTTGGAGAGAACAAAGAGTGACCTAAGCCATCTAATGGGAAGGAGAGAGGAGGGGGCAACTATAGGATTCTC
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              UUCCUAUUGCUGGUGGUGCUCAUACCUGAGCCAGAAAAGCAAAGAUCUCCCCAGGACAACCAAAUGGCAAUCAUCAUCAUGGUAGCAGUAGGUCUUCUGGGCUUGAUUACCGCCAAUGAACUCGGAUGGUUGGAGAGAACAAAGAGUGACCUAAGCCAUCUAAUGGGAAGGAGAGAGGAGGGGGCAACCAUGGGAUUCUC
+
+gi|1489376832|gb|MK028862.1|         AATGGACATTGACCTGCGGCCAGCCTCAGCTTGGGCTATCTATGCTGCTCTGACAACTTTCATTACCCCAGCCGTCCAACATGCAGTGACCACTTCATACAACAACTACTCCTTAATGGCGATGGCCACGCAAGCTGGAGTGTTGTTCGGTATGGGTAAAGGGATGCCATTCTATGCATGGGACTTTGGAGTCCCGCTGC
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              AAUGGACAUUGACCUGCGGCCAGCCUCAGCUUGGGCCAUCUAUGCUGCCUUGACAACUUUCAUUACCCCAGCCGUCCAACAUGCAGUGACCACUUCAUACAACAACUACUCCUUAAUGGCGAUGGCCACGCAAGCUGGAGUGUUGUUUGGUAUGGGCAAAGGGAUGCCAUUCUACGCAUGGGACUUUGGAGUCCCGCUGC
+
+gi|1489376832|gb|MK028862.1|         TAATGATAGGTTGCTACTCACAATTAACACCCCTGACCCTAATAGTGGCCATCATTTTGCTCGTGGCGCACTACATGTACTTGATCCCAGGGCTGCAGGCAGCAGCTGCGCGTGCTGCCCAGAAGAGAACGGCAGCTGGCATCATGAAGAACCCTGTTGTGGATGGAAGAGTGN--------------------------
+#=GR gi|1489376832|gb|MK028862.1| PP **********************************************************************************************************************************************************************98776542..........................
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              UAAUGAUAGGUUGCUACUCACAAUUAACGCCCCUGACCCUAAUAGUGGCCAUCAUUUUGCUCGUGGCGCACUACAUGUACUUGAUCCCAGGGCUGCAGGCAGCAGCUGCGCGUGCUGCCCAGAAGAGAACGGCAGCUGGCAUCAUGAAGAACCCUGUUGUGGAUGGAAUAGUGGUGACUGACAUUGACACAAUGACAAUU
+
+gi|1489376832|gb|MK028862.1|         --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#=GR gi|1489376832|gb|MK028862.1| PP ........................................................................................................................................................................................................
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              GACCCCCAAGUGGAGAAAAAGAUGGGACAGGUGCUACUCAUGGCAGUAGCCGUCUCCAGCGCCAUACUGUCGCGGACCGCCUGGGGGUGGGGGGAGGCUGGGGCCCUGAUCACAGCCGCAACUUCCACUUUGUGGGAAGGCUCUCCGAACAAGUACUGGAACUCCUCUACAGCCACUUCACUGUGUAACAUUUUUAGGGG
+
+gi|1489376832|gb|MK028862.1|         --NCTACTTGGCTGGAGCTTCTCTAATCTACACAGTAACAAGAAACGCTGGCTTGGTCAAGAGACGTGGGGGTGGAACGGGAGAGACCCTGGGAGAGAAATGGAAGGCCCGCCTGAACCAGATGTCGGCCCTGGAGTTCTACTCCTACAAAAAGTCAGGCATCACCGAGGTGTGCAGAGAAGAGGCCCGCCGCGCCCTCA
+#=GR gi|1489376832|gb|MK028862.1| PP ..1257899***********************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              AAGUUACUUGGCUGGAGCUUCUCUAAUCUACACAGUAACAAGAAACGCUGGCUUGGUCAAGAGACGUGGGGGUGGAACAGGAGAGACCCUGGGAGAGAAAUGGAAGGCCCGCUUGAACCAGAUGUCGGCCCUGGAGUUCUACUCCUACAAAAAGUCAGGCAUCACCGAGGUGUGCAGAGAAGAGGCCCGCCGCGCCCUCA
+
+gi|1489376832|gb|MK028862.1|         AGGACGGTGTGGCAACGGGAGGCCACGCTGTGTCCCGAGGAAGTGCAAAGCTGAGATGGTTGGTGGAGAGGGGATACCTGCAGCCCTATGGAAAGGTCATTGATCTTGGATGTGGCAGAGGGGGCTGGAGTTACTATGCCGCCACCATCCGCAAAGTTCAAGAAGTGAAAGGATACACAAAAGGAGGCCCTGGTCATGAA
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              AGGACGGUGUGGCAACGGGAGGCCAUGCUGUGUCCCGAGGAAGUGCAAAGCUGAGAUGGUUGGUGGAGCGGGGAUACCUGCAGCCCUAUGGAAAGGUCAUUGAUCUUGGAUGUGGCAGAGGGGGCUGGAGUUACUACGCCGCCACCAUCCGCAAAGUUCAAGAAGUGAAAGGAUACACAAAAGGAGGCCCUGGUCAUGAA
+
+gi|1489376832|gb|MK028862.1|         GAACCCATGTTGGTGCAAAGCTATGGGTGGAACATAGTCCGTCTTAAGAGTGGGGTGGACGTCTTTCATATGGCGGCTGAGCCGTGTGACACGTTGCTGTGTGATATAGGTGAGTCATCATCTAGTCCTGAAGTGGAAGAAGCACGGACGCTCAGAGTCCTCTCCATGGTGGGGGATTGGCTTGAAAAAAGACCAGGAGC
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              GAACCCGUGUUGGUGCAAAGCUAUGGGUGGAACAUAGUCCGUCUUAAGAGUGGGGUGGACGUCUUUCAUAUGGCGGCUGAGCCGUGUGACACGUUGCUGUGUGACAUAGGUGAGUCAUCAUCUAGUCCUGAAGUGGAAGAAGCACGGACGCUCAGAGUCCUCUCCAUGGUGGGGGAUUGGCUUGAAAAAAGACCAGGAGC
+
+gi|1489376832|gb|MK028862.1|         CTTTTGTATAAAAGTGTTGTGCCCATACACCAGCACTATGATGGCTG---------------------------------------------------TCTCT---------------------TATACCGTCTCTGGAGCGAAAAGCAACACCATAAAAAGTGTGTCCACCACGAGCCAGCTCCTTTTGGGGCGCATGG
+#=GR gi|1489376832|gb|MK028862.1| PP *****************************************987321...................................................11111.....................22223589********************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              CUUUUGUAUAAAAGUGUUGUGCCCAUACACCAGCACUAUGAUGGAAACCCUGGAGCGACUGCAGCGUAGGUAUGGGGGAGGACUGGUCAGAGUGCCACUCUCCCGCAACUCUACACAUGAGAUGUACUGGGUCUCUGGAGCGAAAAGCAACACCAUAAAAAGUGUGUCCACCACGAGCCAGCUCCUCUUGGGGCGCAUGG
+
+gi|1489376832|gb|MK028862.1|         ACGGGCCCAGGAGGCCAGTGAAATATGAAGAGGATGTGAATCTCGGCTCTGGCACGCGGGCTGTGGTAAGCTGCGCTGAAGCTCCCAACATGAAGATCATTGGTAACCGCATTGAGAGGATCCGCAGTGAGCACGCGGAAACGTGGTTCTTTGACGAGAACCACCCATATAGGACATGGGCTTACCATGGAAGCTACGAG
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              ACGGGCCUAGGAGGCCAGUGAAAUAUGAGGAGGAUGUGAAUCUCGGCUCUGGCACGCGGGCUGUGGUAAGCUGCGCUGAAGCUCCCAACAUGAAGAUCAUUGGUAACCGCAUUGAAAGGAUCCGCAGUGAGCACGCGGAAACGUGGUUCUUUGACGAGAACCACCCAUAUAGGACAUGGGCUUACCAUGGAAGCUAUGAG
+
+gi|1489376832|gb|MK028862.1|         GCCCCCACACAAGGGTCAGCGTCCTCTCTAATAAACGGGGTTGTCAGGCTCCTGTCAAAACCCTGGGATGTGGTGACTGGAGTCACAGGAATAGCCATGACCGACACCACACCGTATGGTCAGCAAAGAGTTTTCAAGGAAAAAGTGGACACTAGGGTGCCAGACCCCCAAGAAGGCACTCGTCAGGTTATGAGCATGGT
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              GCCCCCACACAAGGGUCAGCGUCCUCUCUAAUAAACGGGGUUGUCAGGCUCCUGUCAAAACCCUGGGAUGUGGUGACUGGAGUCACAGGAAUAGCCAUGACCGACACCACACCGUAUGGUCAGCAAAGAGUUUUCAAGGAAAAAGUGGACACUAGGGUGCCAGACCCCCAAGAAGGCACUCGUCAGGUUAUGAGCAUGGU
+
+gi|1489376832|gb|MK028862.1|         CTCTTCCTGGTTGTGGAAAGAGTTAGGCAAACACAAACGGCCACGAGTCTGTACCAAAGAAGAGTTCATCAACAAGGTTCGTAGCAACGCAGCATTAGGGGCAATATTTGAAGAGGAAAAAGAGTGGAAGACTGCAGTGGAAGCTGTGAACGATCCAAGGTTCTGGGCTCTAGTGGACAAGGAAAGAGAGCACCACCTGA
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              CUCUUCCUGGUUGUGGAAAGAGCUAGGCAAACACAAACGGCCACGAGUCUGUACCAAAGAAGAGUUCAUCAACAAGGUUCGUAGCAAUGCAGCAUUAGGGGCAAUAUUUGAAGAGGAAAAAGAGUGGAAGACUGCAGUGGAAGCUGUGAACGAUCCAAGGUUCUGGGCUCUAGUGGACAAGGAAAGAGAGCACCACCUGA
+
+gi|1489376832|gb|MK028862.1|         GAGGAGAGTGCCAGAGCTGTGTGTACAACATGATGGGAAAAAGAGAAAAGAAACAAGGGGAATTTGGAAAGGCCAAGGGCAGCCGCGCCATCTGGTACATGTGGCTAGGGGCTAGATTTCTAGAGTTCGAAGCCCTTGGATTCTTGAACGAGGATCACTGGATGGGGAGAGAGAATTCAGGAGGTGGTGTTGAAGGGCTA
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              GAGGAGAGUGCCAGAGUUGUGUGUACAACAUGAUGGGAAAAAGAGAAAAGAAACAAGGGGAAUUUGGAAAGGCCAAGGGCAGCCGCGCCAUCUGGUAUAUGUGGCUAGGGGCUAGAUUUCUAGAGUUCGAAGCCCUUGGAUUCUUGAACGAGGAUCACUGGAUGGGGAGAGAGAACUCAGGAGGUGGUGUUGAAGGGCUG
+
+gi|1489376832|gb|MK028862.1|         GGATTACAAAGACTCGGATATGTCTTAGAAGAGATGAGTCGCATACCAGGAGGAAGGATGTATGCAGATGATACTGCTGGCTGGGACACCCGCATCAGCAGGTTTGATCTGGAGAATGAAGCTCTAATCACCAACCAAATGGAGAAAGGGCACAGGGCCTTGGCATTGGCCATAATCAAGTACACATACCAAAACAAAGT
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              GGAUUACAAAGACUCGGAUAUGUCCUAGAAGAGAUGAGUCGCAUACCAGGAGGAAGGAUGUAUGCAGAUGACACUGCUGGCUGGGACACCCGCAUCAGCAGGUUUGAUCUGGAGAAUGAAGCUCUAAUCACCAACCAAAUGGAGAAAGGGCACAGGGCCUUGGCAUUGGCCAUAAUCAAGUACACAUACCAAAACAAAGU
+
+gi|1489376832|gb|MK028862.1|         GGTAAAGGTCCTTAGACCAGCTGAAAAAGGGAAGACAGTTATGGACATTATTTCAAGACAAGACCAAAGGGGGAGCGGACAAGTTGTCACTTACGCTCTTAATACATTTACCAACCTAGTGGTGCAGCTCATTCGGAATATGGAGGCTGAGGAAGTTCTAGAGATGCAAGACTTGTGGCTGCTGCGGAGGTCAGAGAAAG
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              GGUAAAGGUCCUUAGACCAGCUGAAAAAGGGAAGACAGUUAUGGACAUUAUUUCGAGACAAGACCAAAGGGGGAGCGGACAAGUUGUCACUUACGCUCUUAACACAUUUACCAACCUAGUGGUGCAACUCAUUCGGAAUAUGGAGGCUGAGGAAGUUCUAGAGAUGCAAGACUUGUGGCUGCUGCGGAGGUCAGAGAAAG
+
+gi|1489376832|gb|MK028862.1|         TGACCAACTGGTTGCAGAGCAATGGATGGGATAGGCTCAAACGAATGGCAGTCAGTGGAGATGATTGCGTTGTGAAACCAATTGATGATAGGTTTGCACATGCTCTCAGGTTCTTGAATGATATGGGAAAAGTTAGGAAGGACACACAAGAGTGGAAGCCCTCAACTGGATGGGACAACTGGGAAGAAGTTCCGTTTTGC
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              UGACCAACUGGUUGCAGAGCAACGGAUGGGAUAGGCUCAAACGAAUGGCAGUCAGUGGAGAUGAUUGCGUUGUGAAGCCAAUUGAUGAUAGGUUUGCACAUGCCCUCAGGUUCUUGAAUGAUAUGGGAAAAGUUAGGAAGGACACACAAGAGUGGAAACCCUCAACUGGAUGGGACAACUGGGAAGAAGUUCCGUUUUGC
+
+gi|1489376832|gb|MK028862.1|         TCCCACCACTTCAACAAGCTCCATCTCAAGGACGGGAGGTCCATTGTGGTTCCCTGCCGCCACCAAGATGAACTGATTGGCCGAGCTCGCGTCTCACCGGGGGCGGGATGGAGCATCCGGGAGACTGCTTGCCTAGCAAAATCATATGCGCAAATGTGGCAGCTCCTTTATTTCCACAGAAGGGACCTCCGACTGATGGC
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              UCCCACCACUUCAACAAGCUCCAUCUCAAGGACGGGAGGUCCAUUGUGGUUCCCUGCCGCCACCAAGAUGAACUGAUUGGCCGGGCCCGCGUCUCUCCAGGGGCGGGAUGGAGCAUCCGGGAGACUGCUUGCCUAGCAAAAUCAUAUGCGCAAAUGUGGCAGCUCCUUUAUUUCCACAGAAGGGACCUCCGACUGAUGGC
+
+gi|1489376832|gb|MK028862.1|         CAATGCCATTTGTTCATCTGTGCCAGTTGACTGGGTTCCAACTGGGAGAACTACCTGGTCAATCCATGGAAAGGGAGAATGGATGACCACTGAAGACATGCTTGTGGTGTGGAACAGAGTGTGGATTGAGGAGAACGACCACATGGAAGACAAGACCCCAGTTACGAAATGGACAGACATTCCCTATTTGGGAAAAAGGG
+#=GR gi|1489376832|gb|MK028862.1| PP ********************************************************************************************************************************************************************************************************
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              CAAUGCCAUUUGUUCAUCUGUGCCAGUUGACUGGGUUCCAACUGGGAGAACUACCUGGUCAAUCCAUGGAAAGGGAGAAUGGAUGACCACUGAAGACAUGCUUGUGGUGUGGAACAGAGUGUGGAUUGAGGAGAACGACCACAUGGAAGACAAGACCCCAGUUACGAAAUGGACAGACAUUCCCUAUUUGGGAAAAAGGG
+
+gi|1489376832|gb|MK028862.1|         AAGACTTGTGGTGTGGGTCTCTCATAGGGCACAGACCGCGCACCACCTGGGCTGAAAA----------------------------------------------------------------------------------------------------------------------------------------------
+#=GR gi|1489376832|gb|MK028862.1| PP **********************************************************..............................................................................................................................................
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              AAGACUUGUGGUGUGGAUCUCUCAUAGGGCACAGACCGCGCACCACCUGGGCUGAGAACAUUAAAAACACAGUCAACAUGGUGCGCAGGAUCAUAGGUGAUGAAGAAAAGUACAUGGACUACCUAUCCACCCAAGUUCGCUACUUGGGUGAAGAAGGGUCUACACCUGGAGUGCUGUAAGCACCAAUCUUAAUGUUGUCA
+
+gi|1489376832|gb|MK028862.1|         --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#=GR gi|1489376832|gb|MK028862.1| PP ........................................................................................................................................................................................................
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              GGCCUGCUAGUCAGCCACAGCUUGGGGAAAGCUGUGCAGCCUGUGACCCCCCCAGGAGAAGCUGGGAAACCAAGCCUAUAGUCAGGCCGAGAACGCCAUGGCACGGAAGAAGCCAUGCUGCCUGUGAGCCCCUCAGAGGACACUGAGUCAAAAAACCCCACGCGCUUGGAGGCGCAGGAUGGGAAAAGAAGGUGGCGACC
+
+gi|1489376832|gb|MK028862.1|         --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#=GR gi|1489376832|gb|MK028862.1| PP ........................................................................................................................................................................................................
+#=GC SS_cons                         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#=GC RF                              UUCCCCACCCUUCAAUCUGGGGCCUGAACUGGAGAUCAGCUGUGGAUCUCCAGAAGAGGGACUAGUGGUUAGAGGAGACCCCCCGGAAAACGCAAAACAGCAUAUUGACGCUGGGAAAGACCAGAGACUCCAUGAGUUUCCACCACGCUGGCCGCCAGGCACAGAUCGCCGAAUAGCGGCGGCCGGUGUGGGGAAAUCCA
+
+gi|1489376832|gb|MK028862.1|         --------
+#=GR gi|1489376832|gb|MK028862.1| PP ........
+#=GC SS_cons                         ::::::::
+#=GC RF                              UGGGUCUU
+//

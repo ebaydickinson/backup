@@ -1,0 +1,3 @@
+1  ambgnt5f  no  AMBIGUITY_AT_FEATURE_START  feature  13  8  first nucleotide of non-CDS feature is an ambiguous nucleotide
+2  ambgnt3f  no  AMBIGUITY_AT_FEATURE_END    feature  13  8  final nucleotide of non-CDS feature is an ambiguous nucleotide
+#  --------  --  --------------------------  -------  --  -  
